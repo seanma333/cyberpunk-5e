@@ -6,4 +6,5 @@ Hooks.on('ready', () => {
 	CONFIG.DND5E.weaponProperties['massive'] = 'Massive';
 	CONFIG.DND5E.weaponProperties['scatter'] = 'Scatter';
 	CONFIG.DND5E.weaponProperties['scoped'] = 'Scoped';
+	CONFIG.DND5E.weaponProperties['actionreload'] = 'Reload (Action)';
 });

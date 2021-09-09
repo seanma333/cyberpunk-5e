@@ -1,14 +1,30 @@
 {
-  "name": "cyberpunk5e",
-  "title": "Cyberpunk 5e Module",
-  "description": "Adds custom stuff for a cyberpunk campaign using D&D 5e",
-  "version": "0.1",
-  "author": "smaster27",
-  "systems": ["dnd5e"],
-  "styles": [],
-  "scripts": ["cyberpunkweaponprops.js"],
-  "manifest": "https://raw.githubusercontent.com/seanma333/cyberpunk-5e/main/module.json",
-  "download": "https://github.com/seanma333/cyberpunk-5e/archive/refs/heads/main.zip",
-  "minimumCoreVersion": "0.7.0",
-  "compatibleCoreVersion": "0.7.9"
+    "name": "cyberpunk-5e",
+    "title": "Cyberpunk 5e Module",
+    "description": "Adds custom stuff for a cyberpunk campaign using D&D 5e",
+    "version": "1.0.2",
+    "author": "smaster27",
+    "minimumCoreVersion": "0.8.6",
+    "compatibleCoreVersion": "0.8.7",
+    "scripts": ["./scripts/cyberpunk_weapon_props.js"],
+     "packs": [
+        {
+            "name": "cyberpunk-items",
+            "label": "Cyberpunk Items",
+            "path": "./packs/items.db",
+            "entity": "Item"
+        }
+    ],
+    "manifest": "https://raw.githubusercontent.com/seanma333/cyberpunk-5e/main/module.json",
+    "download": "https://github.com/seanma333/cyberpunk-5e/archive/refs/heads/main.zip",
+    "dependencies": [
+        {
+            "name": "dnd5e",
+            "type": "system"
+        },
+        {
+            "name": "game-icons-net",
+            "manifest": "https://raw.githubusercontent.com/datdamnzotz/icons/master/module.json"
+        }
+    ]
 }
