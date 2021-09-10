@@ -2,7 +2,7 @@
     "name": "cyberpunk-5e",
     "title": "Cyberpunk 5e Module",
     "description": "Adds custom stuff for a cyberpunk campaign using D&D 5e",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "author": "smaster27",
     "minimumCoreVersion": "0.8.6",
     "compatibleCoreVersion": "0.8.7",
@@ -33,7 +33,7 @@
             "manifest": "https://raw.githubusercontent.com/datdamnzotz/icons/master/module.json"
         },
         {
-            "name": "item-macro",
+            "name": "itemacro",
             "manifest": "https://raw.githubusercontent.com/Kekilla0/Item-Macro/master/module.json"
         }
     ]
