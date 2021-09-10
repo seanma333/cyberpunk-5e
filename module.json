@@ -13,6 +13,12 @@
             "label": "Cyberpunk Items",
             "path": "./packs/items.db",
             "entity": "Item"
+        },
+        {
+            "name": "cyberpunk-macros",
+            "label": "Cyberpunk Macros",
+            "path": "./packs/macros.db",
+            "entity": "Macro"
         }
     ],
     "manifest": "https://raw.githubusercontent.com/seanma333/cyberpunk-5e/main/module.json",
@@ -25,6 +31,10 @@
         {
             "name": "game-icons-net",
             "manifest": "https://raw.githubusercontent.com/datdamnzotz/icons/master/module.json"
+        },
+        {
+            "name": "item-macro",
+            "manifest": "https://raw.githubusercontent.com/Kekilla0/Item-Macro/master/module.json"
         }
     ]
 }
