@@ -2,26 +2,15 @@
     "name": "cyberpunk-5e",
     "title": "Cyberpunk 5e Module",
     "description": "Adds custom stuff for a cyberpunk campaign using D&D 5e",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "author": "smaster27",
     "minimumCoreVersion": "0.8.6",
     "compatibleCoreVersion": "0.8.7",
     "scripts": [
-        "./scripts/cyberpunk_weapon_props.js"
+        "./scripts/cyberpunk_weapon_props.js",
+        "./scripts/convert_to_cp.js"
     ],
     "packs": [
-        {
-            "name": "cyberpunk-items",
-            "label": "Cyberpunk Items",
-            "path": "./packs/items.db",
-            "entity": "Item"
-        },
-        {
-            "name": "cyberpunk-macros",
-            "label": "Cyberpunk Macros",
-            "path": "./packs/macros.db",
-            "entity": "Macro"
-        },
         {
             "name": "cyberpunk-items-tools",
             "label": "Cyberpunk Items Tools",
