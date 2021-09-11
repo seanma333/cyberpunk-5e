@@ -2,12 +2,14 @@
     "name": "cyberpunk-5e",
     "title": "Cyberpunk 5e Module",
     "description": "Adds custom stuff for a cyberpunk campaign using D&D 5e",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "author": "smaster27",
     "minimumCoreVersion": "0.8.6",
     "compatibleCoreVersion": "0.8.7",
-    "scripts": ["./scripts/cyberpunk_weapon_props.js"],
-     "packs": [
+    "scripts": [
+        "./scripts/cyberpunk_weapon_props.js"
+    ],
+    "packs": [
         {
             "name": "cyberpunk-items",
             "label": "Cyberpunk Items",
@@ -19,6 +21,30 @@
             "label": "Cyberpunk Macros",
             "path": "./packs/macros.db",
             "entity": "Macro"
+        },
+        {
+            "name": "cyberpunk-items-tools",
+            "label": "Cyberpunk Items Tools",
+            "path": "./packs/cyberpunk-items-tools.db",
+            "entity": "Item"
+        },
+        {
+            "name": "cyberpunk-items-explosives",
+            "label": "Cyberpunk Items Explosives",
+            "path": "./packs/cyberpunk-items-explosives.db",
+            "entity": "Item"
+        },
+        {
+            "name": "cyberpunk-items-firearms",
+            "label": "Cyberpunk Items Firearms",
+            "path": "./packs/cyberpunk-items-firearms.db",
+            "entity": "Item"
+        },
+        {
+            "name": "cyberpunk-items-ammunition",
+            "label": "Cyberpunk Items Ammunition",
+            "path": "./packs/cyberpunk-items-ammunition.db",
+            "entity": "Item"
         }
     ],
     "manifest": "https://raw.githubusercontent.com/seanma333/cyberpunk-5e/main/module.json",
