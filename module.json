@@ -2,7 +2,7 @@
     "name": "cyberpunk-5e",
     "title": "Cyberpunk 5e Module",
     "description": "Adds custom stuff for a cyberpunk campaign using D&D 5e",
-    "version": "1.0.27",
+    "version": "1.0.28",
     "author": "smaster27",
     "minimumCoreVersion": "0.8.6",
     "compatibleCoreVersion": "0.8.7",
@@ -51,6 +51,12 @@
             "label": "Cyberpunk Actors Vehicles",
             "path": "./packs/cyberpunk-actors-vehicles.db",
             "entity": "Actor"
+        },
+        {
+            "name": "cyberpunk-macros-custom",
+            "label": "Cyberpunk Macros Custom",
+            "path": "./packs/cyberpunk-macros-custom.db",
+            "entity": "Macro"
         }
     ],
     "manifest": "https://raw.githubusercontent.com/seanma333/cyberpunk-5e/main/module.json",
