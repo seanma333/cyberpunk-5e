@@ -2,7 +2,7 @@
     "name": "cyberpunk-5e",
     "title": "Cyberpunk 5e Module",
     "description": "Adds custom stuff for a cyberpunk campaign using D&D 5e",
-    "version": "1.0.37",
+    "version": "1.0.38",
     "author": "smaster27",
     "minimumCoreVersion": "0.8.6",
     "compatibleCoreVersion": "0.8.7",
@@ -50,6 +50,18 @@
             "name": "cyberpunk-actors-vehicles",
             "label": "Cyberpunk Actors Vehicles",
             "path": "./packs/cyberpunk-actors-vehicles.db",
+            "entity": "Actor"
+        },
+        {
+            "name": "cyberpunk-actors-goblinoids",
+            "label": "Cyberpunk Actors Goblinoids",
+            "path": "./packs/cyberpunk-actors-goblinoids.db",
+            "entity": "Actor"
+        },
+        {
+            "name": "cyberpunk-actors-orcs",
+            "label": "Cyberpunk Actors Orcs",
+            "path": "./packs/cyberpunk-actors-orcs.db",
             "entity": "Actor"
         },
         {
