@@ -2,7 +2,7 @@
     "name": "cyberpunk-5e",
     "title": "Cyberpunk 5e Module",
     "description": "Adds custom stuff for a cyberpunk campaign using D&D 5e",
-    "version": "1.0.38",
+    "version": "1.0.39",
     "author": "smaster27",
     "minimumCoreVersion": "0.8.6",
     "compatibleCoreVersion": "0.8.7",
@@ -65,6 +65,12 @@
             "entity": "Actor"
         },
         {
+            "name": "technomancer-actors",
+            "label": "Cyberpunk Actors (Technomancer's Textbook)",
+            "path": "./packs/technomancer-actors.db",
+            "entity": "Actor"
+        },
+        {
             "name": "cyberpunk-macros-custom",
             "label": "Cyberpunk Macros Custom",
             "path": "./packs/cyberpunk-macros-custom.db",
@@ -75,6 +81,12 @@
             "label": "Cyberpunk Macros Gamemaster",
             "path": "./packs/cyberpunk-macros-gamemaster.db",
             "entity": "Macro"
+        },
+        {
+            "name": "cyberpunk-scenes",
+            "label": "Cyberpunk Scenes",
+            "path": "./packs/cyberpunk-scenes.db",
+            "entity": "Scene"
         }
     ],
     "manifest": "https://raw.githubusercontent.com/seanma333/cyberpunk-5e/main/module.json",
