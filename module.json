@@ -2,10 +2,10 @@
     "name": "cyberpunk-5e",
     "title": "Cyberpunk 5e Module",
     "description": "Adds custom stuff for a cyberpunk campaign using D&D 5e",
-    "version": "1.0.39",
+    "version": "1.0.40",
     "author": "smaster27",
-    "minimumCoreVersion": "0.8.6",
-    "compatibleCoreVersion": "0.8.7",
+    "minimumCoreVersion": "9.235",
+    "compatibleCoreVersion": "9.238",
     "scripts": [
         "./scripts/cyberpunk_weapon_props.js"
     ],
@@ -45,12 +45,6 @@
             "label": "Cyberpunk Items Armor",
             "path": "./packs/cyberpunk-items-armor.db",
             "entity": "Item"
-        },
-        {
-            "name": "cyberpunk-actors-vehicles",
-            "label": "Cyberpunk Actors Vehicles",
-            "path": "./packs/cyberpunk-actors-vehicles.db",
-            "entity": "Actor"
         },
         {
             "name": "cyberpunk-actors-goblinoids",
@@ -95,10 +89,6 @@
         {
             "name": "dnd5e",
             "type": "system"
-        },
-        {
-            "name": "game-icons-net",
-            "manifest": "https://raw.githubusercontent.com/datdamnzotz/icons/master/module.json"
         },
         {
             "name": "itemacro",
