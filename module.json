@@ -2,7 +2,7 @@
     "name": "cyberpunk-5e",
     "title": "Cyberpunk 5e Module",
     "description": "Adds custom stuff for a cyberpunk campaign using D&D 5e",
-    "version": "1.0.43",
+    "version": "1.0.44",
     "author": "smaster27",
     "minimumCoreVersion": "9.235",
     "compatibleCoreVersion": "9.238",
@@ -45,24 +45,6 @@
             "label": "Cyberpunk Items Armor",
             "path": "./packs/cyberpunk-items-armor.db",
             "entity": "Item"
-        },
-        {
-            "name": "cyberpunk-actors-goblinoids",
-            "label": "Cyberpunk Actors Goblinoids",
-            "path": "./packs/cyberpunk-actors-goblinoids.db",
-            "entity": "Actor"
-        },
-        {
-            "name": "cyberpunk-actors-orcs",
-            "label": "Cyberpunk Actors Orcs",
-            "path": "./packs/cyberpunk-actors-orcs.db",
-            "entity": "Actor"
-        },
-        {
-            "name": "technomancer-actors",
-            "label": "Cyberpunk Actors (Technomancer's Textbook)",
-            "path": "./packs/technomancer-actors.db",
-            "entity": "Actor"
         },
         {
             "name": "cyberpunk-macros-custom",
