@@ -2,7 +2,7 @@
     "name": "cyberpunk-5e",
     "title": "Cyberpunk 5e Module",
     "description": "Adds custom stuff for a cyberpunk campaign using D&D 5e",
-    "version": "1.0.45",
+    "version": "1.0.46",
     "author": "smaster27",
     "minimumCoreVersion": "9.235",
     "compatibleCoreVersion": "9.238",
@@ -63,6 +63,12 @@
             "label": "Cyberpunk Scenes",
             "path": "./packs/cyberpunk-scenes.db",
             "entity": "Scene"
+        },
+        {
+            "name": "cyberpunk-items-backgrounds",
+            "label": "Cyberpunk Items Backgrounds",
+            "path": "./packs/cyberpunk-items-backgrounds.db",
+            "entity": "Item"
         }
     ],
     "manifest": "https://raw.githubusercontent.com/seanma333/cyberpunk-5e/main/module.json",
