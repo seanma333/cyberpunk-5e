@@ -2,7 +2,7 @@
     "name": "cyberpunk-5e",
     "title": "Cyberpunk 5e Module",
     "description": "Adds custom stuff for a cyberpunk campaign using D&D 5e",
-    "version": "1.0.49",
+    "version": "1.0.50",
     "author": "smaster27",
     "minimumCoreVersion": "9.235",
     "scripts": [
@@ -49,6 +49,24 @@
             "name": "cyberpunk-firearms",
             "label": "Cyberpunk Firearms",
             "path": "./packs/cyberpunk-firearms.db",
+            "entity": "Item"
+        },
+        {
+            "name": "cyberpunk-tools",
+            "label": "Cyberpunk Tools",
+            "path": "./packs/cyberpunk-tools.db",
+            "entity": "Item"
+        },
+        {
+            "name": "cyberpunk-gear",
+            "label": "Cyberpunk Gear",
+            "path": "./packs/cyberpunk-gear.db",
+            "entity": "Item"
+        },
+        {
+            "name": "cyberpunk-ammunition",
+            "label": "Cyberpunk Ammunition",
+            "path": "./packs/cyberpunk-ammunition.db",
             "entity": "Item"
         }
     ],
