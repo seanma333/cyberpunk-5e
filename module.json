@@ -2,50 +2,13 @@
     "name": "cyberpunk-5e",
     "title": "Cyberpunk 5e Module",
     "description": "Adds custom stuff for a cyberpunk campaign using D&D 5e",
-    "version": "1.0.48",
+    "version": "1.0.49",
     "author": "smaster27",
     "minimumCoreVersion": "9.235",
-    "compatibleCoreVersion": "9.238",
     "scripts": [
         "./scripts/cyberpunk_weapon_props.js"
     ],
     "packs": [
-        {
-            "name": "cyberpunk-items-tools",
-            "label": "Cyberpunk Items Tools",
-            "path": "./packs/cyberpunk-items-tools.db",
-            "entity": "Item"
-        },
-        {
-            "name": "cyberpunk-items-explosives",
-            "label": "Cyberpunk Items Explosives",
-            "path": "./packs/cyberpunk-items-explosives.db",
-            "entity": "Item"
-        },
-        {
-            "name": "cyberpunk-items-firearms",
-            "label": "Cyberpunk Items Firearms",
-            "path": "./packs/cyberpunk-items-firearms.db",
-            "entity": "Item"
-        },
-        {
-            "name": "cyberpunk-items-ammunition",
-            "label": "Cyberpunk Items Ammunition",
-            "path": "./packs/cyberpunk-items-ammunition.db",
-            "entity": "Item"
-        },
-        {
-            "name": "cyberpunk-items-gear",
-            "label": "Cyberpunk Items Gear",
-            "path": "./packs/cyberpunk-items-gear.db",
-            "entity": "Item"
-        },
-        {
-            "name": "cyberpunk-items-armor",
-            "label": "Cyberpunk Items Armor",
-            "path": "./packs/cyberpunk-items-armor.db",
-            "entity": "Item"
-        },
         {
             "name": "cyberpunk-macros-custom",
             "label": "Cyberpunk Macros Custom",
@@ -65,9 +28,27 @@
             "entity": "Scene"
         },
         {
-            "name": "cyberpunk-items-backgrounds",
-            "label": "Cyberpunk Items Backgrounds",
-            "path": "./packs/cyberpunk-items-backgrounds.db",
+            "name": "cyberpunk-explosives",
+            "label": "Cyberpunk Explosives",
+            "path": "./packs/cyberpunk-explosives.db",
+            "entity": "Item"
+        },
+        {
+            "name": "cyberpunk-backgrounds",
+            "label": "Cyberpunk Backgrounds",
+            "path": "./packs/cyberpunk-backgrounds.db",
+            "entity": "Item"
+        },
+        {
+            "name": "cyberpunk-armor",
+            "label": "Cyberpunk Armor",
+            "path": "./packs/cyberpunk-armor.db",
+            "entity": "Item"
+        },
+        {
+            "name": "cyberpunk-firearms",
+            "label": "Cyberpunk Firearms",
+            "path": "./packs/cyberpunk-firearms.db",
             "entity": "Item"
         }
     ],
