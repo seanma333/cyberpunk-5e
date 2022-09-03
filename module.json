@@ -80,6 +80,10 @@
         {
             "name": "itemacro",
             "manifest": "https://raw.githubusercontent.com/Kekilla0/Item-Macro/master/module.json"
+        },
+        {
+            "name": "game-icons-net",
+            "manifest": "https://raw.githubusercontent.com/datdamnzotz/icons/master/module.json"
         }
     ]
 }
