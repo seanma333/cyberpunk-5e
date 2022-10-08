@@ -1,10 +1,10 @@
 {
     "name": "cyberpunk-5e",
     "title": "Cyberpunk 5e Module",
-    "description": "Adds custom stuff for a cyberpunk campaign using D&D 5e",
-    "version": "1.0.51",
+    "description": "Adds custom items and features for a Cyberpunk campaign using D&D 5e",
+    "version": "1.0.52",
     "author": "smaster27",
-    "minimumCoreVersion": "9.235",
+    "minimumCoreVersion": "10.287",
     "scripts": [
         "./scripts/cyberpunk_weapon_props.js"
     ],
