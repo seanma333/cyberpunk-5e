@@ -2,9 +2,17 @@
     "name": "cyberpunk-5e",
     "title": "Cyberpunk 5e Module",
     "description": "Adds custom items and features for a Cyberpunk campaign using D&D 5e",
-    "version": "1.0.56",
-    "author": "smaster27",
+    "version": "1.0.57",
+    "authors": [
+        {
+            "name": "smaster27"
+        }
+    ],
     "minimumCoreVersion": "10.287",
+    "compatibility": {
+        "minimum": 10,
+        "verified": "10.287"
+    },
     "scripts": [
         "./scripts/cyberpunk_weapon_props.js",
         "./scripts/simple_conditions.js"
@@ -79,18 +87,23 @@
     ],
     "manifest": "https://raw.githubusercontent.com/seanma333/cyberpunk-5e/main/module.json",
     "download": "https://github.com/seanma333/cyberpunk-5e/archive/refs/heads/main.zip",
-    "dependencies": [
-        {
-            "name": "dnd5e",
-            "type": "system"
-        },
-        {
-            "name": "itemacro",
-            "manifest": "https://raw.githubusercontent.com/Kekilla0/Item-Macro/master/module.json"
-        },
-        {
-            "name": "game-icons-net",
-            "manifest": "https://raw.githubusercontent.com/datdamnzotz/icons/master/module.json"
-        }
-    ]
+    "url": "https://github.com/seanma333/cyberpunk-5e",
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system"
+            }
+        ],
+        "requires": [
+            {
+                "id": "itemacro",
+                "manifest": "https://raw.githubusercontent.com/Kekilla0/Item-Macro/master/module.json"
+            },
+            {
+                "id": "game-icons-net",
+                "manifest": "https://raw.githubusercontent.com/datdamnzotz/icons/master/module.json"
+            }
+        ]
+    }
 }
