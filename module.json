@@ -2,7 +2,7 @@
     "name": "cyberpunk-5e",
     "title": "Cyberpunk 5e Module",
     "description": "Adds custom items and features for a Cyberpunk campaign using D&D 5e",
-    "version": "1.0.55",
+    "version": "1.0.56",
     "author": "smaster27",
     "minimumCoreVersion": "10.287",
     "scripts": [
