@@ -2,23 +2,24 @@
     "name": "cyberpunk-5e",
     "title": "Cyberpunk 5e Module",
     "description": "Adds custom items and features for a Cyberpunk campaign using D&D 5e",
-    "version": "1.0.53",
+    "version": "1.0.56",
     "author": "smaster27",
     "minimumCoreVersion": "10.287",
     "scripts": [
-        "./scripts/cyberpunk_weapon_props.js"
+        "./scripts/cyberpunk_weapon_props.js",
+        "./scripts/simple_conditions.js"
     ],
     "packs": [
         {
-            "name": "cyberpunk-macros-custom",
-            "label": "Cyberpunk Macros Custom",
-            "path": "./packs/cyberpunk-macros-custom.db",
+            "name": "cyberpunk-macros",
+            "label": "Cyberpunk Macros",
+            "path": "./packs/cyberpunk-macros.db",
             "entity": "Macro"
         },
         {
-            "name": "cyberpunk-macros-gamemaster",
-            "label": "Cyberpunk Macros Gamemaster",
-            "path": "./packs/cyberpunk-macros-gamemaster.db",
+            "name": "cyberpunk-gamemaster-macros",
+            "label": "Cyberpunk Gamemaster Macros",
+            "path": "./packs/cyberpunk-gamemaster-macros.db",
             "entity": "Macro"
         },
         {
