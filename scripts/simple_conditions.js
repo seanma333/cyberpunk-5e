@@ -46,6 +46,7 @@ const SimpleStatusIcons = (() => {
 			{"id": "restrained", "label": "Restrained", "icon": "modules/cyberpunk-5e/assets/condition_icons/restrained.png"},
 			{"id": "shielding", "label": "Shielding", "icon": "modules/cyberpunk-5e/assets/condition_icons/shielding.png"},
 			{"id": "shifting", "label": "Shifting", "icon": "modules/cyberpunk-5e/assets/condition_icons/shifting.png"},
+			{"id": "slashed", "label": "Slashed", "icon": "modules/cyberpunk-5e/assets/condition_icons/slashed.png"},
 			{"id": "sleeping", "label": "Sleeping", "icon": "modules/cyberpunk-5e/assets/condition_icons/sleeping.png"},
 			{"id": "stabilized", "label": "Stabilized", "icon": "modules/cyberpunk-5e/assets/condition_icons/stabilized.png"},
 			{"id": "stunned", "label": "Stunned", "icon": "modules/cyberpunk-5e/assets/condition_icons/stunned.png"},
