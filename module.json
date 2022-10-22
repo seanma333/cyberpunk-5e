@@ -2,7 +2,7 @@
     "name": "cyberpunk-5e",
     "title": "Cyberpunk 5e Module",
     "description": "Adds custom items and features for a Cyberpunk campaign using D&D 5e",
-    "version": "1.0.62",
+    "version": "1.0.63",
     "authors": [
         {
             "name": "smaster27"
@@ -83,6 +83,36 @@
             "label": "Cyberpunk Cyberware",
             "path": "./packs/cyberpunk-cyberware.db",
             "entity": "Item"
+        },
+        {
+            "name": "cyberpunk-security",
+            "label": "Cyberpunk Security",
+            "path": "./packs/cyberpunk-security.db",
+            "entity": "Actor"
+        },
+        {
+            "name": "cyberpunk-organized-crime",
+            "label": "Cyberpunk Organized Crime",
+            "path": "./packs/cyberpunk-organized-crime.db",
+            "entity": "Actor"
+        },
+        {
+            "name": "cyberpunk-mercenaries",
+            "label": "Cyberpunk Mercenaries",
+            "path": "./packs/cyberpunk-mercenaries.db",
+            "entity": "Actor"
+        },
+        {
+            "name": "cyberpunk-street-crime",
+            "label": "Cyberpunk Street Crime",
+            "path": "./packs/cyberpunk-street-crime.db",
+            "entity": "Actor"
+        },
+        {
+            "name": "cyberpunk-police",
+            "label": "Cyberpunk Police",
+            "path": "./packs/cyberpunk-police.db",
+            "entity": "Actor"
         }
     ],
     "manifest": "https://raw.githubusercontent.com/seanma333/cyberpunk-5e/main/module.json",
