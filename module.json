@@ -2,7 +2,7 @@
     "name": "cyberpunk-5e",
     "title": "Cyberpunk 5e Module",
     "description": "Adds custom items and features for a Cyberpunk campaign using D&D 5e",
-    "version": "1.0.66",
+    "version": "1.0.67",
     "authors": [
         {
             "name": "smaster27"
@@ -119,6 +119,12 @@
             "label": "Cyberpunk Core Weapons",
             "path": "./packs/cyberpunk-core-weapons.db",
             "entity": "Item"
+        },
+        {
+            "name": "cyberpunk-cybered",
+            "label": "Cyberpunk Cybered",
+            "path": "./packs/cyberpunk-cybered.db",
+            "entity": "Actor"
         }
     ],
     "manifest": "https://raw.githubusercontent.com/seanma333/cyberpunk-5e/main/module.json",
