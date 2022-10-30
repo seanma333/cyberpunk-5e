@@ -2,7 +2,7 @@
     "name": "cyberpunk-5e",
     "title": "Cyberpunk 5e Module",
     "description": "Adds custom items and features for a Cyberpunk campaign using D&D 5e",
-    "version": "1.0.69",
+    "version": "1.0.70",
     "authors": [
         {
             "name": "smaster27"
@@ -43,12 +43,6 @@
             "entity": "Item"
         },
         {
-            "name": "cyberpunk-backgrounds",
-            "label": "Cyberpunk Backgrounds",
-            "path": "./packs/cyberpunk-backgrounds.db",
-            "entity": "Item"
-        },
-        {
             "name": "cyberpunk-armor",
             "label": "Cyberpunk Armor",
             "path": "./packs/cyberpunk-armor.db",
@@ -70,12 +64,6 @@
             "name": "cyberpunk-gear",
             "label": "Cyberpunk Gear",
             "path": "./packs/cyberpunk-gear.db",
-            "entity": "Item"
-        },
-        {
-            "name": "cyberpunk-ammunition",
-            "label": "Cyberpunk Ammunition",
-            "path": "./packs/cyberpunk-ammunition.db",
             "entity": "Item"
         },
         {
@@ -138,10 +126,6 @@
             }
         ],
         "requires": [
-            {
-                "id": "itemacro",
-                "manifest": "https://raw.githubusercontent.com/Kekilla0/Item-Macro/master/module.json"
-            },
             {
                 "id": "game-icons-net",
                 "manifest": "https://raw.githubusercontent.com/datdamnzotz/icons/master/module.json"
