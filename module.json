@@ -25,12 +25,6 @@
             "entity": "Macro"
         },
         {
-            "name": "cyberpunk-gamemaster-macros",
-            "label": "Cyberpunk Gamemaster Macros",
-            "path": "./packs/cyberpunk-gamemaster-macros.db",
-            "entity": "Macro"
-        },
-        {
             "name": "cyberpunk-scenes",
             "label": "Cyberpunk Scenes",
             "path": "./packs/cyberpunk-scenes.db",
