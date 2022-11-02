@@ -2,7 +2,7 @@
     "name": "cyberpunk-5e",
     "title": "Cyberpunk 5e Module",
     "description": "Adds custom items and features for a Cyberpunk campaign using D&D 5e",
-    "version": "1.0.72",
+    "version": "1.0.73",
     "authors": [
         {
             "name": "smaster27"
@@ -119,7 +119,6 @@
                 "type": "system"
             }
         ],
-        "requires": [
-        ]
+        "requires": []
     }
 }
