@@ -2,7 +2,7 @@
     "name": "cyberpunk-5e",
     "title": "Cyberpunk 5e Module",
     "description": "Adds custom items and features for a Cyberpunk campaign using D&D 5e",
-    "version": "1.0.73",
+    "version": "1.0.74",
     "authors": [
         {
             "name": "smaster27"
@@ -64,6 +64,12 @@
             "name": "cyberpunk-cyberware",
             "label": "Cyberpunk Cyberware",
             "path": "./packs/cyberpunk-cyberware.db",
+            "entity": "Item"
+        },
+        {
+            "name": "cyberpunk-weapon-modifications",
+            "label": "Cyberpunk Weapon Modifications",
+            "path": "./packs/cyberpunk-weapon-modifications.db",
             "entity": "Item"
         },
         {
