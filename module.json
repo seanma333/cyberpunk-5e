@@ -67,12 +67,6 @@
             "entity": "Item"
         },
         {
-            "name": "cyberpunk-weapon-modifications",
-            "label": "Cyberpunk Weapon Modifications",
-            "path": "./packs/cyberpunk-weapon-modifications.db",
-            "entity": "Item"
-        },
-        {
             "name": "cyberpunk-security",
             "label": "Cyberpunk Security",
             "path": "./packs/cyberpunk-security.db",
@@ -113,6 +107,12 @@
             "label": "Cyberpunk Cybered",
             "path": "./packs/cyberpunk-cybered.db",
             "entity": "Actor"
+        },
+        {
+            "name": "cyberpunk-weapon-mods",
+            "label": "Cyberpunk Weapon Mods",
+            "path": "./packs/cyberpunk-weapon-mods.db",
+            "entity": "Item"
         }
     ],
     "manifest": "https://raw.githubusercontent.com/seanma333/cyberpunk-5e/main/module.json",
