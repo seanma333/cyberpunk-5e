@@ -2,7 +2,7 @@
     "name": "cyberpunk-5e",
     "title": "Cyberpunk 5e Module",
     "description": "Adds custom items and features for a Cyberpunk campaign using D&D 5e",
-    "version": "1.0.73",
+    "version": "1.0.76",
     "authors": [
         {
             "name": "smaster27"
@@ -107,6 +107,18 @@
             "label": "Cyberpunk Cybered",
             "path": "./packs/cyberpunk-cybered.db",
             "entity": "Actor"
+        },
+        {
+            "name": "cyberpunk-weapon-mods",
+            "label": "Cyberpunk Weapon Mods",
+            "path": "./packs/cyberpunk-weapon-mods.db",
+            "entity": "Item"
+        },
+        {
+            "name": "cyberpunk-gamemaster-macros",
+            "label": "Cyberpunk Gamemaster Macros",
+            "path": "./packs/cyberpunk-gamemaster-macros.db",
+            "entity": "Macro"
         }
     ],
     "manifest": "https://raw.githubusercontent.com/seanma333/cyberpunk-5e/main/module.json",
