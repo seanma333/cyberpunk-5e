@@ -2,7 +2,7 @@
     "name": "cyberpunk-5e",
     "title": "Cyberpunk 5e Module",
     "description": "Adds custom items and features for a Cyberpunk campaign using D&D 5e",
-    "version": "1.0.81",
+    "version": "1.0.82",
     "authors": [
         {
             "name": "smaster27"
@@ -124,6 +124,18 @@
             "name": "cyberpunk-ammo-containers",
             "label": "Cyberpunk Ammo Containers",
             "path": "./packs/cyberpunk-ammo-containers.db",
+            "entity": "Item"
+        },
+        {
+            "name": "cyberpunk-core-adventuring-gear",
+            "label": "Cyberpunk Core Adventuring Gear",
+            "path": "./packs/cyberpunk-core-adventuring-gear.db",
+            "entity": "Item"
+        },
+        {
+            "name": "cyberpunk-core-tools",
+            "label": "Cyberpunk Core Tools",
+            "path": "./packs/cyberpunk-core-tools.db",
             "entity": "Item"
         }
     ],
