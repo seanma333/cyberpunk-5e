@@ -11,7 +11,7 @@
     "minimumCoreVersion": "11.315",
     "compatibility": {
         "minimum": 11,
-        "verified": "11.291"
+        "verified": "11.292"
     },
     "scripts": [
         "./scripts/cyberpunk_weapon_props.js",
