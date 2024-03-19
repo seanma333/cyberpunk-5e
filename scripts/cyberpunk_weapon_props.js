@@ -1,9 +1,16 @@
-Hooks.on('ready', () => {
-	CONFIG.DND5E.weaponProperties['automatic'] = 'Automatic';
-	CONFIG.DND5E.weaponProperties['foregrip'] = 'Foregrip';
-	CONFIG.DND5E.weaponProperties['mounted'] = 'Mounted';
-	CONFIG.DND5E.weaponProperties['scatter'] = 'Scatter';
-	CONFIG.DND5E.weaponProperties['strreq'] = 'Strength';
-	CONFIG.DND5E.weaponProperties['sighted'] = 'Sighted';
-	CONFIG.DND5E.weaponProperties['actionreload'] = 'Reload (Action)';
+Hooks.on('init', () => {
+	weaponProps = {
+		'automatic': 'Automatic',
+		'foregrip': 'Foregrip',
+		'mounted': 'Mounted',
+		'scatter': 'Scatter',
+		'strreq': 'Strength',
+		'sighted': 'Sighted',
+		'actionreload': 'Reload (Action)'
+	}
+
+	for (const [id, label] of Object.entries(weaponProps)) {
+		CONFIG.DND5E.itemProperties[id] = {'label': label};
+		CONFIG.DND5E.validProperties.weapon.add(id)
+	}
 });
