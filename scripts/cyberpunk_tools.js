@@ -1,4 +1,5 @@
 Hooks.once("init", () => {
+	CONFIG.DND5E.toolIds.cybersurgery = 'cyberpunk-5e.cyberpunk-tools.tcBRGi3sb6FytXdQ';
 	CONFIG.DND5E.toolIds.demolitionist = 'cyberpunk-5e.cyberpunk-tools.ywq6x8tFcsV8Ha5o';
 	CONFIG.DND5E.toolIds.drum = 'cyberpunk-5e.cyberpunk-tools.nNdwyX65WPAMoYwd';
 	CONFIG.DND5E.toolIds.electrician = 'cyberpunk-5e.cyberpunk-tools.lNg7z5p0zRYcmQwk';

@@ -1,154 +1,222 @@
 {
-    "name": "cyberpunk-5e",
-    "title": "Cyberpunk 5e Module",
-    "description": "Adds custom items and features for a Cyberpunk campaign using D&D 5e",
-    "version": "1.1.3",
-    "authors": [
-        {
-            "name": "smaster27"
-        }
-    ],
-    "minimumCoreVersion": "11.315",
-    "compatibility": {
-        "minimum": 11,
-        "verified": "11.315"
-    },
-    "scripts": [
-        "./scripts/cyberpunk_weapon_props.js",
-        "./scripts/cyberpunk_tools.js"
-    ],
-    "packs": [
-        {
-            "name": "cyberpunk-macros",
-            "label": "Cyberpunk Macros",
-            "path": "./packs/cyberpunk-macros.db",
-            "type": "Macro"
-        },
-        {
-            "name": "cyberpunk-scenes",
-            "label": "Cyberpunk Scenes",
-            "path": "./packs/cyberpunk-scenes.db",
-            "type": "Scene"
-        },
-        {
-            "name": "cyberpunk-explosives",
-            "label": "Cyberpunk Explosives",
-            "path": "./packs/cyberpunk-explosives.db",
-            "type": "Item"
-        },
-        {
-            "name": "cyberpunk-armor",
-            "label": "Cyberpunk Armor",
-            "path": "./packs/cyberpunk-armor.db",
-            "type": "Item"
-        },
-        {
-            "name": "cyberpunk-firearms",
-            "label": "Cyberpunk Firearms",
-            "path": "./packs/cyberpunk-firearms.db",
-            "type": "Item"
-        },
-        {
-            "name": "cyberpunk-tools",
-            "label": "Cyberpunk Tools",
-            "path": "./packs/cyberpunk-tools.db",
-            "type": "Item"
-        },
-        {
-            "name": "cyberpunk-gear",
-            "label": "Cyberpunk Gear",
-            "path": "./packs/cyberpunk-gear.db",
-            "type": "Item"
-        },
-        {
-            "name": "cyberpunk-cyberware",
-            "label": "Cyberpunk Cyberware",
-            "path": "./packs/cyberpunk-cyberware.db",
-            "type": "Item"
-        },
-        {
-            "name": "cyberpunk-security",
-            "label": "Cyberpunk Security",
-            "path": "./packs/cyberpunk-security.db",
-            "type": "Actor"
-        },
-        {
-            "name": "cyberpunk-organized-crime",
-            "label": "Cyberpunk Organized Crime",
-            "path": "./packs/cyberpunk-organized-crime.db",
-            "type": "Actor"
-        },
-        {
-            "name": "cyberpunk-mercenaries",
-            "label": "Cyberpunk Mercenaries",
-            "path": "./packs/cyberpunk-mercenaries.db",
-            "type": "Actor"
-        },
-        {
-            "name": "cyberpunk-street-crime",
-            "label": "Cyberpunk Street Crime",
-            "path": "./packs/cyberpunk-street-crime.db",
-            "type": "Actor"
-        },
-        {
-            "name": "cyberpunk-police",
-            "label": "Cyberpunk Police",
-            "path": "./packs/cyberpunk-police.db",
-            "type": "Actor"
-        },
-        {
-            "name": "cyberpunk-core-weapons",
-            "label": "Cyberpunk Core Weapons",
-            "path": "./packs/cyberpunk-core-weapons.db",
-            "type": "Item"
-        },
-        {
-            "name": "cyberpunk-cybered",
-            "label": "Cyberpunk Cybered",
-            "path": "./packs/cyberpunk-cybered.db",
-            "type": "Actor"
-        },
-        {
-            "name": "cyberpunk-weapon-mods",
-            "label": "Cyberpunk Weapon Mods",
-            "path": "./packs/cyberpunk-weapon-mods.db",
-            "type": "Item"
-        },
-        {
-            "name": "cyberpunk-gamemaster-macros",
-            "label": "Cyberpunk Gamemaster Macros",
-            "path": "./packs/cyberpunk-gamemaster-macros.db",
-            "type": "Macro"
-        },
-        {
-            "name": "cyberpunk-ammo-containers",
-            "label": "Cyberpunk Ammo Containers",
-            "path": "./packs/cyberpunk-ammo-containers.db",
-            "type": "Item"
-        },
-        {
-            "name": "cyberpunk-core-adventuring-gear",
-            "label": "Cyberpunk Core Adventuring Gear",
-            "path": "./packs/cyberpunk-core-adventuring-gear.db",
-            "type": "Item"
-        },
-        {
-            "name": "cyberpunk-core-tools",
-            "label": "Cyberpunk Core Tools",
-            "path": "./packs/cyberpunk-core-tools.db",
-            "type": "Item"
-        }
-    ],
-    "manifest": "https://raw.githubusercontent.com/seanma333/cyberpunk-5e/main/module.json",
-    "download": "https://github.com/seanma333/cyberpunk-5e/archive/refs/heads/main.zip",
-    "url": "https://github.com/seanma333/cyberpunk-5e",
-    "relationships": {
-        "systems": [
-            {
-                "id": "dnd5e",
-                "type": "system"
-            }
-        ],
-        "requires": []
+  "title": "Cyberpunk 5e Module",
+  "description": "Adds custom items and features for a Cyberpunk campaign using D&amp;D 5e",
+  "version": "1.1.4",
+  "authors": [
+    {
+      "name": "smaster27",
+      "flags": {}
     }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12.331"
+  },
+  "scripts": [
+    "scripts/cyberpunk_weapon_props.js",
+    "scripts/cyberpunk_tools.js",
+    "scripts/cyberpunk_chat_buttons.js"
+  ],
+  "packs": [
+    {
+      "name": "cyberpunk-macros",
+      "label": "Cyberpunk Macros",
+      "path": "packs/cyberpunk-macros",
+      "type": "Macro",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cyberpunk-explosives",
+      "label": "Cyberpunk Explosives",
+      "path": "packs/cyberpunk-explosives",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cyberpunk-armor",
+      "label": "Cyberpunk Armor",
+      "path": "packs/cyberpunk-armor",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cyberpunk-firearms",
+      "label": "Cyberpunk Firearms",
+      "path": "packs/cyberpunk-firearms",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cyberpunk-tools",
+      "label": "Cyberpunk Tools",
+      "path": "packs/cyberpunk-tools",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cyberpunk-gear",
+      "label": "Cyberpunk Gear",
+      "path": "packs/cyberpunk-gear",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cyberpunk-cyberware",
+      "label": "Cyberpunk Cyberware",
+      "path": "packs/cyberpunk-cyberware",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cyberpunk-core-weapons",
+      "label": "Cyberpunk Core Weapons",
+      "path": "packs/cyberpunk-core-weapons",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cyberpunk-weapon-mods",
+      "label": "Cyberpunk Weapon Mods",
+      "path": "packs/cyberpunk-weapon-mods",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cyberpunk-gamemaster-macros",
+      "label": "Cyberpunk Gamemaster Macros",
+      "path": "packs/cyberpunk-gamemaster-macros",
+      "type": "Macro",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cyberpunk-ammo-containers",
+      "label": "Cyberpunk Ammo Containers",
+      "path": "packs/cyberpunk-ammo-containers",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cyberpunk-core-adventuring-gear",
+      "label": "Cyberpunk Core Adventuring Gear",
+      "path": "packs/cyberpunk-core-adventuring-gear",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cyberpunk-core-tools",
+      "label": "Cyberpunk Core Tools",
+      "path": "packs/cyberpunk-core-tools",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cyberpunk-backgrounds",
+      "label": "Cyberpunk Backgrounds",
+      "path": "packs/cyberpunk-backgrounds",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cyberpunk-npc-templates",
+      "label": "Cyberpunk NPC Templates",
+      "path": "packs/cyberpunk-npc-templates",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cyberpunk-feats",
+      "label": "Cyberpunk Feats",
+      "path": "packs/cyberpunk-feats",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cyberpunk-npc-racial-features",
+      "label": "Cyberpunk NPC Racial Features",
+      "path": "packs/cyberpunk-npc-racial-features",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/seanma333/cyberpunk-5e/main/module.json",
+  "download": "https://github.com/seanma333/cyberpunk-5e/archive/refs/heads/main.zip",
+  "url": "https://github.com/seanma333/cyberpunk-5e",
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "id": "cyberpunk-5e"
 }

@@ -1,6 +1,6 @@
 const SimpleStatusIcons = (() => {
 	const defineStatusIcons = function (data) {
-		CONFIG.statusEffects = [
+		statusEffects = [
 			{"id": "dead", "label": "EFFECT.StatusDead", "icon": "icons/svg/skull.svg"},
 			{"id": "bardic inspired", "label": "Bardic Inspired", "icon": "modules/cyberpunk-5e/assets/condition_icons/bardic_inspired.png"},
 			{"id": "bleeding", "label": "Bleeding", "icon": "modules/cyberpunk-5e/assets/condition_icons/bleeding.png"},
@@ -55,6 +55,13 @@ const SimpleStatusIcons = (() => {
 			{"id": "unconscious", "label": "Unconscious", "icon": "modules/cyberpunk-5e/assets/condition_icons/unconscious.png"},
 			{"id": "weakened", "label": "Weakened", "icon": "modules/cyberpunk-5e/assets/condition_icons/weakened.png"}
 		]
+
+		statusEffects.forEach(effect => {
+			CONFIG.DND5E.statusEffects[effect.id] = {
+				"name": effect.label,
+				"icon": effect.icon
+			}
+		})
 	}
 
 	// HOOKS

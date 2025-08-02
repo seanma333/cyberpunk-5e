@@ -6,7 +6,7 @@ Hooks.on('init', () => {
 		'scatter': 'Scatter',
 		'strreq': 'Strength',
 		'sighted': 'Sighted',
-		'actionreload': 'Reload (Action)'
+		'actionreload': 'Reload (A)'
 	}
 
 	for (const [id, label] of Object.entries(weaponProps)) {
