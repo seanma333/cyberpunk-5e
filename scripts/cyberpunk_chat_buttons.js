@@ -1,4 +1,4 @@
-let ammoData = {
+const ammoData = {
     "bullets": {
         "type": "consumable",
         "img":"modules/cyberpunk-5e/assets/macro_icons/bullets.svg",
@@ -37,18 +37,15 @@ let ammoData = {
     }
 }
 
-function getTotalCP(currency) {
-    return 1000 * currency.pp + 100 * currency.gp + 50 * currency.ep + 10 * currency.sp + currency.cp
-}
 
 async function reloadButton(actor, weapon) {
     const ammoType = weapon.flags.cyberpunk5e.ammo_type
     const ammoCap = weapon.flags.cyberpunk5e.reload
 
     // Check if ammunition exists. If not, create it.
-    ammoId = weapon.system.consume.target
-    targetAmmoId = weapon.system.consume.target;
-    targetAmmo = targetAmmoId ? actor.items.find(i => i.id === targetAmmoId) : null;
+    const ammoId = weapon.system.consume.target
+    const targetAmmoId = weapon.system.consume.target;
+    let targetAmmo = targetAmmoId ? actor.items.find(i => i.id === targetAmmoId) : null;
     if (!targetAmmo) {
         targetAmmo = await createAmmo(actor, weapon, ammoType, ammoCap);
         await weapon.update({"system.consume.target": targetAmmo.id});
@@ -57,20 +54,27 @@ async function reloadButton(actor, weapon) {
     }
 
     // Output reload to chat.
-    let content_html = `${actor.name} has reloaded ${weapon.name}!`;
+    const content_html = `${actor.name} has reloaded ${weapon.name}!`;
     ChatMessage.create({content: content_html});
 }
 
 async function createAmmo(actor, weapon, ammoType, ammoCap) {
-    weaponStats = weapon.flags.cyberpunk5e
-    weaponName = weapon.name.includes('[') ? weapon.name.substring(0, weapon.name.lastIndexOf('[')).trim() : weapon.name;
+    const weaponStats = weapon.flags.cyberpunk5e
+    const weaponName = CyberpunkCommon.getBaseName(weapon.name);
     if (!weaponStats) return null;
-    ammoType = weaponStats.ammo_type
-    ammoName = ammoType[0].toUpperCase() + ammoType.slice(1)
-    ammoItem = ammoData[ammoType]
-    ammoItem.name = ammoName.concat(" [" + weaponName + "]")
-    ammoItem.system.quantity = ammoCap
-    items = await actor.createEmbeddedDocuments('Item', [ammoItem])
+    const resolvedAmmoType = weaponStats.ammo_type
+    const ammoName = CyberpunkCommon.capitalize(resolvedAmmoType)
+    // Create a deep copy to avoid mutating the shared ammoData object
+    const ammoItem = {
+        ...ammoData[resolvedAmmoType],
+        name: ammoName.concat(" [" + weaponName + "]"),
+        system: {
+            ...ammoData[resolvedAmmoType].system,
+            description: {...ammoData[resolvedAmmoType].system.description},
+            quantity: ammoCap
+        }
+    }
+    const items = await actor.createEmbeddedDocuments('Item', [ammoItem])
     return items[0]
 }
 
@@ -78,10 +82,7 @@ async function reloadButtonListener(event) {
     event.preventDefault();
     const button = event.currentTarget;
     const card = button.closest('.chat-card');
-    const actor = card.dataset.tokenId ?
-        (await fromUuid(card.dataset.tokenId)).actor :
-        game.actors.get(card.dataset.actorId)
-    const item = actor.items.get(card.dataset.itemId)
+    const { actor, item } = await CyberpunkCommon.getActorAndItemFromCard(card);
 
     // generate Dialog
     button.disabled = true;
@@ -100,7 +101,7 @@ function filterWeaponsForMod(actor, mod) {
         if (!i.flags.hasOwnProperty("cyberpunk5e")) return true;
         return !i.flags.cyberpunk5e.hasOwnProperty("modification_props");
     });
-    reqs = mod.flags.cyberpunk5e.modification_props.requirements
+    const reqs = mod.flags.cyberpunk5e.modification_props.requirements
     // Hard-coded for now.
     const detachableMods = new Set(["suppressed","scoped","slung","bayonet"])
     return weapons.filter(w => {
@@ -129,57 +130,16 @@ function filterWeaponsForMod(actor, mod) {
     })
 }
 
-function subtractCP(currency, amount) {
-    cpToSubtract = amount
-    currencyToUse = {'pp': currency.pp, 'gp': currency.gp, 'ep': currency.ep, 'sp': currency.sp, 'cp': currency.cp}
-    
-    while (cpToSubtract >= 1000 && currencyToUse.pp > 0) {
-        currencyToUse.pp -= 1;
-        cpToSubtract -= 1000;
-    }
-
-    if (cpToSubtract > 0 && currencyToUse.pp > 0) {
-        currencyToUse.gp += 10 * currency.pp;
-        currency.pp = 0;
-    }
-    
-    while (cpToSubtract >= 100 && currencyToUse.gp > 0) {
-        currencyToUse.gp -= 1;
-        cpToSubtract -= 100;
-    }
-    
-    if (cpToSubtract > 0 && currencyToUse.gp > 0) {
-        currencyToUse.sp += 10 * currency.gp;
-        currency.gp = 0;
-    }
-
-    while (cpToSubtract >= 50 && currencyToUse.ep > 0) {
-        currencyToUse.ep -= 1;
-        cpToSubtract -= 50;
-    }
-    
-    while (cpToSubtract >= 10 && currencyToUse.sp > 0) {
-        currencyToUse.sp -= 1;
-        cpToSubtract -= 10;
-    }
-    
-    if (cpToSubtract > 0 && currencyToUse.sp > 0) {
-        currencyToUse.cp += 10 * currency.sp;
-        currency.sp = 0;
-    }
-    
-    currencyToUse.cp -= cpToSubtract;
-    
-    return currencyToUse
-}
 
 async function applyModToWeapon(actor, mod, weapon) {
-    mod_props = mod.flags.cyberpunk5e.modification_props
+    const mod_props = mod.flags.cyberpunk5e.modification_props
     
-    weaponName = weapon.name.includes('[') ? weapon.name.substring(0, weapon.name.lastIndexOf('[')).trim() : weapon.name;
-    modName = mod.name.includes('[') ? mod.name.substring(0, mod.name.lastIndexOf('[')).trim() : mod.name;
+    const weaponName = CyberpunkCommon.getBaseName(weapon.name);
+    const modName = CyberpunkCommon.getBaseName(mod.name);
     
-    modUpdates = {}
+    const modUpdates = {}
+    let message;
+    let effectsToApply;
     if (mod_props.reversible && mod_props.applied) {
         message = `${actor.name} detached ${modName} from ${weaponName}.`
         effectsToApply = mod_props.reverse;
@@ -205,11 +165,12 @@ async function applyModToWeapon(actor, mod, weapon) {
     
     Object.entries(effectsToApply).forEach(([effect, data]) => {
         data.forEach(([key, value]) => {
+            let origValue;
             if (weaponUpdates.hasOwnProperty(key)) {
                 origValue = weaponUpdates[key]
             } else {
-                path = key.split('.')
-                obj = weapon
+                const path = key.split('.')
+                let obj = weapon
                 while (path.length > 1) {
                     obj = obj[path.shift()]
                 }
@@ -237,7 +198,7 @@ async function applyModToWeapon(actor, mod, weapon) {
                 case 'add':
                     // Special case for adding to damage.
                     if (key === 'system.damage.parts') {
-                        newValue = origValue
+                        const newValue = origValue
                         newValue[0][0] = `${origValue[0][0]}+${value}`;
                         weaponUpdates[key] = newValue;
                     } else if (origValue) {
@@ -251,7 +212,7 @@ async function applyModToWeapon(actor, mod, weapon) {
     })
     
     if (weaponUpdates['flags.cyberpunk5e.mods'].length > 0) {
-        weaponMods = weaponUpdates['flags.cyberpunk5e.mods'].sort((a, b) => a.localeCompare(b)).map(m => `${m[0].toUpperCase()}${m.slice(1)}`)
+        const weaponMods = weaponUpdates['flags.cyberpunk5e.mods'].sort((a, b) => a.localeCompare(b)).map(m => CyberpunkCommon.capitalize(m))
         weaponUpdates['name'] = `${weaponName} [${weaponMods.join(', ')}]`;
     } else {
         weaponUpdates['name'] = weaponName;
@@ -262,9 +223,9 @@ async function applyModToWeapon(actor, mod, weapon) {
         await mod.update(modUpdates)
     } else {
         // Add the description of the mod to the weapon description.
-        description = mod.system.description.value
-        extracted = description.substring(description.lastIndexOf("</strong></p>")+13).trim()
-        weaponDescription = weapon.system.description.value
+        const description = mod.system.description.value
+        const extracted = description.substring(description.lastIndexOf("</strong></p>")+13).trim()
+        let weaponDescription = weapon.system.description.value
         weaponDescription += `<p><strong>${mod.name}</strong></p>${extracted}`
 
         weaponUpdates['system.description.value'] = weaponDescription;
@@ -282,37 +243,36 @@ async function applyModToWeapon(actor, mod, weapon) {
 }
 
 async function applyButton(html, actor, mod) {
-    selectedWeaponId = html.find('[name="weaponSelect"]')[0].value;
+    const selectedWeaponId = html.find('[name="weaponSelect"]')[0].value;
     
     if (!mod || !selectedWeaponId) return;
     
-    selectedWeapon = actor.items.get(selectedWeaponId);
+    const selectedWeapon = actor.items.get(selectedWeaponId);
     
     console.log(html.find('[id="modCost"]')[0].value);
-    costToApplyCP = parseInt(html.find('[id="modCost"]')[0].value);
-    actorTotalCP = getTotalCP(actor.system.currency);
+    const costToApplyCP = parseInt(html.find('[id="modCost"]')[0].value);
+    const actorTotalCP = CyberpunkCommon.getTotalCP(actor.system.currency);
     if (costToApplyCP > actorTotalCP) {
         await ChatMessage.create({content: `${actor.name} does not have enough money to apply ${mod.name} to ${selectedWeapon.name}!`});
         return;
     }
     
-    message = await applyModToWeapon(actor, mod, selectedWeapon);
-    await actor.update({'system.currency': subtractCP(actor.system.currency, costToApplyCP)})
+    const message = await applyModToWeapon(actor, mod, selectedWeapon);
+    await actor.update({'system.currency': CyberpunkCommon.subtractCP(actor.system.currency, costToApplyCP)})
     
     await ChatMessage.create({content: message})
 }
 
 function updateCostToApply(html, actor, mod) {
-    weaponId = html.find('[name="weaponSelect"]')[0].value;
-    weapon = actor.items.get(weaponId);
+    const weaponId = html.find('[name="weaponSelect"]')[0].value;
+    const weapon = actor.items.get(weaponId);
     
-    costToApply = mod.flags.cyberpunk5e.modification_props.price_mult * weapon.system.price.value
-    costToApplyElement = html.find('[id="modCost"]')[0];
-    convertToCP = {'cp': 1, 'sp': 10, 'gp': 100, 'ep': 500, 'pp': 1000}
-    costToApplyElement.value = costToApply * convertToCP[weapon.system.price.denomination];
+    const costToApply = mod.flags.cyberpunk5e.modification_props.price_mult * weapon.system.price.value
+    const costToApplyElement = html.find('[id="modCost"]')[0];
+    costToApplyElement.value = costToApply * CyberpunkCommon.CP_CONVERSION_RATES[weapon.system.price.denomination];
     
-    warningLabel = html.find('[id="warningLabel"]')[0];
-    if (getTotalCP(actor.system.currency) < costToApply) {
+    const warningLabel = html.find('[id="warningLabel"]')[0];
+    if (CyberpunkCommon.getTotalCP(actor.system.currency) < costToApply) {
         warningLabel.innerHTML = '<p>Not enough money to apply modification!</p>'
     } else if (!mod.flags.cyberpunk5e.modification_props.reversible) {
         warningLabel.innerHTML = '<p>Warning: This modification is permanent!</p>'
@@ -325,23 +285,20 @@ async function modifyButtonListener(event) {
     event.preventDefault();
     const button = event.currentTarget;
     const card = button.closest('.chat-card');
-    const actor = card.dataset.tokenId ?
-        (await fromUuid(card.dataset.tokenId)).actor :
-        game.actors.get(card.dataset.actorId)
-    const item = actor.items.get(card.dataset.itemId)
+    const { actor, item } = await CyberpunkCommon.getActorAndItemFromCard(card);
 
     if (!item) {
         return;
     }
 
+    let attachedWeapon;
     if (item.flags.cyberpunk5e.modification_props.applied) {
         attachedWeapon = actor.items.get(item.flags.cyberpunk5e.modification_props.applied_to);
     } else {
         attachedWeapon = null;
     }
     
-    if (attachedWeapon) weaponsToSelect = [attachedWeapon];
-    else weaponsToSelect = filterWeaponsForMod(actor, item);
+    const weaponsToSelect = attachedWeapon ? [attachedWeapon] : filterWeaponsForMod(actor, item);
     
     // generate Dialog
     var dialogTitle = `Install ${item.name}`
@@ -362,7 +319,7 @@ async function modifyButtonListener(event) {
         return;
     }
 
-    weaponOptions = weaponsToSelect.map(w => {
+    const weaponOptions = weaponsToSelect.map(w => {
         return `<option value=${w.id}>${w.name}</option>`
     }).reduce((r,opt) => r.concat(opt), '<option disabled value selected />');
     var dialogHtml = `
@@ -406,13 +363,13 @@ function renderChatButtons(chatItem, html) {
     if (!actor) return;
     const item = actor.items.get(chatItem.flags.dnd5e.use.itemId);
     if (!item || !item.flags.cyberpunk5e) return;
-    buttonDiv = html.querySelector('.card-buttons');
+    let buttonDiv = html.querySelector('.card-buttons');
 
     // Cyberpunk Weapon buttons
     if (item.type === 'weapon') {
         // Add Reload button
         if (item.flags.cyberpunk5e.reload && actor.type !== 'npc') {
-            reloadMsg = "Reload";
+            let reloadMsg = "Reload";
             if (item.system.properties.has("actionreload")) {
                 reloadMsg = "Reload (Action)";
             }

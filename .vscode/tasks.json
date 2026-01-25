@@ -1,0 +1,65 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "copy-to-foundry",
+            "type": "shell",
+            "windows": {
+                "command": "robocopy \"${workspaceFolder}\" \"%LOCALAPPDATA%\\FoundryVTT\\Data\\modules\\cyberpunk-5e\" /MIR /XD .git .vscode node_modules /XF .gitignore & exit 0",
+                "options": {
+                    "shell": {
+                        "executable": "cmd.exe",
+                        "args": ["/c"]
+                    }
+                }
+            },
+            "linux": {
+                "command": "rsync -av --delete ${workspaceFolder}/ ~/.local/share/FoundryVTT/Data/modules/cyberpunk-5e/"
+            },
+            "osx": {
+                "command": "rsync -av --delete ${workspaceFolder}/ ~/Library/Application\\ Support/FoundryVTT/Data/modules/cyberpunk-5e/"
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": false
+            }
+        },
+        {
+            "label": "Sync to Foundry (Copy Only)",
+            "type": "shell",
+            "windows": {
+                "command": "robocopy \"${workspaceFolder}\" \"%LOCALAPPDATA%\\FoundryVTT\\Data\\modules\\cyberpunk-5e\" /MIR /XD .git .vscode node_modules /XF .gitignore & exit 0",
+                "options": {
+                    "shell": {
+                        "executable": "cmd.exe",
+                        "args": ["/c"]
+                    }
+                }
+            },
+            "linux": {
+                "command": "rsync -av --delete ${workspaceFolder}/ ~/.local/share/FoundryVTT/Data/modules/cyberpunk-5e/"
+            },
+            "osx": {
+                "command": "rsync -av --delete ${workspaceFolder}/ ~/Library/Application\\ Support/FoundryVTT/Data/modules/cyberpunk-5e/"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": false
+            }
+        }
+    ]
+}

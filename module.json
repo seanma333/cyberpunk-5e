@@ -13,6 +13,7 @@
     "verified": "12.331"
   },
   "scripts": [
+    "scripts/common.js",
     "scripts/cyberpunk_weapon_props.js",
     "scripts/cyberpunk_tools.js",
     "scripts/cyberpunk_chat_buttons.js"
@@ -214,7 +215,9 @@
       {
         "id": "dnd5e",
         "type": "system",
-        "compatibility": {}
+        "compatibility": {
+          "verified": "3.3.1"
+        }
       }
     ]
   },

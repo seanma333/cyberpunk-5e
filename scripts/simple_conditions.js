@@ -1,6 +1,6 @@
 const SimpleStatusIcons = (() => {
 	const defineStatusIcons = function (data) {
-		statusEffects = [
+		const statusEffects = [
 			{"id": "dead", "label": "EFFECT.StatusDead", "icon": "icons/svg/skull.svg"},
 			{"id": "bardic inspired", "label": "Bardic Inspired", "icon": "modules/cyberpunk-5e/assets/condition_icons/bardic_inspired.png"},
 			{"id": "bleeding", "label": "Bleeding", "icon": "modules/cyberpunk-5e/assets/condition_icons/bleeding.png"},

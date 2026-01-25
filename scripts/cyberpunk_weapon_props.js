@@ -1,5 +1,5 @@
 Hooks.on('init', () => {
-	weaponProps = {
+	const weaponProps = {
 		'automatic': 'Automatic',
 		'foregrip': 'Foregrip',
 		'mounted': 'Mounted',
