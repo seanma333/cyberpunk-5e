@@ -1,0 +1,60 @@
+name: Auto Version Bump
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  version-bump:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Check if version was manually updated
+        id: check_version
+        run: |
+          PREV=$(git show HEAD~1:module.json | python3 -c "import sys,json; print(json.load(sys.stdin)['version'])")
+          CURR=$(python3 -c "import json; print(json.load(open('module.json'))['version'])")
+          echo "prev=$PREV" >> $GITHUB_OUTPUT
+          echo "curr=$CURR" >> $GITHUB_OUTPUT
+          if [ "$PREV" = "$CURR" ]; then
+            echo "bump=true" >> $GITHUB_OUTPUT
+          else
+            echo "bump=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Bump minor version in module.json
+        if: steps.check_version.outputs.bump == 'true'
+        run: |
+          python3 - <<'EOF'
+          import json
+
+          with open("module.json") as f:
+              data = json.load(f)
+
+          version = data["version"]
+          parts = version.split(".")
+          parts[-1] = str(int(parts[-1]) + 1)
+          new_version = ".".join(parts)
+          data["version"] = new_version
+
+          with open("module.json", "w") as f:
+              json.dump(data, f, indent=2)
+              f.write("\n")
+
+          print(f"Bumped version: {version} -> {new_version}")
+          EOF
+
+      - name: Commit version bump
+        if: steps.check_version.outputs.bump == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add module.json
+          git commit -m "chore: bump version to $(python3 -c "import json; print(json.load(open('module.json'))['version'])")"
+          git push
