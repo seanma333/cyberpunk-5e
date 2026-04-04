@@ -19,6 +19,7 @@
     "scripts/simple_conditions.js",
     "scripts/cyberpunk_ammo.js",
     "scripts/cyberpunk_mods.js",
+    "scripts/cyberpunk_item_sheet.js",
     "scripts/cyberpunk_chat_render.js"
   ],
   "packs": [
