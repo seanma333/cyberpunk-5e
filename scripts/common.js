@@ -78,8 +78,8 @@ const CyberpunkCommon = {
         }
 
         if (cpToSubtract > 0 && currencyToUse.pp > 0) {
-            currencyToUse.gp += 10 * currency.pp;
-            currency.pp = 0;
+            currencyToUse.gp += 10 * currencyToUse.pp;
+            currencyToUse.pp = 0;
         }
 
         while (cpToSubtract >= 100 && currencyToUse.gp > 0) {
@@ -88,8 +88,8 @@ const CyberpunkCommon = {
         }
 
         if (cpToSubtract > 0 && currencyToUse.gp > 0) {
-            currencyToUse.sp += 10 * currency.gp;
-            currency.gp = 0;
+            currencyToUse.sp += 10 * currencyToUse.gp;
+            currencyToUse.gp = 0;
         }
 
         while (cpToSubtract >= 50 && currencyToUse.ep > 0) {
@@ -103,8 +103,8 @@ const CyberpunkCommon = {
         }
 
         if (cpToSubtract > 0 && currencyToUse.sp > 0) {
-            currencyToUse.cp += 10 * currency.sp;
-            currency.sp = 0;
+            currencyToUse.cp += 10 * currencyToUse.sp;
+            currencyToUse.sp = 0;
         }
 
         currencyToUse.cp -= cpToSubtract;
