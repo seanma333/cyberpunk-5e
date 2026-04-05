@@ -166,7 +166,7 @@ function bindTabListeners(html, item) {
                 : el.value;
 
             if (flagKey) {
-                await item.setFlag("cyberpunk5e", flagKey, value);
+                await item.update({ [`flags.cyberpunk5e.${flagKey}`]: value });
             } else if (flagPath) {
                 // Deep path like "modification_props.reversible"
                 const parts = flagPath.split(".");
@@ -175,7 +175,7 @@ function bindTabListeners(html, item) {
                 let obj = existing;
                 for (let i = 1; i < parts.length - 1; i++) obj = obj[parts[i]];
                 obj[parts[parts.length - 1]] = value;
-                await item.setFlag("cyberpunk5e", topKey, existing);
+                await item.update({ [`flags.cyberpunk5e.${topKey}`]: existing });
             }
         });
     });
@@ -187,7 +187,7 @@ function bindTabListeners(html, item) {
             const modName = btn.dataset.mod;
             const currentMods = foundry.utils.deepClone(item.flags.cyberpunk5e.mods ?? []);
             const updated = currentMods.filter(m => m !== modName);
-            await item.setFlag("cyberpunk5e", "mods", updated);
+            await item.update({ "flags.cyberpunk5e.mods": updated });
         });
     });
 }
