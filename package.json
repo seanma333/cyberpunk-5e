@@ -1,0 +1,16 @@
+{
+  "name": "cyberpunk-5e",
+  "version": "1.1.6",
+  "description": "Foundry VTT module for a cyberpunk-fantasy D&D 5e campaign",
+  "scripts": {
+    "pack:npc-templates": "fvtt package pack src/packs/cyberpunk-npc-templates --out packs/cyberpunk-npc-templates",
+    "pack:npc-racial-features": "fvtt package pack src/packs/cyberpunk-npc-racial-features --out packs/cyberpunk-npc-racial-features",
+    "pack:all": "npm run pack:npc-templates && npm run pack:npc-racial-features",
+    "unpack:npc-templates": "fvtt package unpack cyberpunk-npc-templates --out src/packs/cyberpunk-npc-templates",
+    "unpack:npc-racial-features": "fvtt package unpack cyberpunk-npc-racial-features --out src/packs/cyberpunk-npc-racial-features",
+    "unpack:all": "npm run unpack:npc-templates && npm run unpack:npc-racial-features"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.3"
+  }
+}
