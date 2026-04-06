@@ -1,5 +1,5 @@
 {
-  "_id": "MQ75CIo3tS9PFrc8",
+  "_id": "2BgttzL3XN8qujW1",
   "name": "Gunslinger",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "DGafFf4WDjoToYZx",
+      "_id": "RXIFL05MQQeUHyLt",
       "name": "Quickdraw",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!MQ75CIo3tS9PFrc8.DGafFf4WDjoToYZx"
+      "_key": "!actors.items!2BgttzL3XN8qujW1.RXIFL05MQQeUHyLt"
     },
     {
-      "_id": "dv6DO60qfV7koj5V",
+      "_id": "r8WyX0TbcdIPHe9n",
       "name": "Swift Step",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!MQ75CIo3tS9PFrc8.dv6DO60qfV7koj5V"
+      "_key": "!actors.items!2BgttzL3XN8qujW1.r8WyX0TbcdIPHe9n"
     },
     {
-      "_id": "YqPspZuuRBr1SQvM",
+      "_id": "AGAJo2041CLgsK6Y",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -494,10 +494,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!MQ75CIo3tS9PFrc8.YqPspZuuRBr1SQvM"
+      "_key": "!actors.items!2BgttzL3XN8qujW1.AGAJo2041CLgsK6Y"
     },
     {
-      "_id": "aiXJK9OTzzpDfQQI",
+      "_id": "DEKn4QLSrdN2Zdzi",
       "name": "Scimitar",
       "type": "weapon",
       "img": "icons/weapons/swords/sword-katana.webp",
@@ -592,10 +592,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!MQ75CIo3tS9PFrc8.aiXJK9OTzzpDfQQI"
+      "_key": "!actors.items!2BgttzL3XN8qujW1.DEKn4QLSrdN2Zdzi"
     },
     {
-      "_id": "98lRnaVXy858DHeD",
+      "_id": "D8t6yFVFKh1s9V2I",
       "name": "Dual Revolvers",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/revolver.png",
@@ -690,10 +690,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!MQ75CIo3tS9PFrc8.98lRnaVXy858DHeD"
+      "_key": "!actors.items!2BgttzL3XN8qujW1.D8t6yFVFKh1s9V2I"
     },
     {
-      "_id": "fUw32sfTfllevCpQ",
+      "_id": "vI5EpPQldJqgB7LN",
       "name": "Fancy Shooting",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -743,11 +743,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!MQ75CIo3tS9PFrc8.fUw32sfTfllevCpQ"
+      "_key": "!actors.items!2BgttzL3XN8qujW1.vI5EpPQldJqgB7LN"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!MQ75CIo3tS9PFrc8"
+  "_key": "!actors!2BgttzL3XN8qujW1"
 }

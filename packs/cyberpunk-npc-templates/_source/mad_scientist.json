@@ -1,5 +1,5 @@
 {
-  "_id": "V4s2Psu3AV7Uciyp",
+  "_id": "8Fq4CzneJ3GoGIo8",
   "name": "Mad Scientist",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -340,7 +340,7 @@
   },
   "items": [
     {
-      "_id": "EUlVbfYTYO2fiLec",
+      "_id": "mEBTn4knka99DKub",
       "name": "Berserker Serum (3/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,10 +390,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!V4s2Psu3AV7Uciyp.EUlVbfYTYO2fiLec"
+      "_key": "!actors.items!8Fq4CzneJ3GoGIo8.mEBTn4knka99DKub"
     },
     {
-      "_id": "rudy3WpupaYKQPcU",
+      "_id": "tAj2ri1qjD6w15dk",
       "name": "Wisdom saving throw or go berserk",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -443,10 +443,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!V4s2Psu3AV7Uciyp.rudy3WpupaYKQPcU"
+      "_key": "!actors.items!8Fq4CzneJ3GoGIo8.tAj2ri1qjD6w15dk"
     },
     {
-      "_id": "gBKN9Y6UbufcgLIa",
+      "_id": "fXXfAb0IeN0Z0KAf",
       "name": "Maddening Aura",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -496,10 +496,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!V4s2Psu3AV7Uciyp.gBKN9Y6UbufcgLIa"
+      "_key": "!actors.items!8Fq4CzneJ3GoGIo8.fXXfAb0IeN0Z0KAf"
     },
     {
-      "_id": "50PdfZIY24pcDnz8",
+      "_id": "2VjDQ5We4tcYMjXj",
       "name": "Term Madness table (DMG pg. 260)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -549,10 +549,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!V4s2Psu3AV7Uciyp.50PdfZIY24pcDnz8"
+      "_key": "!actors.items!8Fq4CzneJ3GoGIo8.2VjDQ5We4tcYMjXj"
     },
     {
-      "_id": "kR5nKpwEOvHQhMw3",
+      "_id": "8epAcMgwLORbh8kh",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -602,10 +602,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!V4s2Psu3AV7Uciyp.kR5nKpwEOvHQhMw3"
+      "_key": "!actors.items!8Fq4CzneJ3GoGIo8.8epAcMgwLORbh8kh"
     },
     {
-      "_id": "0uroiXVOajeGxzRm",
+      "_id": "Xsms4S72Ah0j5h8G",
       "name": "Injector",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -708,10 +708,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!V4s2Psu3AV7Uciyp.0uroiXVOajeGxzRm"
+      "_key": "!actors.items!8Fq4CzneJ3GoGIo8.Xsms4S72Ah0j5h8G"
     },
     {
-      "_id": "rvfvBaslkvmdhefQ",
+      "_id": "m4HKjpWYwMdqLxfL",
       "name": "Tesla Cannon (Recharge 5-6)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -761,10 +761,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!V4s2Psu3AV7Uciyp.rvfvBaslkvmdhefQ"
+      "_key": "!actors.items!8Fq4CzneJ3GoGIo8.m4HKjpWYwMdqLxfL"
     },
     {
-      "_id": "2L9AXX7saCGloAN0",
+      "_id": "pkHMON5OAWneeTmG",
       "name": "Unnatural Experiment (1/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -814,10 +814,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!V4s2Psu3AV7Uciyp.2L9AXX7saCGloAN0"
+      "_key": "!actors.items!8Fq4CzneJ3GoGIo8.pkHMON5OAWneeTmG"
     },
     {
-      "_id": "iBN4Fy63UduNZpxw",
+      "_id": "b0MRzUfrvVwtV34n",
       "name": "Stroke of Mad Genius",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -867,11 +867,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!V4s2Psu3AV7Uciyp.iBN4Fy63UduNZpxw"
+      "_key": "!actors.items!8Fq4CzneJ3GoGIo8.b0MRzUfrvVwtV34n"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!V4s2Psu3AV7Uciyp"
+  "_key": "!actors!8Fq4CzneJ3GoGIo8"
 }

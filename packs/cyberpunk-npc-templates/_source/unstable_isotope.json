@@ -1,5 +1,5 @@
 {
-  "_id": "eAFjmmYf85iR0k5y",
+  "_id": "rJ7M1KxaWBj0dBWX",
   "name": "Unstable Isotope",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -354,7 +354,7 @@
   },
   "items": [
     {
-      "_id": "tFW5tjBG25Ge4VF5",
+      "_id": "MZ8PAl5eIj6KAuv9",
       "name": "Chain Reaction",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -404,10 +404,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!eAFjmmYf85iR0k5y.tFW5tjBG25Ge4VF5"
+      "_key": "!actors.items!rJ7M1KxaWBj0dBWX.MZ8PAl5eIj6KAuv9"
     },
     {
-      "_id": "cAK03t3QA39dRQ1c",
+      "_id": "9Y7jDwHpjSLVgdG4",
       "name": "Bright Mote",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -457,10 +457,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!eAFjmmYf85iR0k5y.cAK03t3QA39dRQ1c"
+      "_key": "!actors.items!rJ7M1KxaWBj0dBWX.9Y7jDwHpjSLVgdG4"
     },
     {
-      "_id": "RolEO13oKGzOGSQH",
+      "_id": "A1kbgeKrwUExQB6w",
       "name": "Ionize",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -559,10 +559,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!eAFjmmYf85iR0k5y.RolEO13oKGzOGSQH"
+      "_key": "!actors.items!rJ7M1KxaWBj0dBWX.A1kbgeKrwUExQB6w"
     },
     {
-      "_id": "mvGzghlw5flBTr6O",
+      "_id": "ZCdHRcaCwcLh8nGh",
       "name": "Toxic Form",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -612,11 +612,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!eAFjmmYf85iR0k5y.mvGzghlw5flBTr6O"
+      "_key": "!actors.items!rJ7M1KxaWBj0dBWX.ZCdHRcaCwcLh8nGh"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!eAFjmmYf85iR0k5y"
+  "_key": "!actors!rJ7M1KxaWBj0dBWX"
 }

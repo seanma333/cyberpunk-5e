@@ -1,5 +1,5 @@
 {
-  "_id": "B7YSdIGeKwvWHXXr",
+  "_id": "Hh4tzcaLgsY5gXlM",
   "name": "Blazing Pyromaniac",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -340,7 +340,7 @@
   },
   "items": [
     {
-      "_id": "gjVUrOsdNCoAIC6E",
+      "_id": "mZcT9gZkX6rHpsuD",
       "name": "Gas Masked",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,10 +390,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!B7YSdIGeKwvWHXXr.gjVUrOsdNCoAIC6E"
+      "_key": "!actors.items!Hh4tzcaLgsY5gXlM.mZcT9gZkX6rHpsuD"
     },
     {
-      "_id": "VUJO6BYMaEXbPsrF",
+      "_id": "ZzVex4fdfwuWj2Vj",
       "name": "Smokesight",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -443,10 +443,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!B7YSdIGeKwvWHXXr.VUJO6BYMaEXbPsrF"
+      "_key": "!actors.items!Hh4tzcaLgsY5gXlM.ZzVex4fdfwuWj2Vj"
     },
     {
-      "_id": "qyCe8xLkeRx0QQvb",
+      "_id": "GLvYGIcsIX6FHJPo",
       "name": "It then makes two weapon attacks",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -496,10 +496,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!B7YSdIGeKwvWHXXr.qyCe8xLkeRx0QQvb"
+      "_key": "!actors.items!Hh4tzcaLgsY5gXlM.GLvYGIcsIX6FHJPo"
     },
     {
-      "_id": "Xmz7N4meNehXDidP",
+      "_id": "6MYPRGm6mZqV0rom",
       "name": "Smokescreen",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -549,11 +549,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!B7YSdIGeKwvWHXXr.Xmz7N4meNehXDidP"
+      "_key": "!actors.items!Hh4tzcaLgsY5gXlM.6MYPRGm6mZqV0rom"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!B7YSdIGeKwvWHXXr"
+  "_key": "!actors!Hh4tzcaLgsY5gXlM"
 }

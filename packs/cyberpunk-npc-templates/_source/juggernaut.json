@@ -1,5 +1,5 @@
 {
-  "_id": "XyeeoDJjTfOGFYRV",
+  "_id": "YMqLk4P75KGdH9AE",
   "name": "Juggernaut",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "xoW2jmiEFMJMVYfR",
+      "_id": "yeTUGrbB5CPjxGFb",
       "name": "Dermal Barrier",
       "type": "feat",
       "img": "modules/cyberpunk-5e/assets/cyberware_icons/dermal_barrier.png",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!XyeeoDJjTfOGFYRV.xoW2jmiEFMJMVYfR"
+      "_key": "!actors.items!YMqLk4P75KGdH9AE.yeTUGrbB5CPjxGFb"
     },
     {
-      "_id": "xAyTT5A6BwQbPrKO",
+      "_id": "5t4fJ8upf4IAceh3",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!XyeeoDJjTfOGFYRV.xAyTT5A6BwQbPrKO"
+      "_key": "!actors.items!YMqLk4P75KGdH9AE.5t4fJ8upf4IAceh3"
     },
     {
-      "_id": "Lepyetg8vUmeO0yy",
+      "_id": "iVYtGFAT7HXxU9j8",
       "name": "Chainsaw",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -539,10 +539,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!XyeeoDJjTfOGFYRV.Lepyetg8vUmeO0yy"
+      "_key": "!actors.items!YMqLk4P75KGdH9AE.iVYtGFAT7HXxU9j8"
     },
     {
-      "_id": "G0RexY1e6kRgpwfR",
+      "_id": "eYpUypvazlqF6lRh",
       "name": "Gatling Gun (Powered)",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/gatling_gun.png",
@@ -637,10 +637,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!XyeeoDJjTfOGFYRV.G0RexY1e6kRgpwfR"
+      "_key": "!actors.items!YMqLk4P75KGdH9AE.eYpUypvazlqF6lRh"
     },
     {
-      "_id": "P4n0LGkq9UXqeI2V",
+      "_id": "L86JKRV27nS2MHyt",
       "name": "Fragmentation Grenade (1/Day)",
       "type": "feat",
       "img": "modules/cyberpunk-5e/assets/grenade_icons/fragmentation-grenade.png",
@@ -690,10 +690,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!XyeeoDJjTfOGFYRV.P4n0LGkq9UXqeI2V"
+      "_key": "!actors.items!YMqLk4P75KGdH9AE.L86JKRV27nS2MHyt"
     },
     {
-      "_id": "psAIBqHaVyxPfUM3",
+      "_id": "S4KhcUyU68oufse8",
       "name": "Bullets for Brains",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -743,11 +743,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!XyeeoDJjTfOGFYRV.psAIBqHaVyxPfUM3"
+      "_key": "!actors.items!YMqLk4P75KGdH9AE.S4KhcUyU68oufse8"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!XyeeoDJjTfOGFYRV"
+  "_key": "!actors!YMqLk4P75KGdH9AE"
 }

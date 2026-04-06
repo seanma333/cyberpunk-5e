@@ -1,5 +1,5 @@
 {
-  "_id": "WL1lMrxOO8dC29Nx",
+  "_id": "x8NvWI9hH0mCNSsE",
   "name": "Swarm Of Monkeys",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -351,7 +351,7 @@
   },
   "items": [
     {
-      "_id": "Mb87b7fifTXLmfzO",
+      "_id": "L7qLxtQzP3imoCnI",
       "name": "Pilfer",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -401,10 +401,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!WL1lMrxOO8dC29Nx.Mb87b7fifTXLmfzO"
+      "_key": "!actors.items!x8NvWI9hH0mCNSsE.L7qLxtQzP3imoCnI"
     },
     {
-      "_id": "EiTqtQb7dU684ZkR",
+      "_id": "N6br1xckWyvZEaeu",
       "name": "Swarm",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -454,10 +454,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!WL1lMrxOO8dC29Nx.EiTqtQb7dU684ZkR"
+      "_key": "!actors.items!x8NvWI9hH0mCNSsE.N6br1xckWyvZEaeu"
     },
     {
-      "_id": "PFJsHQFjRbWQjtVa",
+      "_id": "DBGmPiS9FvxffJQC",
       "name": "Monkey Bites (swarm has more than half HP)",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -556,11 +556,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!WL1lMrxOO8dC29Nx.PFJsHQFjRbWQjtVa"
+      "_key": "!actors.items!x8NvWI9hH0mCNSsE.DBGmPiS9FvxffJQC"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!WL1lMrxOO8dC29Nx"
+  "_key": "!actors!x8NvWI9hH0mCNSsE"
 }

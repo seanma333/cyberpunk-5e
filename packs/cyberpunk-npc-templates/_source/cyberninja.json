@@ -1,5 +1,5 @@
 {
-  "_id": "NWxAKZeB1s7XtUMz",
+  "_id": "rq7NLEgYFUzc6Mjv",
   "name": "Cyberninja",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "aeOkQC7AvpF1zoYQ",
+      "_id": "9JDvf4vi2roo78YG",
       "name": "Evasion",
       "type": "feat",
       "img": "icons/magic/water/pseudopod-teal.webp",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!NWxAKZeB1s7XtUMz.aeOkQC7AvpF1zoYQ"
+      "_key": "!actors.items!rq7NLEgYFUzc6Mjv.9JDvf4vi2roo78YG"
     },
     {
-      "_id": "ry9hnvo2bYoGxQdg",
+      "_id": "OBR4EmGJrGgON4Iq",
       "name": "Slippery Foe",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!NWxAKZeB1s7XtUMz.ry9hnvo2bYoGxQdg"
+      "_key": "!actors.items!rq7NLEgYFUzc6Mjv.OBR4EmGJrGgON4Iq"
     },
     {
-      "_id": "JWFP3mudAbGvP5FX",
+      "_id": "s49as0te1hyo7fYy",
       "name": "Sneak Attack (1/Turn)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -494,10 +494,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!NWxAKZeB1s7XtUMz.JWFP3mudAbGvP5FX"
+      "_key": "!actors.items!rq7NLEgYFUzc6Mjv.s49as0te1hyo7fYy"
     },
     {
-      "_id": "Ypgdqc5XXzL8Q8oX",
+      "_id": "L2HXFaTJeE62ohbb",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -547,10 +547,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!NWxAKZeB1s7XtUMz.Ypgdqc5XXzL8Q8oX"
+      "_key": "!actors.items!rq7NLEgYFUzc6Mjv.L2HXFaTJeE62ohbb"
     },
     {
-      "_id": "rja2CzVzVbVGv3n0",
+      "_id": "oJqMEGPsearmMIdT",
       "name": "Poisoned Blade",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -649,10 +649,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!NWxAKZeB1s7XtUMz.rja2CzVzVbVGv3n0"
+      "_key": "!actors.items!rq7NLEgYFUzc6Mjv.oJqMEGPsearmMIdT"
     },
     {
-      "_id": "vgBNX0Eu0I09bSdL",
+      "_id": "4iHGdZmy6V5Mphqj",
       "name": "Explosive Kunai",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -751,10 +751,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!NWxAKZeB1s7XtUMz.vgBNX0Eu0I09bSdL"
+      "_key": "!actors.items!rq7NLEgYFUzc6Mjv.4iHGdZmy6V5Mphqj"
     },
     {
-      "_id": "s8czASchncXJkDQe",
+      "_id": "py5cwjeOYf8UiUGG",
       "name": "Flashbang (3/Day)",
       "type": "feat",
       "img": "modules/cyberpunk-5e/assets/grenade_icons/flashbang.png",
@@ -804,10 +804,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!NWxAKZeB1s7XtUMz.s8czASchncXJkDQe"
+      "_key": "!actors.items!rq7NLEgYFUzc6Mjv.py5cwjeOYf8UiUGG"
     },
     {
-      "_id": "AEolOoPJKl5EHyq7",
+      "_id": "2yrBsp63Hf59Rcu5",
       "name": "Shadow Dodge",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -857,11 +857,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!NWxAKZeB1s7XtUMz.AEolOoPJKl5EHyq7"
+      "_key": "!actors.items!rq7NLEgYFUzc6Mjv.2yrBsp63Hf59Rcu5"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!NWxAKZeB1s7XtUMz"
+  "_key": "!actors!rq7NLEgYFUzc6Mjv"
 }

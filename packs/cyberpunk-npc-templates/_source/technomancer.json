@@ -1,5 +1,5 @@
 {
-  "_id": "9Hxq4HdGlSUvyUBN",
+  "_id": "1sE9KCGz7Zkr2o9z",
   "name": "Technomancer",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "z6pVZBxf3knIMBx6",
+      "_id": "avQsWg9wp2lKLeGd",
       "name": "Sabotage",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!9Hxq4HdGlSUvyUBN.z6pVZBxf3knIMBx6"
+      "_key": "!actors.items!1sE9KCGz7Zkr2o9z.avQsWg9wp2lKLeGd"
     },
     {
-      "_id": "yqOaqG51hqHFLRf7",
+      "_id": "PvEUSqJKMuXSPQyj",
       "name": "Spellcasting",
       "type": "feat",
       "img": "icons/magic/light/projectiles-star-purple.webp",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!9Hxq4HdGlSUvyUBN.yqOaqG51hqHFLRf7"
+      "_key": "!actors.items!1sE9KCGz7Zkr2o9z.PvEUSqJKMuXSPQyj"
     },
     {
-      "_id": "c63ESn9VkK9k81SL",
+      "_id": "cTcShyKb4RnnOmhN",
       "name": "Its spellcasting ability is Intelligence (spell save DC 14, +6 to\nhit with spell attacks)",
       "type": "feat",
       "img": "icons/magic/light/projectiles-star-purple.webp",
@@ -494,10 +494,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!9Hxq4HdGlSUvyUBN.c63ESn9VkK9k81SL"
+      "_key": "!actors.items!1sE9KCGz7Zkr2o9z.cTcShyKb4RnnOmhN"
     },
     {
-      "_id": "z7BFnwIHppuxASK2",
+      "_id": "E98ZdIs4vIvUCP2g",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -547,10 +547,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!9Hxq4HdGlSUvyUBN.z7BFnwIHppuxASK2"
+      "_key": "!actors.items!1sE9KCGz7Zkr2o9z.E98ZdIs4vIvUCP2g"
     },
     {
-      "_id": "tlC7ZnK0AH22JYDk",
+      "_id": "muDIsq3RKfaR7jVI",
       "name": "Combat Knife",
       "type": "weapon",
       "img": "icons/weapons/daggers/dagger-serrated-black.webp",
@@ -645,10 +645,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!9Hxq4HdGlSUvyUBN.tlC7ZnK0AH22JYDk"
+      "_key": "!actors.items!1sE9KCGz7Zkr2o9z.muDIsq3RKfaR7jVI"
     },
     {
-      "_id": "ApsEybx8poOcupdp",
+      "_id": "V6ihLKAfG5xBAtGh",
       "name": "Submachine Gun",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/submachine_gun.png",
@@ -743,10 +743,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!9Hxq4HdGlSUvyUBN.ApsEybx8poOcupdp"
+      "_key": "!actors.items!1sE9KCGz7Zkr2o9z.V6ihLKAfG5xBAtGh"
     },
     {
-      "_id": "DmVpwvkvg8gmNkqz",
+      "_id": "FbKEV9OSDO0bsLvY",
       "name": "Firewall",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -796,11 +796,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!9Hxq4HdGlSUvyUBN.DmVpwvkvg8gmNkqz"
+      "_key": "!actors.items!1sE9KCGz7Zkr2o9z.FbKEV9OSDO0bsLvY"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!9Hxq4HdGlSUvyUBN"
+  "_key": "!actors!1sE9KCGz7Zkr2o9z"
 }

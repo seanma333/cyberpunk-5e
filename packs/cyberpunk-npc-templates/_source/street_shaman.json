@@ -1,5 +1,5 @@
 {
-  "_id": "eS7tCWT2i75F9hiB",
+  "_id": "CKv0mQLdXnpjASa6",
   "name": "Street Shaman",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "KgjVt5rAWHoqfeWG",
+      "_id": "Os8guSIEBe88qKZm",
       "name": "Spellcasting",
       "type": "feat",
       "img": "icons/magic/light/projectiles-star-purple.webp",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!eS7tCWT2i75F9hiB.KgjVt5rAWHoqfeWG"
+      "_key": "!actors.items!CKv0mQLdXnpjASa6.Os8guSIEBe88qKZm"
     },
     {
-      "_id": "EmsnmlBSiZRMiz8U",
+      "_id": "li6fgk0bwzqvcM3c",
       "name": "Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit\nwith spell attacks)",
       "type": "feat",
       "img": "icons/magic/light/projectiles-star-purple.webp",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!eS7tCWT2i75F9hiB.EmsnmlBSiZRMiz8U"
+      "_key": "!actors.items!CKv0mQLdXnpjASa6.li6fgk0bwzqvcM3c"
     },
     {
-      "_id": "3TMRnixCfT1eTNOE",
+      "_id": "cVVkxhpvJsoMV9Qc",
       "name": "Wheel-Saint",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -494,10 +494,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!eS7tCWT2i75F9hiB.3TMRnixCfT1eTNOE"
+      "_key": "!actors.items!CKv0mQLdXnpjASa6.cVVkxhpvJsoMV9Qc"
     },
     {
-      "_id": "d7JV89EShV0T0QH2",
+      "_id": "Z6iI7bdlpXxQys4K",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -547,10 +547,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!eS7tCWT2i75F9hiB.d7JV89EShV0T0QH2"
+      "_key": "!actors.items!CKv0mQLdXnpjASa6.Z6iI7bdlpXxQys4K"
     },
     {
-      "_id": "JM5xU26t2OMGC80f",
+      "_id": "BzaCvpmJv7zGLHw7",
       "name": "Tire Iron",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -649,10 +649,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!eS7tCWT2i75F9hiB.JM5xU26t2OMGC80f"
+      "_key": "!actors.items!CKv0mQLdXnpjASa6.BzaCvpmJv7zGLHw7"
     },
     {
-      "_id": "OpABazh2ViZSeGR6",
+      "_id": "kLcZOuywSVZdDKL1",
       "name": "Magnum",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/magnum.png",
@@ -751,11 +751,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!eS7tCWT2i75F9hiB.OpABazh2ViZSeGR6"
+      "_key": "!actors.items!CKv0mQLdXnpjASa6.kLcZOuywSVZdDKL1"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!eS7tCWT2i75F9hiB"
+  "_key": "!actors!CKv0mQLdXnpjASa6"
 }

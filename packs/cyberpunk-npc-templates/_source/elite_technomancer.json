@@ -1,5 +1,5 @@
 {
-  "_id": "quiyla5LEtE4jnBl",
+  "_id": "qzmvbki62oXTADuu",
   "name": "Elite Technomancer",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "eue39jKxmkFarMtw",
+      "_id": "macMkitr7AVWj8V4",
       "name": "Countermeasures (1/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!quiyla5LEtE4jnBl.eue39jKxmkFarMtw"
+      "_key": "!actors.items!qzmvbki62oXTADuu.macMkitr7AVWj8V4"
     },
     {
-      "_id": "7vwhXZdmqT4NXoW2",
+      "_id": "6R9kT5noaXDN67Zt",
       "name": "Spellcasting",
       "type": "feat",
       "img": "icons/magic/light/projectiles-star-purple.webp",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!quiyla5LEtE4jnBl.7vwhXZdmqT4NXoW2"
+      "_key": "!actors.items!qzmvbki62oXTADuu.6R9kT5noaXDN67Zt"
     },
     {
-      "_id": "Ium98TRJypIwASXc",
+      "_id": "pbQR1rLMVAf3riwO",
       "name": "Its spellcasting ability is Intelligence (spell save DC 16, +8 to\nhit with spell attacks)",
       "type": "feat",
       "img": "icons/magic/light/projectiles-star-purple.webp",
@@ -494,10 +494,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!quiyla5LEtE4jnBl.Ium98TRJypIwASXc"
+      "_key": "!actors.items!qzmvbki62oXTADuu.pbQR1rLMVAf3riwO"
     },
     {
-      "_id": "gSUnE3pRkT8dk1jf",
+      "_id": "xdMx73yFvNTUOdT9",
       "name": "Combat Knife",
       "type": "weapon",
       "img": "icons/weapons/daggers/dagger-serrated-black.webp",
@@ -592,16 +592,16 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!quiyla5LEtE4jnBl.gSUnE3pRkT8dk1jf"
+      "_key": "!actors.items!qzmvbki62oXTADuu.xdMx73yFvNTUOdT9"
     },
     {
-      "_id": "3sRPiYhd3CcK3vVm",
+      "_id": "XAWs4iL6jePF78vz",
       "name": "Pulse (2/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
       "system": {
         "description": {
-          "value": "The technomancer forms an EMP at a point it can see within 60 feet of it. Machines, constructs, and vehicles within 30 feet of that point are subjected to EMP. Machines in the area cease to function for 1 minute. Constructs in the area with the Electronics feature must succeed on a DC 16 Constitution saving throw or they are stunned until the end of the technomancer's next turn. Vehicles in the area must succeed on a DC 16 Constitution saving throw or their movement speed is reduced to 0 and they can\u2019t take actions or reactions until the end of the technomancer's next turn. Additionally, wireless and radio connections in a 100-foot- radius centered on the point are suppressed for 1 minute.",
+          "value": "The technomancer forms an EMP at a point it can see within 60 feet of it. Machines, constructs, and vehicles within 30 feet of that point are subjected to EMP. Machines in the area cease to function for 1 minute. Constructs in the area with the Electronics feature must succeed on a DC 16 Constitution saving throw or they are stunned until the end of the technomancer's next turn. Vehicles in the area must succeed on a DC 16 Constitution saving throw or their movement speed is reduced to 0 and they can’t take actions or reactions until the end of the technomancer's next turn. Additionally, wireless and radio connections in a 100-foot- radius centered on the point are suppressed for 1 minute.",
           "chat": ""
         },
         "source": {
@@ -645,10 +645,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!quiyla5LEtE4jnBl.3sRPiYhd3CcK3vVm"
+      "_key": "!actors.items!qzmvbki62oXTADuu.XAWs4iL6jePF78vz"
     },
     {
-      "_id": "qbgCMQU6zCcMmDOE",
+      "_id": "mxEIye4zuLsOmzWl",
       "name": "Firewall",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -698,11 +698,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!quiyla5LEtE4jnBl.qbgCMQU6zCcMmDOE"
+      "_key": "!actors.items!qzmvbki62oXTADuu.mxEIye4zuLsOmzWl"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!quiyla5LEtE4jnBl"
+  "_key": "!actors!qzmvbki62oXTADuu"
 }

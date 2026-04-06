@@ -1,5 +1,5 @@
 {
-  "_id": "nTgVhSCrspHYyaLl",
+  "_id": "HiZ14fNmavZQb5hL",
   "name": "Bully",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "qTAs16scq2364yBm",
+      "_id": "X5kSSScqr1Nmre0x",
       "name": "Pack Tactics",
       "type": "feat",
       "img": "icons/creatures/abilities/paw-print-orange.webp",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!nTgVhSCrspHYyaLl.qTAs16scq2364yBm"
+      "_key": "!actors.items!HiZ14fNmavZQb5hL.X5kSSScqr1Nmre0x"
     },
     {
-      "_id": "GfX9ujbOx0MPyilu",
+      "_id": "N4Bp1P8nOTgiTLEQ",
       "name": "Rusty Pipe",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -486,10 +486,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!nTgVhSCrspHYyaLl.GfX9ujbOx0MPyilu"
+      "_key": "!actors.items!HiZ14fNmavZQb5hL.N4Bp1P8nOTgiTLEQ"
     },
     {
-      "_id": "Q4fNleuV6pkD2C3x",
+      "_id": "bpvGOLM8RwhIfool",
       "name": "Handgun",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/handgun.png",
@@ -584,11 +584,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!nTgVhSCrspHYyaLl.Q4fNleuV6pkD2C3x"
+      "_key": "!actors.items!HiZ14fNmavZQb5hL.bpvGOLM8RwhIfool"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!nTgVhSCrspHYyaLl"
+  "_key": "!actors!HiZ14fNmavZQb5hL"
 }

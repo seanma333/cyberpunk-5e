@@ -1,5 +1,5 @@
 {
-  "_id": "MOmFdQ4X9zQifyZd",
+  "_id": "i6zU9QI3u12iOMwA",
   "name": "Prime Mercenary",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "Xtj6iJeHVAIZ96Vs",
+      "_id": "jQ9ti3K8CaJmxpAC",
       "name": "Auto-Injector (1/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!MOmFdQ4X9zQifyZd.Xtj6iJeHVAIZ96Vs"
+      "_key": "!actors.items!i6zU9QI3u12iOMwA.jQ9ti3K8CaJmxpAC"
     },
     {
-      "_id": "r2baqXEKLM7mLXUZ",
+      "_id": "zDP2y8GUbJz3By12",
       "name": "Explosive (3/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!MOmFdQ4X9zQifyZd.r2baqXEKLM7mLXUZ"
+      "_key": "!actors.items!i6zU9QI3u12iOMwA.zDP2y8GUbJz3By12"
     },
     {
-      "_id": "ryjHI2bJyKOjUOCu",
+      "_id": "9l5IGTIaODWHzMJw",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -494,10 +494,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!MOmFdQ4X9zQifyZd.ryjHI2bJyKOjUOCu"
+      "_key": "!actors.items!i6zU9QI3u12iOMwA.9l5IGTIaODWHzMJw"
     },
     {
-      "_id": "GQiTDKQ2QcnYeOJk",
+      "_id": "1YvmF9xjN5mV74wz",
       "name": "Scimitar",
       "type": "weapon",
       "img": "icons/weapons/swords/sword-katana.webp",
@@ -596,10 +596,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!MOmFdQ4X9zQifyZd.GQiTDKQ2QcnYeOJk"
+      "_key": "!actors.items!i6zU9QI3u12iOMwA.1YvmF9xjN5mV74wz"
     },
     {
-      "_id": "xvjhN8FcbXsww1lm",
+      "_id": "wgnZ7NjPzgtbVN8A",
       "name": "Gatling Gun (Powered)",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/gatling_gun.png",
@@ -698,10 +698,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!MOmFdQ4X9zQifyZd.xvjhN8FcbXsww1lm"
+      "_key": "!actors.items!i6zU9QI3u12iOMwA.wgnZ7NjPzgtbVN8A"
     },
     {
-      "_id": "NeYWk7YK7Z3Zep4A",
+      "_id": "spNc5HMKsiK9kAcI",
       "name": "Subdermal Plating (Recharges on a Short or Long Rest)",
       "type": "feat",
       "img": "modules/cyberpunk-5e/assets/cyberware_icons/subdermal_plating.png",
@@ -751,11 +751,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!MOmFdQ4X9zQifyZd.NeYWk7YK7Z3Zep4A"
+      "_key": "!actors.items!i6zU9QI3u12iOMwA.spNc5HMKsiK9kAcI"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!MOmFdQ4X9zQifyZd"
+  "_key": "!actors!i6zU9QI3u12iOMwA"
 }

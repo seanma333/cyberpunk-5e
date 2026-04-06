@@ -1,5 +1,5 @@
 {
-  "_id": "9dcoWGeqorTEKXyQ",
+  "_id": "SiMdImBtlUBQWPYu",
   "name": "Police Officer",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "7fB25ClqWfzHxVKV",
+      "_id": "qmeyx2LYjCzKPaQz",
       "name": "Multiattack",
       "type": "weapon",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -433,10 +433,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!9dcoWGeqorTEKXyQ.7fB25ClqWfzHxVKV"
+      "_key": "!actors.items!SiMdImBtlUBQWPYu.qmeyx2LYjCzKPaQz"
     },
     {
-      "_id": "A1uDWdFpev816fAJ",
+      "_id": "0O7fRWJJixG9LyGi",
       "name": "Pump Shotgun",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/pump_shotgun.png",
@@ -531,10 +531,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!9dcoWGeqorTEKXyQ.A1uDWdFpev816fAJ"
+      "_key": "!actors.items!SiMdImBtlUBQWPYu.0O7fRWJJixG9LyGi"
     },
     {
-      "_id": "IU1EsR3kYOJFwKYK",
+      "_id": "dPksxciMS3LIjZv9",
       "name": "Magnum",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/magnum.png",
@@ -629,11 +629,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!9dcoWGeqorTEKXyQ.IU1EsR3kYOJFwKYK"
+      "_key": "!actors.items!SiMdImBtlUBQWPYu.dPksxciMS3LIjZv9"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!9dcoWGeqorTEKXyQ"
+  "_key": "!actors!SiMdImBtlUBQWPYu"
 }

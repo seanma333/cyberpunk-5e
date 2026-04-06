@@ -1,5 +1,5 @@
 {
-  "_id": "Dbi7nbwWv6dWXc1Q",
+  "_id": "pWqF0T1Sbskl4KSS",
   "name": "Radioactive Hydra",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "SYnkLO65KmHZKXIy",
+      "_id": "aG8DYCBPoTHLZfYt",
       "name": "Contaminate (1/Turn)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!Dbi7nbwWv6dWXc1Q.SYnkLO65KmHZKXIy"
+      "_key": "!actors.items!pWqF0T1Sbskl4KSS.aG8DYCBPoTHLZfYt"
     },
     {
-      "_id": "bsNJ1ymXqix7N8x9",
+      "_id": "XcHjqy5eKW5efQVx",
       "name": "Fallout",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!Dbi7nbwWv6dWXc1Q.bsNJ1ymXqix7N8x9"
+      "_key": "!actors.items!pWqF0T1Sbskl4KSS.XcHjqy5eKW5efQVx"
     },
     {
-      "_id": "HwYnmTdYbUaynyMZ",
+      "_id": "HzTTpQE2OmWIkHf8",
       "name": "Multiple Heads",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -494,10 +494,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!Dbi7nbwWv6dWXc1Q.HwYnmTdYbUaynyMZ"
+      "_key": "!actors.items!pWqF0T1Sbskl4KSS.HzTTpQE2OmWIkHf8"
     },
     {
-      "_id": "JkohgPsJLtZEzC3C",
+      "_id": "ACs0LJIszDitCtpY",
       "name": "Reactive Heads",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -547,10 +547,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!Dbi7nbwWv6dWXc1Q.JkohgPsJLtZEzC3C"
+      "_key": "!actors.items!pWqF0T1Sbskl4KSS.ACs0LJIszDitCtpY"
     },
     {
-      "_id": "7jOx4bS6NtbKYVr6",
+      "_id": "KF4VMda8RGjRj4Xy",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -600,10 +600,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!Dbi7nbwWv6dWXc1Q.7jOx4bS6NtbKYVr6"
+      "_key": "!actors.items!pWqF0T1Sbskl4KSS.KF4VMda8RGjRj4Xy"
     },
     {
-      "_id": "4f7SZUBGu4nQy5u2",
+      "_id": "4esOEf4Li8WCIBMi",
       "name": "Bite",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -698,10 +698,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!Dbi7nbwWv6dWXc1Q.4f7SZUBGu4nQy5u2"
+      "_key": "!actors.items!pWqF0T1Sbskl4KSS.4esOEf4Li8WCIBMi"
     },
     {
-      "_id": "9vCfTOo2kxSUhpJJ",
+      "_id": "vTxjm2o9M4GabWX0",
       "name": "Contaminate (1/Turn)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -751,11 +751,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!Dbi7nbwWv6dWXc1Q.9vCfTOo2kxSUhpJJ"
+      "_key": "!actors.items!pWqF0T1Sbskl4KSS.vTxjm2o9M4GabWX0"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!Dbi7nbwWv6dWXc1Q"
+  "_key": "!actors!pWqF0T1Sbskl4KSS"
 }

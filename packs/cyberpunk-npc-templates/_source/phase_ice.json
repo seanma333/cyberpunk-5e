@@ -1,5 +1,5 @@
 {
-  "_id": "hcGBVo9nA5NoQAN9",
+  "_id": "sGEPRqaHaQ6nFUPx",
   "name": "Phase Ice",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -357,7 +357,7 @@
   },
   "items": [
     {
-      "_id": "XcDqm8OOU5gdujBt",
+      "_id": "NUsYeCoUFIc38a23",
       "name": "Digital Ghost",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -407,10 +407,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!hcGBVo9nA5NoQAN9.XcDqm8OOU5gdujBt"
+      "_key": "!actors.items!sGEPRqaHaQ6nFUPx.NUsYeCoUFIc38a23"
     },
     {
-      "_id": "Gc2GAuW0fx9DdNfd",
+      "_id": "fOVs6slPvw4Gk1HO",
       "name": "Netborn",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -460,10 +460,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!hcGBVo9nA5NoQAN9.Gc2GAuW0fx9DdNfd"
+      "_key": "!actors.items!sGEPRqaHaQ6nFUPx.fOVs6slPvw4Gk1HO"
     },
     {
-      "_id": "DgZAaeSs9YROa21A",
+      "_id": "abnt2KYRW0vNeJlv",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -513,11 +513,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!hcGBVo9nA5NoQAN9.DgZAaeSs9YROa21A"
+      "_key": "!actors.items!sGEPRqaHaQ6nFUPx.abnt2KYRW0vNeJlv"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!hcGBVo9nA5NoQAN9"
+  "_key": "!actors!sGEPRqaHaQ6nFUPx"
 }

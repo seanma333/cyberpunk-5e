@@ -1,5 +1,5 @@
 {
-  "_id": "DosfGf8H5iMaJ0QV",
+  "_id": "71SroSS4tTiTbypH",
   "name": "Elite Demolitionist",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -340,7 +340,7 @@
   },
   "items": [
     {
-      "_id": "2TPbPlYhqu0iPepQ",
+      "_id": "lSbEz6IEtBAhtL2q",
       "name": "Evasion",
       "type": "feat",
       "img": "icons/magic/water/pseudopod-teal.webp",
@@ -390,10 +390,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!DosfGf8H5iMaJ0QV.2TPbPlYhqu0iPepQ"
+      "_key": "!actors.items!71SroSS4tTiTbypH.lSbEz6IEtBAhtL2q"
     },
     {
-      "_id": "Ww1tL7wyAFBFD6EJ",
+      "_id": "WeJTAAyNKnN2bBjq",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -443,10 +443,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!DosfGf8H5iMaJ0QV.Ww1tL7wyAFBFD6EJ"
+      "_key": "!actors.items!71SroSS4tTiTbypH.WeJTAAyNKnN2bBjq"
     },
     {
-      "_id": "zqgA40Daur2ZUIkb",
+      "_id": "dWuouXYQZeC8SWwJ",
       "name": "Tomahawk",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -545,10 +545,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!DosfGf8H5iMaJ0QV.zqgA40Daur2ZUIkb"
+      "_key": "!actors.items!71SroSS4tTiTbypH.dWuouXYQZeC8SWwJ"
     },
     {
-      "_id": "pNntA1xTSkN90BYx",
+      "_id": "o0iV6YAYSC1qu5L5",
       "name": "Revolver",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/revolver.png",
@@ -643,10 +643,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!DosfGf8H5iMaJ0QV.pNntA1xTSkN90BYx"
+      "_key": "!actors.items!71SroSS4tTiTbypH.o0iV6YAYSC1qu5L5"
     },
     {
-      "_id": "qDvvWFtXHaznZbRo",
+      "_id": "YOX7V9YPczRztfpK",
       "name": "Fragmentation Grenade (4/Day)",
       "type": "feat",
       "img": "modules/cyberpunk-5e/assets/grenade_icons/fragmentation-grenade.png",
@@ -696,10 +696,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!DosfGf8H5iMaJ0QV.qDvvWFtXHaznZbRo"
+      "_key": "!actors.items!71SroSS4tTiTbypH.YOX7V9YPczRztfpK"
     },
     {
-      "_id": "Nm6BnZSc6FrsjJbf",
+      "_id": "qfVCJoEe4wnVzRU9",
       "name": "Contingent Blast",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -749,11 +749,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!DosfGf8H5iMaJ0QV.Nm6BnZSc6FrsjJbf"
+      "_key": "!actors.items!71SroSS4tTiTbypH.qfVCJoEe4wnVzRU9"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!DosfGf8H5iMaJ0QV"
+  "_key": "!actors!71SroSS4tTiTbypH"
 }

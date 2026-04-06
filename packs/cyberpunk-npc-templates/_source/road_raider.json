@@ -1,5 +1,5 @@
 {
-  "_id": "AE3pZvMwIKcPMbLz",
+  "_id": "LsTh1rmM4BKjP35z",
   "name": "Road Raider",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "TwVqmd1gbcixbQY7",
+      "_id": "vTSPPT8TogxIjD6i",
       "name": "Ride or Die",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!AE3pZvMwIKcPMbLz.TwVqmd1gbcixbQY7"
+      "_key": "!actors.items!LsTh1rmM4BKjP35z.vTSPPT8TogxIjD6i"
     },
     {
-      "_id": "qGVD39TbXBqcAnRE",
+      "_id": "961JaZbtyrdyQ8vf",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!AE3pZvMwIKcPMbLz.qGVD39TbXBqcAnRE"
+      "_key": "!actors.items!LsTh1rmM4BKjP35z.961JaZbtyrdyQ8vf"
     },
     {
-      "_id": "UAGGeKH16fDdz8da",
+      "_id": "Y38xwy5GNdxsUDQn",
       "name": "Longsword",
       "type": "weapon",
       "img": "icons/weapons/swords/greatsword-crossguard-steel.webp",
@@ -543,10 +543,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!AE3pZvMwIKcPMbLz.UAGGeKH16fDdz8da"
+      "_key": "!actors.items!LsTh1rmM4BKjP35z.Y38xwy5GNdxsUDQn"
     },
     {
-      "_id": "JCC3sj6oCxnjvkwk",
+      "_id": "kTxG1fxARgEezX2P",
       "name": "Submachine Gun",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/submachine_gun.png",
@@ -641,10 +641,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!AE3pZvMwIKcPMbLz.JCC3sj6oCxnjvkwk"
+      "_key": "!actors.items!LsTh1rmM4BKjP35z.kTxG1fxARgEezX2P"
     },
     {
-      "_id": "RNTh4fcJCaeeILbI",
+      "_id": "2rciEQZjDzat8eAW",
       "name": "Last Ride",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -694,11 +694,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!AE3pZvMwIKcPMbLz.RNTh4fcJCaeeILbI"
+      "_key": "!actors.items!LsTh1rmM4BKjP35z.2rciEQZjDzat8eAW"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!AE3pZvMwIKcPMbLz"
+  "_key": "!actors!LsTh1rmM4BKjP35z"
 }

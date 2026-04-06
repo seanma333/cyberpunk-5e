@@ -1,5 +1,5 @@
 {
-  "_id": "H1ekR80eSqvqmJFG",
+  "_id": "4Sbg0IGS8wNI1BNd",
   "name": "Crime Boss",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "XY1Apmf0dN1543E2",
+      "_id": "JCnzdAxJhYMtOlID",
       "name": "Imposing Aura",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!H1ekR80eSqvqmJFG.XY1Apmf0dN1543E2"
+      "_key": "!actors.items!4Sbg0IGS8wNI1BNd.JCnzdAxJhYMtOlID"
     },
     {
-      "_id": "w9JiqnKFbTPR2aJ9",
+      "_id": "1oWS07HVksDRtLV1",
       "name": "Smooth Step",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!H1ekR80eSqvqmJFG.w9JiqnKFbTPR2aJ9"
+      "_key": "!actors.items!4Sbg0IGS8wNI1BNd.1oWS07HVksDRtLV1"
     },
     {
-      "_id": "2tM7VZwhx07aJ7fo",
+      "_id": "0rY60sqFFm1knGfB",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -494,10 +494,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!H1ekR80eSqvqmJFG.2tM7VZwhx07aJ7fo"
+      "_key": "!actors.items!4Sbg0IGS8wNI1BNd.0rY60sqFFm1knGfB"
     },
     {
-      "_id": "CIFUSLYjjin3sGLG",
+      "_id": "eoW6uNKwnwN0ZFUa",
       "name": "Scimitar",
       "type": "weapon",
       "img": "icons/weapons/swords/sword-katana.webp",
@@ -592,10 +592,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!H1ekR80eSqvqmJFG.CIFUSLYjjin3sGLG"
+      "_key": "!actors.items!4Sbg0IGS8wNI1BNd.eoW6uNKwnwN0ZFUa"
     },
     {
-      "_id": "HU8CY0Xs2hMFCf4l",
+      "_id": "tC90tFYT4HzmN9AC",
       "name": "Dual Magnums (Powered)",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/magnum.png",
@@ -690,10 +690,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!H1ekR80eSqvqmJFG.HU8CY0Xs2hMFCf4l"
+      "_key": "!actors.items!4Sbg0IGS8wNI1BNd.tC90tFYT4HzmN9AC"
     },
     {
-      "_id": "TKlvMAO4uwHqQ4TA",
+      "_id": "ftBDshS6ORp2GN9c",
       "name": "Vigilant Underlings",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -743,11 +743,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!H1ekR80eSqvqmJFG.TKlvMAO4uwHqQ4TA"
+      "_key": "!actors.items!4Sbg0IGS8wNI1BNd.ftBDshS6ORp2GN9c"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!H1ekR80eSqvqmJFG"
+  "_key": "!actors!4Sbg0IGS8wNI1BNd"
 }

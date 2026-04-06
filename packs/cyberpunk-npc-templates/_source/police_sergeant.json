@@ -1,5 +1,5 @@
 {
-  "_id": "HVcFPgpo1Kw71QJm",
+  "_id": "QjcgCUO67TWuMs97",
   "name": "Police Sergeant",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "nmMbGhXTxB9rFuS1",
+      "_id": "hlP5sQpNcadpHKBr",
       "name": "Got Your Back",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!HVcFPgpo1Kw71QJm.nmMbGhXTxB9rFuS1"
+      "_key": "!actors.items!QjcgCUO67TWuMs97.hlP5sQpNcadpHKBr"
     },
     {
-      "_id": "KspZU6lCTnpo4kPj",
+      "_id": "npnPx1z85NgnkFbS",
       "name": "Pack Tactics",
       "type": "feat",
       "img": "icons/creatures/abilities/paw-print-orange.webp",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!HVcFPgpo1Kw71QJm.KspZU6lCTnpo4kPj"
+      "_key": "!actors.items!QjcgCUO67TWuMs97.npnPx1z85NgnkFbS"
     },
     {
-      "_id": "owdINeiHmsPh21qu",
+      "_id": "7GUAlgQfL4RTGrZ3",
       "name": "Multiattack",
       "type": "weapon",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -539,10 +539,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!HVcFPgpo1Kw71QJm.owdINeiHmsPh21qu"
+      "_key": "!actors.items!QjcgCUO67TWuMs97.7GUAlgQfL4RTGrZ3"
     },
     {
-      "_id": "1iietQCcZ08smlYB",
+      "_id": "Qszb0kQO5GnL2h8I",
       "name": "Pump Shotgun (High Impact Shots, Powered)",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/pump_shotgun.png",
@@ -641,10 +641,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!HVcFPgpo1Kw71QJm.1iietQCcZ08smlYB"
+      "_key": "!actors.items!QjcgCUO67TWuMs97.Qszb0kQO5GnL2h8I"
     },
     {
-      "_id": "oAU1NUchvGBMFv9q",
+      "_id": "rvypA3yAMRV1mC9D",
       "name": "Pack Tactics",
       "type": "feat",
       "img": "icons/creatures/abilities/paw-print-orange.webp",
@@ -694,11 +694,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!HVcFPgpo1Kw71QJm.oAU1NUchvGBMFv9q"
+      "_key": "!actors.items!QjcgCUO67TWuMs97.rvypA3yAMRV1mC9D"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!HVcFPgpo1Kw71QJm"
+  "_key": "!actors!QjcgCUO67TWuMs97"
 }

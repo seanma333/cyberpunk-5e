@@ -1,5 +1,5 @@
 {
-  "_id": "h4e7KPzhlirpMTPg",
+  "_id": "luRerQdXNIvHTrwU",
   "name": "Combat Medic",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "QJlKvUavOV1n7z8n",
+      "_id": "uJdO5yeLKLqLZUXq",
       "name": "Analyze Anatomy",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!h4e7KPzhlirpMTPg.QJlKvUavOV1n7z8n"
+      "_key": "!actors.items!luRerQdXNIvHTrwU.uJdO5yeLKLqLZUXq"
     },
     {
-      "_id": "GPwu0oBf4d9fJNhG",
+      "_id": "fDKWMZ347bmqA3HX",
       "name": "Med Serum (3/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!h4e7KPzhlirpMTPg.GPwu0oBf4d9fJNhG"
+      "_key": "!actors.items!luRerQdXNIvHTrwU.fDKWMZ347bmqA3HX"
     },
     {
-      "_id": "RnWeqByoztfQmQtZ",
+      "_id": "nCdjB9aMKlUG4TrK",
       "name": "Resuscitate",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -494,10 +494,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!h4e7KPzhlirpMTPg.RnWeqByoztfQmQtZ"
+      "_key": "!actors.items!luRerQdXNIvHTrwU.nCdjB9aMKlUG4TrK"
     },
     {
-      "_id": "OWImTfazvdauumsx",
+      "_id": "k0nw4rDjPdcdfs1f",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -547,10 +547,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!h4e7KPzhlirpMTPg.OWImTfazvdauumsx"
+      "_key": "!actors.items!luRerQdXNIvHTrwU.k0nw4rDjPdcdfs1f"
     },
     {
-      "_id": "w2TNuvJKYwbWKlgs",
+      "_id": "UjW78K0WYSKkIzs5",
       "name": "Assault Rifle",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/assault_rifle.png",
@@ -645,10 +645,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!h4e7KPzhlirpMTPg.w2TNuvJKYwbWKlgs"
+      "_key": "!actors.items!luRerQdXNIvHTrwU.UjW78K0WYSKkIzs5"
     },
     {
-      "_id": "FUfAUQimNpwO5X39",
+      "_id": "Ts0MEccZCAbGVHl8",
       "name": "Sawed-Off Shotgun",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/sawed_off_shotgun.png",
@@ -743,10 +743,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!h4e7KPzhlirpMTPg.FUfAUQimNpwO5X39"
+      "_key": "!actors.items!luRerQdXNIvHTrwU.Ts0MEccZCAbGVHl8"
     },
     {
-      "_id": "wV07tRfdfL7SQrIa",
+      "_id": "VOzLCiP0nC6tBXkW",
       "name": "Flashbang (3/Day)",
       "type": "feat",
       "img": "modules/cyberpunk-5e/assets/grenade_icons/flashbang.png",
@@ -796,11 +796,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!h4e7KPzhlirpMTPg.wV07tRfdfL7SQrIa"
+      "_key": "!actors.items!luRerQdXNIvHTrwU.VOzLCiP0nC6tBXkW"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!h4e7KPzhlirpMTPg"
+  "_key": "!actors!luRerQdXNIvHTrwU"
 }

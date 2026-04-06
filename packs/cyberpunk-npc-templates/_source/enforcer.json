@@ -1,5 +1,5 @@
 {
-  "_id": "tBBu4PzQdeQrPxZg",
+  "_id": "B4bUH4a7td2dHzUg",
   "name": "Enforcer",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "00aum0VR2xoRp8BV",
+      "_id": "REOOEG0orwgsPK7I",
       "name": "Muse (1/Hour)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!tBBu4PzQdeQrPxZg.00aum0VR2xoRp8BV"
+      "_key": "!actors.items!B4bUH4a7td2dHzUg.REOOEG0orwgsPK7I"
     },
     {
-      "_id": "gwIKOouIseIxGxJG",
+      "_id": "aQRklvfgmR9jLfFt",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!tBBu4PzQdeQrPxZg.gwIKOouIseIxGxJG"
+      "_key": "!actors.items!B4bUH4a7td2dHzUg.aQRklvfgmR9jLfFt"
     },
     {
-      "_id": "H3N06pdNvKrRDyOx",
+      "_id": "BwgKKcaIDmG8EUrR",
       "name": "Double-barrel Shotgun",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/double_barrel_shotgun.png",
@@ -539,10 +539,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!tBBu4PzQdeQrPxZg.H3N06pdNvKrRDyOx"
+      "_key": "!actors.items!B4bUH4a7td2dHzUg.BwgKKcaIDmG8EUrR"
     },
     {
-      "_id": "r77pGQ7ka2soqQMS",
+      "_id": "91Pt3ZW3aZUvMuib",
       "name": "Magnum",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/magnum.png",
@@ -637,10 +637,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!tBBu4PzQdeQrPxZg.r77pGQ7ka2soqQMS"
+      "_key": "!actors.items!B4bUH4a7td2dHzUg.91Pt3ZW3aZUvMuib"
     },
     {
-      "_id": "LIjcIkf9G9Jb8Ogq",
+      "_id": "CoyMJLx1yhug0nsv",
       "name": "Vengeful Kick",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -690,10 +690,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!tBBu4PzQdeQrPxZg.LIjcIkf9G9Jb8Ogq"
+      "_key": "!actors.items!B4bUH4a7td2dHzUg.CoyMJLx1yhug0nsv"
     },
     {
-      "_id": "9YPbjCoT18cXdRa1",
+      "_id": "sbfU67f3v1Wi6FV6",
       "name": "Strength saving throw or be knocked prone",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -743,11 +743,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!tBBu4PzQdeQrPxZg.9YPbjCoT18cXdRa1"
+      "_key": "!actors.items!B4bUH4a7td2dHzUg.sbfU67f3v1Wi6FV6"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!tBBu4PzQdeQrPxZg"
+  "_key": "!actors!B4bUH4a7td2dHzUg"
 }

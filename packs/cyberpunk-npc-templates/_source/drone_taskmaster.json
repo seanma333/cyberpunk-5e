@@ -1,5 +1,5 @@
 {
-  "_id": "HdwtSgvMA87aS8Nf",
+  "_id": "kNmSIge7HnKYjuSU",
   "name": "Drone Taskmaster",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "LRQ67HKymigFU1Xb",
+      "_id": "8essbcJM1ItHya2H",
       "name": "Orchestration",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!HdwtSgvMA87aS8Nf.LRQ67HKymigFU1Xb"
+      "_key": "!actors.items!kNmSIge7HnKYjuSU.8essbcJM1ItHya2H"
     },
     {
-      "_id": "YvbgtdlTk4yIz77g",
+      "_id": "JW5nQIUBvtQCiM12",
       "name": "Hub",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!HdwtSgvMA87aS8Nf.YvbgtdlTk4yIz77g"
+      "_key": "!actors.items!kNmSIge7HnKYjuSU.JW5nQIUBvtQCiM12"
     },
     {
-      "_id": "9WU11mvRL3xNnjcc",
+      "_id": "AnCz4H8iUE4DiIoq",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -494,10 +494,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!HdwtSgvMA87aS8Nf.9WU11mvRL3xNnjcc"
+      "_key": "!actors.items!kNmSIge7HnKYjuSU.AnCz4H8iUE4DiIoq"
     },
     {
-      "_id": "eyEDY44lS8RleDhC",
+      "_id": "EJ8nYX7aXXEyVIsC",
       "name": "Shock Baton",
       "type": "weapon",
       "img": "icons/commodities/tech/tube-chamber-lightning.webp",
@@ -592,10 +592,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!HdwtSgvMA87aS8Nf.eyEDY44lS8RleDhC"
+      "_key": "!actors.items!kNmSIge7HnKYjuSU.EJ8nYX7aXXEyVIsC"
     },
     {
-      "_id": "SYpPyWYunnmgfoQk",
+      "_id": "pL28xV9fxp1iTOCZ",
       "name": "Submachine Gun",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/submachine_gun.png",
@@ -690,10 +690,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!HdwtSgvMA87aS8Nf.SYpPyWYunnmgfoQk"
+      "_key": "!actors.items!kNmSIge7HnKYjuSU.pL28xV9fxp1iTOCZ"
     },
     {
-      "_id": "6K1PB5U0HfYvsDV4",
+      "_id": "x1VCnV6dQ6eE3qJj",
       "name": "Short Circuit",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -743,11 +743,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!HdwtSgvMA87aS8Nf.6K1PB5U0HfYvsDV4"
+      "_key": "!actors.items!kNmSIge7HnKYjuSU.x1VCnV6dQ6eE3qJj"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!HdwtSgvMA87aS8Nf"
+  "_key": "!actors!kNmSIge7HnKYjuSU"
 }

@@ -1,5 +1,5 @@
 {
-  "_id": "LGQBpzN3jgVkUi7m",
+  "_id": "qNCB7kiyZ3zekE7P",
   "name": "Unstoppable Juggernaut",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "PYkGPzxaqJnlSmBQ",
+      "_id": "A03tFtO2UlfIdmqj",
       "name": "Dermal Barrier",
       "type": "feat",
       "img": "modules/cyberpunk-5e/assets/cyberware_icons/dermal_barrier.png",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!LGQBpzN3jgVkUi7m.PYkGPzxaqJnlSmBQ"
+      "_key": "!actors.items!qNCB7kiyZ3zekE7P.A03tFtO2UlfIdmqj"
     },
     {
-      "_id": "uE1kwzQ6yKLlKX0G",
+      "_id": "bOgBFRlC3JHUCCVo",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!LGQBpzN3jgVkUi7m.uE1kwzQ6yKLlKX0G"
+      "_key": "!actors.items!qNCB7kiyZ3zekE7P.bOgBFRlC3JHUCCVo"
     },
     {
-      "_id": "ZpVTTnMA9HIXYbFS",
+      "_id": "LWNWcDGDA147dmry",
       "name": "Chainsaw",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -539,10 +539,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!LGQBpzN3jgVkUi7m.ZpVTTnMA9HIXYbFS"
+      "_key": "!actors.items!qNCB7kiyZ3zekE7P.LWNWcDGDA147dmry"
     },
     {
-      "_id": "IRlXqWRKsLePOlu9",
+      "_id": "XvogEidg2cpRT8e4",
       "name": "Gatling Gun (Powered)",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/gatling_gun.png",
@@ -641,10 +641,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!LGQBpzN3jgVkUi7m.IRlXqWRKsLePOlu9"
+      "_key": "!actors.items!qNCB7kiyZ3zekE7P.XvogEidg2cpRT8e4"
     },
     {
-      "_id": "zr0dcvDZTioyQPpg",
+      "_id": "Geyz34EadRJD9xQu",
       "name": "Sawed-Off Shotgun (Powered)",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/sawed_off_shotgun.png",
@@ -743,10 +743,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!LGQBpzN3jgVkUi7m.zr0dcvDZTioyQPpg"
+      "_key": "!actors.items!qNCB7kiyZ3zekE7P.Geyz34EadRJD9xQu"
     },
     {
-      "_id": "tAC66yijVPEvZwyF",
+      "_id": "8UypDk3cdMokYWfm",
       "name": "Fragmentation Grenade (1/Day)",
       "type": "feat",
       "img": "modules/cyberpunk-5e/assets/grenade_icons/fragmentation-grenade.png",
@@ -796,11 +796,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!LGQBpzN3jgVkUi7m.tAC66yijVPEvZwyF"
+      "_key": "!actors.items!qNCB7kiyZ3zekE7P.8UypDk3cdMokYWfm"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!LGQBpzN3jgVkUi7m"
+  "_key": "!actors!qNCB7kiyZ3zekE7P"
 }

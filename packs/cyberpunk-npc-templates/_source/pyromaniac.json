@@ -1,5 +1,5 @@
 {
-  "_id": "o1yfFLVS0ZfBgEdR",
+  "_id": "UxSahKAQRGWrqMRL",
   "name": "Pyromaniac",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -340,7 +340,7 @@
   },
   "items": [
     {
-      "_id": "MIA8dGz2nycMNCO2",
+      "_id": "MNMGp8zg5E50JAJO",
       "name": "Gas Masked",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,10 +390,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!o1yfFLVS0ZfBgEdR.MIA8dGz2nycMNCO2"
+      "_key": "!actors.items!UxSahKAQRGWrqMRL.MNMGp8zg5E50JAJO"
     },
     {
-      "_id": "q0CLhGIdVYVY66lK",
+      "_id": "mEVICYZlZljsqVFB",
       "name": "Smokesight",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -443,10 +443,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!o1yfFLVS0ZfBgEdR.q0CLhGIdVYVY66lK"
+      "_key": "!actors.items!UxSahKAQRGWrqMRL.mEVICYZlZljsqVFB"
     },
     {
-      "_id": "e5xpG4EMUBCxK7fS",
+      "_id": "h5yTIqTPFBvxAGQ0",
       "name": "It then makes two weapon attacks",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -545,10 +545,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!o1yfFLVS0ZfBgEdR.e5xpG4EMUBCxK7fS"
+      "_key": "!actors.items!UxSahKAQRGWrqMRL.h5yTIqTPFBvxAGQ0"
     },
     {
-      "_id": "Bw59EFFHMYBuxjVd",
+      "_id": "fRwfW7vJi1gkrPjM",
       "name": "Flamethrower",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -647,10 +647,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!o1yfFLVS0ZfBgEdR.Bw59EFFHMYBuxjVd"
+      "_key": "!actors.items!UxSahKAQRGWrqMRL.fRwfW7vJi1gkrPjM"
     },
     {
-      "_id": "jx9W6U0egR7LEAIE",
+      "_id": "IbSLb75xUShWHsaK",
       "name": "Napalm Grenade (2/Day)",
       "type": "feat",
       "img": "modules/cyberpunk-5e/assets/grenade_icons/napalm.png",
@@ -700,10 +700,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!o1yfFLVS0ZfBgEdR.jx9W6U0egR7LEAIE"
+      "_key": "!actors.items!UxSahKAQRGWrqMRL.IbSLb75xUShWHsaK"
     },
     {
-      "_id": "3OW3vMlxCBbxJcFc",
+      "_id": "xs4yEjvjBSbNUFGn",
       "name": "Dexterity saving throw",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -753,11 +753,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!o1yfFLVS0ZfBgEdR.3OW3vMlxCBbxJcFc"
+      "_key": "!actors.items!UxSahKAQRGWrqMRL.xs4yEjvjBSbNUFGn"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!o1yfFLVS0ZfBgEdR"
+  "_key": "!actors!UxSahKAQRGWrqMRL"
 }

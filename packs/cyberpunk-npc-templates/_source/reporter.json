@@ -1,5 +1,5 @@
 {
-  "_id": "j9euIDmAnPLQWqA7",
+  "_id": "j9XA6JPyNRNkPMTE",
   "name": "Reporter",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "Z57PqzQepuGDkX6m",
+      "_id": "VyEM02egWTYI1tF1",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!j9euIDmAnPLQWqA7.Z57PqzQepuGDkX6m"
+      "_key": "!actors.items!j9XA6JPyNRNkPMTE.VyEM02egWTYI1tF1"
     },
     {
-      "_id": "HKSWBeFsCAha8S7u",
+      "_id": "uJFNyp86bWH8xXDW",
       "name": "Stun Gun",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -486,10 +486,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!j9euIDmAnPLQWqA7.HKSWBeFsCAha8S7u"
+      "_key": "!actors.items!j9XA6JPyNRNkPMTE.uJFNyp86bWH8xXDW"
     },
     {
-      "_id": "ICfTk5WS4SaxdA6V",
+      "_id": "5kszN9Dxnqr7fG1q",
       "name": "Handgun",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/handgun.png",
@@ -584,10 +584,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!j9euIDmAnPLQWqA7.ICfTk5WS4SaxdA6V"
+      "_key": "!actors.items!j9XA6JPyNRNkPMTE.5kszN9Dxnqr7fG1q"
     },
     {
-      "_id": "663Fh9kN48XclfAJ",
+      "_id": "vxP5f58XN0hoePq3",
       "name": "Pepper Spray (2/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -637,10 +637,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!j9euIDmAnPLQWqA7.663Fh9kN48XclfAJ"
+      "_key": "!actors.items!j9XA6JPyNRNkPMTE.vxP5f58XN0hoePq3"
     },
     {
-      "_id": "aAPjSxcddYw0ezVF",
+      "_id": "kaMUL00tD6oeTylj",
       "name": "Uncanny Dodge",
       "type": "feat",
       "img": "icons/magic/air/air-wave-gust-blue.webp",
@@ -690,11 +690,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!j9euIDmAnPLQWqA7.aAPjSxcddYw0ezVF"
+      "_key": "!actors.items!j9XA6JPyNRNkPMTE.kaMUL00tD6oeTylj"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!j9euIDmAnPLQWqA7"
+  "_key": "!actors!j9XA6JPyNRNkPMTE"
 }

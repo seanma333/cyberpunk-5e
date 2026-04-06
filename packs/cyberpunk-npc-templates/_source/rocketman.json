@@ -1,5 +1,5 @@
 {
-  "_id": "NCPRmiIM8NGkwGmH",
+  "_id": "g3rhguK6CJtRKVLM",
   "name": "Rocketman",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "7J7qws01y6tRa3yi",
+      "_id": "kMX58t9m0aKiwrPh",
       "name": "Guided Missiles",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!NCPRmiIM8NGkwGmH.7J7qws01y6tRa3yi"
+      "_key": "!actors.items!g3rhguK6CJtRKVLM.kMX58t9m0aKiwrPh"
     },
     {
-      "_id": "Tw3k4yh4SCgMvhbG",
+      "_id": "Zig8GJnhGMxy1A1g",
       "name": "Internal Factory",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!NCPRmiIM8NGkwGmH.Tw3k4yh4SCgMvhbG"
+      "_key": "!actors.items!g3rhguK6CJtRKVLM.Zig8GJnhGMxy1A1g"
     },
     {
-      "_id": "ynum7t1wuOCf9vvo",
+      "_id": "Tc7rYoIPQ1NMvCmc",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -494,10 +494,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!NCPRmiIM8NGkwGmH.ynum7t1wuOCf9vvo"
+      "_key": "!actors.items!g3rhguK6CJtRKVLM.Tc7rYoIPQ1NMvCmc"
     },
     {
-      "_id": "ILceEiipTz55AEx0",
+      "_id": "vrSLZS4DqS0RdS9K",
       "name": "Rocket Butt",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -592,10 +592,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!NCPRmiIM8NGkwGmH.ILceEiipTz55AEx0"
+      "_key": "!actors.items!g3rhguK6CJtRKVLM.vrSLZS4DqS0RdS9K"
     },
     {
-      "_id": "ZQaXUfYQ3EBxHAiv",
+      "_id": "jsql5NGFOUcciHzI",
       "name": "Rocket Launcher",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -690,11 +690,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!NCPRmiIM8NGkwGmH.ZQaXUfYQ3EBxHAiv"
+      "_key": "!actors.items!g3rhguK6CJtRKVLM.jsql5NGFOUcciHzI"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!NCPRmiIM8NGkwGmH"
+  "_key": "!actors!g3rhguK6CJtRKVLM"
 }

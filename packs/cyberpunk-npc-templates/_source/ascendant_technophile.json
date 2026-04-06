@@ -1,5 +1,5 @@
 {
-  "_id": "qja8FIDiFsdUjGrx",
+  "_id": "SfJ3xFUM2lJpsTpB",
   "name": "Ascendant Technophile",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "yMRnR8SnvQSSqyEn",
+      "_id": "GPP5TMJVGZtndacR",
       "name": "Innate Spellcasting",
       "type": "feat",
       "img": "icons/magic/light/projectiles-star-purple.webp",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!qja8FIDiFsdUjGrx.yMRnR8SnvQSSqyEn"
+      "_key": "!actors.items!SfJ3xFUM2lJpsTpB.GPP5TMJVGZtndacR"
     },
     {
-      "_id": "iySmDZEmXUB7Jrgp",
+      "_id": "AGSKyXt43LQkVvaG",
       "name": "Integrated Weapons",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!qja8FIDiFsdUjGrx.iySmDZEmXUB7Jrgp"
+      "_key": "!actors.items!SfJ3xFUM2lJpsTpB.AGSKyXt43LQkVvaG"
     },
     {
-      "_id": "DtRkPVesRg2QYFVo",
+      "_id": "MoWbVanLT85gr5R4",
       "name": "Photosynthesis",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -494,10 +494,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!qja8FIDiFsdUjGrx.DtRkPVesRg2QYFVo"
+      "_key": "!actors.items!SfJ3xFUM2lJpsTpB.MoWbVanLT85gr5R4"
     },
     {
-      "_id": "cU9uVZYdKPEQAUrS",
+      "_id": "lByaqHUBj7hEX6Bq",
       "name": "Plant Hybrid",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -547,10 +547,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!qja8FIDiFsdUjGrx.cU9uVZYdKPEQAUrS"
+      "_key": "!actors.items!SfJ3xFUM2lJpsTpB.lByaqHUBj7hEX6Bq"
     },
     {
-      "_id": "8Q0t2qwxaCGEUIHR",
+      "_id": "esJCEuoWV0Z8uRh6",
       "name": "Proto Spider",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -600,10 +600,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!qja8FIDiFsdUjGrx.8Q0t2qwxaCGEUIHR"
+      "_key": "!actors.items!SfJ3xFUM2lJpsTpB.esJCEuoWV0Z8uRh6"
     },
     {
-      "_id": "Q4KLiKGQjlgwj6Z8",
+      "_id": "Hlr4nxNWOc6GVcb4",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -653,10 +653,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!qja8FIDiFsdUjGrx.Q4KLiKGQjlgwj6Z8"
+      "_key": "!actors.items!SfJ3xFUM2lJpsTpB.Hlr4nxNWOc6GVcb4"
     },
     {
-      "_id": "Dgwh8A7TtWxoObet",
+      "_id": "vpfd8dMxmrIZtxKE",
       "name": "Assault Cannon",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -751,10 +751,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!qja8FIDiFsdUjGrx.Dgwh8A7TtWxoObet"
+      "_key": "!actors.items!SfJ3xFUM2lJpsTpB.vpfd8dMxmrIZtxKE"
     },
     {
-      "_id": "8hCom9rui7pIzQRo",
+      "_id": "sKzNcOAGp3wJUdsf",
       "name": "Sawed-Off Shotgun (Powered)",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/sawed_off_shotgun.png",
@@ -849,10 +849,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!qja8FIDiFsdUjGrx.8hCom9rui7pIzQRo"
+      "_key": "!actors.items!SfJ3xFUM2lJpsTpB.sKzNcOAGp3wJUdsf"
     },
     {
-      "_id": "3MWtOHcNbVbz2Unv",
+      "_id": "b4ZSFwvG4AVoF4og",
       "name": "Plasma Emitter",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -902,10 +902,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!qja8FIDiFsdUjGrx.3MWtOHcNbVbz2Unv"
+      "_key": "!actors.items!SfJ3xFUM2lJpsTpB.b4ZSFwvG4AVoF4og"
     },
     {
-      "_id": "0SErSzdyvAeJKhWx",
+      "_id": "7v65OtIy31ZsZ7xq",
       "name": "Dexterity saving throw",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -955,10 +955,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!qja8FIDiFsdUjGrx.0SErSzdyvAeJKhWx"
+      "_key": "!actors.items!SfJ3xFUM2lJpsTpB.7v65OtIy31ZsZ7xq"
     },
     {
-      "_id": "onHT4dKWY7cXhTsy",
+      "_id": "RawGIdI0kLHteFiM",
       "name": "Neural Burst (1/Day)",
       "type": "feat",
       "img": "modules/cyberpunk-5e/assets/cyberware_icons/neural_burst.png",
@@ -1008,11 +1008,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!qja8FIDiFsdUjGrx.onHT4dKWY7cXhTsy"
+      "_key": "!actors.items!SfJ3xFUM2lJpsTpB.RawGIdI0kLHteFiM"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!qja8FIDiFsdUjGrx"
+  "_key": "!actors!SfJ3xFUM2lJpsTpB"
 }

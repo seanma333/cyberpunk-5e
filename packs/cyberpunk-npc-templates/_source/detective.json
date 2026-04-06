@@ -1,5 +1,5 @@
 {
-  "_id": "oksLOrGxeO8WVPk6",
+  "_id": "CuWmqldABNCtXn7l",
   "name": "Detective",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "0dImU1YmPnoeKMOd",
+      "_id": "6unE528i7cfscMhf",
       "name": "Freeze",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!oksLOrGxeO8WVPk6.0dImU1YmPnoeKMOd"
+      "_key": "!actors.items!CuWmqldABNCtXn7l.6unE528i7cfscMhf"
     },
     {
-      "_id": "Zs71xsOKoOipIey6",
+      "_id": "1lQ181AsaFLUQWrB",
       "name": "Hard Boiled",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!oksLOrGxeO8WVPk6.Zs71xsOKoOipIey6"
+      "_key": "!actors.items!CuWmqldABNCtXn7l.1lQ181AsaFLUQWrB"
     },
     {
-      "_id": "tlJoID6I80aV2W2H",
+      "_id": "OPgFyV6d7ewEJ32a",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -494,10 +494,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!oksLOrGxeO8WVPk6.tlJoID6I80aV2W2H"
+      "_key": "!actors.items!CuWmqldABNCtXn7l.OPgFyV6d7ewEJ32a"
     },
     {
-      "_id": "VAs4PHBkFoBSAX8q",
+      "_id": "DoqEOpHKyUmnAUxi",
       "name": "Scimitar",
       "type": "weapon",
       "img": "icons/weapons/swords/sword-katana.webp",
@@ -592,10 +592,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!oksLOrGxeO8WVPk6.VAs4PHBkFoBSAX8q"
+      "_key": "!actors.items!CuWmqldABNCtXn7l.DoqEOpHKyUmnAUxi"
     },
     {
-      "_id": "pG6GAGKk0vojiG6a",
+      "_id": "z0deKZqrmBBEFMYT",
       "name": "Magnum",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/magnum.png",
@@ -694,10 +694,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!oksLOrGxeO8WVPk6.pG6GAGKk0vojiG6a"
+      "_key": "!actors.items!CuWmqldABNCtXn7l.z0deKZqrmBBEFMYT"
     },
     {
-      "_id": "MaUZ5sxYBwZuaLjN",
+      "_id": "IreniFTH0SOxTyOf",
       "name": "Mark Suspect (3/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -747,10 +747,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!oksLOrGxeO8WVPk6.MaUZ5sxYBwZuaLjN"
+      "_key": "!actors.items!CuWmqldABNCtXn7l.IreniFTH0SOxTyOf"
     },
     {
-      "_id": "9rCzdZhnojfmz8gz",
+      "_id": "EGZ1FF7J4mr2BEFD",
       "name": "Read Motive",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -800,11 +800,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!oksLOrGxeO8WVPk6.9rCzdZhnojfmz8gz"
+      "_key": "!actors.items!CuWmqldABNCtXn7l.EGZ1FF7J4mr2BEFD"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!oksLOrGxeO8WVPk6"
+  "_key": "!actors!CuWmqldABNCtXn7l"
 }

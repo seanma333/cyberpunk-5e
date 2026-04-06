@@ -1,5 +1,5 @@
 {
-  "_id": "hnlQ1VtgEQDXGwsa",
+  "_id": "sVhN71L6uzrcIrhV",
   "name": "Prime Technomancer",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "IdvTGdmFdVwy0ZvS",
+      "_id": "uF2D4pdhcdOqocNa",
       "name": "Active Countermeasures (1/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!hnlQ1VtgEQDXGwsa.IdvTGdmFdVwy0ZvS"
+      "_key": "!actors.items!sVhN71L6uzrcIrhV.uF2D4pdhcdOqocNa"
     },
     {
-      "_id": "Tvwdgd9YKGPUfGzY",
+      "_id": "SoGcX5xyNDVqYAuE",
       "name": "Devious Sabotage",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!hnlQ1VtgEQDXGwsa.Tvwdgd9YKGPUfGzY"
+      "_key": "!actors.items!sVhN71L6uzrcIrhV.SoGcX5xyNDVqYAuE"
     },
     {
-      "_id": "6Uc311KthWjQBumD",
+      "_id": "OGq9TM66EjaFWvWa",
       "name": "Spellcasting",
       "type": "feat",
       "img": "icons/magic/light/projectiles-star-purple.webp",
@@ -494,10 +494,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!hnlQ1VtgEQDXGwsa.6Uc311KthWjQBumD"
+      "_key": "!actors.items!sVhN71L6uzrcIrhV.OGq9TM66EjaFWvWa"
     },
     {
-      "_id": "IhYaWs1xior0AVVH",
+      "_id": "mu6I8bUiepOR0ld0",
       "name": "Its spellcasting ability is Intelligence (spell save DC 18, +8 to\nhit with spell attacks)",
       "type": "feat",
       "img": "icons/magic/light/projectiles-star-purple.webp",
@@ -547,10 +547,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!hnlQ1VtgEQDXGwsa.IhYaWs1xior0AVVH"
+      "_key": "!actors.items!sVhN71L6uzrcIrhV.mu6I8bUiepOR0ld0"
     },
     {
-      "_id": "6Aa74sReWeQ6K4uR",
+      "_id": "pwTKxCCJES3UUOrJ",
       "name": "Combat Knife",
       "type": "weapon",
       "img": "icons/weapons/daggers/dagger-serrated-black.webp",
@@ -645,16 +645,16 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!hnlQ1VtgEQDXGwsa.6Aa74sReWeQ6K4uR"
+      "_key": "!actors.items!sVhN71L6uzrcIrhV.pwTKxCCJES3UUOrJ"
     },
     {
-      "_id": "NqnznyovPW3Z0Bja",
+      "_id": "wZibJFseMjyo79ip",
       "name": "Pulse (3/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
       "system": {
         "description": {
-          "value": "The technomancer forms an EMP at a point it can see within 60 feet of it. Machines, constructs, and vehicles within 30 feet of that point are subjected to EMP. Machines in the area cease to function for 1 minute. Constructs in the area with the Electronics feature must succeed on a DC 18 Constitution saving throw or they are stunned until the end of the technomancer's next turn. Vehicles in the area must succeed on a DC 18 Constitution saving throw or their movement speed is reduced to 0 and they can\u2019t take actions or reactions until the end of the technomancer's next turn. Additionally, wireless and radio connections in a 100-foot- radius centered on the point are suppressed for 1 minute.",
+          "value": "The technomancer forms an EMP at a point it can see within 60 feet of it. Machines, constructs, and vehicles within 30 feet of that point are subjected to EMP. Machines in the area cease to function for 1 minute. Constructs in the area with the Electronics feature must succeed on a DC 18 Constitution saving throw or they are stunned until the end of the technomancer's next turn. Vehicles in the area must succeed on a DC 18 Constitution saving throw or their movement speed is reduced to 0 and they can’t take actions or reactions until the end of the technomancer's next turn. Additionally, wireless and radio connections in a 100-foot- radius centered on the point are suppressed for 1 minute.",
           "chat": ""
         },
         "source": {
@@ -698,10 +698,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!hnlQ1VtgEQDXGwsa.NqnznyovPW3Z0Bja"
+      "_key": "!actors.items!sVhN71L6uzrcIrhV.wZibJFseMjyo79ip"
     },
     {
-      "_id": "ThlGbJqp5bmFYP7f",
+      "_id": "OdzkzWNpavC7glbR",
       "name": "Firewall",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -751,11 +751,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!hnlQ1VtgEQDXGwsa.ThlGbJqp5bmFYP7f"
+      "_key": "!actors.items!sVhN71L6uzrcIrhV.OdzkzWNpavC7glbR"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!hnlQ1VtgEQDXGwsa"
+  "_key": "!actors!sVhN71L6uzrcIrhV"
 }

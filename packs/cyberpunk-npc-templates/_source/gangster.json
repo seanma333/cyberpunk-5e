@@ -1,5 +1,5 @@
 {
-  "_id": "hJJfFcXTjjxqvMXy",
+  "_id": "ZryC6SWHyv520t5W",
   "name": "Gangster",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "RF4bQ9X84Sj43HUt",
+      "_id": "LeAZ1szRypvwR85u",
       "name": "Muse (1/Hour)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!hJJfFcXTjjxqvMXy.RF4bQ9X84Sj43HUt"
+      "_key": "!actors.items!ZryC6SWHyv520t5W.LeAZ1szRypvwR85u"
     },
     {
-      "_id": "laVlVCyG08kGFoWA",
+      "_id": "TDyDHpOzKH7TFnlq",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!hJJfFcXTjjxqvMXy.laVlVCyG08kGFoWA"
+      "_key": "!actors.items!ZryC6SWHyv520t5W.TDyDHpOzKH7TFnlq"
     },
     {
-      "_id": "KWCbltQvDjkpOyiL",
+      "_id": "v8zv99vPD1juzSBk",
       "name": "Spiked Bat",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -539,10 +539,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!hJJfFcXTjjxqvMXy.KWCbltQvDjkpOyiL"
+      "_key": "!actors.items!ZryC6SWHyv520t5W.v8zv99vPD1juzSBk"
     },
     {
-      "_id": "yCSyBV1ouNr64FaE",
+      "_id": "VPyAWc1eThu9tmw2",
       "name": "Revolver",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/revolver.png",
@@ -637,11 +637,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!hJJfFcXTjjxqvMXy.yCSyBV1ouNr64FaE"
+      "_key": "!actors.items!ZryC6SWHyv520t5W.VPyAWc1eThu9tmw2"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!hJJfFcXTjjxqvMXy"
+  "_key": "!actors!ZryC6SWHyv520t5W"
 }

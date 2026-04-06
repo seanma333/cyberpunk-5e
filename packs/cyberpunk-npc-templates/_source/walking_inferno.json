@@ -1,5 +1,5 @@
 {
-  "_id": "5zlnfL3XgjRaVK3r",
+  "_id": "8mXpBKIoDF5tk0X3",
   "name": "Walking Inferno",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -340,7 +340,7 @@
   },
   "items": [
     {
-      "_id": "ReuxLqXExHTFGf09",
+      "_id": "sqaXx4VUwbFmusOn",
       "name": "Backdraft",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,10 +390,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!5zlnfL3XgjRaVK3r.ReuxLqXExHTFGf09"
+      "_key": "!actors.items!8mXpBKIoDF5tk0X3.sqaXx4VUwbFmusOn"
     },
     {
-      "_id": "8BqnqgjHwlGWXGfQ",
+      "_id": "1iemPHRA3ALE39GT",
       "name": "Gas Masked",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -443,10 +443,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!5zlnfL3XgjRaVK3r.8BqnqgjHwlGWXGfQ"
+      "_key": "!actors.items!8mXpBKIoDF5tk0X3.1iemPHRA3ALE39GT"
     },
     {
-      "_id": "og69XF0Cegstswq8",
+      "_id": "LBX1XEnwIQdc6wjV",
       "name": "Immolated",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -496,10 +496,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!5zlnfL3XgjRaVK3r.og69XF0Cegstswq8"
+      "_key": "!actors.items!8mXpBKIoDF5tk0X3.LBX1XEnwIQdc6wjV"
     },
     {
-      "_id": "jjw5KqX8R7wnjzt5",
+      "_id": "oJuLJxzQx4sOUMgM",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -549,10 +549,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!5zlnfL3XgjRaVK3r.jjw5KqX8R7wnjzt5"
+      "_key": "!actors.items!8mXpBKIoDF5tk0X3.oJuLJxzQx4sOUMgM"
     },
     {
-      "_id": "m5rzYCOCRdR8imxm",
+      "_id": "BaB81hUMU2R6EKcd",
       "name": "Burning Chainsaw",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -647,10 +647,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!5zlnfL3XgjRaVK3r.m5rzYCOCRdR8imxm"
+      "_key": "!actors.items!8mXpBKIoDF5tk0X3.BaB81hUMU2R6EKcd"
     },
     {
-      "_id": "dBwCJtYMUwb4dpxx",
+      "_id": "vLROyjdVS9KpJRwI",
       "name": "Flamethrower",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -749,10 +749,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!5zlnfL3XgjRaVK3r.dBwCJtYMUwb4dpxx"
+      "_key": "!actors.items!8mXpBKIoDF5tk0X3.vLROyjdVS9KpJRwI"
     },
     {
-      "_id": "yne1HrQIgRcwQrOR",
+      "_id": "vOnOqTLdKuv8Vene",
       "name": "Napalm Grenade (2/Day)",
       "type": "feat",
       "img": "modules/cyberpunk-5e/assets/grenade_icons/napalm.png",
@@ -802,10 +802,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!5zlnfL3XgjRaVK3r.yne1HrQIgRcwQrOR"
+      "_key": "!actors.items!8mXpBKIoDF5tk0X3.vOnOqTLdKuv8Vene"
     },
     {
-      "_id": "C92LRP0IV6UGHKvr",
+      "_id": "3NU1Ntj0cYVsXDK1",
       "name": "Smokescreen",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -855,11 +855,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!5zlnfL3XgjRaVK3r.C92LRP0IV6UGHKvr"
+      "_key": "!actors.items!8mXpBKIoDF5tk0X3.3NU1Ntj0cYVsXDK1"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!5zlnfL3XgjRaVK3r"
+  "_key": "!actors!8mXpBKIoDF5tk0X3"
 }

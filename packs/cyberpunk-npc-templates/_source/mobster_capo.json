@@ -1,5 +1,5 @@
 {
-  "_id": "FXpaFSnFnNv6zBiZ",
+  "_id": "lbc5K1vpUVNVmrWx",
   "name": "Mobster Capo",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "uSxbympLMdUjpCDo",
+      "_id": "8CrtSR8HHSInrUCX",
       "name": "Smooth Step",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!FXpaFSnFnNv6zBiZ.uSxbympLMdUjpCDo"
+      "_key": "!actors.items!lbc5K1vpUVNVmrWx.8CrtSR8HHSInrUCX"
     },
     {
-      "_id": "P4DStyCfWX1KtrbX",
+      "_id": "usOQ6cm5isTE7Um0",
       "name": "Threaten",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!FXpaFSnFnNv6zBiZ.P4DStyCfWX1KtrbX"
+      "_key": "!actors.items!lbc5K1vpUVNVmrWx.usOQ6cm5isTE7Um0"
     },
     {
-      "_id": "gfgmPx6JOxwxTgQF",
+      "_id": "pilMgkF8cmKP9D3I",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -494,10 +494,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!FXpaFSnFnNv6zBiZ.gfgmPx6JOxwxTgQF"
+      "_key": "!actors.items!lbc5K1vpUVNVmrWx.pilMgkF8cmKP9D3I"
     },
     {
-      "_id": "GQsb4qhtrUc2ngUf",
+      "_id": "QVhKUSmNcgzDFVuP",
       "name": "Scimitar",
       "type": "weapon",
       "img": "icons/weapons/swords/sword-katana.webp",
@@ -592,10 +592,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!FXpaFSnFnNv6zBiZ.GQsb4qhtrUc2ngUf"
+      "_key": "!actors.items!lbc5K1vpUVNVmrWx.QVhKUSmNcgzDFVuP"
     },
     {
-      "_id": "M5zLbmMMBSkT05LJ",
+      "_id": "6FeSec7Rcuw7FVLE",
       "name": "Magnum (Powered)",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/magnum.png",
@@ -690,10 +690,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!FXpaFSnFnNv6zBiZ.M5zLbmMMBSkT05LJ"
+      "_key": "!actors.items!lbc5K1vpUVNVmrWx.6FeSec7Rcuw7FVLE"
     },
     {
-      "_id": "cy12436qwU3dSunb",
+      "_id": "nr916yzeKcOjxuey",
       "name": "Goad Accomplice",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -743,11 +743,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!FXpaFSnFnNv6zBiZ.cy12436qwU3dSunb"
+      "_key": "!actors.items!lbc5K1vpUVNVmrWx.nr916yzeKcOjxuey"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!FXpaFSnFnNv6zBiZ"
+  "_key": "!actors!lbc5K1vpUVNVmrWx"
 }

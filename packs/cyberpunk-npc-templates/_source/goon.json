@@ -1,5 +1,5 @@
 {
-  "_id": "tnxB9c1kuH3iakgB",
+  "_id": "XG6DvHFiVTR0nKgb",
   "name": "Goon",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "5xaWen57IjMBcZon",
+      "_id": "8K3CIRSTmbwfD2S4",
       "name": "Jagged Shiv",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -433,10 +433,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!tnxB9c1kuH3iakgB.5xaWen57IjMBcZon"
+      "_key": "!actors.items!XG6DvHFiVTR0nKgb.8K3CIRSTmbwfD2S4"
     },
     {
-      "_id": "WfH8SVPoHGi0j4ut",
+      "_id": "6BNDNKkvJTwl8Vc6",
       "name": "Handgun",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/handgun.png",
@@ -531,11 +531,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!tnxB9c1kuH3iakgB.WfH8SVPoHGi0j4ut"
+      "_key": "!actors.items!XG6DvHFiVTR0nKgb.6BNDNKkvJTwl8Vc6"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!tnxB9c1kuH3iakgB"
+  "_key": "!actors!XG6DvHFiVTR0nKgb"
 }

@@ -1,5 +1,5 @@
 {
-  "_id": "ry6gqDBbBNyCr5XO",
+  "_id": "D4LvAHnyG9GhTEN7",
   "name": "Nanomachine Hulk",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -342,7 +342,7 @@
   },
   "items": [
     {
-      "_id": "9dQuAEUfBmfd2LS3",
+      "_id": "xVYXxmh2tLqnOEev",
       "name": "Charge (1/Turn)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -392,10 +392,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!ry6gqDBbBNyCr5XO.9dQuAEUfBmfd2LS3"
+      "_key": "!actors.items!D4LvAHnyG9GhTEN7.xVYXxmh2tLqnOEev"
     },
     {
-      "_id": "tKoFCW0aJ45qc4p5",
+      "_id": "ixm9ELf1w6IpKQZ0",
       "name": "Deceptively Strong",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -445,10 +445,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!ry6gqDBbBNyCr5XO.tKoFCW0aJ45qc4p5"
+      "_key": "!actors.items!D4LvAHnyG9GhTEN7.ixm9ELf1w6IpKQZ0"
     },
     {
-      "_id": "XvwRaNbUe7JiC50C",
+      "_id": "9X4qYx8E6bIBAmeN",
       "name": "Legendary Resistance (3/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -498,10 +498,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!ry6gqDBbBNyCr5XO.XvwRaNbUe7JiC50C"
+      "_key": "!actors.items!D4LvAHnyG9GhTEN7.9X4qYx8E6bIBAmeN"
     },
     {
-      "_id": "mcaf6h4rLymBjSwE",
+      "_id": "P89qxBDv2pU0qfdv",
       "name": "Regeneration",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -551,10 +551,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!ry6gqDBbBNyCr5XO.mcaf6h4rLymBjSwE"
+      "_key": "!actors.items!D4LvAHnyG9GhTEN7.P89qxBDv2pU0qfdv"
     },
     {
-      "_id": "saederBKOvch5Foc",
+      "_id": "iLTRFe8rBFJFiO02",
       "name": "Rising Fury",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -604,10 +604,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!ry6gqDBbBNyCr5XO.saederBKOvch5Foc"
+      "_key": "!actors.items!D4LvAHnyG9GhTEN7.iLTRFe8rBFJFiO02"
     },
     {
-      "_id": "2jM4FpFaRPX8QpRu",
+      "_id": "FbcXTCOmeVyDDK2e",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -657,10 +657,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!ry6gqDBbBNyCr5XO.2jM4FpFaRPX8QpRu"
+      "_key": "!actors.items!D4LvAHnyG9GhTEN7.FbcXTCOmeVyDDK2e"
     },
     {
-      "_id": "VROv12IEBogmRDkU",
+      "_id": "ylPaUVqcRRFMdLfe",
       "name": "Smash",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -755,10 +755,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!ry6gqDBbBNyCr5XO.VROv12IEBogmRDkU"
+      "_key": "!actors.items!D4LvAHnyG9GhTEN7.ylPaUVqcRRFMdLfe"
     },
     {
-      "_id": "sqB8BR53Y4MFSasX",
+      "_id": "hHlVrvUbm0kzentK",
       "name": "Throw Object",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -848,10 +848,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!ry6gqDBbBNyCr5XO.sqB8BR53Y4MFSasX"
+      "_key": "!actors.items!D4LvAHnyG9GhTEN7.hHlVrvUbm0kzentK"
     },
     {
-      "_id": "dzR7IjvnPiZcGIpJ",
+      "_id": "kDVjEkKKyCFSqBS5",
       "name": "Nano-Hardening",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -901,10 +901,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!ry6gqDBbBNyCr5XO.dzR7IjvnPiZcGIpJ"
+      "_key": "!actors.items!D4LvAHnyG9GhTEN7.kDVjEkKKyCFSqBS5"
     },
     {
-      "_id": "7h3KclYYyyiRwF0E",
+      "_id": "ml7zwjK6s9Z9BVWa",
       "name": "Crush",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -954,10 +954,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!ry6gqDBbBNyCr5XO.7h3KclYYyyiRwF0E"
+      "_key": "!actors.items!D4LvAHnyG9GhTEN7.ml7zwjK6s9Z9BVWa"
     },
     {
-      "_id": "zTHXrO8caOPNsmNh",
+      "_id": "FvnjK3viUUSjDx1N",
       "name": "Throw",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -1007,10 +1007,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!ry6gqDBbBNyCr5XO.zTHXrO8caOPNsmNh"
+      "_key": "!actors.items!D4LvAHnyG9GhTEN7.FvnjK3viUUSjDx1N"
     },
     {
-      "_id": "YbEH3cdgV2T5D97U",
+      "_id": "KeMFRBqjk1vSueLx",
       "name": "Leap",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -1060,11 +1060,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!ry6gqDBbBNyCr5XO.YbEH3cdgV2T5D97U"
+      "_key": "!actors.items!D4LvAHnyG9GhTEN7.KeMFRBqjk1vSueLx"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!ry6gqDBbBNyCr5XO"
+  "_key": "!actors!D4LvAHnyG9GhTEN7"
 }

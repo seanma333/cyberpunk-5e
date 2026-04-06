@@ -1,5 +1,5 @@
 {
-  "_id": "bI5VzDAAtMnDMmrw",
+  "_id": "VNGuYBahRuOAI2iC",
   "name": "Pop Icon",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "LG8yvPanqUnLcVZe",
+      "_id": "ZX8fNw4yP7Okz3F7",
       "name": "Cult of Personality",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!bI5VzDAAtMnDMmrw.LG8yvPanqUnLcVZe"
+      "_key": "!actors.items!VNGuYBahRuOAI2iC.ZX8fNw4yP7Okz3F7"
     },
     {
-      "_id": "2XuqXuSvSYE9PdPg",
+      "_id": "oS549leqtbcgiNJ6",
       "name": "Inspire",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!bI5VzDAAtMnDMmrw.2XuqXuSvSYE9PdPg"
+      "_key": "!actors.items!VNGuYBahRuOAI2iC.oS549leqtbcgiNJ6"
     },
     {
-      "_id": "r1N2zLFyUSIwX3QR",
+      "_id": "b5TeuP6B39Ih8jBN",
       "name": "Spellcasting",
       "type": "feat",
       "img": "icons/magic/light/projectiles-star-purple.webp",
@@ -494,10 +494,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!bI5VzDAAtMnDMmrw.r1N2zLFyUSIwX3QR"
+      "_key": "!actors.items!VNGuYBahRuOAI2iC.b5TeuP6B39Ih8jBN"
     },
     {
-      "_id": "y8zggRKBidrJHtoi",
+      "_id": "MPR73BLfGA7GMs7S",
       "name": "Handgun",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/handgun.png",
@@ -592,10 +592,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!bI5VzDAAtMnDMmrw.y8zggRKBidrJHtoi"
+      "_key": "!actors.items!VNGuYBahRuOAI2iC.MPR73BLfGA7GMs7S"
     },
     {
-      "_id": "lhmGEJghf1JooyRJ",
+      "_id": "pEb194WLn1dS74Ax",
       "name": "Charming Demeanor",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -645,11 +645,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!bI5VzDAAtMnDMmrw.lhmGEJghf1JooyRJ"
+      "_key": "!actors.items!VNGuYBahRuOAI2iC.pEb194WLn1dS74Ax"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!bI5VzDAAtMnDMmrw"
+  "_key": "!actors!VNGuYBahRuOAI2iC"
 }

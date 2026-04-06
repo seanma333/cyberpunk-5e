@@ -1,5 +1,5 @@
 {
-  "_id": "UuCL9tvbTMlKkz6l",
+  "_id": "KMRv8JeMkzdMg4Ak",
   "name": "Elite Security Officer",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "MP6bPnbtIeAFGKg1",
+      "_id": "NCIckvNlNsHj66p6",
       "name": "Explosive (1/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!UuCL9tvbTMlKkz6l.MP6bPnbtIeAFGKg1"
+      "_key": "!actors.items!KMRv8JeMkzdMg4Ak.NCIckvNlNsHj66p6"
     },
     {
-      "_id": "aoSAEhk583Co97Mm",
+      "_id": "5XwTHkeMboOT3ZlJ",
       "name": "Sensory Enhancement",
       "type": "feat",
       "img": "modules/cyberpunk-5e/assets/cyberware_icons/sensory_enhancement.png",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!UuCL9tvbTMlKkz6l.aoSAEhk583Co97Mm"
+      "_key": "!actors.items!KMRv8JeMkzdMg4Ak.5XwTHkeMboOT3ZlJ"
     },
     {
-      "_id": "NIsUcI5cf5mti8Ny",
+      "_id": "SD8H9mnUOTUsTyll",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -494,10 +494,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!UuCL9tvbTMlKkz6l.NIsUcI5cf5mti8Ny"
+      "_key": "!actors.items!KMRv8JeMkzdMg4Ak.SD8H9mnUOTUsTyll"
     },
     {
-      "_id": "ZHcvftMJhRvAPM6h",
+      "_id": "j7yN5T6xbuumXyC0",
       "name": "Combat Knife",
       "type": "weapon",
       "img": "icons/weapons/daggers/dagger-serrated-black.webp",
@@ -596,10 +596,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!UuCL9tvbTMlKkz6l.ZHcvftMJhRvAPM6h"
+      "_key": "!actors.items!KMRv8JeMkzdMg4Ak.j7yN5T6xbuumXyC0"
     },
     {
-      "_id": "WY7MD43k17N6am5w",
+      "_id": "aj9mREnZxrRdxAMD",
       "name": "Light Machine Gun (Powered)",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/light_machine_gun.png",
@@ -698,10 +698,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!UuCL9tvbTMlKkz6l.WY7MD43k17N6am5w"
+      "_key": "!actors.items!KMRv8JeMkzdMg4Ak.aj9mREnZxrRdxAMD"
     },
     {
-      "_id": "8w5s0opiOVrurFp3",
+      "_id": "A6sir5T9UzAlTzYG",
       "name": "Reactive Plating (Recharges after a Short or Long\nRest)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -751,11 +751,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!UuCL9tvbTMlKkz6l.8w5s0opiOVrurFp3"
+      "_key": "!actors.items!KMRv8JeMkzdMg4Ak.A6sir5T9UzAlTzYG"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!UuCL9tvbTMlKkz6l"
+  "_key": "!actors!KMRv8JeMkzdMg4Ak"
 }

@@ -1,5 +1,5 @@
 {
-  "_id": "xABZPYeKxkIVFRpJ",
+  "_id": "rmOQZnpE9R8pnP7L",
   "name": "Mage Hunter",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "MCWjInLx0bOgAdsU",
+      "_id": "fM4Zq1a3CUwjJrAj",
       "name": "Magebreaker",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!xABZPYeKxkIVFRpJ.MCWjInLx0bOgAdsU"
+      "_key": "!actors.items!rmOQZnpE9R8pnP7L.fM4Zq1a3CUwjJrAj"
     },
     {
-      "_id": "HC2SXDIzj366yd5u",
+      "_id": "XzFvKQZFhDNuQ7cq",
       "name": "Magic Resistance",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!xABZPYeKxkIVFRpJ.HC2SXDIzj366yd5u"
+      "_key": "!actors.items!rmOQZnpE9R8pnP7L.XzFvKQZFhDNuQ7cq"
     },
     {
-      "_id": "Gu2IQXVtqwtkvqLA",
+      "_id": "mIC1dUPnLV7JSP4m",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -494,10 +494,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!xABZPYeKxkIVFRpJ.Gu2IQXVtqwtkvqLA"
+      "_key": "!actors.items!rmOQZnpE9R8pnP7L.mIC1dUPnLV7JSP4m"
     },
     {
-      "_id": "8s1uF0J12bmDlvrI",
+      "_id": "GbmdRs6I9wttbnlt",
       "name": "Silvered Longsword",
       "type": "weapon",
       "img": "icons/weapons/swords/greatsword-crossguard-steel.webp",
@@ -596,10 +596,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!xABZPYeKxkIVFRpJ.8s1uF0J12bmDlvrI"
+      "_key": "!actors.items!rmOQZnpE9R8pnP7L.GbmdRs6I9wttbnlt"
     },
     {
-      "_id": "jKZU49Ke1dpCEZeH",
+      "_id": "RTDvkMA5qs6k4NCD",
       "name": "Sniper Rifle (Powered)",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/sniper_rifle.png",
@@ -694,16 +694,16 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!xABZPYeKxkIVFRpJ.jKZU49Ke1dpCEZeH"
+      "_key": "!actors.items!rmOQZnpE9R8pnP7L.RTDvkMA5qs6k4NCD"
     },
     {
-      "_id": "rDFjdKaPwV0cQHY0",
+      "_id": "ZhNqFCC9iOVkP4jx",
       "name": "Antimagic Grenade (2/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
       "system": {
         "description": {
-          "value": "The hunter throws an antimagic grenade at a point within 60 feet of it. Creatures, objects, or magical effects within 10 feet of that point are subjected to a wave of antimagic. Any spell of 4th level or lower on the target ends. For each spell of higher level on the target, roll a d20 and add +3. If the result is equal to or greater than 10 + the spell\u2019s level, the spell ends.",
+          "value": "The hunter throws an antimagic grenade at a point within 60 feet of it. Creatures, objects, or magical effects within 10 feet of that point are subjected to a wave of antimagic. Any spell of 4th level or lower on the target ends. For each spell of higher level on the target, roll a d20 and add +3. If the result is equal to or greater than 10 + the spell’s level, the spell ends.",
           "chat": ""
         },
         "source": {
@@ -747,10 +747,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!xABZPYeKxkIVFRpJ.rDFjdKaPwV0cQHY0"
+      "_key": "!actors.items!rmOQZnpE9R8pnP7L.ZhNqFCC9iOVkP4jx"
     },
     {
-      "_id": "1bPUnsuWAy1SoGIb",
+      "_id": "7lAmFiivtCZBXLzi",
       "name": "Spell Counterstrike",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -800,11 +800,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!xABZPYeKxkIVFRpJ.1bPUnsuWAy1SoGIb"
+      "_key": "!actors.items!rmOQZnpE9R8pnP7L.7lAmFiivtCZBXLzi"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!xABZPYeKxkIVFRpJ"
+  "_key": "!actors!rmOQZnpE9R8pnP7L"
 }

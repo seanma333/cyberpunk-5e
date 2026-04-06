@@ -1,5 +1,5 @@
 {
-  "_id": "GrJnL7tIe1CSM8ys",
+  "_id": "5rJVdm6NHbDelUB4",
   "name": "Greater Nuclear Elemental",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -354,7 +354,7 @@
   },
   "items": [
     {
-      "_id": "uZygo4duEEmQrIwm",
+      "_id": "MZYrWP4jggcC7ev6",
       "name": "Half-Life",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -404,10 +404,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!GrJnL7tIe1CSM8ys.uZygo4duEEmQrIwm"
+      "_key": "!actors.items!5rJVdm6NHbDelUB4.MZYrWP4jggcC7ev6"
     },
     {
-      "_id": "06vAgjJu2v0HE2GX",
+      "_id": "rn5YXc166fzTRR9c",
       "name": "Toxic Form",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -457,10 +457,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!GrJnL7tIe1CSM8ys.06vAgjJu2v0HE2GX"
+      "_key": "!actors.items!5rJVdm6NHbDelUB4.rn5YXc166fzTRR9c"
     },
     {
-      "_id": "T3fiZtiwdSiX8Kqa",
+      "_id": "E9Amu84dQDF76H44",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -510,10 +510,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!GrJnL7tIe1CSM8ys.T3fiZtiwdSiX8Kqa"
+      "_key": "!actors.items!5rJVdm6NHbDelUB4.E9Amu84dQDF76H44"
     },
     {
-      "_id": "0zTpW0mJiLZqOv4O",
+      "_id": "APJD13NKJbcFLPga",
       "name": "Sickening Touch",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -608,10 +608,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!GrJnL7tIe1CSM8ys.0zTpW0mJiLZqOv4O"
+      "_key": "!actors.items!5rJVdm6NHbDelUB4.APJD13NKJbcFLPga"
     },
     {
-      "_id": "AVoqJmuLX2MMbukc",
+      "_id": "XNaaBpuo2F5P7pD3",
       "name": "Noxious Glow (Recharge 5-6)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -661,11 +661,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!GrJnL7tIe1CSM8ys.AVoqJmuLX2MMbukc"
+      "_key": "!actors.items!5rJVdm6NHbDelUB4.XNaaBpuo2F5P7pD3"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!GrJnL7tIe1CSM8ys"
+  "_key": "!actors!5rJVdm6NHbDelUB4"
 }

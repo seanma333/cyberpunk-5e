@@ -1,5 +1,5 @@
 {
-  "_id": "JgW0QvZYLkfK7i0y",
+  "_id": "8ehUZGbSBQdar5C0",
   "name": "Elite Technophile",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -340,7 +340,7 @@
   },
   "items": [
     {
-      "_id": "u0K0lrqD2Rx2oP4Y",
+      "_id": "vqc06Qx0OKQFVcjg",
       "name": "Chloroplast Skin",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,10 +390,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!JgW0QvZYLkfK7i0y.u0K0lrqD2Rx2oP4Y"
+      "_key": "!actors.items!8ehUZGbSBQdar5C0.vqc06Qx0OKQFVcjg"
     },
     {
-      "_id": "8P9tNEq5NgGBwRF2",
+      "_id": "7X0FzMQeoDsPbvH3",
       "name": "Elastic Joints",
       "type": "feat",
       "img": "modules/cyberpunk-5e/assets/cyberware_icons/elastic_joints.png",
@@ -443,10 +443,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!JgW0QvZYLkfK7i0y.8P9tNEq5NgGBwRF2"
+      "_key": "!actors.items!8ehUZGbSBQdar5C0.7X0FzMQeoDsPbvH3"
     },
     {
-      "_id": "f4ZE2vHFQBgwugh1",
+      "_id": "0fuV6hbmvLWwMrvV",
       "name": "Integrated Weapons",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -496,10 +496,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!JgW0QvZYLkfK7i0y.f4ZE2vHFQBgwugh1"
+      "_key": "!actors.items!8ehUZGbSBQdar5C0.0fuV6hbmvLWwMrvV"
     },
     {
-      "_id": "HJOn8yLYx2kA1O2l",
+      "_id": "Gv8qc98xZDhHlAfo",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -549,10 +549,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!JgW0QvZYLkfK7i0y.HJOn8yLYx2kA1O2l"
+      "_key": "!actors.items!8ehUZGbSBQdar5C0.Gv8qc98xZDhHlAfo"
     },
     {
-      "_id": "KIQJBygQ1CplzdlX",
+      "_id": "cdveK2lZcNFsXLXj",
       "name": "Pump Shotgun",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/pump_shotgun.png",
@@ -647,10 +647,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!JgW0QvZYLkfK7i0y.KIQJBygQ1CplzdlX"
+      "_key": "!actors.items!8ehUZGbSBQdar5C0.cdveK2lZcNFsXLXj"
     },
     {
-      "_id": "ICmFUYBCFk3dhva5",
+      "_id": "qjGMYB5VmSdlY9bg",
       "name": "Cold Blast",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -700,10 +700,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!JgW0QvZYLkfK7i0y.ICmFUYBCFk3dhva5"
+      "_key": "!actors.items!8ehUZGbSBQdar5C0.qjGMYB5VmSdlY9bg"
     },
     {
-      "_id": "uOLvcKQ7q46uFXAP",
+      "_id": "SLLFr0cCYuyp0mj5",
       "name": "Flame Burst",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -753,10 +753,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!JgW0QvZYLkfK7i0y.uOLvcKQ7q46uFXAP"
+      "_key": "!actors.items!8ehUZGbSBQdar5C0.SLLFr0cCYuyp0mj5"
     },
     {
-      "_id": "d9fUVxXu0oBhImTR",
+      "_id": "cITE0pd5rf9rxhvc",
       "name": "Lightning Surge",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -806,10 +806,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!JgW0QvZYLkfK7i0y.d9fUVxXu0oBhImTR"
+      "_key": "!actors.items!8ehUZGbSBQdar5C0.cITE0pd5rf9rxhvc"
     },
     {
-      "_id": "aLGCo2OvGS9QVb4S",
+      "_id": "MZluRyv1aL2NhAbl",
       "name": "Elastic Dodge (3/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -859,11 +859,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!JgW0QvZYLkfK7i0y.aLGCo2OvGS9QVb4S"
+      "_key": "!actors.items!8ehUZGbSBQdar5C0.MZluRyv1aL2NhAbl"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!JgW0QvZYLkfK7i0y"
+  "_key": "!actors!8ehUZGbSBQdar5C0"
 }

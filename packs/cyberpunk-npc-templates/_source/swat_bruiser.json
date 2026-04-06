@@ -1,5 +1,5 @@
 {
-  "_id": "MdGlbkjOXsAefGlW",
+  "_id": "JPJibklTD9YZr2id",
   "name": "Swat Bruiser",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "EZKqkJM50j0Qiirg",
+      "_id": "vgngnxRGDD92K5nc",
       "name": "Brute",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!MdGlbkjOXsAefGlW.EZKqkJM50j0Qiirg"
+      "_key": "!actors.items!JPJibklTD9YZr2id.vgngnxRGDD92K5nc"
     },
     {
-      "_id": "R5qIWlODYZy1EGjL",
+      "_id": "xe59wEmIRMC6lq1S",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!MdGlbkjOXsAefGlW.R5qIWlODYZy1EGjL"
+      "_key": "!actors.items!JPJibklTD9YZr2id.xe59wEmIRMC6lq1S"
     },
     {
-      "_id": "3uwVbfwr5A7MHvND",
+      "_id": "QTi5LInl7TJf9m5p",
       "name": "Shock Baton",
       "type": "weapon",
       "img": "icons/commodities/tech/tube-chamber-lightning.webp",
@@ -539,10 +539,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!MdGlbkjOXsAefGlW.3uwVbfwr5A7MHvND"
+      "_key": "!actors.items!JPJibklTD9YZr2id.QTi5LInl7TJf9m5p"
     },
     {
-      "_id": "CZxTQS3aJ6LRY9eD",
+      "_id": "AtRTh4857EqyEY3S",
       "name": "Shield Slam",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -637,10 +637,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!MdGlbkjOXsAefGlW.CZxTQS3aJ6LRY9eD"
+      "_key": "!actors.items!JPJibklTD9YZr2id.AtRTh4857EqyEY3S"
     },
     {
-      "_id": "rdQp1zrzC1DYpZ8h",
+      "_id": "1kB7QNwEyBSec5lU",
       "name": "Magnum",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/magnum.png",
@@ -735,11 +735,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!MdGlbkjOXsAefGlW.rdQp1zrzC1DYpZ8h"
+      "_key": "!actors.items!JPJibklTD9YZr2id.1kB7QNwEyBSec5lU"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!MdGlbkjOXsAefGlW"
+  "_key": "!actors!JPJibklTD9YZr2id"
 }

@@ -1,5 +1,5 @@
 {
-  "_id": "ub7NjJ4lqbpeUNL8",
+  "_id": "MjHbjL8qDN1DqS4V",
   "name": "Mobster",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "zHkRYacnnoCilJKf",
+      "_id": "6BoWp5ZXMzWIammm",
       "name": "Smooth Step",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!ub7NjJ4lqbpeUNL8.zHkRYacnnoCilJKf"
+      "_key": "!actors.items!MjHbjL8qDN1DqS4V.6BoWp5ZXMzWIammm"
     },
     {
-      "_id": "GedvwRWWOxeEiH7D",
+      "_id": "cfOjU5e8VOGAEHA3",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!ub7NjJ4lqbpeUNL8.GedvwRWWOxeEiH7D"
+      "_key": "!actors.items!MjHbjL8qDN1DqS4V.cfOjU5e8VOGAEHA3"
     },
     {
-      "_id": "bnn38LyX1QQ4Inlb",
+      "_id": "NxiKHUphCl6Zl1N1",
       "name": "Scimitar",
       "type": "weapon",
       "img": "icons/weapons/swords/sword-katana.webp",
@@ -539,10 +539,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!ub7NjJ4lqbpeUNL8.bnn38LyX1QQ4Inlb"
+      "_key": "!actors.items!MjHbjL8qDN1DqS4V.NxiKHUphCl6Zl1N1"
     },
     {
-      "_id": "YQpzpU4L5WUZirhH",
+      "_id": "X4jLcwsToITbLcUk",
       "name": "Light Machine Gun (Powered)",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/light_machine_gun.png",
@@ -637,11 +637,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!ub7NjJ4lqbpeUNL8.YQpzpU4L5WUZirhH"
+      "_key": "!actors.items!MjHbjL8qDN1DqS4V.X4jLcwsToITbLcUk"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!ub7NjJ4lqbpeUNL8"
+  "_key": "!actors!MjHbjL8qDN1DqS4V"
 }

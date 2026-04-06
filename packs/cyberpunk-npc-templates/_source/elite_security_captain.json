@@ -1,5 +1,5 @@
 {
-  "_id": "s7SxQ60fUVJnepBV",
+  "_id": "ZHXfgapL5wJIAPam",
   "name": "Elite Security Captain",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "oj8ewdxLalKQ9jlS",
+      "_id": "H9boXKvyQuinhOGF",
       "name": "Commanding Role",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!s7SxQ60fUVJnepBV.oj8ewdxLalKQ9jlS"
+      "_key": "!actors.items!ZHXfgapL5wJIAPam.H9boXKvyQuinhOGF"
     },
     {
-      "_id": "XpfgdOWs3dwKx5sq",
+      "_id": "MxseXWX10Q82heDp",
       "name": "Explosive (1/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!s7SxQ60fUVJnepBV.XpfgdOWs3dwKx5sq"
+      "_key": "!actors.items!ZHXfgapL5wJIAPam.MxseXWX10Q82heDp"
     },
     {
-      "_id": "2ap8AsEm9tmhclRO",
+      "_id": "aysP617AOYgVWDQ7",
       "name": "Sensory Enhancement",
       "type": "feat",
       "img": "modules/cyberpunk-5e/assets/cyberware_icons/sensory_enhancement.png",
@@ -494,10 +494,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!s7SxQ60fUVJnepBV.2ap8AsEm9tmhclRO"
+      "_key": "!actors.items!ZHXfgapL5wJIAPam.aysP617AOYgVWDQ7"
     },
     {
-      "_id": "5j1OSGPJIUkB1QCs",
+      "_id": "nh1dRN0RsJulCYYJ",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -547,10 +547,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!s7SxQ60fUVJnepBV.5j1OSGPJIUkB1QCs"
+      "_key": "!actors.items!ZHXfgapL5wJIAPam.nh1dRN0RsJulCYYJ"
     },
     {
-      "_id": "9KCPftgUkt7I7nKM",
+      "_id": "9kG5ekKZzzaY2UaD",
       "name": "Combat Knife",
       "type": "weapon",
       "img": "icons/weapons/daggers/dagger-serrated-black.webp",
@@ -649,10 +649,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!s7SxQ60fUVJnepBV.9KCPftgUkt7I7nKM"
+      "_key": "!actors.items!ZHXfgapL5wJIAPam.9kG5ekKZzzaY2UaD"
     },
     {
-      "_id": "yx7y7zgghqLG838j",
+      "_id": "zPG3jtuUNNiQuvxb",
       "name": "Light Machine Gun (Powered)",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/light_machine_gun.png",
@@ -751,10 +751,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!s7SxQ60fUVJnepBV.yx7y7zgghqLG838j"
+      "_key": "!actors.items!ZHXfgapL5wJIAPam.zPG3jtuUNNiQuvxb"
     },
     {
-      "_id": "MHauVeb6BeZUtH5a",
+      "_id": "1HiJPIhO12bTjn9X",
       "name": "Reactive Plating (Recharges after a Short or Long\nRest)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -804,11 +804,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!s7SxQ60fUVJnepBV.MHauVeb6BeZUtH5a"
+      "_key": "!actors.items!ZHXfgapL5wJIAPam.1HiJPIhO12bTjn9X"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!s7SxQ60fUVJnepBV"
+  "_key": "!actors!ZHXfgapL5wJIAPam"
 }

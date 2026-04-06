@@ -1,5 +1,5 @@
 {
-  "_id": "07ZxD0AHXgJfFPQC",
+  "_id": "Q18qZjCbiwx4v3Gf",
   "name": "Cataclysmic Anomaly",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -358,7 +358,7 @@
   },
   "items": [
     {
-      "_id": "bn9w8t8zD9gzA7ct",
+      "_id": "9p8XhlCIADJPi9UV",
       "name": "Innate Spellcasting",
       "type": "feat",
       "img": "icons/magic/light/projectiles-star-purple.webp",
@@ -408,10 +408,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!07ZxD0AHXgJfFPQC.bn9w8t8zD9gzA7ct"
+      "_key": "!actors.items!Q18qZjCbiwx4v3Gf.9p8XhlCIADJPi9UV"
     },
     {
-      "_id": "JacdaERksFkJtdHr",
+      "_id": "HpysTbSoy8ed9KEg",
       "name": "Charisma (spell save DC 21, +13 to hit with spell attacks)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -461,10 +461,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!07ZxD0AHXgJfFPQC.JacdaERksFkJtdHr"
+      "_key": "!actors.items!Q18qZjCbiwx4v3Gf.HpysTbSoy8ed9KEg"
     },
     {
-      "_id": "1i5baKH0xfzueWPQ",
+      "_id": "jJ31YoDaIrJRaxxt",
       "name": "Legendary Resistance (3/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -514,10 +514,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!07ZxD0AHXgJfFPQC.1i5baKH0xfzueWPQ"
+      "_key": "!actors.items!Q18qZjCbiwx4v3Gf.jJ31YoDaIrJRaxxt"
     },
     {
-      "_id": "K5F7nbY6elYDb1Iv",
+      "_id": "YqObvyJubx6jKLyn",
       "name": "Meltdown",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -567,10 +567,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!07ZxD0AHXgJfFPQC.K5F7nbY6elYDb1Iv"
+      "_key": "!actors.items!Q18qZjCbiwx4v3Gf.YqObvyJubx6jKLyn"
     },
     {
-      "_id": "4vrTfjdLhcGRXYIz",
+      "_id": "QRhTVJcQ4FUXOoXt",
       "name": "Wandering Wasteland",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -620,10 +620,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!07ZxD0AHXgJfFPQC.4vrTfjdLhcGRXYIz"
+      "_key": "!actors.items!Q18qZjCbiwx4v3Gf.QRhTVJcQ4FUXOoXt"
     },
     {
-      "_id": "2Nn0oMMCdMHWqs5W",
+      "_id": "N4waTeQOYaKznLwm",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -673,10 +673,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!07ZxD0AHXgJfFPQC.2Nn0oMMCdMHWqs5W"
+      "_key": "!actors.items!Q18qZjCbiwx4v3Gf.N4waTeQOYaKznLwm"
     },
     {
-      "_id": "3ycPfDo7LJMf7G3U",
+      "_id": "MYbZG7JiBHSOSrs7",
       "name": "Ionize",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -775,10 +775,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!07ZxD0AHXgJfFPQC.3ycPfDo7LJMf7G3U"
+      "_key": "!actors.items!Q18qZjCbiwx4v3Gf.MYbZG7JiBHSOSrs7"
     },
     {
-      "_id": "cjJuLCuLCUi6pyXv",
+      "_id": "cFVKADS6XfNKrBOP",
       "name": "Gamma Ray",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -873,10 +873,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!07ZxD0AHXgJfFPQC.cjJuLCuLCUi6pyXv"
+      "_key": "!actors.items!Q18qZjCbiwx4v3Gf.cFVKADS6XfNKrBOP"
     },
     {
-      "_id": "0fCPGfkyku3qzkIQ",
+      "_id": "unKP8uetdSiT8QhV",
       "name": "Critical Mass (Recharge 5-6)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -926,10 +926,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!07ZxD0AHXgJfFPQC.0fCPGfkyku3qzkIQ"
+      "_key": "!actors.items!Q18qZjCbiwx4v3Gf.unKP8uetdSiT8QhV"
     },
     {
-      "_id": "n6lJ7GYY1N2Imqqi",
+      "_id": "oZfmpdbMQyjPtYqg",
       "name": "Quantum Jump (3/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -979,10 +979,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!07ZxD0AHXgJfFPQC.n6lJ7GYY1N2Imqqi"
+      "_key": "!actors.items!Q18qZjCbiwx4v3Gf.oZfmpdbMQyjPtYqg"
     },
     {
-      "_id": "nJcGPy3a9q34MhQN",
+      "_id": "Fv7AZb13fB3aJiXX",
       "name": "Ray",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -1032,10 +1032,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!07ZxD0AHXgJfFPQC.nJcGPy3a9q34MhQN"
+      "_key": "!actors.items!Q18qZjCbiwx4v3Gf.Fv7AZb13fB3aJiXX"
     },
     {
-      "_id": "XtBEKJ6xYwbnjY1N",
+      "_id": "VMfhFLabcIBH47Tx",
       "name": "Ionize Attack",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -1085,10 +1085,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!07ZxD0AHXgJfFPQC.XtBEKJ6xYwbnjY1N"
+      "_key": "!actors.items!Q18qZjCbiwx4v3Gf.VMfhFLabcIBH47Tx"
     },
     {
-      "_id": "Ipk40uERASwMsote",
+      "_id": "X3m2VG6XITMpsxhM",
       "name": "Warp",
       "type": "feat",
       "img": "modules/cyberpunk-5e/assets/cyberware_icons/warp_cortex.png",
@@ -1138,10 +1138,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!07ZxD0AHXgJfFPQC.Ipk40uERASwMsote"
+      "_key": "!actors.items!Q18qZjCbiwx4v3Gf.X3m2VG6XITMpsxhM"
     },
     {
-      "_id": "E4BndMYw0TLMVhpd",
+      "_id": "67elaKGIx4WV7yru",
       "name": "Cast a Spell (Costs 2 Actions)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -1191,11 +1191,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!07ZxD0AHXgJfFPQC.E4BndMYw0TLMVhpd"
+      "_key": "!actors.items!Q18qZjCbiwx4v3Gf.67elaKGIx4WV7yru"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!07ZxD0AHXgJfFPQC"
+  "_key": "!actors!Q18qZjCbiwx4v3Gf"
 }

@@ -1,5 +1,5 @@
 {
-  "_id": "of4RrZIv1nUXjVVY",
+  "_id": "aKIx5RZs7IVOqI0I",
   "name": "Street Samurai",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "yztvo3vLXyPLtvsJ",
+      "_id": "ABkpu7rmu3qb2OGR",
       "name": "Aggressive",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!of4RrZIv1nUXjVVY.yztvo3vLXyPLtvsJ"
+      "_key": "!actors.items!aKIx5RZs7IVOqI0I.ABkpu7rmu3qb2OGR"
     },
     {
-      "_id": "P5UFn6W4rGVBTCPx",
+      "_id": "UeGGTazUDLWOp2iD",
       "name": "Unsheathe",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!of4RrZIv1nUXjVVY.P5UFn6W4rGVBTCPx"
+      "_key": "!actors.items!aKIx5RZs7IVOqI0I.UeGGTazUDLWOp2iD"
     },
     {
-      "_id": "LIeI2RGeIPL8Wlti",
+      "_id": "cgcPuSdKXmzH4N1T",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -494,10 +494,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!of4RrZIv1nUXjVVY.LIeI2RGeIPL8Wlti"
+      "_key": "!actors.items!aKIx5RZs7IVOqI0I.cgcPuSdKXmzH4N1T"
     },
     {
-      "_id": "kJpnlwz7ecMDuCS8",
+      "_id": "0J90uXOr4JzLebm4",
       "name": "Katana",
       "type": "weapon",
       "img": "icons/weapons/swords/sword-katana-purple.webp",
@@ -592,10 +592,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!of4RrZIv1nUXjVVY.kJpnlwz7ecMDuCS8"
+      "_key": "!actors.items!aKIx5RZs7IVOqI0I.0J90uXOr4JzLebm4"
     },
     {
-      "_id": "SNvXoXxsCr6lUd6E",
+      "_id": "bjeo3BUTxiMyV5YT",
       "name": "Reflected Missile",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -690,10 +690,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!of4RrZIv1nUXjVVY.SNvXoXxsCr6lUd6E"
+      "_key": "!actors.items!aKIx5RZs7IVOqI0I.bjeo3BUTxiMyV5YT"
     },
     {
-      "_id": "o6NmHlTpfAxJMqmC",
+      "_id": "bNxb0NBQfP966fKn",
       "name": "Reflect Missile",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -743,11 +743,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!of4RrZIv1nUXjVVY.o6NmHlTpfAxJMqmC"
+      "_key": "!actors.items!aKIx5RZs7IVOqI0I.bNxb0NBQfP966fKn"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!of4RrZIv1nUXjVVY"
+  "_key": "!actors!aKIx5RZs7IVOqI0I"
 }

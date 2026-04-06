@@ -1,5 +1,5 @@
 {
-  "_id": "p86nFxORAUwP0yu0",
+  "_id": "SPWUATWOGlmQdvJF",
   "name": "Elite Samurai",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "TqhcKEM66zxM3nir",
+      "_id": "VXhX7W1NKyLt8tmm",
       "name": "Aggressive",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!p86nFxORAUwP0yu0.TqhcKEM66zxM3nir"
+      "_key": "!actors.items!SPWUATWOGlmQdvJF.VXhX7W1NKyLt8tmm"
     },
     {
-      "_id": "StqUQWxnL1QdafnP",
+      "_id": "axQDN86r7LUrv3sY",
       "name": "Internal Battery (2/Day)",
       "type": "feat",
       "img": "modules/cyberpunk-5e/assets/cyberware_icons/internal_battery.png",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!p86nFxORAUwP0yu0.StqUQWxnL1QdafnP"
+      "_key": "!actors.items!SPWUATWOGlmQdvJF.axQDN86r7LUrv3sY"
     },
     {
-      "_id": "E1QRfVXf0TbaMBWT",
+      "_id": "c0IYIgFzaG67gU3r",
       "name": "Unsheathe",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -494,10 +494,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!p86nFxORAUwP0yu0.E1QRfVXf0TbaMBWT"
+      "_key": "!actors.items!SPWUATWOGlmQdvJF.c0IYIgFzaG67gU3r"
     },
     {
-      "_id": "agW0b4enLVjTtvnL",
+      "_id": "io9djcnJUodBUAs8",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -547,10 +547,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!p86nFxORAUwP0yu0.agW0b4enLVjTtvnL"
+      "_key": "!actors.items!SPWUATWOGlmQdvJF.io9djcnJUodBUAs8"
     },
     {
-      "_id": "UOTaRiM9D6s4pgVy",
+      "_id": "jWLaOUMx7ka727yC",
       "name": "Dual Katanas",
       "type": "weapon",
       "img": "icons/weapons/swords/sword-katana-purple.webp",
@@ -645,10 +645,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!p86nFxORAUwP0yu0.UOTaRiM9D6s4pgVy"
+      "_key": "!actors.items!SPWUATWOGlmQdvJF.jWLaOUMx7ka727yC"
     },
     {
-      "_id": "cSqNVaErnMwqOJWo",
+      "_id": "yGw1PQKkeV6FFbnf",
       "name": "Reflected Missile",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -743,10 +743,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!p86nFxORAUwP0yu0.cSqNVaErnMwqOJWo"
+      "_key": "!actors.items!SPWUATWOGlmQdvJF.yGw1PQKkeV6FFbnf"
     },
     {
-      "_id": "sTGEdmO1XLTf3YJT",
+      "_id": "eHqHU2lXKAxbix3i",
       "name": "Reflect Missile",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -796,11 +796,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!p86nFxORAUwP0yu0.sTGEdmO1XLTf3YJT"
+      "_key": "!actors.items!SPWUATWOGlmQdvJF.eHqHU2lXKAxbix3i"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!p86nFxORAUwP0yu0"
+  "_key": "!actors!SPWUATWOGlmQdvJF"
 }

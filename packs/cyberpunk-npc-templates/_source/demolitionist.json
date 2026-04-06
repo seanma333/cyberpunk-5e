@@ -1,5 +1,5 @@
 {
-  "_id": "z0lRB7gnEkUOqlUA",
+  "_id": "f4YfDrYb9ogbQoBG",
   "name": "Demolitionist",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "occlxQOs3GvGWap0",
+      "_id": "sWq9LehkaCXMOodx",
       "name": "Evasion",
       "type": "feat",
       "img": "icons/magic/water/pseudopod-teal.webp",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!z0lRB7gnEkUOqlUA.occlxQOs3GvGWap0"
+      "_key": "!actors.items!f4YfDrYb9ogbQoBG.sWq9LehkaCXMOodx"
     },
     {
-      "_id": "gYwUO2Qjx9sCkGWZ",
+      "_id": "h1fTgmW6q6yyJo5q",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!z0lRB7gnEkUOqlUA.gYwUO2Qjx9sCkGWZ"
+      "_key": "!actors.items!f4YfDrYb9ogbQoBG.h1fTgmW6q6yyJo5q"
     },
     {
-      "_id": "qMcj8T3A4NO9t5jp",
+      "_id": "DKwyyzfjE0GBQupc",
       "name": "Tomahawk",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -539,10 +539,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!z0lRB7gnEkUOqlUA.qMcj8T3A4NO9t5jp"
+      "_key": "!actors.items!f4YfDrYb9ogbQoBG.DKwyyzfjE0GBQupc"
     },
     {
-      "_id": "3eZjUvC7gtl1t6z5",
+      "_id": "AOgk1q7jlq5sRozJ",
       "name": "Handgun",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/handgun.png",
@@ -637,10 +637,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!z0lRB7gnEkUOqlUA.3eZjUvC7gtl1t6z5"
+      "_key": "!actors.items!f4YfDrYb9ogbQoBG.AOgk1q7jlq5sRozJ"
     },
     {
-      "_id": "ON6upCAxVyusXtNp",
+      "_id": "pCLUhJWnGJZvHsme",
       "name": "Fragmentation Grenade (4/Day)",
       "type": "feat",
       "img": "modules/cyberpunk-5e/assets/grenade_icons/fragmentation-grenade.png",
@@ -690,11 +690,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!z0lRB7gnEkUOqlUA.ON6upCAxVyusXtNp"
+      "_key": "!actors.items!f4YfDrYb9ogbQoBG.pCLUhJWnGJZvHsme"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!z0lRB7gnEkUOqlUA"
+  "_key": "!actors!f4YfDrYb9ogbQoBG"
 }

@@ -1,5 +1,5 @@
 {
-  "_id": "wGFiq0y9C2SI68jB",
+  "_id": "lGj1Xomq9MG3kH2N",
   "name": "Prime Sniper",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "xWTuCN9DFhW32Asn",
+      "_id": "kEdDQTU7Vd36WWIQ",
       "name": "Headshot",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!wGFiq0y9C2SI68jB.xWTuCN9DFhW32Asn"
+      "_key": "!actors.items!lGj1Xomq9MG3kH2N.kEdDQTU7Vd36WWIQ"
     },
     {
-      "_id": "a0PZCQO3dlB48HkG",
+      "_id": "WWqj8erggUADEuRr",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!wGFiq0y9C2SI68jB.a0PZCQO3dlB48HkG"
+      "_key": "!actors.items!lGj1Xomq9MG3kH2N.WWqj8erggUADEuRr"
     },
     {
-      "_id": "ZqHNqBCuP1ppkNLl",
+      "_id": "o61sMUnwqTVvd8fu",
       "name": "Combat Knife",
       "type": "weapon",
       "img": "icons/weapons/daggers/dagger-serrated-black.webp",
@@ -539,10 +539,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!wGFiq0y9C2SI68jB.ZqHNqBCuP1ppkNLl"
+      "_key": "!actors.items!lGj1Xomq9MG3kH2N.o61sMUnwqTVvd8fu"
     },
     {
-      "_id": "DnKqSFSXPaTO0c1Y",
+      "_id": "oQE7xg9OKUihW9kE",
       "name": "Sniper Rifle",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/sniper_rifle.png",
@@ -637,10 +637,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!wGFiq0y9C2SI68jB.DnKqSFSXPaTO0c1Y"
+      "_key": "!actors.items!lGj1Xomq9MG3kH2N.oQE7xg9OKUihW9kE"
     },
     {
-      "_id": "0O2XRMzk9wNZiAk4",
+      "_id": "N2AMXS4rcdhoLowv",
       "name": "Overwatch",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -690,10 +690,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!wGFiq0y9C2SI68jB.0O2XRMzk9wNZiAk4"
+      "_key": "!actors.items!lGj1Xomq9MG3kH2N.N2AMXS4rcdhoLowv"
     },
     {
-      "_id": "Nzxenh8IPXeCDIwt",
+      "_id": "XWoP1CqJyU6Q3OT6",
       "name": "Marksman",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -743,10 +743,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!wGFiq0y9C2SI68jB.Nzxenh8IPXeCDIwt"
+      "_key": "!actors.items!lGj1Xomq9MG3kH2N.XWoP1CqJyU6Q3OT6"
     },
     {
-      "_id": "QA5qR5amlHGeEgX7",
+      "_id": "hGGXzL0yKwHqnmpA",
       "name": "Steady Aim (1/Turn)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -796,11 +796,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!wGFiq0y9C2SI68jB.QA5qR5amlHGeEgX7"
+      "_key": "!actors.items!lGj1Xomq9MG3kH2N.hGGXzL0yKwHqnmpA"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!wGFiq0y9C2SI68jB"
+  "_key": "!actors!lGj1Xomq9MG3kH2N"
 }

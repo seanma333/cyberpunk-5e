@@ -1,5 +1,5 @@
 {
-  "_id": "ZQUWazxcbSojnbZa",
+  "_id": "QCJmefh0GP0goPct",
   "name": "Radioactive Ooze",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -350,7 +350,7 @@
   },
   "items": [
     {
-      "_id": "5lRFbXMAmgyfSeqc",
+      "_id": "ZW23j55Ey0VKHHfv",
       "name": "Hunger",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -400,10 +400,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!ZQUWazxcbSojnbZa.5lRFbXMAmgyfSeqc"
+      "_key": "!actors.items!QCJmefh0GP0goPct.ZW23j55Ey0VKHHfv"
     },
     {
-      "_id": "j0BICguFalkeniao",
+      "_id": "klDu9DJZTmeA5aU3",
       "name": "Pseudopod",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -502,10 +502,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!ZQUWazxcbSojnbZa.j0BICguFalkeniao"
+      "_key": "!actors.items!QCJmefh0GP0goPct.klDu9DJZTmeA5aU3"
     },
     {
-      "_id": "6LuvE8C3cxgdsIC2",
+      "_id": "ReyRqyVJ0rBHgC0G",
       "name": "Unstable Split",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -555,11 +555,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!ZQUWazxcbSojnbZa.6LuvE8C3cxgdsIC2"
+      "_key": "!actors.items!QCJmefh0GP0goPct.ReyRqyVJ0rBHgC0G"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!ZQUWazxcbSojnbZa"
+  "_key": "!actors!QCJmefh0GP0goPct"
 }

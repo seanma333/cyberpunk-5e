@@ -1,5 +1,5 @@
 {
-  "_id": "2HH5ux2YH3kbpXfS",
+  "_id": "Knd7RTJR8yIs0wIw",
   "name": "Chemist",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -342,7 +342,7 @@
   },
   "items": [
     {
-      "_id": "JN5pTiwAzvtt9GqS",
+      "_id": "ybPsa1lV23Ch3HPw",
       "name": "Corrosive Blood",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -392,10 +392,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!2HH5ux2YH3kbpXfS.JN5pTiwAzvtt9GqS"
+      "_key": "!actors.items!Knd7RTJR8yIs0wIw.ybPsa1lV23Ch3HPw"
     },
     {
-      "_id": "P4ulCaHGhH4Knnqw",
+      "_id": "ubfJ46RTUMzhBLOU",
       "name": "Stimulant Cocktail",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -445,10 +445,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!2HH5ux2YH3kbpXfS.P4ulCaHGhH4Knnqw"
+      "_key": "!actors.items!Knd7RTJR8yIs0wIw.ubfJ46RTUMzhBLOU"
     },
     {
-      "_id": "bkKja1TFnhRGKjxL",
+      "_id": "lo2bKwqsjUoTK8Kh",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -498,10 +498,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!2HH5ux2YH3kbpXfS.bkKja1TFnhRGKjxL"
+      "_key": "!actors.items!Knd7RTJR8yIs0wIw.lo2bKwqsjUoTK8Kh"
     },
     {
-      "_id": "J9ysX2VgFDY9a46Y",
+      "_id": "j6sJ4bAkvJVq8BTh",
       "name": "Syringe",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -600,10 +600,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!2HH5ux2YH3kbpXfS.J9ysX2VgFDY9a46Y"
+      "_key": "!actors.items!Knd7RTJR8yIs0wIw.j6sJ4bAkvJVq8BTh"
     },
     {
-      "_id": "jr9qMVwiYB0tNtu2",
+      "_id": "rRYivao1A0MzLE7x",
       "name": "Dart Gun (Powered)",
       "type": "weapon",
       "img": "icons/weapons/ammunition/arrows-bodkin-yellow-red.webp",
@@ -702,10 +702,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!2HH5ux2YH3kbpXfS.jr9qMVwiYB0tNtu2"
+      "_key": "!actors.items!Knd7RTJR8yIs0wIw.rRYivao1A0MzLE7x"
     },
     {
-      "_id": "8iGiF3QeesanTDvE",
+      "_id": "57147xBBxF97y7my",
       "name": "Chemical Reaction (5/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -755,10 +755,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!2HH5ux2YH3kbpXfS.8iGiF3QeesanTDvE"
+      "_key": "!actors.items!Knd7RTJR8yIs0wIw.57147xBBxF97y7my"
     },
     {
-      "_id": "HKQNeGXXjl1pM6WF",
+      "_id": "l488vjT6VC1uc0iP",
       "name": "Constitution saving throw",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -808,11 +808,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!2HH5ux2YH3kbpXfS.HKQNeGXXjl1pM6WF"
+      "_key": "!actors.items!Knd7RTJR8yIs0wIw.l488vjT6VC1uc0iP"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!2HH5ux2YH3kbpXfS"
+  "_key": "!actors!Knd7RTJR8yIs0wIw"
 }

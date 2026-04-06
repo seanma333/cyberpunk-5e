@@ -1,5 +1,5 @@
 {
-  "_id": "7e0Vy17QneAuMJdw",
+  "_id": "Rn4LXGPqVF0nvSND",
   "name": "Prime Samurai",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "uk80XaUSwoWOrMfY",
+      "_id": "lnPo4BI6lKCQlzbK",
       "name": "Aggressive",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!7e0Vy17QneAuMJdw.uk80XaUSwoWOrMfY"
+      "_key": "!actors.items!Rn4LXGPqVF0nvSND.lnPo4BI6lKCQlzbK"
     },
     {
-      "_id": "Rq0bQ2WaVevSOIgk",
+      "_id": "IOyKhulrLBni1nmE",
       "name": "Honorable Duel (2/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!7e0Vy17QneAuMJdw.Rq0bQ2WaVevSOIgk"
+      "_key": "!actors.items!Rn4LXGPqVF0nvSND.IOyKhulrLBni1nmE"
     },
     {
-      "_id": "i98q8nPwdSRcnwgo",
+      "_id": "Hh2iDwVBRjmTb88Y",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -494,10 +494,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!7e0Vy17QneAuMJdw.i98q8nPwdSRcnwgo"
+      "_key": "!actors.items!Rn4LXGPqVF0nvSND.Hh2iDwVBRjmTb88Y"
     },
     {
-      "_id": "kvDGUJBUpYz1Bq3a",
+      "_id": "18CmqFylVElnkG8b",
       "name": "Dual Katanas",
       "type": "weapon",
       "img": "icons/weapons/swords/sword-katana-purple.webp",
@@ -592,10 +592,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!7e0Vy17QneAuMJdw.kvDGUJBUpYz1Bq3a"
+      "_key": "!actors.items!Rn4LXGPqVF0nvSND.18CmqFylVElnkG8b"
     },
     {
-      "_id": "dBGuGiiYGSSZBHOT",
+      "_id": "mclmxxiosbwchQyU",
       "name": "Reflected Missile",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -690,11 +690,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!7e0Vy17QneAuMJdw.dBGuGiiYGSSZBHOT"
+      "_key": "!actors.items!Rn4LXGPqVF0nvSND.mclmxxiosbwchQyU"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!7e0Vy17QneAuMJdw"
+  "_key": "!actors!Rn4LXGPqVF0nvSND"
 }

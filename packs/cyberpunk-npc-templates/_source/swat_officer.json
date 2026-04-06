@@ -1,5 +1,5 @@
 {
-  "_id": "MqrUUr6nQl9VVPKH",
+  "_id": "ghmPLb8VkljdEXey",
   "name": "Swat Officer",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "OdcCI0WPdIOyULqc",
+      "_id": "6cGtzcBlzLHbDTzS",
       "name": "Gas Masked",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!MqrUUr6nQl9VVPKH.OdcCI0WPdIOyULqc"
+      "_key": "!actors.items!ghmPLb8VkljdEXey.6cGtzcBlzLHbDTzS"
     },
     {
-      "_id": "cirbX8ZW8JWeYi2q",
+      "_id": "TdgC0fTukRaS4h49",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!MqrUUr6nQl9VVPKH.cirbX8ZW8JWeYi2q"
+      "_key": "!actors.items!ghmPLb8VkljdEXey.TdgC0fTukRaS4h49"
     },
     {
-      "_id": "lPc5M1SPcYP3Dg9p",
+      "_id": "qCcWpqIelex6HHHg",
       "name": "Shock Baton",
       "type": "weapon",
       "img": "icons/commodities/tech/tube-chamber-lightning.webp",
@@ -539,10 +539,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!MqrUUr6nQl9VVPKH.lPc5M1SPcYP3Dg9p"
+      "_key": "!actors.items!ghmPLb8VkljdEXey.qCcWpqIelex6HHHg"
     },
     {
-      "_id": "apsYuS43ryX699ig",
+      "_id": "FJVxe5FjRrXYezrI",
       "name": "Light Machine Gun (Powered)",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/light_machine_gun.png",
@@ -637,10 +637,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!MqrUUr6nQl9VVPKH.apsYuS43ryX699ig"
+      "_key": "!actors.items!ghmPLb8VkljdEXey.FJVxe5FjRrXYezrI"
     },
     {
-      "_id": "kHj8EQNC76VCPIM4",
+      "_id": "WgtSv2smAH2vzWU1",
       "name": "Tear Gas (1/Day)",
       "type": "feat",
       "img": "modules/cyberpunk-5e/assets/grenade_icons/tear-gas.png",
@@ -690,11 +690,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!MqrUUr6nQl9VVPKH.kHj8EQNC76VCPIM4"
+      "_key": "!actors.items!ghmPLb8VkljdEXey.WgtSv2smAH2vzWU1"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!MqrUUr6nQl9VVPKH"
+  "_key": "!actors!ghmPLb8VkljdEXey"
 }

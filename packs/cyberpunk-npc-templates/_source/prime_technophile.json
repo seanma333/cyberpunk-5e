@@ -1,5 +1,5 @@
 {
-  "_id": "3FxVpKeelqJQdGIL",
+  "_id": "87vg2dGZ0O19mcA2",
   "name": "Prime Technophile",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -340,7 +340,7 @@
   },
   "items": [
     {
-      "_id": "hpiYbA8ycISOHhtb",
+      "_id": "5NWDb1enEVVzwcfP",
       "name": "Chloroplast Skin",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,10 +390,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!3FxVpKeelqJQdGIL.hpiYbA8ycISOHhtb"
+      "_key": "!actors.items!87vg2dGZ0O19mcA2.5NWDb1enEVVzwcfP"
     },
     {
-      "_id": "H3qb3TlQ7iKFCpis",
+      "_id": "2O10JEbvs9SN7i4B",
       "name": "Elastic Joints",
       "type": "feat",
       "img": "modules/cyberpunk-5e/assets/cyberware_icons/elastic_joints.png",
@@ -443,10 +443,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!3FxVpKeelqJQdGIL.H3qb3TlQ7iKFCpis"
+      "_key": "!actors.items!87vg2dGZ0O19mcA2.2O10JEbvs9SN7i4B"
     },
     {
-      "_id": "rsKYyH47WhI4vfpX",
+      "_id": "7rN8xIggGWnZDi6n",
       "name": "Integrated Weapons",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -496,10 +496,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!3FxVpKeelqJQdGIL.rsKYyH47WhI4vfpX"
+      "_key": "!actors.items!87vg2dGZ0O19mcA2.7rN8xIggGWnZDi6n"
     },
     {
-      "_id": "1zRMR073fWpzkSlG",
+      "_id": "cVbJ8xkhDJgB60Mf",
       "name": "Proto Arms",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -549,10 +549,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!3FxVpKeelqJQdGIL.1zRMR073fWpzkSlG"
+      "_key": "!actors.items!87vg2dGZ0O19mcA2.cVbJ8xkhDJgB60Mf"
     },
     {
-      "_id": "8cqBGXR7GRz7Duqk",
+      "_id": "sTCP9uELbb4OuxFK",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -602,10 +602,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!3FxVpKeelqJQdGIL.8cqBGXR7GRz7Duqk"
+      "_key": "!actors.items!87vg2dGZ0O19mcA2.sTCP9uELbb4OuxFK"
     },
     {
-      "_id": "2Ro8tXxEgbo6TVPq",
+      "_id": "Xxv0342mf9mm21eM",
       "name": "Pump Shotgun (Powered)",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/pump_shotgun.png",
@@ -700,10 +700,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!3FxVpKeelqJQdGIL.2Ro8tXxEgbo6TVPq"
+      "_key": "!actors.items!87vg2dGZ0O19mcA2.Xxv0342mf9mm21eM"
     },
     {
-      "_id": "1gPsO5SzaJw8FdCF",
+      "_id": "6xfF5Y5qZ028LwMd",
       "name": "Gatling Gun (Powered)",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/gatling_gun.png",
@@ -798,10 +798,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!3FxVpKeelqJQdGIL.1gPsO5SzaJw8FdCF"
+      "_key": "!actors.items!87vg2dGZ0O19mcA2.6xfF5Y5qZ028LwMd"
     },
     {
-      "_id": "ZvIDKW9B5WZAOqH8",
+      "_id": "1vorrnDclVXt7J7k",
       "name": "Flame Burst",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -851,10 +851,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!3FxVpKeelqJQdGIL.ZvIDKW9B5WZAOqH8"
+      "_key": "!actors.items!87vg2dGZ0O19mcA2.1vorrnDclVXt7J7k"
     },
     {
-      "_id": "2Rybag2wXvtYh4AJ",
+      "_id": "sV2vkss6MwOJkemj",
       "name": "Lightning Surge",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -904,10 +904,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!3FxVpKeelqJQdGIL.2Rybag2wXvtYh4AJ"
+      "_key": "!actors.items!87vg2dGZ0O19mcA2.sV2vkss6MwOJkemj"
     },
     {
-      "_id": "zyI6jEQYKu3aBbxk",
+      "_id": "LigfajNn0xQ2Ts1b",
       "name": "Elastic Dodge",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -957,11 +957,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!3FxVpKeelqJQdGIL.zyI6jEQYKu3aBbxk"
+      "_key": "!actors.items!87vg2dGZ0O19mcA2.LigfajNn0xQ2Ts1b"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!3FxVpKeelqJQdGIL"
+  "_key": "!actors!87vg2dGZ0O19mcA2"
 }

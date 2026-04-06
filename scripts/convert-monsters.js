@@ -636,7 +636,7 @@ function convertMonster(monster) {
       },
     },
     items: buildItems(monster).map((item) => {
-      item._key = `!actors.items!${id}!${item._id}`;
+      item._key = `!actors.items!${id}.${item._id}`;
       return item;
     }),
     effects: [],

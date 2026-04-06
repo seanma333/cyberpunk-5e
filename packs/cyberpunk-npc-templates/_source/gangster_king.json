@@ -1,5 +1,5 @@
 {
-  "_id": "i61YgRtnCLdvleng",
+  "_id": "5pwMwaFJUPjx0w5a",
   "name": "Gangster King",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "QaovY1XESyYXaTvX",
+      "_id": "v2Syr15gtoxP2uL5",
       "name": "Compel Underling",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!i61YgRtnCLdvleng.QaovY1XESyYXaTvX"
+      "_key": "!actors.items!5pwMwaFJUPjx0w5a.v2Syr15gtoxP2uL5"
     },
     {
-      "_id": "taEDnHK1U5Iv5ko4",
+      "_id": "YqLKBv7H8cuyFJoP",
       "name": "Muse (1/Hour)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!i61YgRtnCLdvleng.taEDnHK1U5Iv5ko4"
+      "_key": "!actors.items!5pwMwaFJUPjx0w5a.YqLKBv7H8cuyFJoP"
     },
     {
-      "_id": "fthDkS6Sa27SIBwu",
+      "_id": "EFWK7YDZP335icu1",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -494,10 +494,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!i61YgRtnCLdvleng.fthDkS6Sa27SIBwu"
+      "_key": "!actors.items!5pwMwaFJUPjx0w5a.EFWK7YDZP335icu1"
     },
     {
-      "_id": "ntCRkBRfiRorQnJG",
+      "_id": "nYoTNtlf3M611Acx",
       "name": "Sledgehammer",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -592,10 +592,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!i61YgRtnCLdvleng.ntCRkBRfiRorQnJG"
+      "_key": "!actors.items!5pwMwaFJUPjx0w5a.nYoTNtlf3M611Acx"
     },
     {
-      "_id": "HKRAS6JTscVCqmiE",
+      "_id": "NinpANPFT2UapMZy",
       "name": "Light Machine Gun (Powered)",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/light_machine_gun.png",
@@ -690,10 +690,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!i61YgRtnCLdvleng.HKRAS6JTscVCqmiE"
+      "_key": "!actors.items!5pwMwaFJUPjx0w5a.NinpANPFT2UapMZy"
     },
     {
-      "_id": "Om0XG5rwvGf21aBM",
+      "_id": "lCWCYGW1eRNYWcKX",
       "name": "Fragmentation Grenade (3/Day)",
       "type": "feat",
       "img": "modules/cyberpunk-5e/assets/grenade_icons/fragmentation-grenade.png",
@@ -743,10 +743,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!i61YgRtnCLdvleng.Om0XG5rwvGf21aBM"
+      "_key": "!actors.items!5pwMwaFJUPjx0w5a.lCWCYGW1eRNYWcKX"
     },
     {
-      "_id": "vV17pCcs4kR6evIg",
+      "_id": "iP1TiGA53beIBrlr",
       "name": "Dexterity saving throw",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -796,10 +796,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!i61YgRtnCLdvleng.vV17pCcs4kR6evIg"
+      "_key": "!actors.items!5pwMwaFJUPjx0w5a.iP1TiGA53beIBrlr"
     },
     {
-      "_id": "qtwgT5gi5wl6T4Vt",
+      "_id": "X0pCtx0e3tQLFP6x",
       "name": "Hell to Pay",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -849,11 +849,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!i61YgRtnCLdvleng.qtwgT5gi5wl6T4Vt"
+      "_key": "!actors.items!5pwMwaFJUPjx0w5a.X0pCtx0e3tQLFP6x"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!i61YgRtnCLdvleng"
+  "_key": "!actors!5pwMwaFJUPjx0w5a"
 }

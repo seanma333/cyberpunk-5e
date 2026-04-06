@@ -1,5 +1,5 @@
 {
-  "_id": "JCKoJrZsZNjJdMq0",
+  "_id": "uokgohw8uCcRqMSB",
   "name": "Biker Punk",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "A3PuNGhgObuA0USe",
+      "_id": "K7O9WMUyW1SU8gVr",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!JCKoJrZsZNjJdMq0.A3PuNGhgObuA0USe"
+      "_key": "!actors.items!uokgohw8uCcRqMSB.K7O9WMUyW1SU8gVr"
     },
     {
-      "_id": "ORnIOPC37oG0Tr3k",
+      "_id": "SJXpKDgdAKPSlMuO",
       "name": "Heavy Chain",
       "type": "weapon",
       "img": "icons/tools/fasteners/chain-steel-grey.webp",
@@ -486,10 +486,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!JCKoJrZsZNjJdMq0.ORnIOPC37oG0Tr3k"
+      "_key": "!actors.items!uokgohw8uCcRqMSB.SJXpKDgdAKPSlMuO"
     },
     {
-      "_id": "UttNnExi0gDawG0j",
+      "_id": "u7UlG6NIuzVWZhRs",
       "name": "Machine Pistol",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/machine_pistol.png",
@@ -584,10 +584,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!JCKoJrZsZNjJdMq0.UttNnExi0gDawG0j"
+      "_key": "!actors.items!uokgohw8uCcRqMSB.u7UlG6NIuzVWZhRs"
     },
     {
-      "_id": "d9j7C7JXH0Xk4BM7",
+      "_id": "LNCsmYLgYZL6CjTY",
       "name": "Bola",
       "type": "weapon",
       "img": "icons/weapons/thrown/bolas-steel.webp",
@@ -677,11 +677,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!JCKoJrZsZNjJdMq0.d9j7C7JXH0Xk4BM7"
+      "_key": "!actors.items!uokgohw8uCcRqMSB.LNCsmYLgYZL6CjTY"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!JCKoJrZsZNjJdMq0"
+  "_key": "!actors!uokgohw8uCcRqMSB"
 }

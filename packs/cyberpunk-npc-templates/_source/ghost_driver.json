@@ -1,5 +1,5 @@
 {
-  "_id": "vxE2nOKdMTJQhYMO",
+  "_id": "w5BkoqdgZhl02C7L",
   "name": "Ghost Driver",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -358,7 +358,7 @@
   },
   "items": [
     {
-      "_id": "BJJqArIlfwyLa2VV",
+      "_id": "k446IXq3dZCFDfl3",
       "name": "Incorporeal Movement",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -408,10 +408,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!vxE2nOKdMTJQhYMO.BJJqArIlfwyLa2VV"
+      "_key": "!actors.items!w5BkoqdgZhl02C7L.k446IXq3dZCFDfl3"
     },
     {
-      "_id": "pMbjq48qPUGR2pca",
+      "_id": "ULaTF5Ka3lfER4ys",
       "name": "Ghastly Wrecks",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -461,10 +461,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!vxE2nOKdMTJQhYMO.pMbjq48qPUGR2pca"
+      "_key": "!actors.items!w5BkoqdgZhl02C7L.ULaTF5Ka3lfER4ys"
     },
     {
-      "_id": "YBSAF9U1Z3Ze9ETb",
+      "_id": "LN5bdkSmlJAFvrUk",
       "name": "Fiery Chain attacks",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -559,10 +559,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!vxE2nOKdMTJQhYMO.YBSAF9U1Z3Ze9ETb"
+      "_key": "!actors.items!w5BkoqdgZhl02C7L.LN5bdkSmlJAFvrUk"
     },
     {
-      "_id": "Zg0HEFVC8gC0n3wd",
+      "_id": "XvsvMDeEfqThwOUH",
       "name": "Jealous Grip",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -657,10 +657,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!vxE2nOKdMTJQhYMO.Zg0HEFVC8gC0n3wd"
+      "_key": "!actors.items!w5BkoqdgZhl02C7L.XvsvMDeEfqThwOUH"
     },
     {
-      "_id": "a32wOIMgY15pjZBh",
+      "_id": "dQH17pvAolGaydSR",
       "name": "Hijack Vehicle (Recharge 6)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -710,11 +710,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!vxE2nOKdMTJQhYMO.a32wOIMgY15pjZBh"
+      "_key": "!actors.items!w5BkoqdgZhl02C7L.dQH17pvAolGaydSR"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!vxE2nOKdMTJQhYMO"
+  "_key": "!actors!w5BkoqdgZhl02C7L"
 }

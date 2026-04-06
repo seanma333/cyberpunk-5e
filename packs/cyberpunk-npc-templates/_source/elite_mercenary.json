@@ -1,5 +1,5 @@
 {
-  "_id": "F9y1AbTtcs38PeTs",
+  "_id": "JJwgJ9wISptVkIbj",
   "name": "Elite Mercenary",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "Q3dIFJUq50wSYz5T",
+      "_id": "QdNtmQDwrrFkZICo",
       "name": "Auto-Injector (1/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!F9y1AbTtcs38PeTs.Q3dIFJUq50wSYz5T"
+      "_key": "!actors.items!JJwgJ9wISptVkIbj.QdNtmQDwrrFkZICo"
     },
     {
-      "_id": "gOuBS8neowlIKxYs",
+      "_id": "ymVo59TIcViICXHa",
       "name": "Explosive (2/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!F9y1AbTtcs38PeTs.gOuBS8neowlIKxYs"
+      "_key": "!actors.items!JJwgJ9wISptVkIbj.ymVo59TIcViICXHa"
     },
     {
-      "_id": "bu2O7ETVferdOcN5",
+      "_id": "Ws98RteC5VYGos7a",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -494,10 +494,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!F9y1AbTtcs38PeTs.bu2O7ETVferdOcN5"
+      "_key": "!actors.items!JJwgJ9wISptVkIbj.Ws98RteC5VYGos7a"
     },
     {
-      "_id": "CbTsXhl5rIcZPkM3",
+      "_id": "VgNXuz4hO17DgmPn",
       "name": "Scimitar",
       "type": "weapon",
       "img": "icons/weapons/swords/sword-katana.webp",
@@ -596,10 +596,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!F9y1AbTtcs38PeTs.CbTsXhl5rIcZPkM3"
+      "_key": "!actors.items!JJwgJ9wISptVkIbj.VgNXuz4hO17DgmPn"
     },
     {
-      "_id": "IYSuwCfq8qAI5hQL",
+      "_id": "ViwMZReXPrzXZkXk",
       "name": "Light Machine Gun (Powered)",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/light_machine_gun.png",
@@ -698,11 +698,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!F9y1AbTtcs38PeTs.IYSuwCfq8qAI5hQL"
+      "_key": "!actors.items!JJwgJ9wISptVkIbj.ViwMZReXPrzXZkXk"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!F9y1AbTtcs38PeTs"
+  "_key": "!actors!JJwgJ9wISptVkIbj"
 }

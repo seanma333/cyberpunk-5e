@@ -1,5 +1,5 @@
 {
-  "_id": "3UKloOMVHQvPoxN2",
+  "_id": "nHGmfKchAKgBM7hb",
   "name": "Corporate Security Officer",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "tlNsPX4mjSQFjjAp",
+      "_id": "8W1t9nE6tJHwcMLb",
       "name": "Explosive (1/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!3UKloOMVHQvPoxN2.tlNsPX4mjSQFjjAp"
+      "_key": "!actors.items!nHGmfKchAKgBM7hb.8W1t9nE6tJHwcMLb"
     },
     {
-      "_id": "8T3Xc3moSX5rm0Pd",
+      "_id": "8xacos5dhRMX1pfy",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!3UKloOMVHQvPoxN2.8T3Xc3moSX5rm0Pd"
+      "_key": "!actors.items!nHGmfKchAKgBM7hb.8xacos5dhRMX1pfy"
     },
     {
-      "_id": "ajuEaNfAbV7gzmrZ",
+      "_id": "R4z1kdSP8C1wOKh3",
       "name": "Shock Baton",
       "type": "weapon",
       "img": "icons/commodities/tech/tube-chamber-lightning.webp",
@@ -539,10 +539,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!3UKloOMVHQvPoxN2.ajuEaNfAbV7gzmrZ"
+      "_key": "!actors.items!nHGmfKchAKgBM7hb.R4z1kdSP8C1wOKh3"
     },
     {
-      "_id": "GyAtn902xRFoN0P8",
+      "_id": "JTb8C4AtdqMI4egC",
       "name": "Assault Rifle",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/assault_rifle.png",
@@ -637,11 +637,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!3UKloOMVHQvPoxN2.GyAtn902xRFoN0P8"
+      "_key": "!actors.items!nHGmfKchAKgBM7hb.JTb8C4AtdqMI4egC"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!3UKloOMVHQvPoxN2"
+  "_key": "!actors!nHGmfKchAKgBM7hb"
 }

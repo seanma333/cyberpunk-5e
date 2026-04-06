@@ -1,5 +1,5 @@
 {
-  "_id": "Hkl0gIi4eoutFVw4",
+  "_id": "p2Dj4ZrdTxqWA8Kg",
   "name": "Nuclear Elemental",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -354,7 +354,7 @@
   },
   "items": [
     {
-      "_id": "HYvlmxYIwBrv0dWp",
+      "_id": "bapgTjCMxNdwXmmh",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -404,10 +404,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!Hkl0gIi4eoutFVw4.HYvlmxYIwBrv0dWp"
+      "_key": "!actors.items!p2Dj4ZrdTxqWA8Kg.bapgTjCMxNdwXmmh"
     },
     {
-      "_id": "UvtLLJstrHddelpL",
+      "_id": "ZvUkNrb8OKbmuZ5e",
       "name": "Sickening Touch",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -502,10 +502,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!Hkl0gIi4eoutFVw4.UvtLLJstrHddelpL"
+      "_key": "!actors.items!p2Dj4ZrdTxqWA8Kg.ZvUkNrb8OKbmuZ5e"
     },
     {
-      "_id": "LORybRkogma945L9",
+      "_id": "TrQDs9RfkZ5w1iOr",
       "name": "Noxious Glow (Recharge 5-6)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -555,11 +555,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!Hkl0gIi4eoutFVw4.LORybRkogma945L9"
+      "_key": "!actors.items!p2Dj4ZrdTxqWA8Kg.TrQDs9RfkZ5w1iOr"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!Hkl0gIi4eoutFVw4"
+  "_key": "!actors!p2Dj4ZrdTxqWA8Kg"
 }

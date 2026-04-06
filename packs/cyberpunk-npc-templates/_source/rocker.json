@@ -1,5 +1,5 @@
 {
-  "_id": "JTekXk8vsYM0OX2f",
+  "_id": "23o4KsuInTjSGDFb",
   "name": "Rocker",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "dN90ACqw2qOgp4bu",
+      "_id": "ZiXdc6Z1LRBlxtyT",
       "name": "Radical Shout",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!JTekXk8vsYM0OX2f.dN90ACqw2qOgp4bu"
+      "_key": "!actors.items!23o4KsuInTjSGDFb.ZiXdc6Z1LRBlxtyT"
     },
     {
-      "_id": "BeRVSJAJl2dQYbUL",
+      "_id": "WIdO8xAD5Sc8JKJG",
       "name": "Spellcasting",
       "type": "feat",
       "img": "icons/magic/light/projectiles-star-purple.webp",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!JTekXk8vsYM0OX2f.BeRVSJAJl2dQYbUL"
+      "_key": "!actors.items!23o4KsuInTjSGDFb.WIdO8xAD5Sc8JKJG"
     },
     {
-      "_id": "mErMO4lp2riwQgpS",
+      "_id": "z1zwet15RTX7z3dj",
       "name": "Combat Knife",
       "type": "weapon",
       "img": "icons/weapons/daggers/dagger-serrated-black.webp",
@@ -539,10 +539,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!JTekXk8vsYM0OX2f.mErMO4lp2riwQgpS"
+      "_key": "!actors.items!23o4KsuInTjSGDFb.z1zwet15RTX7z3dj"
     },
     {
-      "_id": "v1Xt3RugyVF3LPG7",
+      "_id": "RYVskDE7UVRPoNFG",
       "name": "Submachine Gun",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/submachine_gun.png",
@@ -637,11 +637,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!JTekXk8vsYM0OX2f.v1Xt3RugyVF3LPG7"
+      "_key": "!actors.items!23o4KsuInTjSGDFb.RYVskDE7UVRPoNFG"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!JTekXk8vsYM0OX2f"
+  "_key": "!actors!23o4KsuInTjSGDFb"
 }

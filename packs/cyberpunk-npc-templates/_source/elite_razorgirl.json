@@ -1,5 +1,5 @@
 {
-  "_id": "nRg9Z8hyxKVSgS6D",
+  "_id": "MV23YyYPGzDCIkXQ",
   "name": "Elite Razorgirl",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "Gwi33MTyk5DnuV9U",
+      "_id": "VROhy19el3Lz9PT8",
       "name": "Evasion",
       "type": "feat",
       "img": "icons/magic/water/pseudopod-teal.webp",
@@ -388,10 +388,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!nRg9Z8hyxKVSgS6D.Gwi33MTyk5DnuV9U"
+      "_key": "!actors.items!MV23YyYPGzDCIkXQ.VROhy19el3Lz9PT8"
     },
     {
-      "_id": "nDVhVm8CKz0bwMjj",
+      "_id": "w3VQ14EQmrUGReBO",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
@@ -441,10 +441,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!nRg9Z8hyxKVSgS6D.nDVhVm8CKz0bwMjj"
+      "_key": "!actors.items!MV23YyYPGzDCIkXQ.w3VQ14EQmrUGReBO"
     },
     {
-      "_id": "f1RUbJsnOgaN7Rjp",
+      "_id": "BYqcIMzczOf0qnyq",
       "name": "Cyberclaws",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/cyberware_icons/cyberclaws.png",
@@ -543,10 +543,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!nRg9Z8hyxKVSgS6D.f1RUbJsnOgaN7Rjp"
+      "_key": "!actors.items!MV23YyYPGzDCIkXQ.BYqcIMzczOf0qnyq"
     },
     {
-      "_id": "lNn9E4NRsXNVNzNa",
+      "_id": "S4ywX0Zmx1uZWtPV",
       "name": "Magnum (Powered)",
       "type": "weapon",
       "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/magnum.png",
@@ -641,10 +641,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!nRg9Z8hyxKVSgS6D.lNn9E4NRsXNVNzNa"
+      "_key": "!actors.items!MV23YyYPGzDCIkXQ.S4ywX0Zmx1uZWtPV"
     },
     {
-      "_id": "swg0T1bGQXdgaXzN",
+      "_id": "4KtRLHwidvENPAG9",
       "name": "Hydraulic Kick",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -739,10 +739,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!nRg9Z8hyxKVSgS6D.swg0T1bGQXdgaXzN"
+      "_key": "!actors.items!MV23YyYPGzDCIkXQ.4KtRLHwidvENPAG9"
     },
     {
-      "_id": "NnM5gJwOrPI87KVo",
+      "_id": "1PNmpen1GtDj24q4",
       "name": "Uncanny Dodge",
       "type": "feat",
       "img": "icons/magic/air/air-wave-gust-blue.webp",
@@ -792,10 +792,10 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!nRg9Z8hyxKVSgS6D.NnM5gJwOrPI87KVo"
+      "_key": "!actors.items!MV23YyYPGzDCIkXQ.1PNmpen1GtDj24q4"
     },
     {
-      "_id": "U5f1WMkBnKDnpO0F",
+      "_id": "PX7QHIablhPlh8Ei",
       "name": "Hydraulic Landing (Recharges on a Short or Long\nRest)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -845,11 +845,11 @@
       },
       "effects": [],
       "flags": {},
-      "_key": "!actors.items!nRg9Z8hyxKVSgS6D.U5f1WMkBnKDnpO0F"
+      "_key": "!actors.items!MV23YyYPGzDCIkXQ.PX7QHIablhPlh8Ei"
     }
   ],
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!nRg9Z8hyxKVSgS6D"
+  "_key": "!actors!MV23YyYPGzDCIkXQ"
 }
