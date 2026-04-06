@@ -387,7 +387,8 @@
         }
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!xABZPYeKxkIVFRpJ.MCWjInLx0bOgAdsU"
     },
     {
       "_id": "HC2SXDIzj366yd5u",
@@ -439,7 +440,8 @@
         }
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!xABZPYeKxkIVFRpJ.HC2SXDIzj366yd5u"
     },
     {
       "_id": "Gu2IQXVtqwtkvqLA",
@@ -491,7 +493,8 @@
         }
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!xABZPYeKxkIVFRpJ.Gu2IQXVtqwtkvqLA"
     },
     {
       "_id": "8s1uF0J12bmDlvrI",
@@ -592,7 +595,8 @@
         "proficient": null
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!xABZPYeKxkIVFRpJ.8s1uF0J12bmDlvrI"
     },
     {
       "_id": "jKZU49Ke1dpCEZeH",
@@ -689,7 +693,8 @@
         "proficient": null
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!xABZPYeKxkIVFRpJ.jKZU49Ke1dpCEZeH"
     },
     {
       "_id": "rDFjdKaPwV0cQHY0",
@@ -698,7 +703,7 @@
       "img": "icons/svg/upgrade.svg",
       "system": {
         "description": {
-          "value": "The hunter throws an antimagic grenade at a point within 60 feet of it. Creatures, objects, or magical effects within 10 feet of that point are subjected to a wave of antimagic. Any spell of 4th level or lower on the target ends. For each spell of higher level on the target, roll a d20 and add +3. If the result is equal to or greater than 10 + the spell’s level, the spell ends.",
+          "value": "The hunter throws an antimagic grenade at a point within 60 feet of it. Creatures, objects, or magical effects within 10 feet of that point are subjected to a wave of antimagic. Any spell of 4th level or lower on the target ends. For each spell of higher level on the target, roll a d20 and add +3. If the result is equal to or greater than 10 + the spell\u2019s level, the spell ends.",
           "chat": ""
         },
         "source": {
@@ -741,7 +746,8 @@
         }
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!xABZPYeKxkIVFRpJ.rDFjdKaPwV0cQHY0"
     },
     {
       "_id": "1bPUnsuWAy1SoGIb",
@@ -793,7 +799,8 @@
         }
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!xABZPYeKxkIVFRpJ.1bPUnsuWAy1SoGIb"
     }
   ],
   "effects": [],

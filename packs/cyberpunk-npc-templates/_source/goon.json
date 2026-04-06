@@ -432,7 +432,8 @@
         "proficient": null
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!tnxB9c1kuH3iakgB.5xaWen57IjMBcZon"
     },
     {
       "_id": "WfH8SVPoHGi0j4ut",
@@ -529,7 +530,8 @@
         "proficient": null
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!tnxB9c1kuH3iakgB.WfH8SVPoHGi0j4ut"
     }
   ],
   "effects": [],

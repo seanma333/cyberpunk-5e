@@ -387,7 +387,8 @@
         }
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!JCKoJrZsZNjJdMq0.A3PuNGhgObuA0USe"
     },
     {
       "_id": "ORnIOPC37oG0Tr3k",
@@ -484,7 +485,8 @@
         "proficient": null
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!JCKoJrZsZNjJdMq0.ORnIOPC37oG0Tr3k"
     },
     {
       "_id": "UttNnExi0gDawG0j",
@@ -581,7 +583,8 @@
         "proficient": null
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!JCKoJrZsZNjJdMq0.UttNnExi0gDawG0j"
     },
     {
       "_id": "d9j7C7JXH0Xk4BM7",
@@ -673,7 +676,8 @@
         "proficient": null
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!JCKoJrZsZNjJdMq0.d9j7C7JXH0Xk4BM7"
     }
   ],
   "effects": [],

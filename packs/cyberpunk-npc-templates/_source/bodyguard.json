@@ -387,7 +387,8 @@
         }
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!RbjrF5CTH4xtUzth.qHCDnby1yHXXIc1G"
     },
     {
       "_id": "zjjaM6v7y90bbDvT",
@@ -439,7 +440,8 @@
         }
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!RbjrF5CTH4xtUzth.zjjaM6v7y90bbDvT"
     },
     {
       "_id": "Fc0Du01mAoWqT55t",
@@ -536,7 +538,8 @@
         "proficient": null
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!RbjrF5CTH4xtUzth.Fc0Du01mAoWqT55t"
     },
     {
       "_id": "F8QPbVQM1WyKwyDZ",
@@ -633,7 +636,8 @@
         "proficient": null
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!RbjrF5CTH4xtUzth.F8QPbVQM1WyKwyDZ"
     },
     {
       "_id": "B1Bs2ubfssPSz98n",
@@ -642,7 +646,7 @@
       "img": "icons/svg/upgrade.svg",
       "system": {
         "description": {
-          "value": "When a creature the bodyguard can see makes an attack against a creature the bodyguard is guarding, the bodyguard can move up to half its movement speed. At the end of this movement, if the bodyguard is within within 5 feet of the target of the attack, it can force the attack to target the bodyguard instead. This movement doesn’t provoke opportunity attacks. these overpriced lemmings, but they pay enough that some poor bastards will always be willing to take the job.",
+          "value": "When a creature the bodyguard can see makes an attack against a creature the bodyguard is guarding, the bodyguard can move up to half its movement speed. At the end of this movement, if the bodyguard is within within 5 feet of the target of the attack, it can force the attack to target the bodyguard instead. This movement doesn\u2019t provoke opportunity attacks. these overpriced lemmings, but they pay enough that some poor bastards will always be willing to take the job.",
           "chat": ""
         },
         "source": {
@@ -685,7 +689,8 @@
         }
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!RbjrF5CTH4xtUzth.B1Bs2ubfssPSz98n"
     }
   ],
   "effects": [],

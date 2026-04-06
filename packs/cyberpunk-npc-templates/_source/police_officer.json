@@ -432,7 +432,8 @@
         "proficient": null
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!9dcoWGeqorTEKXyQ.7fB25ClqWfzHxVKV"
     },
     {
       "_id": "A1uDWdFpev816fAJ",
@@ -529,7 +530,8 @@
         "proficient": null
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!9dcoWGeqorTEKXyQ.A1uDWdFpev816fAJ"
     },
     {
       "_id": "IU1EsR3kYOJFwKYK",
@@ -626,7 +628,8 @@
         "proficient": null
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!9dcoWGeqorTEKXyQ.IU1EsR3kYOJFwKYK"
     }
   ],
   "effects": [],

@@ -387,7 +387,8 @@
         }
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!hnlQ1VtgEQDXGwsa.IdvTGdmFdVwy0ZvS"
     },
     {
       "_id": "Tvwdgd9YKGPUfGzY",
@@ -439,7 +440,8 @@
         }
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!hnlQ1VtgEQDXGwsa.Tvwdgd9YKGPUfGzY"
     },
     {
       "_id": "6Uc311KthWjQBumD",
@@ -491,7 +493,8 @@
         }
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!hnlQ1VtgEQDXGwsa.6Uc311KthWjQBumD"
     },
     {
       "_id": "IhYaWs1xior0AVVH",
@@ -543,7 +546,8 @@
         }
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!hnlQ1VtgEQDXGwsa.IhYaWs1xior0AVVH"
     },
     {
       "_id": "6Aa74sReWeQ6K4uR",
@@ -640,7 +644,8 @@
         "proficient": null
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!hnlQ1VtgEQDXGwsa.6Aa74sReWeQ6K4uR"
     },
     {
       "_id": "NqnznyovPW3Z0Bja",
@@ -649,7 +654,7 @@
       "img": "icons/svg/upgrade.svg",
       "system": {
         "description": {
-          "value": "The technomancer forms an EMP at a point it can see within 60 feet of it. Machines, constructs, and vehicles within 30 feet of that point are subjected to EMP. Machines in the area cease to function for 1 minute. Constructs in the area with the Electronics feature must succeed on a DC 18 Constitution saving throw or they are stunned until the end of the technomancer's next turn. Vehicles in the area must succeed on a DC 18 Constitution saving throw or their movement speed is reduced to 0 and they can’t take actions or reactions until the end of the technomancer's next turn. Additionally, wireless and radio connections in a 100-foot- radius centered on the point are suppressed for 1 minute.",
+          "value": "The technomancer forms an EMP at a point it can see within 60 feet of it. Machines, constructs, and vehicles within 30 feet of that point are subjected to EMP. Machines in the area cease to function for 1 minute. Constructs in the area with the Electronics feature must succeed on a DC 18 Constitution saving throw or they are stunned until the end of the technomancer's next turn. Vehicles in the area must succeed on a DC 18 Constitution saving throw or their movement speed is reduced to 0 and they can\u2019t take actions or reactions until the end of the technomancer's next turn. Additionally, wireless and radio connections in a 100-foot- radius centered on the point are suppressed for 1 minute.",
           "chat": ""
         },
         "source": {
@@ -692,7 +697,8 @@
         }
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!hnlQ1VtgEQDXGwsa.NqnznyovPW3Z0Bja"
     },
     {
       "_id": "ThlGbJqp5bmFYP7f",
@@ -744,7 +750,8 @@
         }
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!hnlQ1VtgEQDXGwsa.ThlGbJqp5bmFYP7f"
     }
   ],
   "effects": [],

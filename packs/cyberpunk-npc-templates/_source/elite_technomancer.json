@@ -387,7 +387,8 @@
         }
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!quiyla5LEtE4jnBl.eue39jKxmkFarMtw"
     },
     {
       "_id": "7vwhXZdmqT4NXoW2",
@@ -439,7 +440,8 @@
         }
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!quiyla5LEtE4jnBl.7vwhXZdmqT4NXoW2"
     },
     {
       "_id": "Ium98TRJypIwASXc",
@@ -491,7 +493,8 @@
         }
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!quiyla5LEtE4jnBl.Ium98TRJypIwASXc"
     },
     {
       "_id": "gSUnE3pRkT8dk1jf",
@@ -588,7 +591,8 @@
         "proficient": null
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!quiyla5LEtE4jnBl.gSUnE3pRkT8dk1jf"
     },
     {
       "_id": "3sRPiYhd3CcK3vVm",
@@ -597,7 +601,7 @@
       "img": "icons/svg/upgrade.svg",
       "system": {
         "description": {
-          "value": "The technomancer forms an EMP at a point it can see within 60 feet of it. Machines, constructs, and vehicles within 30 feet of that point are subjected to EMP. Machines in the area cease to function for 1 minute. Constructs in the area with the Electronics feature must succeed on a DC 16 Constitution saving throw or they are stunned until the end of the technomancer's next turn. Vehicles in the area must succeed on a DC 16 Constitution saving throw or their movement speed is reduced to 0 and they can’t take actions or reactions until the end of the technomancer's next turn. Additionally, wireless and radio connections in a 100-foot- radius centered on the point are suppressed for 1 minute.",
+          "value": "The technomancer forms an EMP at a point it can see within 60 feet of it. Machines, constructs, and vehicles within 30 feet of that point are subjected to EMP. Machines in the area cease to function for 1 minute. Constructs in the area with the Electronics feature must succeed on a DC 16 Constitution saving throw or they are stunned until the end of the technomancer's next turn. Vehicles in the area must succeed on a DC 16 Constitution saving throw or their movement speed is reduced to 0 and they can\u2019t take actions or reactions until the end of the technomancer's next turn. Additionally, wireless and radio connections in a 100-foot- radius centered on the point are suppressed for 1 minute.",
           "chat": ""
         },
         "source": {
@@ -640,7 +644,8 @@
         }
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!quiyla5LEtE4jnBl.3sRPiYhd3CcK3vVm"
     },
     {
       "_id": "qbgCMQU6zCcMmDOE",
@@ -692,7 +697,8 @@
         }
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!quiyla5LEtE4jnBl.qbgCMQU6zCcMmDOE"
     }
   ],
   "effects": [],

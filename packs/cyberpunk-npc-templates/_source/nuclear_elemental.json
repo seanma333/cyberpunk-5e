@@ -403,7 +403,8 @@
         }
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!Hkl0gIi4eoutFVw4.HYvlmxYIwBrv0dWp"
     },
     {
       "_id": "UvtLLJstrHddelpL",
@@ -500,7 +501,8 @@
         "proficient": null
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!Hkl0gIi4eoutFVw4.UvtLLJstrHddelpL"
     },
     {
       "_id": "LORybRkogma945L9",
@@ -552,7 +554,8 @@
         }
       },
       "effects": [],
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!Hkl0gIi4eoutFVw4.LORybRkogma945L9"
     }
   ],
   "effects": [],
