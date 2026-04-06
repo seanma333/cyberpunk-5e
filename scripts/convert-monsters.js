@@ -635,7 +635,10 @@ function convertMonster(monster) {
         spell: { dc: "" },
       },
     },
-    items: buildItems(monster),
+    items: buildItems(monster).map((item) => {
+      item._key = `!actors.items!${id}!${item._id}`;
+      return item;
+    }),
     effects: [],
     flags: {},
     folder: null,
