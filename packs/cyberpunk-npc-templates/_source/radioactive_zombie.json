@@ -1,5 +1,5 @@
 {
-  "_id": "jlhCZuBeuF9yr03z",
+  "_id": "fDTzocFo73RFH7am",
   "name": "Radioactive Zombie",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -342,7 +342,7 @@
   },
   "items": [
     {
-      "_id": "yzFJqk0XEr70BhuU",
+      "_id": "fFi5l8CkL3hPK8AZ",
       "name": "Contaminate (1/Turn)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -394,7 +394,7 @@
       "flags": {}
     },
     {
-      "_id": "vltka7EmOwfui9WC",
+      "_id": "CenzsuV1vVleJ2EA",
       "name": "Fallout",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -446,7 +446,7 @@
       "flags": {}
     },
     {
-      "_id": "wvccu4CGJOkhRDnR",
+      "_id": "rlTRnicZIgobXXvY",
       "name": "Undead Fortitude",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -498,7 +498,7 @@
       "flags": {}
     },
     {
-      "_id": "NOoFS4yfcqhCUaEh",
+      "_id": "Tv6oppnqxyi0rHbX",
       "name": "Slam",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -598,5 +598,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!jlhCZuBeuF9yr03z"
+  "_key": "!actors!fDTzocFo73RFH7am"
 }

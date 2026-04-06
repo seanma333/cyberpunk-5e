@@ -1,5 +1,5 @@
 {
-  "_id": "P3I0tWoEicZBvvsI",
+  "_id": "9dcoWGeqorTEKXyQ",
   "name": "Police Officer",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,10 +338,10 @@
   },
   "items": [
     {
-      "_id": "5bZdpsjzFdxdDQ9r",
+      "_id": "7fB25ClqWfzHxVKV",
       "name": "Multiattack",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The officer makes three weapon attacks. Shock Baton Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) lightning damage. A creature reduced to 0 hit points by this weapon falls unconscious and is stable.",
@@ -435,10 +435,10 @@
       "flags": {}
     },
     {
-      "_id": "sQeRqFJ5VB7l5J7q",
+      "_id": "A1uDWdFpev816fAJ",
       "name": "Pump Shotgun",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/pump_shotgun.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit: 7 (2d6) piercing damage. This weapon has the reload (10), scatter (2d8), two-handed, strength 11 properties.",
@@ -532,10 +532,10 @@
       "flags": {}
     },
     {
-      "_id": "IQcWgsHvvTUnLn03",
+      "_id": "IU1EsR3kYOJFwKYK",
       "name": "Magnum",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/magnum.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +6 to hit, range 60/240 ft., one target. Hit: 9 (2d8) piercing damage. PPOOLLIICCEE OOFFFFIICCEERRSS From traffic cops to desk jockeys, many police officers are just trying to get by in a shitty day job that they hate. It's sometimes easy to dehumanize the cops into faceless law enforcement, but they are each real people with families, fears, dreams, and back pain. That said, a lot of real people are shitheads too, and cops are no different.",
@@ -632,5 +632,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!P3I0tWoEicZBvvsI"
+  "_key": "!actors!9dcoWGeqorTEKXyQ"
 }

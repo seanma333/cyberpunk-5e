@@ -1,5 +1,5 @@
 {
-  "_id": "HEMhbYlnOqnFSmHs",
+  "_id": "B7YSdIGeKwvWHXXr",
   "name": "Blazing Pyromaniac",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -340,7 +340,7 @@
   },
   "items": [
     {
-      "_id": "DcluqNdRpiQ1YWtS",
+      "_id": "gjVUrOsdNCoAIC6E",
       "name": "Gas Masked",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -392,7 +392,7 @@
       "flags": {}
     },
     {
-      "_id": "cmqwWQaxzUNe2l1A",
+      "_id": "VUJO6BYMaEXbPsrF",
       "name": "Smokesight",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -444,7 +444,7 @@
       "flags": {}
     },
     {
-      "_id": "vO9svLjvjxoS8BbV",
+      "_id": "qyCe8xLkeRx0QQvb",
       "name": "It then makes two weapon attacks",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -496,7 +496,7 @@
       "flags": {}
     },
     {
-      "_id": "qo1ryNfw1Nkd4FDn",
+      "_id": "Xmz7N4meNehXDidP",
       "name": "Smokescreen",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -551,5 +551,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!HEMhbYlnOqnFSmHs"
+  "_key": "!actors!B7YSdIGeKwvWHXXr"
 }

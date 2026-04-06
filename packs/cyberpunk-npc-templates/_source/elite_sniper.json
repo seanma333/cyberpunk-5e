@@ -1,5 +1,5 @@
 {
-  "_id": "Cxwix1Z3poZYWJN5",
+  "_id": "CiqBgVkznfmUQ0Jv",
   "name": "Elite Sniper",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,10 +338,10 @@
   },
   "items": [
     {
-      "_id": "Gaz7W72XDYYdvJ5A",
+      "_id": "4nYFD4T8yN1CcQPr",
       "name": "Chameleon Skin",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "modules/cyberpunk-5e/assets/cyberware_icons/chameleon_skin.png",
       "system": {
         "description": {
           "value": "As an action, the sniper can turn invisible. The invisibility ends if the sniper attacks, or if it takes damage.",
@@ -390,7 +390,7 @@
       "flags": {}
     },
     {
-      "_id": "4MH8aB8fhXUIoqyg",
+      "_id": "PVPjHW7OoX4OCGfT",
       "name": "Marksman",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -442,7 +442,7 @@
       "flags": {}
     },
     {
-      "_id": "H9Efqfxp1QksXgOc",
+      "_id": "kGp4yu3vMBJZrvCC",
       "name": "Steady Aim (1/Turn)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -494,10 +494,10 @@
       "flags": {}
     },
     {
-      "_id": "dTEVoYPWK20BODyM",
+      "_id": "MAGydIoKYxd7Vc9M",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The sniper makes two weapon attacks.",
@@ -546,10 +546,10 @@
       "flags": {}
     },
     {
-      "_id": "fFPSHRhgvyLKmmnN",
+      "_id": "sDZgAZKNF7dKQZxV",
       "name": "Combat Knife",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/daggers/dagger-serrated-black.webp",
       "system": {
         "description": {
           "value": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7 (1d4 + 5) piercing damage.",
@@ -643,10 +643,10 @@
       "flags": {}
     },
     {
-      "_id": "zA5xF46RLF8jI47t",
+      "_id": "whCKeWColzb8Rvow",
       "name": "Sniper Rifle (Powered)",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/sniper_rifle.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +8 to hit, range 200/800 ft., one target. Hit: 14 (2d8 + 5) piercing damage and 2 (1d4) lightning damage. This weapon has the scoped property. Power Shot: The weapon adds the wielder's DEX modifier to damage.",
@@ -744,7 +744,7 @@
       "flags": {}
     },
     {
-      "_id": "lN88EFKEmUZeeIqg",
+      "_id": "3GGO7Ypttj1hDs4z",
       "name": "Overwatch",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -799,5 +799,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!Cxwix1Z3poZYWJN5"
+  "_key": "!actors!CiqBgVkznfmUQ0Jv"
 }

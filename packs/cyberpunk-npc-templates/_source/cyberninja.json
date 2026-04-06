@@ -1,5 +1,5 @@
 {
-  "_id": "c3ncC194P4H9f4O3",
+  "_id": "NWxAKZeB1s7XtUMz",
   "name": "Cyberninja",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,10 +338,10 @@
   },
   "items": [
     {
-      "_id": "0gsP34OHoikajSLL",
+      "_id": "aeOkQC7AvpF1zoYQ",
       "name": "Evasion",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/water/pseudopod-teal.webp",
       "system": {
         "description": {
           "value": "If the cyberninja is subjected to an effect that allows it to make a Dexterity saving throw to take only half the damage, the cyberninja instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.",
@@ -390,7 +390,7 @@
       "flags": {}
     },
     {
-      "_id": "7G7IplvtUazIEHTH",
+      "_id": "ry9hnvo2bYoGxQdg",
       "name": "Slippery Foe",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -442,7 +442,7 @@
       "flags": {}
     },
     {
-      "_id": "mWFp4i8vlAaMjYQX",
+      "_id": "JWFP3mudAbGvP5FX",
       "name": "Sneak Attack (1/Turn)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -494,10 +494,10 @@
       "flags": {}
     },
     {
-      "_id": "v5aWb8ggbA2bcw0m",
+      "_id": "Ypgdqc5XXzL8Q8oX",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The cyberninja makes two weapon attacks.",
@@ -546,7 +546,7 @@
       "flags": {}
     },
     {
-      "_id": "hmXRhKYoGsBUvDiD",
+      "_id": "rja2CzVzVbVGv3n0",
       "name": "Poisoned Blade",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -647,7 +647,7 @@
       "flags": {}
     },
     {
-      "_id": "1fbOUl16KpNAjfEY",
+      "_id": "vgBNX0Eu0I09bSdL",
       "name": "Explosive Kunai",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -748,10 +748,10 @@
       "flags": {}
     },
     {
-      "_id": "dVVgpYoEO1Gn9C0R",
+      "_id": "s8czASchncXJkDQe",
       "name": "Flashbang (3/Day)",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "modules/cyberpunk-5e/assets/grenade_icons/flashbang.png",
       "system": {
         "description": {
           "value": "The cyberninja throws a flashbang at a point within 60 feet of it, where it explodes in a 10-foot- radius sphere. Each creature in the area must succeed on a DC 15 Constitution saving throw or be blinded and deafened until the end of your next turn. If the creature is concentrating on a spell, they must also make a DC 15",
@@ -800,7 +800,7 @@
       "flags": {}
     },
     {
-      "_id": "NHK4cUpC0pZkql8b",
+      "_id": "AEolOoPJKl5EHyq7",
       "name": "Shadow Dodge",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -855,5 +855,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!c3ncC194P4H9f4O3"
+  "_key": "!actors!NWxAKZeB1s7XtUMz"
 }

@@ -1,5 +1,5 @@
 {
-  "_id": "45VKPgfioOwIqAcC",
+  "_id": "h4e7KPzhlirpMTPg",
   "name": "Combat Medic",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "2dp2W0xrLEsyAS7n",
+      "_id": "QJlKvUavOV1n7z8n",
       "name": "Analyze Anatomy",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,7 +390,7 @@
       "flags": {}
     },
     {
-      "_id": "U8DI9lE1ofaoyogZ",
+      "_id": "GPwu0oBf4d9fJNhG",
       "name": "Med Serum (3/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -442,7 +442,7 @@
       "flags": {}
     },
     {
-      "_id": "GxacZfoAnezPPoH0",
+      "_id": "RnWeqByoztfQmQtZ",
       "name": "Resuscitate",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -494,10 +494,10 @@
       "flags": {}
     },
     {
-      "_id": "AaJOO7QKBHNGz4x7",
+      "_id": "OWImTfazvdauumsx",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The medic can use its Flashbang. It then makes two weapon attacks.",
@@ -546,10 +546,10 @@
       "flags": {}
     },
     {
-      "_id": "ULlJuCvKWa8w5Xsx",
+      "_id": "w2TNuvJKYwbWKlgs",
       "name": "Assault Rifle",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/assault_rifle.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +6 to hit, range 100/400 ft., one target. Hit: 7 (2d6) piercing damage. This weapon has the automatic property.",
@@ -643,10 +643,10 @@
       "flags": {}
     },
     {
-      "_id": "KHWFoISBVVitc9Z0",
+      "_id": "FUfAUQimNpwO5X39",
       "name": "Sawed-Off Shotgun",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/sawed_off_shotgun.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +6 to hit, range 20/60 ft., one target. Hit: 7 (2d6) piercing damage. This weapon has the scatter property. It is attached to the medic's assault rifle.",
@@ -740,10 +740,10 @@
       "flags": {}
     },
     {
-      "_id": "rJMaec2HLhxqrNVB",
+      "_id": "wV07tRfdfL7SQrIa",
       "name": "Flashbang (3/Day)",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "modules/cyberpunk-5e/assets/grenade_icons/flashbang.png",
       "system": {
         "description": {
           "value": "The medic throws a flashbang at a point within 60 feet of it, where it explodes in a 10-foot- radius sphere. Each creature in the area must succeed on a DC 15 Constitution saving throw or be blinded and deafened until the end of your next turn. If the creature is concentrating on a spell, they must also make a DC 15",
@@ -795,5 +795,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!45VKPgfioOwIqAcC"
+  "_key": "!actors!h4e7KPzhlirpMTPg"
 }

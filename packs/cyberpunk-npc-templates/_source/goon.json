@@ -1,5 +1,5 @@
 {
-  "_id": "cSPBvUE9fRfapXLY",
+  "_id": "tnxB9c1kuH3iakgB",
   "name": "Goon",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "bhIAGV3XlYRSH5Jp",
+      "_id": "5xaWen57IjMBcZon",
       "name": "Jagged Shiv",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -435,10 +435,10 @@
       "flags": {}
     },
     {
-      "_id": "KknosxINpRSPhQxp",
+      "_id": "WfH8SVPoHGi0j4ut",
       "name": "Handgun",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/handgun.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +3 to hit, range 60/180 ft., one target. Hit: 5 (2d4) piercing damage.",
@@ -535,5 +535,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!cSPBvUE9fRfapXLY"
+  "_key": "!actors!tnxB9c1kuH3iakgB"
 }

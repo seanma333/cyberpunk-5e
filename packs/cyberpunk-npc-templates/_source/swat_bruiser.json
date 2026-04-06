@@ -1,5 +1,5 @@
 {
-  "_id": "heMUYZseILu237k4",
+  "_id": "MdGlbkjOXsAefGlW",
   "name": "Swat Bruiser",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "gWxES0rb5KU5FVuM",
+      "_id": "EZKqkJM50j0Qiirg",
       "name": "Brute",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,10 +390,10 @@
       "flags": {}
     },
     {
-      "_id": "JQM71Y7TJUjxz8qP",
+      "_id": "R5qIWlODYZy1EGjL",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The bruiser makes three weapon attacks.",
@@ -442,10 +442,10 @@
       "flags": {}
     },
     {
-      "_id": "MmcgvCkx37qT4c8Z",
+      "_id": "3uwVbfwr5A7MHvND",
       "name": "Shock Baton",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/commodities/tech/tube-chamber-lightning.webp",
       "system": {
         "description": {
           "value": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) lightning damage. A creature reduced to 0 hit points by this weapon falls unconscious and is stable.",
@@ -539,7 +539,7 @@
       "flags": {}
     },
     {
-      "_id": "9ScNeqBpA0DrdhD2",
+      "_id": "CZxTQS3aJ6LRY9eD",
       "name": "Shield Slam",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -636,10 +636,10 @@
       "flags": {}
     },
     {
-      "_id": "sWWZHO7iEc9nE6RP",
+      "_id": "rdQp1zrzC1DYpZ8h",
       "name": "Magnum",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/magnum.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +8 to hit, range 60/240 ft., one target. Hit: 9 (2d8) bludgeoning damage. This weapon uses gel bullets.",
@@ -736,5 +736,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!heMUYZseILu237k4"
+  "_key": "!actors!MdGlbkjOXsAefGlW"
 }

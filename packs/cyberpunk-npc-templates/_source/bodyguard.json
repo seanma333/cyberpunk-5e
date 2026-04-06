@@ -1,5 +1,5 @@
 {
-  "_id": "17FkQxPuDBiNi1Oj",
+  "_id": "RbjrF5CTH4xtUzth",
   "name": "Bodyguard",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "pbbEbr7vX32n6U08",
+      "_id": "qHCDnby1yHXXIc1G",
       "name": "Cautious",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,10 +390,10 @@
       "flags": {}
     },
     {
-      "_id": "g6MwCNWrsXrN49Rl",
+      "_id": "zjjaM6v7y90bbDvT",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The bodyguard makes two weapon attacks.",
@@ -442,10 +442,10 @@
       "flags": {}
     },
     {
-      "_id": "SevHMLTHdF51Iy79",
-      "name": "Blade",
+      "_id": "Fc0Du01mAoWqT55t",
+      "name": "Scimitar",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/swords/sword-katana.webp",
       "system": {
         "description": {
           "value": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage.",
@@ -539,10 +539,10 @@
       "flags": {}
     },
     {
-      "_id": "OPmxEq9K277kgyrJ",
+      "_id": "F8QPbVQM1WyKwyDZ",
       "name": "Magnum",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/magnum.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +6 to hit, range 60/240 ft., one target. Hit: 9 (2d8) piercing damage.",
@@ -636,13 +636,13 @@
       "flags": {}
     },
     {
-      "_id": "eyNasH1V4fMKxxU6",
+      "_id": "B1Bs2ubfssPSz98n",
       "name": "Get Down",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
       "system": {
         "description": {
-          "value": "When a creature the bodyguard can see makes an attack against a creature the bodyguard is guarding, the bodyguard can move up to half its movement speed. At the end of this movement, if the bodyguard is within within 5 feet of the target of the attack, it can force the attack to target the bodyguard instead. This movement doesn\u2019t provoke opportunity attacks. these overpriced lemmings, but they pay enough that some poor bastards will always be willing to take the job.",
+          "value": "When a creature the bodyguard can see makes an attack against a creature the bodyguard is guarding, the bodyguard can move up to half its movement speed. At the end of this movement, if the bodyguard is within within 5 feet of the target of the attack, it can force the attack to target the bodyguard instead. This movement doesn’t provoke opportunity attacks. these overpriced lemmings, but they pay enough that some poor bastards will always be willing to take the job.",
           "chat": ""
         },
         "source": {
@@ -691,5 +691,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!17FkQxPuDBiNi1Oj"
+  "_key": "!actors!RbjrF5CTH4xtUzth"
 }

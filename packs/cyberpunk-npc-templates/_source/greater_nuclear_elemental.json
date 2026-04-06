@@ -1,5 +1,5 @@
 {
-  "_id": "9HwT8IVWzv0uMB1A",
+  "_id": "GrJnL7tIe1CSM8ys",
   "name": "Greater Nuclear Elemental",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -354,7 +354,7 @@
   },
   "items": [
     {
-      "_id": "jQ1D2twjsb9lfuZH",
+      "_id": "uZygo4duEEmQrIwm",
       "name": "Half-Life",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -406,7 +406,7 @@
       "flags": {}
     },
     {
-      "_id": "xc1GawfiVo2nC20i",
+      "_id": "06vAgjJu2v0HE2GX",
       "name": "Toxic Form",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -458,10 +458,10 @@
       "flags": {}
     },
     {
-      "_id": "EDZF40eBwMvnnmOR",
+      "_id": "T3fiZtiwdSiX8Kqa",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The elemental makes two sickening touch attacks.",
@@ -510,7 +510,7 @@
       "flags": {}
     },
     {
-      "_id": "M3kMrJjtwY3wmHUP",
+      "_id": "0zTpW0mJiLZqOv4O",
       "name": "Sickening Touch",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -607,7 +607,7 @@
       "flags": {}
     },
     {
-      "_id": "2RPRojkVcNxnjhCn",
+      "_id": "AVoqJmuLX2MMbukc",
       "name": "Noxious Glow (Recharge 5-6)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -662,5 +662,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!9HwT8IVWzv0uMB1A"
+  "_key": "!actors!GrJnL7tIe1CSM8ys"
 }

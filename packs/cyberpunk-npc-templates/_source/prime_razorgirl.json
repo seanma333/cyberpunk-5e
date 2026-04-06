@@ -1,5 +1,5 @@
 {
-  "_id": "rPhekC7ZGjHwNuzg",
+  "_id": "KOhJ5cb15ld4eWFa",
   "name": "Prime Razorgirl",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,10 +338,10 @@
   },
   "items": [
     {
-      "_id": "zxOJvwQZ31VzPlol",
+      "_id": "zRVm4MpRsxH5OENn",
       "name": "Evasion",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/water/pseudopod-teal.webp",
       "system": {
         "description": {
           "value": "If the razorgirl is subjected to an effect that allows her to make a Dexterity saving throw to take only half the damage, the razorgirl instead takes no damage if she succeeds on the saving throw, and only half damage if she fails.",
@@ -390,10 +390,10 @@
       "flags": {}
     },
     {
-      "_id": "gDjkd539i8UwZMej",
+      "_id": "IOTSUy51A7d4nYK4",
       "name": "Wired Reflexes",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "modules/cyberpunk-5e/assets/cyberware_icons/wired_reflexes.png",
       "system": {
         "description": {
           "value": "The razorgirl can take two reactions, instead of one. When she does so, she can't take another reaction until the start of her next turn. The razorgirl also has advantage on her initiative rolls and opportunity attacks against her have disadvantage on the roll.",
@@ -442,10 +442,10 @@
       "flags": {}
     },
     {
-      "_id": "gHdHPQhXhtoDxW5I",
+      "_id": "APZygVVLUhMNqpEH",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The razorgirl makes three attacks.",
@@ -494,10 +494,10 @@
       "flags": {}
     },
     {
-      "_id": "9B5QspevLy4P0r5H",
+      "_id": "vmarTBJdorSNYpGU",
       "name": "Cyberclaws",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/cyberware_icons/cyberclaws.png",
       "system": {
         "description": {
           "value": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 10 (1d8 + 6) slashing damage and 14 (4d6) poison damage. If the razorgirl rolls a 20 on a melee attack with the claws, she can make one additional melee weapon attack against the target.",
@@ -595,10 +595,10 @@
       "flags": {}
     },
     {
-      "_id": "POKn4HHbSPjJ2B9H",
+      "_id": "bSPzGwMX8ekdBgz6",
       "name": "Magnum (Powered)",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/magnum.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +10 to hit, range 60/240 ft., one target. Hit: 15 (2d8 + 6) piercing damage and 2 (1d4) cold damage. Power Shot: The weapon adds the wielder's DEX modifier to damage.",
@@ -696,7 +696,7 @@
       "flags": {}
     },
     {
-      "_id": "fMZ5DtA1ld76Y9FT",
+      "_id": "0Tfi96FWhVKm2qPX",
       "name": "Hydraulic Kick",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -793,10 +793,10 @@
       "flags": {}
     },
     {
-      "_id": "EmKS2O2jW1p1QOCD",
+      "_id": "1k9yJug5Nz87my1Q",
       "name": "Uncanny Dodge",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/air/air-wave-gust-blue.webp",
       "system": {
         "description": {
           "value": "The razorgirl halves the damage that she takes from an attack that hits her. The razorgirl must be able to see the attacker.",
@@ -845,7 +845,7 @@
       "flags": {}
     },
     {
-      "_id": "ah2rBLhhii7IZB0e",
+      "_id": "B8uEOmsb3EreyyIt",
       "name": "Hydraulic Landing (Recharges on a Short or Long\nRest)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -900,5 +900,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!rPhekC7ZGjHwNuzg"
+  "_key": "!actors!KOhJ5cb15ld4eWFa"
 }

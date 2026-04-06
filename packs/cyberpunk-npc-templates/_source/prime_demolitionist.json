@@ -1,5 +1,5 @@
 {
-  "_id": "44Ij12LHNTWF6IYs",
+  "_id": "cfdHUXlUo0ZoLhIe",
   "name": "Prime Demolitionist",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -340,10 +340,10 @@
   },
   "items": [
     {
-      "_id": "6I2HUaxIYifCMCpW",
+      "_id": "fxou74lvWNQKILmp",
       "name": "Evasion",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/water/pseudopod-teal.webp",
       "system": {
         "description": {
           "value": "If the demolitionist is subjected to an effect that allows it to make a Dexterity saving throw to take only half the damage, the demolitionist instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.",
@@ -392,10 +392,10 @@
       "flags": {}
     },
     {
-      "_id": "Tbv4EAI2dGj15pW1",
+      "_id": "SfuGIO3v69cIRxt1",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The demolitionist uses its Fragmentation Grenade or Spellbreaker Grenade. It then makes two weapon attacks with its Magnum.",
@@ -444,7 +444,7 @@
       "flags": {}
     },
     {
-      "_id": "n1zKGLpBscJ1Mx3m",
+      "_id": "oeVxXDs2r1DvUedM",
       "name": "Tomahawk",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -545,10 +545,10 @@
       "flags": {}
     },
     {
-      "_id": "bnbkfcWbQ7wOwRkN",
+      "_id": "jGApHoKnP8J2Mr12",
       "name": "Magnum",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/magnum.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +8 to hit, range 60/240 ft., one target. Hit: 9 (2d8) piercing damage. This weapon has the heavy, reload (8) properties.",
@@ -642,10 +642,10 @@
       "flags": {}
     },
     {
-      "_id": "LCMIydOQh1qhxuST",
+      "_id": "FYpq4EsU6QF7POPN",
       "name": "Fragmentation Grenade (4/Day)",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "modules/cyberpunk-5e/assets/grenade_icons/fragmentation-grenade.png",
       "system": {
         "description": {
           "value": "The demolitionist throws a fragmentation grenade at a point within 60 feet of it. Each creature within 10 feet of that point must make a DC 17 Dexterity saving throw. A creature takes 21 (6d6) piercing damage and 21 (6d6) thunder damage on a failed save, or half as much damage on a successful one.",
@@ -694,10 +694,10 @@
       "flags": {}
     },
     {
-      "_id": "WBsdJbAHLh88mbjS",
+      "_id": "9Lc0hwERgPIvdOPQ",
       "name": "Spellbreaker Grenade (2/Day)",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "modules/cyberpunk-5e/assets/grenade_icons/spellbreaker-grenade.png",
       "system": {
         "description": {
           "value": "The demolitionist throws a spellbreaker grenade at a point within 60 feet of it. Creatures, objects, or magical effects within 10 feet of that point are subjected to a wave of anti-magic. Any spell of 6th level or lower on the target ends. For each spell of higher level on the target, roll a d20 and add +5. If the result is equal to or greater than 10 + the spell's level, the spell ends.",
@@ -746,7 +746,7 @@
       "flags": {}
     },
     {
-      "_id": "VNAswhxQnB9z0vyC",
+      "_id": "7RICyyiB704sdRRo",
       "name": "Contingent Blast",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -801,5 +801,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!44Ij12LHNTWF6IYs"
+  "_key": "!actors!cfdHUXlUo0ZoLhIe"
 }

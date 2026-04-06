@@ -1,5 +1,5 @@
 {
-  "_id": "T9Ogby6gy3Dds6on",
+  "_id": "adlqLdMHoi7q7Uc0",
   "name": "Rockstar",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "cxV4FBHwhJxX3ZGm",
+      "_id": "zLaOmO5xyhJz9CkE",
       "name": "Rebellious Aura",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,7 +390,7 @@
       "flags": {}
     },
     {
-      "_id": "ylKLs0XO46b2RQTw",
+      "_id": "zXfLMuqBb6ktc4LL",
       "name": "Riot",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -442,10 +442,10 @@
       "flags": {}
     },
     {
-      "_id": "234IOapv5ExIPwEh",
+      "_id": "j3y7s9h70qJKf1CP",
       "name": "Spellcasting",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/light/projectiles-star-purple.webp",
       "system": {
         "description": {
           "value": "The rockstar is an 8th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It has the following bard spells prepared: Cantrips (at will): friends, knack, vicious mockery 1st level (4 slots): charm person, heroism, thunderwave 2nd level (3 slots): enhance ability, shatter, suggestion 3rd level (3 slots): dispel magic, fear, major image 4th level (2 slot): confusion, freedom of movement",
@@ -494,10 +494,10 @@
       "flags": {}
     },
     {
-      "_id": "B2RyYEB88x6EarO1",
+      "_id": "56B7FSdOq4WVNtBU",
       "name": "Multiattack",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The rockstar makes two weapon attacks. Axe Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.",
@@ -591,10 +591,10 @@
       "flags": {}
     },
     {
-      "_id": "pHi4NrrTbOBa319f",
+      "_id": "P8kWjhwBeSTv4Qou",
       "name": "Assault Rifle",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/assault_rifle.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +6 to hit, range 100/400 ft., one target. Hit: 7 (2d6) piercing damage. This weapon has the automatic property.",
@@ -691,5 +691,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!T9Ogby6gy3Dds6on"
+  "_key": "!actors!adlqLdMHoi7q7Uc0"
 }

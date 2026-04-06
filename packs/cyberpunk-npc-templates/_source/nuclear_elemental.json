@@ -1,5 +1,5 @@
 {
-  "_id": "RYwtmWCFg5nh8VPi",
+  "_id": "Hkl0gIi4eoutFVw4",
   "name": "Nuclear Elemental",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -354,10 +354,10 @@
   },
   "items": [
     {
-      "_id": "G6glNq2xE4UZQ8iU",
+      "_id": "HYvlmxYIwBrv0dWp",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The elemental makes two sickening touch attacks.",
@@ -406,7 +406,7 @@
       "flags": {}
     },
     {
-      "_id": "1VW0EN6afguaHPxE",
+      "_id": "UvtLLJstrHddelpL",
       "name": "Sickening Touch",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -503,7 +503,7 @@
       "flags": {}
     },
     {
-      "_id": "2oVxZB5erYEAVqNO",
+      "_id": "LORybRkogma945L9",
       "name": "Noxious Glow (Recharge 5-6)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -558,5 +558,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!RYwtmWCFg5nh8VPi"
+  "_key": "!actors!Hkl0gIi4eoutFVw4"
 }

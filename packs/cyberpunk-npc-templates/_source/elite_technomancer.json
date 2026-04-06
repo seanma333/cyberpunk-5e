@@ -1,5 +1,5 @@
 {
-  "_id": "YJdDPOVp08V5EmJm",
+  "_id": "quiyla5LEtE4jnBl",
   "name": "Elite Technomancer",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "Clwn1ePiZ1EarKaS",
+      "_id": "eue39jKxmkFarMtw",
       "name": "Countermeasures (1/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,10 +390,10 @@
       "flags": {}
     },
     {
-      "_id": "oFnxnuckaTxqwceI",
+      "_id": "7vwhXZdmqT4NXoW2",
       "name": "Spellcasting",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/light/projectiles-star-purple.webp",
       "system": {
         "description": {
           "value": "The technomancer is an 13th-level spellcaster.",
@@ -442,10 +442,10 @@
       "flags": {}
     },
     {
-      "_id": "ve0YquTMdSmYKEdL",
+      "_id": "Ium98TRJypIwASXc",
       "name": "Its spellcasting ability is Intelligence (spell save DC 16, +8 to\nhit with spell attacks)",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/light/projectiles-star-purple.webp",
       "system": {
         "description": {
           "value": "It has the following wizard spells prepared: Cantrips (at will): knack, mending, minor illusion, shocking grasp 1st level (4 slots): identify, mage armor, catapult 2nd level (3 slots): invisibility, knock, locate object 3rd level (3 slots): contract, lightning bolt, major image 4th level (3 slot): dimension door, fabricate 5th level (2 slot): animate objects, haywire, synaptic static 6th level (1 slot): chain lightning 7th level (1 slot): commandeer vehicle, transport via network",
@@ -494,10 +494,10 @@
       "flags": {}
     },
     {
-      "_id": "TMpamWS3kmQKkiIJ",
+      "_id": "gSUnE3pRkT8dk1jf",
       "name": "Combat Knife",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/daggers/dagger-serrated-black.webp",
       "system": {
         "description": {
           "value": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
@@ -591,13 +591,13 @@
       "flags": {}
     },
     {
-      "_id": "DjmAeS6VLH50EQR3",
+      "_id": "3sRPiYhd3CcK3vVm",
       "name": "Pulse (2/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
       "system": {
         "description": {
-          "value": "The technomancer forms an EMP at a point it can see within 60 feet of it. Machines, constructs, and vehicles within 30 feet of that point are subjected to EMP. Machines in the area cease to function for 1 minute. Constructs in the area with the Electronics feature must succeed on a DC 16 Constitution saving throw or they are stunned until the end of the technomancer's next turn. Vehicles in the area must succeed on a DC 16 Constitution saving throw or their movement speed is reduced to 0 and they can\u2019t take actions or reactions until the end of the technomancer's next turn. Additionally, wireless and radio connections in a 100-foot- radius centered on the point are suppressed for 1 minute.",
+          "value": "The technomancer forms an EMP at a point it can see within 60 feet of it. Machines, constructs, and vehicles within 30 feet of that point are subjected to EMP. Machines in the area cease to function for 1 minute. Constructs in the area with the Electronics feature must succeed on a DC 16 Constitution saving throw or they are stunned until the end of the technomancer's next turn. Vehicles in the area must succeed on a DC 16 Constitution saving throw or their movement speed is reduced to 0 and they can’t take actions or reactions until the end of the technomancer's next turn. Additionally, wireless and radio connections in a 100-foot- radius centered on the point are suppressed for 1 minute.",
           "chat": ""
         },
         "source": {
@@ -643,7 +643,7 @@
       "flags": {}
     },
     {
-      "_id": "JjnvJXThd28jDVGj",
+      "_id": "qbgCMQU6zCcMmDOE",
       "name": "Firewall",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -698,5 +698,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!YJdDPOVp08V5EmJm"
+  "_key": "!actors!quiyla5LEtE4jnBl"
 }

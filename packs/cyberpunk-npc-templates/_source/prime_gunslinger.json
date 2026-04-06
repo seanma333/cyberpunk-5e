@@ -1,5 +1,5 @@
 {
-  "_id": "aihs2kwt7tRjfX66",
+  "_id": "n9RxhESTQIojDhaO",
   "name": "Prime Gunslinger",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "TVVnXz4wEQFC94c9",
+      "_id": "PfC90nNda1R893a4",
       "name": "Deadeye",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,7 +390,7 @@
       "flags": {}
     },
     {
-      "_id": "Z5AdUR0bvOT5LaKc",
+      "_id": "jgIM8n8UryTNAvLw",
       "name": "Quickdraw",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -442,7 +442,7 @@
       "flags": {}
     },
     {
-      "_id": "JZDxsK1ghsX0f2r8",
+      "_id": "39V1cozxZStSOoh6",
       "name": "Swift Step",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -494,10 +494,10 @@
       "flags": {}
     },
     {
-      "_id": "eNgHtAWbMY0tHEdJ",
+      "_id": "vcjdo7ZufsAvb3Gi",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The gunslinger makes two weapon attacks.",
@@ -546,10 +546,10 @@
       "flags": {}
     },
     {
-      "_id": "3qhm35qkO0YGEwql",
-      "name": "Blade",
+      "_id": "4JL7ltzHrPOrpYEv",
+      "name": "Scimitar",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/swords/sword-katana.webp",
       "system": {
         "description": {
           "value": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) slashing damage.",
@@ -643,10 +643,10 @@
       "flags": {}
     },
     {
-      "_id": "wYntoQ1u6lyFUn99",
+      "_id": "fHFZiqZR5Jr2NaLN",
       "name": "Dual Magnums (Powered)",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/magnum.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit: 28 (4d8 + 10) piercing damage. This attack deals half damage if only a single magnum is used. Power Shot: Each magnum adds the wielder's DEX modifier to damage.",
@@ -740,7 +740,7 @@
       "flags": {}
     },
     {
-      "_id": "o4o7XqJB8ppmnNSp",
+      "_id": "h9k04YM5QbKf8irT",
       "name": "Fancy Shooting",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -795,5 +795,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!aihs2kwt7tRjfX66"
+  "_key": "!actors!n9RxhESTQIojDhaO"
 }

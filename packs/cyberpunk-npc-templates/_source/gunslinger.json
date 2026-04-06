@@ -1,5 +1,5 @@
 {
-  "_id": "uA8kvU4zDP4Vvy1l",
+  "_id": "MQ75CIo3tS9PFrc8",
   "name": "Gunslinger",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "UeY5OLsHJzONyq81",
+      "_id": "DGafFf4WDjoToYZx",
       "name": "Quickdraw",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,7 +390,7 @@
       "flags": {}
     },
     {
-      "_id": "xmIWbmbewRsR9Vnq",
+      "_id": "dv6DO60qfV7koj5V",
       "name": "Swift Step",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -442,10 +442,10 @@
       "flags": {}
     },
     {
-      "_id": "Zn9JXQLji5wVfXtf",
+      "_id": "YqPspZuuRBr1SQvM",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The gunslinger makes two weapon attacks.",
@@ -494,10 +494,10 @@
       "flags": {}
     },
     {
-      "_id": "FPVU86XBGJVFvHcz",
-      "name": "Blade",
+      "_id": "aiXJK9OTzzpDfQQI",
+      "name": "Scimitar",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/swords/sword-katana.webp",
       "system": {
         "description": {
           "value": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
@@ -591,10 +591,10 @@
       "flags": {}
     },
     {
-      "_id": "ou8w0gUknsPS6j4J",
+      "_id": "98lRnaVXy858DHeD",
       "name": "Dual Revolvers",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/revolver.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +5 to hit, range 60/180 ft., one target. Hit: 14 (4d6) piercing damage. This attack deals half damage if only a single revolver is used.",
@@ -688,7 +688,7 @@
       "flags": {}
     },
     {
-      "_id": "DRrEkUWPKJRPXZNW",
+      "_id": "fUw32sfTfllevCpQ",
       "name": "Fancy Shooting",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -743,5 +743,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!uA8kvU4zDP4Vvy1l"
+  "_key": "!actors!MQ75CIo3tS9PFrc8"
 }

@@ -1,5 +1,5 @@
 {
-  "_id": "wLmsYDa04LC7gvfn",
+  "_id": "Dbi7nbwWv6dWXc1Q",
   "name": "Radioactive Hydra",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "fU8X2zRqwb7MnhLZ",
+      "_id": "SYnkLO65KmHZKXIy",
       "name": "Contaminate (1/Turn)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,7 +390,7 @@
       "flags": {}
     },
     {
-      "_id": "XSKBZNpx4DiK6nOy",
+      "_id": "bsNJ1ymXqix7N8x9",
       "name": "Fallout",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -442,7 +442,7 @@
       "flags": {}
     },
     {
-      "_id": "XirBvWKSEG6BhYoA",
+      "_id": "HwYnmTdYbUaynyMZ",
       "name": "Multiple Heads",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -494,7 +494,7 @@
       "flags": {}
     },
     {
-      "_id": "UkTPHbr9ZoObeSpR",
+      "_id": "JkohgPsJLtZEzC3C",
       "name": "Reactive Heads",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -546,10 +546,10 @@
       "flags": {}
     },
     {
-      "_id": "xTA233bikTiiQ1Ab",
+      "_id": "7jOx4bS6NtbKYVr6",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The hydra makes as many bite attacks as it has heads.",
@@ -598,7 +598,7 @@
       "flags": {}
     },
     {
-      "_id": "gacoOW9CSkIe3kfj",
+      "_id": "4f7SZUBGu4nQy5u2",
       "name": "Bite",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -695,7 +695,7 @@
       "flags": {}
     },
     {
-      "_id": "Cq4xdKtJ2vadIBOX",
+      "_id": "9vCfTOo2kxSUhpJJ",
       "name": "Contaminate (1/Turn)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -750,5 +750,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!wLmsYDa04LC7gvfn"
+  "_key": "!actors!Dbi7nbwWv6dWXc1Q"
 }

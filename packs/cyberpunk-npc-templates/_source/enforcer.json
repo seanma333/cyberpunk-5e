@@ -1,5 +1,5 @@
 {
-  "_id": "0N5Ol5GQpNFLMTbz",
+  "_id": "tBBu4PzQdeQrPxZg",
   "name": "Enforcer",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "gQaRUBgMjugHUye5",
+      "_id": "00aum0VR2xoRp8BV",
       "name": "Muse (1/Hour)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,10 +390,10 @@
       "flags": {}
     },
     {
-      "_id": "asmnNOqk8FrEYSC2",
+      "_id": "gwIKOouIseIxGxJG",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The enforcer makes two weapon attacks.",
@@ -442,10 +442,10 @@
       "flags": {}
     },
     {
-      "_id": "xydJi6aYzUMUbbYA",
+      "_id": "H3N06pdNvKrRDyOx",
       "name": "Double-barrel Shotgun",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/double_barrel_shotgun.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +4 to hit, reach 60/180 ft., one target. Hit: 7 (2d6) piercing damage. This weapon has the reload (2), scatter (2d8), strength 9, two-handed properties.",
@@ -539,10 +539,10 @@
       "flags": {}
     },
     {
-      "_id": "O7DXWwm2QrE7pimk",
+      "_id": "r77pGQ7ka2soqQMS",
       "name": "Magnum",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/magnum.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +4 to hit, range 60/240 ft., one target. Hit: 9 (2d8) piercing damage.",
@@ -636,7 +636,7 @@
       "flags": {}
     },
     {
-      "_id": "eXVPP2cRTOTj3kNo",
+      "_id": "LIjcIkf9G9Jb8Ogq",
       "name": "Vengeful Kick",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -688,7 +688,7 @@
       "flags": {}
     },
     {
-      "_id": "0GNdpm3Wx77jQCqg",
+      "_id": "9YPbjCoT18cXdRa1",
       "name": "Strength saving throw or be knocked prone",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -743,5 +743,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!0N5Ol5GQpNFLMTbz"
+  "_key": "!actors!tBBu4PzQdeQrPxZg"
 }

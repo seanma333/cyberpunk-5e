@@ -1,5 +1,5 @@
 {
-  "_id": "iNj5Y1QllpxfC1GP",
+  "_id": "7e0Vy17QneAuMJdw",
   "name": "Prime Samurai",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "5AIzuO05V38FTA0w",
+      "_id": "uk80XaUSwoWOrMfY",
       "name": "Aggressive",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,7 +390,7 @@
       "flags": {}
     },
     {
-      "_id": "Avvl7Yl9OKMOcSVY",
+      "_id": "Rq0bQ2WaVevSOIgk",
       "name": "Honorable Duel (2/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -442,10 +442,10 @@
       "flags": {}
     },
     {
-      "_id": "vy14KH175BuTwv2h",
+      "_id": "i98q8nPwdSRcnwgo",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The samurai makes two melee attacks.",
@@ -494,10 +494,10 @@
       "flags": {}
     },
     {
-      "_id": "jUgWHNALGj4amK6i",
+      "_id": "kvDGUJBUpYz1Bq3a",
       "name": "Dual Katanas",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/swords/sword-katana-purple.webp",
       "system": {
         "description": {
           "value": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 23 (2d10 + 12) slashing damage. This attack deals half damage if only a single katana is used.",
@@ -591,7 +591,7 @@
       "flags": {}
     },
     {
-      "_id": "HC6toniG5tZHglw2",
+      "_id": "dBGuGiiYGSSZBHOT",
       "name": "Reflected Missile",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -691,5 +691,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!iNj5Y1QllpxfC1GP"
+  "_key": "!actors!7e0Vy17QneAuMJdw"
 }

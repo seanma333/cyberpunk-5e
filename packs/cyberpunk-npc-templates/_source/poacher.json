@@ -1,5 +1,5 @@
 {
-  "_id": "6ggxF84PFr1XRt7I",
+  "_id": "j4jGk6EnVtV28dOm",
   "name": "Poacher",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "elHbDfjO9xmxQmx2",
+      "_id": "JZ74UVWKm6JoyyHM",
       "name": "Surprise Attack",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,10 +390,10 @@
       "flags": {}
     },
     {
-      "_id": "YcJCKVEcOQmz89eV",
+      "_id": "VYJAbdmjVx0MGhWV",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The poacher makes two weapon attacks.",
@@ -442,10 +442,10 @@
       "flags": {}
     },
     {
-      "_id": "6OvrLPIB7rDX4qP9",
+      "_id": "7TT4EVv1hRIbF5Kr",
       "name": "Bayonet",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/modification_icons/bayonet.png",
       "system": {
         "description": {
           "value": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage. This weapon is attached to the poacher's hunting rifle.",
@@ -539,10 +539,10 @@
       "flags": {}
     },
     {
-      "_id": "cmepXdJiouy4hWKh",
+      "_id": "SliQ2Et32Tdfrwrb",
       "name": "Hunting Rifle",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/hunting_rifle.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +5 to hit, range 80/240 ft., one target. Hit: 7 (2d6) piercing damage.",
@@ -636,7 +636,7 @@
       "flags": {}
     },
     {
-      "_id": "uU6nl1wwCuDK05OL",
+      "_id": "bRWKZQsAJEv1DQd4",
       "name": "Hamstring",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -691,5 +691,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!6ggxF84PFr1XRt7I"
+  "_key": "!actors!j4jGk6EnVtV28dOm"
 }

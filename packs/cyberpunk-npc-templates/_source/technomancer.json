@@ -1,5 +1,5 @@
 {
-  "_id": "WraUXTUD4c529uxo",
+  "_id": "9Hxq4HdGlSUvyUBN",
   "name": "Technomancer",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "oOcrvH5M0yUydJuc",
+      "_id": "z6pVZBxf3knIMBx6",
       "name": "Sabotage",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,10 +390,10 @@
       "flags": {}
     },
     {
-      "_id": "axTNZpy2jdOzblPn",
+      "_id": "yqOaqG51hqHFLRf7",
       "name": "Spellcasting",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/light/projectiles-star-purple.webp",
       "system": {
         "description": {
           "value": "The technomancer is an 8th-level spellcaster.",
@@ -442,10 +442,10 @@
       "flags": {}
     },
     {
-      "_id": "jIrVbV2ysayhDMxU",
+      "_id": "c63ESn9VkK9k81SL",
       "name": "Its spellcasting ability is Intelligence (spell save DC 14, +6 to\nhit with spell attacks)",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/light/projectiles-star-purple.webp",
       "system": {
         "description": {
           "value": "It has the following wizard spells prepared: Cantrips (at will): knack, mending, minor illusion, shocking grasp 1st level (4 slots): identify, mage armor, silent image 2nd level (3 slots): invisibility, knock, locate object 3rd level (3 slots): contract, lightning bolt, major image 4th level (2 slot): dimension door, fabricate",
@@ -494,10 +494,10 @@
       "flags": {}
     },
     {
-      "_id": "IihllFf2YluAqGz1",
+      "_id": "z7BFnwIHppuxASK2",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The technomancer makes two weapon attacks.",
@@ -546,10 +546,10 @@
       "flags": {}
     },
     {
-      "_id": "1hktBKZgCrdJ8wju",
+      "_id": "tlC7ZnK0AH22JYDk",
       "name": "Combat Knife",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/daggers/dagger-serrated-black.webp",
       "system": {
         "description": {
           "value": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
@@ -643,10 +643,10 @@
       "flags": {}
     },
     {
-      "_id": "LPR9B5vUWDZtgwfv",
+      "_id": "ApsEybx8poOcupdp",
       "name": "Submachine Gun",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/submachine_gun.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +5 to hit, range 40/120 ft., one target. Hit: 7 (2d6) piercing damage. This weapon has the automatic property.",
@@ -740,7 +740,7 @@
       "flags": {}
     },
     {
-      "_id": "PWDiPh9FOHOjw9DV",
+      "_id": "DmVpwvkvg8gmNkqz",
       "name": "Firewall",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -795,5 +795,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!WraUXTUD4c529uxo"
+  "_key": "!actors!9Hxq4HdGlSUvyUBN"
 }

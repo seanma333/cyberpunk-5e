@@ -1,5 +1,5 @@
 {
-  "_id": "lOA8HEQNmUj0PZib",
+  "_id": "3UKloOMVHQvPoxN2",
   "name": "Corporate Security Officer",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "FFROj5p0xw90vMdk",
+      "_id": "tlNsPX4mjSQFjjAp",
       "name": "Explosive (1/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,10 +390,10 @@
       "flags": {}
     },
     {
-      "_id": "nQafZKFPFogeRxWi",
+      "_id": "8T3Xc3moSX5rm0Pd",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The officer makes two weapon attacks.",
@@ -442,10 +442,10 @@
       "flags": {}
     },
     {
-      "_id": "UDko4fF1XFWUvxLt",
+      "_id": "ajuEaNfAbV7gzmrZ",
       "name": "Shock Baton",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/commodities/tech/tube-chamber-lightning.webp",
       "system": {
         "description": {
           "value": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) lightning damage. A creature reduced to 0 hit points by this weapon falls unconscious and is stable.",
@@ -539,10 +539,10 @@
       "flags": {}
     },
     {
-      "_id": "UW2OOnUNBHPpWers",
+      "_id": "GyAtn902xRFoN0P8",
       "name": "Assault Rifle",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/assault_rifle.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +5 to hit, range 100/400 ft., one target. Hit: 7 (2d6) piercing damage. This weapon has the automatic, reload (20), two-handed properties. 214",
@@ -639,5 +639,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!lOA8HEQNmUj0PZib"
+  "_key": "!actors!3UKloOMVHQvPoxN2"
 }

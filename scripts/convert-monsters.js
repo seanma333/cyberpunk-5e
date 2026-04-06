@@ -2,8 +2,8 @@
 /**
  * Monster Converter: Custom Schema → Foundry dnd5e 3.3.1 NPC Actor JSON
  *
- * Reads tmp/monsters_combined.json and writes packs/cyberpunk-npc-templates.db
- * in NeDB (JSONL) format.
+ * Reads tmp/monsters_combined.json and writes individual JSON files to
+ * packs/cyberpunk-npc-templates/_source/.
  *
  * Usage: node scripts/convert-monsters.js
  */
@@ -13,7 +13,117 @@ const path = require("path");
 
 const ROOT = path.resolve(__dirname, "..");
 const INPUT = path.join(ROOT, "tmp", "monsters_combined.json");
-const OUTPUT = path.join(ROOT, "packs", "cyberpunk-npc-templates.db");
+const OUTPUT_DIR = path.join(ROOT, "packs", "cyberpunk-npc-templates", "_source");
+
+// ---------------------------------------------------------------------------
+// Icon matching — scan assets for weapon and cyberware icons
+// ---------------------------------------------------------------------------
+
+const ICON_DIRS = [
+  { dir: path.join(ROOT, "assets", "weapon_icons", "firearm_icons"), prefix: "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/" },
+  { dir: path.join(ROOT, "assets", "weapon_icons", "modification_icons"), prefix: "modules/cyberpunk-5e/assets/weapon_icons/modification_icons/" },
+  { dir: path.join(ROOT, "assets", "cyberware_icons"), prefix: "modules/cyberpunk-5e/assets/cyberware_icons/" },
+  { dir: path.join(ROOT, "assets", "grenade_icons"), prefix: "modules/cyberpunk-5e/assets/grenade_icons/" },
+];
+
+// Hardcoded icon mappings (Foundry default icon pack + custom)
+const MANUAL_ICONS = {
+  // Weapons
+  "javelin": "icons/weapons/polearms/javelin.webp",
+  "dart": "icons/weapons/ammunition/arrows-bodkin-yellow-red.webp",
+  "spear": "icons/weapons/polearms/spear-flared-worn-grey.webp",
+  "blowgun": "icons/weapons/staves/staff-simple-brown.webp",
+  "net": "icons/tools/fishing/net-simple-tan.webp",
+  "sickle": "icons/weapons/sickles/sickle-curved.webp",
+  "club": "icons/weapons/clubs/club-baton-blue.webp",
+  "handaxe": "icons/weapons/axes/axe-broad-black.webp",
+  "shortbow": "icons/weapons/bows/shortbow-recurve.webp",
+  "halberd": "icons/weapons/polearms/halberd-crescent-glowing.webp",
+  "battleaxe": "icons/weapons/polearms/halberd-crescent-engraved-steel.webp",
+  "war pick": "icons/weapons/axes/pickaxe-double-brown.webp",
+  "lance": "icons/weapons/polearms/spear-barbed-silver.webp",
+  "scimitar": "icons/weapons/swords/sword-katana.webp",
+  "maul": "icons/weapons/hammers/hammer-double-steel-embossed.webp",
+  "quarterstaff": "icons/weapons/staves/staff-simple-gold.webp",
+  "morningstar": "icons/weapons/maces/mace-round-spiked-black.webp",
+  "flail": "icons/weapons/maces/flail-ball-grey.webp",
+  "longbow": "icons/weapons/bows/longbow-leather-green.webp",
+  "light crossbow": "icons/weapons/crossbows/crossbow-simple-black.webp",
+  "greatsword": "icons/weapons/swords/greatsword-guard-gem-blue.webp",
+  "shortsword": "icons/weapons/swords/sword-guard-brown.webp",
+  "greataxe": "icons/weapons/axes/axe-double.webp",
+  "greatclub": "icons/weapons/maces/mace-spiked-steel-grey.webp",
+  "rapier": "icons/weapons/swords/swords-sharp-worn.webp",
+  "glaive": "icons/weapons/polearms/glaive-hooked-steel.webp",
+  "pike": "icons/weapons/polearms/pike-flared-brown.webp",
+  "mace": "icons/weapons/maces/mace-flanged-steel-grey.webp",
+  "sling": "icons/weapons/slings/slingshot-wood.webp",
+  "dagger": "icons/weapons/daggers/dagger-jeweled-purple.webp",
+  "hand crossbow": "icons/weapons/crossbows/handcrossbow-green.webp",
+  "warhammer": "icons/weapons/hammers/hammer-war-rounding.webp",
+  "heavy crossbow": "icons/weapons/crossbows/crossbow-blue.webp",
+  "longsword": "icons/weapons/swords/greatsword-crossguard-steel.webp",
+  "whip": "icons/weapons/misc/whip-red-yellow.webp",
+  "trident": "icons/weapons/polearms/trident-silver-blue.webp",
+  "light hammer": "icons/weapons/hammers/shorthammer-claw.webp",
+  "katana": "icons/weapons/swords/sword-katana-purple.webp",
+  "bola": "icons/weapons/thrown/bolas-steel.webp",
+  "heavy chain": "icons/tools/fasteners/chain-steel-grey.webp",
+  "combat knife": "icons/weapons/daggers/dagger-serrated-black.webp",
+  "shock baton": "icons/commodities/tech/tube-chamber-lightning.webp",
+
+  // Common traits
+  "multiattack": "icons/skills/melee/blade-tips-triple-steel.webp",
+  "evasion": "icons/magic/water/pseudopod-teal.webp",
+  "spellcasting": "icons/magic/light/projectiles-star-purple.webp",
+  "innate spellcasting": "icons/magic/light/projectiles-star-purple.webp",
+  "pack tactics": "icons/creatures/abilities/paw-print-orange.webp",
+  "uncanny dodge": "icons/magic/air/air-wave-gust-blue.webp",
+};
+
+// Build a map of normalized name → relative icon path
+const ICON_MAP = Object.assign({}, MANUAL_ICONS);
+for (const { dir, prefix } of ICON_DIRS) {
+  if (!fs.existsSync(dir)) continue;
+  for (const file of fs.readdirSync(dir)) {
+    if (!file.endsWith(".png") && !file.endsWith(".jpg") && !file.endsWith(".webp")) continue;
+    const key = path.basename(file, path.extname(file)).toLowerCase().replace(/[-_]+/g, " ");
+    ICON_MAP[key] = prefix + file;
+  }
+}
+
+/**
+ * Match an item name to an icon. Strips parenthetical modifiers like "(Powered)"
+ * and normalizes for comparison.
+ * Returns the icon path or null.
+ */
+function matchIcon(name) {
+  // Strip parenthetical suffixes: "Pump Shotgun (Powered)" → "Pump Shotgun"
+  const baseName = name.replace(/\s*\([^)]*\)\s*/g, "").trim();
+  const normalized = baseName.toLowerCase().replace(/[-_]+/g, " ");
+
+  // Direct match (exact after normalization)
+  if (ICON_MAP[normalized]) return ICON_MAP[normalized];
+
+  // Try with hyphens normalized: "double-barrel" vs "double_barrel"
+  const dehyphenated = normalized.replace(/-/g, " ");
+  if (ICON_MAP[dehyphenated]) return ICON_MAP[dehyphenated];
+
+  // Word-boundary partial: the icon key must appear as complete words in the name,
+  // or the name must appear as complete words in the icon key.
+  // e.g. "Dual Magnums" matches "magnum" but "Blade" does NOT match "armblade".
+  for (const [key, iconPath] of Object.entries(ICON_MAP)) {
+    const keyRe = new RegExp(`\\b${escapeRegex(key)}s?\\b`);
+    const nameRe = new RegExp(`\\b${escapeRegex(normalized)}s?\\b`);
+    if (keyRe.test(normalized) || nameRe.test(key)) return iconPath;
+  }
+
+  return null;
+}
+
+function escapeRegex(str) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
 
 // ---------------------------------------------------------------------------
 // Lookup tables
@@ -354,7 +464,7 @@ function buildFeatItem(entry, activationType, activationCost) {
     _id: generateId(),
     name: entry.name,
     type: "feat",
-    img: "icons/svg/upgrade.svg",
+    img: matchIcon(entry.name) || "icons/svg/upgrade.svg",
     system: {
       description: { value: entry.description, chat: "" },
       source: { custom: "" },
@@ -379,6 +489,7 @@ function buildWeaponItem(action, monster) {
   const atk = action.attack;
   const isMelee = atk.type === "melee_weapon";
   const isRanged = atk.type === "ranged_weapon";
+  const icon = matchIcon(action.name) || "icons/svg/sword.svg";
 
   // Determine ability
   let ability;
@@ -407,7 +518,7 @@ function buildWeaponItem(action, monster) {
     _id: generateId(),
     name: action.name,
     type: "weapon",
-    img: "icons/svg/sword.svg",
+    img: icon,
     system: {
       description: { value: action.description, chat: "" },
       source: { custom: "" },
@@ -536,16 +647,31 @@ function convertMonster(monster) {
 // Run
 // ---------------------------------------------------------------------------
 
+function monsterFileName(name) {
+  return name.toLowerCase().replace(/\s+/g, "_").replace(/[^a-z0-9_]/g, "") + ".json";
+}
+
 const monsters = JSON.parse(fs.readFileSync(INPUT, "utf-8"));
 console.log(`Converting ${monsters.length} monsters...`);
 
-const lines = [];
+// Clean and recreate output directory
+if (fs.existsSync(OUTPUT_DIR)) {
+  fs.rmSync(OUTPUT_DIR, { recursive: true });
+}
+fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+
+const actors = [];
 const errors = [];
 
 for (const monster of monsters) {
   try {
     const actor = convertMonster(monster);
-    lines.push(JSON.stringify(actor));
+    actors.push(actor);
+    const fileName = monsterFileName(monster.name);
+    fs.writeFileSync(
+      path.join(OUTPUT_DIR, fileName),
+      JSON.stringify(actor, null, 2) + "\n"
+    );
   } catch (e) {
     errors.push(`${monster.name}: ${e.message}`);
   }
@@ -556,8 +682,7 @@ if (errors.length) {
   errors.forEach((e) => console.error(`  - ${e}`));
 }
 
-fs.writeFileSync(OUTPUT, lines.join("\n") + "\n");
-console.log(`Wrote ${lines.length} actors to ${OUTPUT}`);
+console.log(`Written ${actors.length} files to packs/cyberpunk-npc-templates/_source/`);
 
 // ---------------------------------------------------------------------------
 // Validation
@@ -571,9 +696,7 @@ let missingHpFormula = 0;
 let missingActionType = 0;
 let undefinedValues = 0;
 
-for (const line of lines) {
-  const obj = JSON.parse(line);
-
+for (const obj of actors) {
   // Unique IDs
   if (ids.has(obj._id)) dupeIds++;
   ids.add(obj._id);
@@ -586,19 +709,19 @@ for (const line of lines) {
     if (item.type === "weapon" && !item.system.actionType) missingActionType++;
   }
 
-  // Scan for undefined/null in required fields
-  const jsonStr = line;
+  // Scan for undefined values
+  const jsonStr = JSON.stringify(obj);
   if (jsonStr.includes(":undefined") || jsonStr.includes("undefined,")) undefinedValues++;
 }
 
-console.log(`Total actors: ${lines.length} (expected: 75)`);
+console.log(`Total actors: ${actors.length} (expected: 75)`);
 console.log(`Duplicate IDs: ${dupeIds}`);
 console.log(`Missing HP formula: ${missingHpFormula}`);
 console.log(`Missing actionType on weapons: ${missingActionType}`);
 console.log(`Lines with undefined values: ${undefinedValues}`);
 console.log(`Errors during conversion: ${errors.length}`);
 
-if (lines.length === 75 && dupeIds === 0 && missingHpFormula === 0 &&
+if (actors.length === 75 && dupeIds === 0 && missingHpFormula === 0 &&
     missingActionType === 0 && undefinedValues === 0 && errors.length === 0) {
   console.log("\n✓ All validations passed!");
 } else {

@@ -1,5 +1,5 @@
 {
-  "_id": "oYvPkMnsum2uEBGP",
+  "_id": "NCPRmiIM8NGkwGmH",
   "name": "Rocketman",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "TTmxgVHHAQJqsoKs",
+      "_id": "7J7qws01y6tRa3yi",
       "name": "Guided Missiles",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,7 +390,7 @@
       "flags": {}
     },
     {
-      "_id": "vLgXq4JN5HgJegJB",
+      "_id": "Tw3k4yh4SCgMvhbG",
       "name": "Internal Factory",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -442,10 +442,10 @@
       "flags": {}
     },
     {
-      "_id": "0jpc8tq21lyVjySL",
+      "_id": "ynum7t1wuOCf9vvo",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The rocketman makes two Rocket Launcher attacks.",
@@ -494,7 +494,7 @@
       "flags": {}
     },
     {
-      "_id": "tBoRVJbQLamFxp9e",
+      "_id": "ILceEiipTz55AEx0",
       "name": "Rocket Butt",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -591,7 +591,7 @@
       "flags": {}
     },
     {
-      "_id": "3Z0BqpyOZXy0ub8x",
+      "_id": "ZQaXUfYQ3EBxHAiv",
       "name": "Rocket Launcher",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -691,5 +691,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!oYvPkMnsum2uEBGP"
+  "_key": "!actors!NCPRmiIM8NGkwGmH"
 }

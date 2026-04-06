@@ -1,5 +1,5 @@
 {
-  "_id": "cp0ZujzfwJu2SY7z",
+  "_id": "s7SxQ60fUVJnepBV",
   "name": "Elite Security Captain",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "owmMCqUbfXQGOFPK",
+      "_id": "oj8ewdxLalKQ9jlS",
       "name": "Commanding Role",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,7 +390,7 @@
       "flags": {}
     },
     {
-      "_id": "uont0a6HBQeU4wD5",
+      "_id": "XpfgdOWs3dwKx5sq",
       "name": "Explosive (1/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -442,10 +442,10 @@
       "flags": {}
     },
     {
-      "_id": "kTQNjgPSgEVXrkD5",
+      "_id": "2ap8AsEm9tmhclRO",
       "name": "Sensory Enhancement",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "modules/cyberpunk-5e/assets/cyberware_icons/sensory_enhancement.png",
       "system": {
         "description": {
           "value": "The officer has advantage on Wisdom (Perception) checks that rely on sight.",
@@ -494,10 +494,10 @@
       "flags": {}
     },
     {
-      "_id": "JMBq87INjUaIi9J3",
+      "_id": "5j1OSGPJIUkB1QCs",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The captain makes two melee attacks or three ranged attacks.",
@@ -546,10 +546,10 @@
       "flags": {}
     },
     {
-      "_id": "ELRKbkd02N3Uz5IE",
+      "_id": "9KCPftgUkt7I7nKM",
       "name": "Combat Knife",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/daggers/dagger-serrated-black.webp",
       "system": {
         "description": {
           "value": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) piercing damage plus 14 (4d6) poison damage.",
@@ -647,10 +647,10 @@
       "flags": {}
     },
     {
-      "_id": "Jpnh3dyRYT2muNNH",
+      "_id": "yx7y7zgghqLG838j",
       "name": "Light Machine Gun (Powered)",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/light_machine_gun.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +8 to hit, range 100/400 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 2 (1d4) lightning damage. This weapon has the automatic property. Power Shot: The weapon adds the wielder's STR modifier to damage.",
@@ -748,7 +748,7 @@
       "flags": {}
     },
     {
-      "_id": "V0EAdkcu0TLH0aY2",
+      "_id": "MHauVeb6BeZUtH5a",
       "name": "Reactive Plating (Recharges after a Short or Long\nRest)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -803,5 +803,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!cp0ZujzfwJu2SY7z"
+  "_key": "!actors!s7SxQ60fUVJnepBV"
 }

@@ -1,5 +1,5 @@
 {
-  "_id": "Lu5GFb3z4O9ZIzPo",
+  "_id": "wGFiq0y9C2SI68jB",
   "name": "Prime Sniper",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "buzvcg1Tzrxogu3Z",
+      "_id": "xWTuCN9DFhW32Asn",
       "name": "Headshot",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,10 +390,10 @@
       "flags": {}
     },
     {
-      "_id": "lkeft5gYEC0U020D",
+      "_id": "a0PZCQO3dlB48HkG",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The sniper makes two weapon attacks.",
@@ -442,10 +442,10 @@
       "flags": {}
     },
     {
-      "_id": "s5qwjT8gGmJ3rhbR",
+      "_id": "ZqHNqBCuP1ppkNLl",
       "name": "Combat Knife",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/daggers/dagger-serrated-black.webp",
       "system": {
         "description": {
           "value": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) piercing damage.",
@@ -539,10 +539,10 @@
       "flags": {}
     },
     {
-      "_id": "V95ucOUGz1sldo37",
+      "_id": "DnKqSFSXPaTO0c1Y",
       "name": "Sniper Rifle",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/sniper_rifle.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +6 to hit, range 200/800 ft., one target. Hit: 9 (2d8) piercing damage. This weapon has the scoped property.",
@@ -636,7 +636,7 @@
       "flags": {}
     },
     {
-      "_id": "nDnhVtZ1ppZLVmhA",
+      "_id": "0O2XRMzk9wNZiAk4",
       "name": "Overwatch",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -688,7 +688,7 @@
       "flags": {}
     },
     {
-      "_id": "hPre2KyzlLrq0Nxx",
+      "_id": "Nzxenh8IPXeCDIwt",
       "name": "Marksman",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -740,7 +740,7 @@
       "flags": {}
     },
     {
-      "_id": "UcB3ZHAXWiHIZrB6",
+      "_id": "QA5qR5amlHGeEgX7",
       "name": "Steady Aim (1/Turn)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -795,5 +795,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!Lu5GFb3z4O9ZIzPo"
+  "_key": "!actors!wGFiq0y9C2SI68jB"
 }

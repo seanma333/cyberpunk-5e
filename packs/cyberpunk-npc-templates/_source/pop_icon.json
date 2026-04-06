@@ -1,5 +1,5 @@
 {
-  "_id": "RGQzW6UC1gTzwd1c",
+  "_id": "bI5VzDAAtMnDMmrw",
   "name": "Pop Icon",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "wBGzt4ecXGXx7aQ5",
+      "_id": "LG8yvPanqUnLcVZe",
       "name": "Cult of Personality",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,7 +390,7 @@
       "flags": {}
     },
     {
-      "_id": "vRFBXPzvg2J66vqE",
+      "_id": "2XuqXuSvSYE9PdPg",
       "name": "Inspire",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -442,10 +442,10 @@
       "flags": {}
     },
     {
-      "_id": "6kaAAvscTljVBZvj",
+      "_id": "r1N2zLFyUSIwX3QR",
       "name": "Spellcasting",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/light/projectiles-star-purple.webp",
       "system": {
         "description": {
           "value": "The icon is an 17th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). It has the following bard spells prepared: Cantrips (at will): friends, knack, minor illusion, vicious mockery 1st level (4 slots): charm person, heroism 2nd level (3 slots): enhance ability, shatter, suggestion 3rd level (3 slots): contract, dispel magic, fear, fireball, major image 4th level (3 slot): death ward, freedom of movement 5th level (2 slot): dominate person, mass cure wounds, modify memory, seeming 6th level (1 slot): irresistible dance, mass suggestion 7th level (1 slot): project image, mirage arcane 8th level (1 slot): glibness, power word: stun 9th level (1 slot): psychic scream",
@@ -494,10 +494,10 @@
       "flags": {}
     },
     {
-      "_id": "SMnKRLglJOBjM7SP",
+      "_id": "y8zggRKBidrJHtoi",
       "name": "Handgun",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/handgun.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +9 to hit, range 60/180 ft., one target. Hit: 5 (2d4) piercing damage.",
@@ -591,7 +591,7 @@
       "flags": {}
     },
     {
-      "_id": "I4V8NbK1k6rUZuQ3",
+      "_id": "lhmGEJghf1JooyRJ",
       "name": "Charming Demeanor",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -646,5 +646,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!RGQzW6UC1gTzwd1c"
+  "_key": "!actors!bI5VzDAAtMnDMmrw"
 }

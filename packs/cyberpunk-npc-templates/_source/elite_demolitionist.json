@@ -1,5 +1,5 @@
 {
-  "_id": "8RZ205PUo7QTgmvG",
+  "_id": "DosfGf8H5iMaJ0QV",
   "name": "Elite Demolitionist",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -340,10 +340,10 @@
   },
   "items": [
     {
-      "_id": "n37qiBbV7EMpQOlZ",
+      "_id": "2TPbPlYhqu0iPepQ",
       "name": "Evasion",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/water/pseudopod-teal.webp",
       "system": {
         "description": {
           "value": "If the demolitionist is subjected to an effect that allows it to make a Dexterity saving throw to take only half the damage, the demolitionist instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.",
@@ -392,10 +392,10 @@
       "flags": {}
     },
     {
-      "_id": "xU7OaF7Eoc2d5jb1",
+      "_id": "Ww1tL7wyAFBFD6EJ",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The demolitionist uses its Fragmentation Grenade. It then makes two weapon attacks with its Revolver.",
@@ -444,7 +444,7 @@
       "flags": {}
     },
     {
-      "_id": "urylU4vyJZZYhIIa",
+      "_id": "zqgA40Daur2ZUIkb",
       "name": "Tomahawk",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -545,10 +545,10 @@
       "flags": {}
     },
     {
-      "_id": "4airrNYBwxwgcPDb",
+      "_id": "pNntA1xTSkN90BYx",
       "name": "Revolver",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/revolver.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +7 to hit, range 60/180 ft., one target. Hit: 7 (2d6) piercing damage. This weapon has the reload (6) properties.",
@@ -642,10 +642,10 @@
       "flags": {}
     },
     {
-      "_id": "s8g5AsFVmgcBoOmH",
+      "_id": "qDvvWFtXHaznZbRo",
       "name": "Fragmentation Grenade (4/Day)",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "modules/cyberpunk-5e/assets/grenade_icons/fragmentation-grenade.png",
       "system": {
         "description": {
           "value": "The demolitionist throws a fragmentation grenade at a point within 60 feet of it. Each creature within 10 feet of that point must make a DC 15 Dexterity saving throw. A creature takes 14 (4d6) piercing damage and 14 (4d6) thunder damage on a failed save, or half as much damage on a successful one.",
@@ -694,7 +694,7 @@
       "flags": {}
     },
     {
-      "_id": "xdS4ANshSp1cLIX0",
+      "_id": "Nm6BnZSc6FrsjJbf",
       "name": "Contingent Blast",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -749,5 +749,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!8RZ205PUo7QTgmvG"
+  "_key": "!actors!DosfGf8H5iMaJ0QV"
 }

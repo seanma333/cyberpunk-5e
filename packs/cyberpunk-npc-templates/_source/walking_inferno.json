@@ -1,5 +1,5 @@
 {
-  "_id": "I5Cy64e7mlcImHRj",
+  "_id": "5zlnfL3XgjRaVK3r",
   "name": "Walking Inferno",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -340,7 +340,7 @@
   },
   "items": [
     {
-      "_id": "pL0qthv88j7dzjkJ",
+      "_id": "ReuxLqXExHTFGf09",
       "name": "Backdraft",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -392,7 +392,7 @@
       "flags": {}
     },
     {
-      "_id": "UVCW2rQ11fFTKwdK",
+      "_id": "8BqnqgjHwlGWXGfQ",
       "name": "Gas Masked",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -444,7 +444,7 @@
       "flags": {}
     },
     {
-      "_id": "2SnBSD7PexJTVTgY",
+      "_id": "og69XF0Cegstswq8",
       "name": "Immolated",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -496,10 +496,10 @@
       "flags": {}
     },
     {
-      "_id": "zTWVnrdiXZRoWIx5",
+      "_id": "jjw5KqX8R7wnjzt5",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The inferno can use its Napalm Grenade. It then makes three weapon attacks.",
@@ -548,7 +548,7 @@
       "flags": {}
     },
     {
-      "_id": "VIZeAijsovFLxMWM",
+      "_id": "m5rzYCOCRdR8imxm",
       "name": "Burning Chainsaw",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -645,7 +645,7 @@
       "flags": {}
     },
     {
-      "_id": "3UFkKINfJL3YXOIr",
+      "_id": "dBwCJtYMUwb4dpxx",
       "name": "Flamethrower",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -746,10 +746,10 @@
       "flags": {}
     },
     {
-      "_id": "weUaCsAXE2gJkfOf",
+      "_id": "yne1HrQIgRcwQrOR",
       "name": "Napalm Grenade (2/Day)",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "modules/cyberpunk-5e/assets/grenade_icons/napalm.png",
       "system": {
         "description": {
           "value": "The inferno throws a grenade at a point within 60 feet of it. Each target in a 10-foot-radius sphere centered on that point must make a DC 17 Dexterity saving throw. A target takes 31 (9d6) fire damage on a failed save and begins burning for 1 minute, taking 10 (3d6) fire damage at the start of each of its turns. On a successful save, the target takes half as much damage and is not burning.",
@@ -798,7 +798,7 @@
       "flags": {}
     },
     {
-      "_id": "w5Zm8AcUjnOS3y6D",
+      "_id": "C92LRP0IV6UGHKvr",
       "name": "Smokescreen",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -853,5 +853,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!I5Cy64e7mlcImHRj"
+  "_key": "!actors!5zlnfL3XgjRaVK3r"
 }

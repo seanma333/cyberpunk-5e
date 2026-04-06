@@ -1,5 +1,5 @@
 {
-  "_id": "RcVYoxwLdmHZA5ib",
+  "_id": "lzjVzcZ35X28k3M6",
   "name": "Technophile",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,10 +338,10 @@
   },
   "items": [
     {
-      "_id": "1GWOOM82AhRRgCiA",
+      "_id": "jSfnbQf30vcIjYOG",
       "name": "Elastic Joints",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "modules/cyberpunk-5e/assets/cyberware_icons/elastic_joints.png",
       "system": {
         "description": {
           "value": "The technophile can spend half its movement to automatically escape being grappled or restrained. The technophile can fit through gaps as narrow as its head.",
@@ -390,7 +390,7 @@
       "flags": {}
     },
     {
-      "_id": "B73sCwPwWBXFroUa",
+      "_id": "CYv3HnrDjY9wwXRZ",
       "name": "Integrated Weapons",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -442,10 +442,10 @@
       "flags": {}
     },
     {
-      "_id": "lqoQWAjdpc2YSj4M",
+      "_id": "jBnis1xjppO9WSkp",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The technophile uses its Lightning Surge, its Cold Blast, or its Flame Burst. It then makes one ranged attack.",
@@ -494,10 +494,10 @@
       "flags": {}
     },
     {
-      "_id": "h1bBN0IaNA5N774U",
+      "_id": "HeKkedSkSeeCi4QJ",
       "name": "Double-barrel Shotgun",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/double_barrel_shotgun.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +5 to hit, range 40/120 ft., one target. Hit: 7 (2d6) piercing damage. This weapon has the scatter property.",
@@ -591,7 +591,7 @@
       "flags": {}
     },
     {
-      "_id": "o77KNgav1UYBUbSo",
+      "_id": "D1PmA2lbQ4cPD53g",
       "name": "Cold Blast",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -643,7 +643,7 @@
       "flags": {}
     },
     {
-      "_id": "KSU5On2SdiDtoLK5",
+      "_id": "F561MHpTLaUgrxw0",
       "name": "Flame Burst",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -695,7 +695,7 @@
       "flags": {}
     },
     {
-      "_id": "PLQsN3TReFaqXoUM",
+      "_id": "fOJKRyFkJteoLCQs",
       "name": "Lightning Surge",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -747,7 +747,7 @@
       "flags": {}
     },
     {
-      "_id": "SvxBXuRdVzmSwRPU",
+      "_id": "td7aWmo1t3ZXrTo3",
       "name": "Elastic Dodge (3/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -802,5 +802,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!RcVYoxwLdmHZA5ib"
+  "_key": "!actors!lzjVzcZ35X28k3M6"
 }

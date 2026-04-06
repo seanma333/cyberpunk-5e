@@ -1,5 +1,5 @@
 {
-  "_id": "3jFk6Q4LBaGCMmbY",
+  "_id": "07ZxD0AHXgJfFPQC",
   "name": "Cataclysmic Anomaly",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -358,10 +358,10 @@
   },
   "items": [
     {
-      "_id": "qi5R2ugxuNSoFS5j",
+      "_id": "bn9w8t8zD9gzA7ct",
       "name": "Innate Spellcasting",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/light/projectiles-star-purple.webp",
       "system": {
         "description": {
           "value": "The anomaly's spellcasting ability is",
@@ -410,7 +410,7 @@
       "flags": {}
     },
     {
-      "_id": "ulB6LRJKZCDAbb7P",
+      "_id": "JacdaERksFkJtdHr",
       "name": "Charisma (spell save DC 21, +13 to hit with spell attacks)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -462,7 +462,7 @@
       "flags": {}
     },
     {
-      "_id": "YoUBKZiOa4KHrTGX",
+      "_id": "1i5baKH0xfzueWPQ",
       "name": "Legendary Resistance (3/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -514,7 +514,7 @@
       "flags": {}
     },
     {
-      "_id": "sEiLv1Qu7rBPSsDN",
+      "_id": "K5F7nbY6elYDb1Iv",
       "name": "Meltdown",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -566,7 +566,7 @@
       "flags": {}
     },
     {
-      "_id": "6TXiInwjyBgUZmdz",
+      "_id": "4vrTfjdLhcGRXYIz",
       "name": "Wandering Wasteland",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -618,10 +618,10 @@
       "flags": {}
     },
     {
-      "_id": "gWQaJFpi6fJBCqku",
+      "_id": "2Nn0oMMCdMHWqs5W",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The anomaly makes three weapon attacks.",
@@ -670,7 +670,7 @@
       "flags": {}
     },
     {
-      "_id": "w1iUYQssDhb8ardF",
+      "_id": "3ycPfDo7LJMf7G3U",
       "name": "Ionize",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -771,7 +771,7 @@
       "flags": {}
     },
     {
-      "_id": "Qk0oeskMaNHJlc1J",
+      "_id": "cjJuLCuLCUi6pyXv",
       "name": "Gamma Ray",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -868,7 +868,7 @@
       "flags": {}
     },
     {
-      "_id": "qn5ZHNsfInh6C4px",
+      "_id": "0fCPGfkyku3qzkIQ",
       "name": "Critical Mass (Recharge 5-6)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -920,7 +920,7 @@
       "flags": {}
     },
     {
-      "_id": "FNncJq2MpXcSYb8T",
+      "_id": "n6lJ7GYY1N2Imqqi",
       "name": "Quantum Jump (3/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -972,7 +972,7 @@
       "flags": {}
     },
     {
-      "_id": "71Sr5RxbxzN6VTtB",
+      "_id": "nJcGPy3a9q34MhQN",
       "name": "Ray",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -1024,7 +1024,7 @@
       "flags": {}
     },
     {
-      "_id": "jgBNynB8XkntKyMy",
+      "_id": "XtBEKJ6xYwbnjY1N",
       "name": "Ionize Attack",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -1076,10 +1076,10 @@
       "flags": {}
     },
     {
-      "_id": "lBjod9TidHX8DQg8",
+      "_id": "Ipk40uERASwMsote",
       "name": "Warp",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "modules/cyberpunk-5e/assets/cyberware_icons/warp_cortex.png",
       "system": {
         "description": {
           "value": "The anomaly teleports to an unoccupied space it can see within 60 feet of it.",
@@ -1128,7 +1128,7 @@
       "flags": {}
     },
     {
-      "_id": "Zpcif4Y3BTPgfyN0",
+      "_id": "E4BndMYw0TLMVhpd",
       "name": "Cast a Spell (Costs 2 Actions)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -1183,5 +1183,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!3jFk6Q4LBaGCMmbY"
+  "_key": "!actors!07ZxD0AHXgJfFPQC"
 }

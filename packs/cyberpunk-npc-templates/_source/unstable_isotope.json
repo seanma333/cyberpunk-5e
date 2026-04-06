@@ -1,5 +1,5 @@
 {
-  "_id": "iBhGmygUZ4XkDp75",
+  "_id": "eAFjmmYf85iR0k5y",
   "name": "Unstable Isotope",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -354,7 +354,7 @@
   },
   "items": [
     {
-      "_id": "rFMvPYLDhVrxbeXR",
+      "_id": "tFW5tjBG25Ge4VF5",
       "name": "Chain Reaction",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -406,7 +406,7 @@
       "flags": {}
     },
     {
-      "_id": "tRMPWfixmVME8V2n",
+      "_id": "cAK03t3QA39dRQ1c",
       "name": "Bright Mote",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -458,7 +458,7 @@
       "flags": {}
     },
     {
-      "_id": "iS5Yl0gVrjXzwBQn",
+      "_id": "RolEO13oKGzOGSQH",
       "name": "Ionize",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -559,7 +559,7 @@
       "flags": {}
     },
     {
-      "_id": "65aOQOKrOAuDPdB2",
+      "_id": "mvGzghlw5flBTr6O",
       "name": "Toxic Form",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -614,5 +614,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!iBhGmygUZ4XkDp75"
+  "_key": "!actors!eAFjmmYf85iR0k5y"
 }

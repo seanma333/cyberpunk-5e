@@ -1,5 +1,5 @@
 {
-  "_id": "oMLqL50tAhbGt3db",
+  "_id": "HVcFPgpo1Kw71QJm",
   "name": "Police Sergeant",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "31IdWV4SWohlKi2t",
+      "_id": "nmMbGhXTxB9rFuS1",
       "name": "Got Your Back",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,10 +390,10 @@
       "flags": {}
     },
     {
-      "_id": "ceePFdWiW3LcXePd",
+      "_id": "KspZU6lCTnpo4kPj",
       "name": "Pack Tactics",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/creatures/abilities/paw-print-orange.webp",
       "system": {
         "description": {
           "value": "The sergeant has advantage on an attack roll against a creature if at least one of the sergeant's allies is within 5 feet of the creature and the ally isn't incapacitated.",
@@ -442,10 +442,10 @@
       "flags": {}
     },
     {
-      "_id": "ZqWGO6Tn7dqk6sc0",
+      "_id": "owdINeiHmsPh21qu",
       "name": "Multiattack",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The sergeant makes three weapon attacks. Shock Baton Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) lightning damage. A creature reduced to 0 hit points by this weapon falls unconscious and is stable.",
@@ -539,10 +539,10 @@
       "flags": {}
     },
     {
-      "_id": "QSHolUeREnijKwO8",
+      "_id": "1iietQCcZ08smlYB",
       "name": "Pump Shotgun (High Impact Shots, Powered)",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/pump_shotgun.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +7 to hit, range 80/320 ft., one target. Hit: 11 (2d6 + 4) piercing damage. This weapon has the reload (10), scatter (2d8), two-handed, and strength 13 properties. High Impact Shots: When the sergeant attacks a creature within 30 feet, the attack deals an extra 3 (1d6) damage, and the sergeant may push the target up to 5 feet away if it is Large or smaller. Power Shot: The weapon adds the wielder's STR modifier to damage.",
@@ -640,10 +640,10 @@
       "flags": {}
     },
     {
-      "_id": "uymz3AqdMoZZemV3",
+      "_id": "oAU1NUchvGBMFv9q",
       "name": "Pack Tactics",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/creatures/abilities/paw-print-orange.webp",
       "system": {
         "description": {
           "value": "The officer has advantage on an attack roll against a creature if at least one of the officer's allies is within 5 feet of the creature and the ally isn't incapacitated.",
@@ -695,5 +695,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!oMLqL50tAhbGt3db"
+  "_key": "!actors!HVcFPgpo1Kw71QJm"
 }

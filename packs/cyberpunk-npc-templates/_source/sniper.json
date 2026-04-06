@@ -1,5 +1,5 @@
 {
-  "_id": "WHs6P1af7S4sHl9X",
+  "_id": "6hiEOFHd7XLhDwcy",
   "name": "Sniper",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "EjeQsZFJb21xHwlW",
+      "_id": "nCxoJ87sPBcgpWnH",
       "name": "Marksman",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,7 +390,7 @@
       "flags": {}
     },
     {
-      "_id": "xCw4k6ugVkShVid4",
+      "_id": "u2xXDaK7UE4XLG7p",
       "name": "Steady Aim (1/Turn)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -442,10 +442,10 @@
       "flags": {}
     },
     {
-      "_id": "0Thc7B9vDPzQlHqj",
+      "_id": "IVdltQiG3IhqUX7P",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The sniper makes two weapon attacks.",
@@ -494,10 +494,10 @@
       "flags": {}
     },
     {
-      "_id": "4UWIOmkkeun7JMCi",
+      "_id": "1Ei70aALHv7hGxt4",
       "name": "Combat Knife",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/daggers/dagger-serrated-black.webp",
       "system": {
         "description": {
           "value": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) piercing damage.",
@@ -591,10 +591,10 @@
       "flags": {}
     },
     {
-      "_id": "eBrljpUjpXCKQZcu",
+      "_id": "C6mMJR3VqrhCvqg0",
       "name": "Sniper Rifle",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/sniper_rifle.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +6 to hit, range 200/800 ft., one target. Hit: 9 (2d8) piercing damage. This weapon has the heavy, reload (6), sighted, two-handed properties.",
@@ -688,7 +688,7 @@
       "flags": {}
     },
     {
-      "_id": "d91LDCqh176zYhCh",
+      "_id": "SVJuVYTW9zntyyXM",
       "name": "Overwatch",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -740,7 +740,7 @@
       "flags": {}
     },
     {
-      "_id": "FTN9lb9GgVvC7dmc",
+      "_id": "12jOB0TXq1c3M5dt",
       "name": "Marksman",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -792,7 +792,7 @@
       "flags": {}
     },
     {
-      "_id": "2hHBN9dvuUwH9JTT",
+      "_id": "EYiomNdDIN5exrL2",
       "name": "Steady Aim (1/Turn)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -847,5 +847,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!WHs6P1af7S4sHl9X"
+  "_key": "!actors!6hiEOFHd7XLhDwcy"
 }

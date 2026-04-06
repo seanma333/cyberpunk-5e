@@ -1,5 +1,5 @@
 {
-  "_id": "ncmd80FsxaDjsbEh",
+  "_id": "sQtoWcjEYShjNc9C",
   "name": "Razorgirl",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,10 +338,10 @@
   },
   "items": [
     {
-      "_id": "I8B3SNk6RSUknoYD",
+      "_id": "9e8A0cEKsWJBSWuf",
       "name": "Evasion",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/water/pseudopod-teal.webp",
       "system": {
         "description": {
           "value": "If the razorgirl is subjected to an effect that allows her to make a Dexterity saving throw to take only half the damage, the razorgirl instead takes no damage if she succeeds on the saving throw, and only half damage if she fails.",
@@ -390,10 +390,10 @@
       "flags": {}
     },
     {
-      "_id": "qvu7YMPLD8g6lzw8",
+      "_id": "d5tLmKVOdlZKgTNs",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The razorgirl makes three melee attacks or two ranged attacks.",
@@ -442,10 +442,10 @@
       "flags": {}
     },
     {
-      "_id": "Puli587os3ri9Qc0",
+      "_id": "WJ1NTHJa9BLd6vm4",
       "name": "Cyberclaws",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/cyberware_icons/cyberclaws.png",
       "system": {
         "description": {
           "value": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage. If the razorgirl rolls a 20 on a melee attack with the claws, she can make one additional melee weapon attack against the target.",
@@ -539,10 +539,10 @@
       "flags": {}
     },
     {
-      "_id": "NqiLYqKeRudGUCyE",
+      "_id": "JL16Kl4my7CTDjq4",
       "name": "Magnum",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/magnum.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +6 to hit, range 60/240 ft., one target. Hit: 9 (2d8) piercing damage.",
@@ -636,10 +636,10 @@
       "flags": {}
     },
     {
-      "_id": "Gbv513tSLONvENUd",
+      "_id": "4xcl7yJSfoG5f9b4",
       "name": "Uncanny Dodge",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/air/air-wave-gust-blue.webp",
       "system": {
         "description": {
           "value": "The razorgirl halves the damage that she takes from an attack that hits her. The razorgirl must be able to see the attacker.",
@@ -691,5 +691,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!ncmd80FsxaDjsbEh"
+  "_key": "!actors!sQtoWcjEYShjNc9C"
 }

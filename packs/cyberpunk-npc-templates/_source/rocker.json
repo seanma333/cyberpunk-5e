@@ -1,5 +1,5 @@
 {
-  "_id": "pqMT6li5X5A9KXTK",
+  "_id": "JTekXk8vsYM0OX2f",
   "name": "Rocker",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "zPrAWmgIL01ZWXwy",
+      "_id": "dN90ACqw2qOgp4bu",
       "name": "Radical Shout",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,10 +390,10 @@
       "flags": {}
     },
     {
-      "_id": "0eyPlaSaltZW7Wdr",
+      "_id": "BeRVSJAJl2dQYbUL",
       "name": "Spellcasting",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/light/projectiles-star-purple.webp",
       "system": {
         "description": {
           "value": "The rocker is a 4th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It has the following bard spells prepared: Cantrips (at will): friends, knack, vicious mockery 1st level (4 slots): bane, charm person, heroism, thunderwave 2nd level (3 slots): enhance ability, knock, shatter",
@@ -442,10 +442,10 @@
       "flags": {}
     },
     {
-      "_id": "BFLM8QoWYevwh9QF",
+      "_id": "mErMO4lp2riwQgpS",
       "name": "Combat Knife",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/daggers/dagger-serrated-black.webp",
       "system": {
         "description": {
           "value": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 2) piercing damage.",
@@ -539,10 +539,10 @@
       "flags": {}
     },
     {
-      "_id": "JEP8niiNEImgYebH",
+      "_id": "v1Xt3RugyVF3LPG7",
       "name": "Submachine Gun",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/submachine_gun.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +5 to hit, range 40/120 ft., one target. Hit: 7 (2d6) piercing damage. This weapon has the automatic property.",
@@ -639,5 +639,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!pqMT6li5X5A9KXTK"
+  "_key": "!actors!JTekXk8vsYM0OX2f"
 }

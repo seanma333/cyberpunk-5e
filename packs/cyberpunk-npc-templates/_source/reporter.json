@@ -1,5 +1,5 @@
 {
-  "_id": "Vb87r8CwXT3m9ANL",
+  "_id": "j9euIDmAnPLQWqA7",
   "name": "Reporter",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,10 +338,10 @@
   },
   "items": [
     {
-      "_id": "fOUMgFsLRCJfTvwa",
+      "_id": "Z57PqzQepuGDkX6m",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The reporter makes two weapon attacks.",
@@ -390,7 +390,7 @@
       "flags": {}
     },
     {
-      "_id": "qPRINhoQ7E2WMf4m",
+      "_id": "HKSWBeFsCAha8S7u",
       "name": "Stun Gun",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -487,10 +487,10 @@
       "flags": {}
     },
     {
-      "_id": "Og9ykep9RJ0PaP7y",
+      "_id": "ICfTk5WS4SaxdA6V",
       "name": "Handgun",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/handgun.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +4 to hit, range 60/180 ft., one target. Hit: 5 (2d4) piercing damage.",
@@ -584,7 +584,7 @@
       "flags": {}
     },
     {
-      "_id": "YfWD6aGnrHFJAkRv",
+      "_id": "663Fh9kN48XclfAJ",
       "name": "Pepper Spray (2/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -636,10 +636,10 @@
       "flags": {}
     },
     {
-      "_id": "EUsaQ3dodRrym2mD",
+      "_id": "aAPjSxcddYw0ezVF",
       "name": "Uncanny Dodge",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/air/air-wave-gust-blue.webp",
       "system": {
         "description": {
           "value": "The reporter halves the damage that it takes from an attack that hits it. The reporter must be able to see the attacker.",
@@ -691,5 +691,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!Vb87r8CwXT3m9ANL"
+  "_key": "!actors!j9euIDmAnPLQWqA7"
 }

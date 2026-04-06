@@ -1,5 +1,5 @@
 {
-  "_id": "dvQIMvv2mIvtNZF5",
+  "_id": "V4s2Psu3AV7Uciyp",
   "name": "Mad Scientist",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -340,7 +340,7 @@
   },
   "items": [
     {
-      "_id": "nXIAntsAsBbJ18oF",
+      "_id": "EUlVbfYTYO2fiLec",
       "name": "Berserker Serum (3/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -392,7 +392,7 @@
       "flags": {}
     },
     {
-      "_id": "pxcdpfmJRYs1An6s",
+      "_id": "rudy3WpupaYKQPcU",
       "name": "Wisdom saving throw or go berserk",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -444,7 +444,7 @@
       "flags": {}
     },
     {
-      "_id": "OMYkJJjRGkRKMLc0",
+      "_id": "gBKN9Y6UbufcgLIa",
       "name": "Maddening Aura",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -496,7 +496,7 @@
       "flags": {}
     },
     {
-      "_id": "hIcM0fpSDztgTUnX",
+      "_id": "50PdfZIY24pcDnz8",
       "name": "Term Madness table (DMG pg. 260)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -548,10 +548,10 @@
       "flags": {}
     },
     {
-      "_id": "vImmzDPCH8a119Pw",
+      "_id": "kR5nKpwEOvHQhMw3",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The scientist makes three attacks with its injector.",
@@ -600,7 +600,7 @@
       "flags": {}
     },
     {
-      "_id": "rpdvLiLGxzmLYMxc",
+      "_id": "0uroiXVOajeGxzRm",
       "name": "Injector",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -705,7 +705,7 @@
       "flags": {}
     },
     {
-      "_id": "R1YOWiPFVgnWW0YW",
+      "_id": "rvfvBaslkvmdhefQ",
       "name": "Tesla Cannon (Recharge 5-6)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -757,7 +757,7 @@
       "flags": {}
     },
     {
-      "_id": "ZzM5GgMAERqPz6gA",
+      "_id": "2L9AXX7saCGloAN0",
       "name": "Unnatural Experiment (1/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -809,7 +809,7 @@
       "flags": {}
     },
     {
-      "_id": "XX4Ed8HQ7QnYeX2T",
+      "_id": "iBN4Fy63UduNZpxw",
       "name": "Stroke of Mad Genius",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -864,5 +864,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!dvQIMvv2mIvtNZF5"
+  "_key": "!actors!V4s2Psu3AV7Uciyp"
 }

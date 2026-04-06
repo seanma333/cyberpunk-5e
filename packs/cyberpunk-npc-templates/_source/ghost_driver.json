@@ -1,5 +1,5 @@
 {
-  "_id": "w2y8MK2pMhVfEtjq",
+  "_id": "vxE2nOKdMTJQhYMO",
   "name": "Ghost Driver",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -358,7 +358,7 @@
   },
   "items": [
     {
-      "_id": "ge17yGdcJ7dgJl3X",
+      "_id": "BJJqArIlfwyLa2VV",
       "name": "Incorporeal Movement",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -410,7 +410,7 @@
       "flags": {}
     },
     {
-      "_id": "SehE2FwyemDlgXfs",
+      "_id": "pMbjq48qPUGR2pca",
       "name": "Ghastly Wrecks",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -462,7 +462,7 @@
       "flags": {}
     },
     {
-      "_id": "UACuYoO9MCgiyc2u",
+      "_id": "YBSAF9U1Z3Ze9ETb",
       "name": "Fiery Chain attacks",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -559,7 +559,7 @@
       "flags": {}
     },
     {
-      "_id": "YYLNukn3NMU3QX05",
+      "_id": "Zg0HEFVC8gC0n3wd",
       "name": "Jealous Grip",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -656,7 +656,7 @@
       "flags": {}
     },
     {
-      "_id": "mofqh9YfyA30k8h2",
+      "_id": "a32wOIMgY15pjZBh",
       "name": "Hijack Vehicle (Recharge 6)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -711,5 +711,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!w2y8MK2pMhVfEtjq"
+  "_key": "!actors!vxE2nOKdMTJQhYMO"
 }

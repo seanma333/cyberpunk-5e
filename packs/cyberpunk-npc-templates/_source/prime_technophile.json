@@ -1,5 +1,5 @@
 {
-  "_id": "aAnbYhgNVPaB5T87",
+  "_id": "3FxVpKeelqJQdGIL",
   "name": "Prime Technophile",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -340,7 +340,7 @@
   },
   "items": [
     {
-      "_id": "UWh7ijTrtR1kSnpE",
+      "_id": "hpiYbA8ycISOHhtb",
       "name": "Chloroplast Skin",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -392,10 +392,10 @@
       "flags": {}
     },
     {
-      "_id": "yI1Xg31bwzTTUGZw",
+      "_id": "H3qb3TlQ7iKFCpis",
       "name": "Elastic Joints",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "modules/cyberpunk-5e/assets/cyberware_icons/elastic_joints.png",
       "system": {
         "description": {
           "value": "The technophile can spend half its movement to automatically escape being grappled or restrained. The technophile can fit through gaps as narrow as its head.",
@@ -444,7 +444,7 @@
       "flags": {}
     },
     {
-      "_id": "w7x9qVBTyfrmyjjD",
+      "_id": "rsKYyH47WhI4vfpX",
       "name": "Integrated Weapons",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -496,7 +496,7 @@
       "flags": {}
     },
     {
-      "_id": "3GiG7EidnBhluXQf",
+      "_id": "1zRMR073fWpzkSlG",
       "name": "Proto Arms",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -548,10 +548,10 @@
       "flags": {}
     },
     {
-      "_id": "bUAcKRaSDUeVmTIR",
+      "_id": "8cqBGXR7GRz7Duqk",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The technophile uses its Lightning Surge, its Cold Blast, or its Flame Burst. It then makes three ranged attacks.",
@@ -600,10 +600,10 @@
       "flags": {}
     },
     {
-      "_id": "FeqLtm6Cyklow1WB",
+      "_id": "2Ro8tXxEgbo6TVPq",
       "name": "Pump Shotgun (Powered)",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/pump_shotgun.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +10 to hit, range 80/320 ft., one target. Hit: 9 (2d6 + 2) piercing damage. This weapon has the scatter property. Power Shot: The weapon adds the wielder's STR modifier to damage.",
@@ -697,10 +697,10 @@
       "flags": {}
     },
     {
-      "_id": "D9SoDOEtVMib78EN",
+      "_id": "1gPsO5SzaJw8FdCF",
       "name": "Gatling Gun (Powered)",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/gatling_gun.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +10 to hit, range 100/400 ft., one target. Hit: 15 (2d12 + 2) piercing damage. Power Shot: The weapon adds the wielder's STR modifier to damage. This weapon has the automatic property.",
@@ -794,7 +794,7 @@
       "flags": {}
     },
     {
-      "_id": "WaYCZxBpO1lGMxq2",
+      "_id": "ZvIDKW9B5WZAOqH8",
       "name": "Flame Burst",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -846,7 +846,7 @@
       "flags": {}
     },
     {
-      "_id": "Rsnbhi9hoYopbMti",
+      "_id": "2Rybag2wXvtYh4AJ",
       "name": "Lightning Surge",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -898,7 +898,7 @@
       "flags": {}
     },
     {
-      "_id": "bcUuO0tVM1uNo4Rj",
+      "_id": "zyI6jEQYKu3aBbxk",
       "name": "Elastic Dodge",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -953,5 +953,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!aAnbYhgNVPaB5T87"
+  "_key": "!actors!3FxVpKeelqJQdGIL"
 }

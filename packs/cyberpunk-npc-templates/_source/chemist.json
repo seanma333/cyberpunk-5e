@@ -1,5 +1,5 @@
 {
-  "_id": "QAbgQBm0GNHcqw8R",
+  "_id": "2HH5ux2YH3kbpXfS",
   "name": "Chemist",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -342,7 +342,7 @@
   },
   "items": [
     {
-      "_id": "6fTWHigNNBJZYZib",
+      "_id": "JN5pTiwAzvtt9GqS",
       "name": "Corrosive Blood",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -394,7 +394,7 @@
       "flags": {}
     },
     {
-      "_id": "SRWlZYnsVchkHd3y",
+      "_id": "P4ulCaHGhH4Knnqw",
       "name": "Stimulant Cocktail",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -446,10 +446,10 @@
       "flags": {}
     },
     {
-      "_id": "pYjC6ucKqCIyf0CZ",
+      "_id": "bkKja1TFnhRGKjxL",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The chemist can use its Chemical Reaction. It then makes two attacks with its syringe or one attack with its dart gun.",
@@ -498,7 +498,7 @@
       "flags": {}
     },
     {
-      "_id": "sPWyi97J6Y0bNszm",
+      "_id": "J9ysX2VgFDY9a46Y",
       "name": "Syringe",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -599,10 +599,10 @@
       "flags": {}
     },
     {
-      "_id": "AS2XwTuBnQaMJV2l",
+      "_id": "jr9qMVwiYB0tNtu2",
       "name": "Dart Gun (Powered)",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/ammunition/arrows-bodkin-yellow-red.webp",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +6 to hit, range 60/240 ft., one target. Hit: 5 (1d4 + 3) piercing damage, and the target must make a DC 15 Constitution saving throw. On a failed save, the target takes 14 (4d6) poison damage and is poisoned for 1 hour. On a successful save, the target takes half as much damage and isn't poisoned. Power Shot: The weapon adds the wielder's DEX modifier to damage.",
@@ -700,7 +700,7 @@
       "flags": {}
     },
     {
-      "_id": "Y03VsQsnf2uqflIY",
+      "_id": "8iGiF3QeesanTDvE",
       "name": "Chemical Reaction (5/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -752,7 +752,7 @@
       "flags": {}
     },
     {
-      "_id": "PNx5rMQ12uruhKmE",
+      "_id": "HKQNeGXXjl1pM6WF",
       "name": "Constitution saving throw",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -807,5 +807,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!QAbgQBm0GNHcqw8R"
+  "_key": "!actors!2HH5ux2YH3kbpXfS"
 }

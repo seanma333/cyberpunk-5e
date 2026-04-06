@@ -1,5 +1,5 @@
 {
-  "_id": "UmUumyXNppcaA5XZ",
+  "_id": "i61YgRtnCLdvleng",
   "name": "Gangster King",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "goTWRzzmeAHlTUST",
+      "_id": "QaovY1XESyYXaTvX",
       "name": "Compel Underling",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,7 +390,7 @@
       "flags": {}
     },
     {
-      "_id": "6oppWVMeBo50Gz2w",
+      "_id": "taEDnHK1U5Iv5ko4",
       "name": "Muse (1/Hour)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -442,10 +442,10 @@
       "flags": {}
     },
     {
-      "_id": "uABOqBVDf1rs2CZh",
+      "_id": "fthDkS6Sa27SIBwu",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The king makes two weapon attacks.",
@@ -494,7 +494,7 @@
       "flags": {}
     },
     {
-      "_id": "8SxgV8UxxiZQtTUA",
+      "_id": "ntCRkBRfiRorQnJG",
       "name": "Sledgehammer",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -591,10 +591,10 @@
       "flags": {}
     },
     {
-      "_id": "zIBafRaPMqna4SLc",
+      "_id": "HKRAS6JTscVCqmiE",
       "name": "Light Machine Gun (Powered)",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/light_machine_gun.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +5 to hit, range 100/400 ft., one target. Hit: 14 (2d10 + 3) piercing damage. This weapon has the automatic, heavy, reload (40, action), two-handed, strength 13 properties. Power Shot: The weapon adds the wielder's STR modifier to damage.",
@@ -688,10 +688,10 @@
       "flags": {}
     },
     {
-      "_id": "E37FdHUKnBxCoqTW",
+      "_id": "Om0XG5rwvGf21aBM",
       "name": "Fragmentation Grenade (3/Day)",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "modules/cyberpunk-5e/assets/grenade_icons/fragmentation-grenade.png",
       "system": {
         "description": {
           "value": "The king throws a grenade at a point within 60 feet of it. Each creature in a 10- foot-radius sphere centered on that point must make a DC 13",
@@ -740,7 +740,7 @@
       "flags": {}
     },
     {
-      "_id": "xxOOWKGwd3n8LSlm",
+      "_id": "vV17pCcs4kR6evIg",
       "name": "Dexterity saving throw",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -792,7 +792,7 @@
       "flags": {}
     },
     {
-      "_id": "ocZ0d60n9PeX0KLQ",
+      "_id": "qtwgT5gi5wl6T4Vt",
       "name": "Hell to Pay",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -847,5 +847,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!UmUumyXNppcaA5XZ"
+  "_key": "!actors!i61YgRtnCLdvleng"
 }

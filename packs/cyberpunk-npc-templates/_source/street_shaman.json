@@ -1,5 +1,5 @@
 {
-  "_id": "izkg5ajEmKXSemxi",
+  "_id": "eS7tCWT2i75F9hiB",
   "name": "Street Shaman",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,10 +338,10 @@
   },
   "items": [
     {
-      "_id": "LO9y5AIbQWnPj5Xa",
+      "_id": "KgjVt5rAWHoqfeWG",
       "name": "Spellcasting",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/light/projectiles-star-purple.webp",
       "system": {
         "description": {
           "value": "The street shaman is an 12th-level spellcaster.",
@@ -390,10 +390,10 @@
       "flags": {}
     },
     {
-      "_id": "sKvc9ymnWzpmwp9M",
+      "_id": "EmsnmlBSiZRMiz8U",
       "name": "Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit\nwith spell attacks)",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/light/projectiles-star-purple.webp",
       "system": {
         "description": {
           "value": "It has the following druid spells prepared: Cantrips (at will): control flames, mending, produce flames, thunderclap 1st level (4 slots): absorb elements, cure wounds, detect magic, spectral barricade 2nd level (3 slots): locate object, spiritual weapon 3rd level (3 slots): camouflage vehicle, summon vehicle 4th level (3 slot): find the road, reconstruct vehicle 5th level (2 slots): commune with nature, greater restoration, haywire 6th level (1 slot): awaken vehicle, heal",
@@ -442,7 +442,7 @@
       "flags": {}
     },
     {
-      "_id": "6qq68giOiyLeSczw",
+      "_id": "3TMRnixCfT1eTNOE",
       "name": "Wheel-Saint",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -494,10 +494,10 @@
       "flags": {}
     },
     {
-      "_id": "eBFvVNw5DdkpvLQu",
+      "_id": "d7JV89EShV0T0QH2",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The shaman makes two weapon attacks.",
@@ -546,7 +546,7 @@
       "flags": {}
     },
     {
-      "_id": "l273hMYpdJHOLmuQ",
+      "_id": "JM5xU26t2OMGC80f",
       "name": "Tire Iron",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -647,10 +647,10 @@
       "flags": {}
     },
     {
-      "_id": "ecuWBR0SI5wNN2CS",
+      "_id": "OpABazh2ViZSeGR6",
       "name": "Magnum",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/magnum.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +6 to hit, range 60/240 ft., one target. Hit: 9 (2d8) piercing damage and 9 (2d8) thunder damage.",
@@ -751,5 +751,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!izkg5ajEmKXSemxi"
+  "_key": "!actors!eS7tCWT2i75F9hiB"
 }

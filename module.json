@@ -200,10 +200,10 @@
       }
     },
     {
-      "name": "cyberpunk-npc-racial-features",
-      "label": "Cyberpunk NPC Racial Features",
-      "path": "packs/cyberpunk-npc-racial-features",
-      "type": "Item",
+      "name": "cyberpunk-monsters",
+      "label": "Cyberpunk Monsters",
+      "path": "packs/cyberpunk-monsters",
+      "type": "Actor",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"

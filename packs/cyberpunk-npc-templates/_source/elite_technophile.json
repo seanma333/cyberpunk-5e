@@ -1,5 +1,5 @@
 {
-  "_id": "1X3MIr1Z7VjXFwbq",
+  "_id": "JgW0QvZYLkfK7i0y",
   "name": "Elite Technophile",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -340,7 +340,7 @@
   },
   "items": [
     {
-      "_id": "hNgrtuBRDzzj5aM6",
+      "_id": "u0K0lrqD2Rx2oP4Y",
       "name": "Chloroplast Skin",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -392,10 +392,10 @@
       "flags": {}
     },
     {
-      "_id": "0MS8y2bBZrGHjEvy",
+      "_id": "8P9tNEq5NgGBwRF2",
       "name": "Elastic Joints",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "modules/cyberpunk-5e/assets/cyberware_icons/elastic_joints.png",
       "system": {
         "description": {
           "value": "The technophile can spend half its movement to automatically escape being grappled or restrained. The technophile can fit through gaps as narrow as its head.",
@@ -444,7 +444,7 @@
       "flags": {}
     },
     {
-      "_id": "mZXW808I20pe8Er7",
+      "_id": "f4ZE2vHFQBgwugh1",
       "name": "Integrated Weapons",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -496,10 +496,10 @@
       "flags": {}
     },
     {
-      "_id": "fssdQnY9T2ajEfwk",
+      "_id": "HJOn8yLYx2kA1O2l",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The technophile uses its Lightning Surge, its Cold Blast, or its Flame Burst. It then makes two ranged attacks.",
@@ -548,10 +548,10 @@
       "flags": {}
     },
     {
-      "_id": "y40cq5FG7GaMrs7x",
+      "_id": "KIQJBygQ1CplzdlX",
       "name": "Pump Shotgun",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/pump_shotgun.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +7 to hit, range 80/320 ft., one target. Hit: 7 (2d6) piercing damage. This weapon has the scatter property.",
@@ -645,7 +645,7 @@
       "flags": {}
     },
     {
-      "_id": "oUqGYvWOYUKVUngI",
+      "_id": "ICmFUYBCFk3dhva5",
       "name": "Cold Blast",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -697,7 +697,7 @@
       "flags": {}
     },
     {
-      "_id": "KG2gTeXA14MIo3Pg",
+      "_id": "uOLvcKQ7q46uFXAP",
       "name": "Flame Burst",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -749,7 +749,7 @@
       "flags": {}
     },
     {
-      "_id": "OySI6XzLzNnigkmT",
+      "_id": "d9fUVxXu0oBhImTR",
       "name": "Lightning Surge",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -801,7 +801,7 @@
       "flags": {}
     },
     {
-      "_id": "zWdp841fziDuOKiH",
+      "_id": "aLGCo2OvGS9QVb4S",
       "name": "Elastic Dodge (3/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -856,5 +856,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!1X3MIr1Z7VjXFwbq"
+  "_key": "!actors!JgW0QvZYLkfK7i0y"
 }

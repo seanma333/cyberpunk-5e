@@ -1,5 +1,5 @@
 {
-  "_id": "p5WBOzxrWmIbwEPU",
+  "_id": "hnlQ1VtgEQDXGwsa",
   "name": "Prime Technomancer",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "ac8xvyuJdPax9bZJ",
+      "_id": "IdvTGdmFdVwy0ZvS",
       "name": "Active Countermeasures (1/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,7 +390,7 @@
       "flags": {}
     },
     {
-      "_id": "K0oxoSAlYIhp7sUX",
+      "_id": "Tvwdgd9YKGPUfGzY",
       "name": "Devious Sabotage",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -442,10 +442,10 @@
       "flags": {}
     },
     {
-      "_id": "DWeqobr1oUuDJOMD",
+      "_id": "6Uc311KthWjQBumD",
       "name": "Spellcasting",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/light/projectiles-star-purple.webp",
       "system": {
         "description": {
           "value": "The technomancer is an 17th-level spellcaster.",
@@ -494,10 +494,10 @@
       "flags": {}
     },
     {
-      "_id": "3scY18vlwz6WuIZH",
+      "_id": "IhYaWs1xior0AVVH",
       "name": "Its spellcasting ability is Intelligence (spell save DC 18, +8 to\nhit with spell attacks)",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/light/projectiles-star-purple.webp",
       "system": {
         "description": {
           "value": "It has the following wizard spells prepared: 225 Cantrips (at will): knack, mending, minor illusion, shocking grasp 1st level (4 slots): identify, mage armor, catapult 2nd level (3 slots): invisibility, knock, locate object 3rd level (3 slots): contract, lightning bolt, major image 4th level (3 slot): dimension door, fabricate 5th level (2 slot): animate objects, haywire, scrying, synaptic static 6th level (1 slot): chain lightning, programmed illusion 7th level (1 slot): commandeer vehicle, project image, transport via network 8th level (1 slot): maze 9th level (1 slot): foresight",
@@ -546,10 +546,10 @@
       "flags": {}
     },
     {
-      "_id": "B9lq0H5gFPgjxwDZ",
+      "_id": "6Aa74sReWeQ6K4uR",
       "name": "Combat Knife",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/daggers/dagger-serrated-black.webp",
       "system": {
         "description": {
           "value": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.",
@@ -643,13 +643,13 @@
       "flags": {}
     },
     {
-      "_id": "nbmUMWtgarj2hCfs",
+      "_id": "NqnznyovPW3Z0Bja",
       "name": "Pulse (3/Day)",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
       "system": {
         "description": {
-          "value": "The technomancer forms an EMP at a point it can see within 60 feet of it. Machines, constructs, and vehicles within 30 feet of that point are subjected to EMP. Machines in the area cease to function for 1 minute. Constructs in the area with the Electronics feature must succeed on a DC 18 Constitution saving throw or they are stunned until the end of the technomancer's next turn. Vehicles in the area must succeed on a DC 18 Constitution saving throw or their movement speed is reduced to 0 and they can\u2019t take actions or reactions until the end of the technomancer's next turn. Additionally, wireless and radio connections in a 100-foot- radius centered on the point are suppressed for 1 minute.",
+          "value": "The technomancer forms an EMP at a point it can see within 60 feet of it. Machines, constructs, and vehicles within 30 feet of that point are subjected to EMP. Machines in the area cease to function for 1 minute. Constructs in the area with the Electronics feature must succeed on a DC 18 Constitution saving throw or they are stunned until the end of the technomancer's next turn. Vehicles in the area must succeed on a DC 18 Constitution saving throw or their movement speed is reduced to 0 and they can’t take actions or reactions until the end of the technomancer's next turn. Additionally, wireless and radio connections in a 100-foot- radius centered on the point are suppressed for 1 minute.",
           "chat": ""
         },
         "source": {
@@ -695,7 +695,7 @@
       "flags": {}
     },
     {
-      "_id": "NrTih0Bbb9SK1TxN",
+      "_id": "ThlGbJqp5bmFYP7f",
       "name": "Firewall",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -750,5 +750,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!p5WBOzxrWmIbwEPU"
+  "_key": "!actors!hnlQ1VtgEQDXGwsa"
 }

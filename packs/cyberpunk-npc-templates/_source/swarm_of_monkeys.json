@@ -1,5 +1,5 @@
 {
-  "_id": "31EUDn62jrJhX5C6",
+  "_id": "WL1lMrxOO8dC29Nx",
   "name": "Swarm Of Monkeys",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -351,7 +351,7 @@
   },
   "items": [
     {
-      "_id": "SqjGaYmuhKI5mblt",
+      "_id": "Mb87b7fifTXLmfzO",
       "name": "Pilfer",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -403,7 +403,7 @@
       "flags": {}
     },
     {
-      "_id": "uz743sFW5TzIVNcN",
+      "_id": "EiTqtQb7dU684ZkR",
       "name": "Swarm",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -455,7 +455,7 @@
       "flags": {}
     },
     {
-      "_id": "4IyEarn5AnshHEx6",
+      "_id": "PFJsHQFjRbWQjtVa",
       "name": "Monkey Bites (swarm has more than half HP)",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -559,5 +559,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!31EUDn62jrJhX5C6"
+  "_key": "!actors!WL1lMrxOO8dC29Nx"
 }

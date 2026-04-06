@@ -1,5 +1,5 @@
 {
-  "_id": "gPv7tEZhkfJRgNon",
+  "_id": "qja8FIDiFsdUjGrx",
   "name": "Ascendant Technophile",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,10 +338,10 @@
   },
   "items": [
     {
-      "_id": "M65g4HMxvM3wswer",
+      "_id": "yMRnR8SnvQSSqyEn",
       "name": "Innate Spellcasting",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/light/projectiles-star-purple.webp",
       "system": {
         "description": {
           "value": "The technophile's spellcasting ability is Intelligence (spell save DC 19, +11 to hit with spell attacks). The technophile can innately cast the following spells, requiring no components: At will: misty step 3/day each: arcane gate, blink, dimension door",
@@ -390,7 +390,7 @@
       "flags": {}
     },
     {
-      "_id": "ps8j9LI5feWav98F",
+      "_id": "iySmDZEmXUB7Jrgp",
       "name": "Integrated Weapons",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -442,7 +442,7 @@
       "flags": {}
     },
     {
-      "_id": "fZ0Inz8ipF0Z5Pzb",
+      "_id": "DtRkPVesRg2QYFVo",
       "name": "Photosynthesis",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -494,7 +494,7 @@
       "flags": {}
     },
     {
-      "_id": "MhN3jJCPBcxHvn6U",
+      "_id": "cU9uVZYdKPEQAUrS",
       "name": "Plant Hybrid",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -546,7 +546,7 @@
       "flags": {}
     },
     {
-      "_id": "7IKVAo2yfJDRfYOT",
+      "_id": "8Q0t2qwxaCGEUIHR",
       "name": "Proto Spider",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -598,10 +598,10 @@
       "flags": {}
     },
     {
-      "_id": "Tygao3ojwj7WlMUN",
+      "_id": "Q4KLiKGQjlgwj6Z8",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The technophile uses its Plasma Emittter. It then makes three ranged attacks.",
@@ -650,7 +650,7 @@
       "flags": {}
     },
     {
-      "_id": "79II9xJ8Hio0SI2Z",
+      "_id": "Dgwh8A7TtWxoObet",
       "name": "Assault Cannon",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -747,10 +747,10 @@
       "flags": {}
     },
     {
-      "_id": "3d7TL2QO7FPtXZHi",
+      "_id": "8hCom9rui7pIzQRo",
       "name": "Sawed-Off Shotgun (Powered)",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/sawed_off_shotgun.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +12 to hit, range 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing damage. This weapon has the scatter property. This is attached to the technophile's assault cannon. Power Shot: The weapon adds the wielder's STR modifier to damage.",
@@ -844,7 +844,7 @@
       "flags": {}
     },
     {
-      "_id": "LQ0PGqDh6oqmiC5D",
+      "_id": "3MWtOHcNbVbz2Unv",
       "name": "Plasma Emitter",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -896,7 +896,7 @@
       "flags": {}
     },
     {
-      "_id": "ESbVfg1DFgqdmrrF",
+      "_id": "0SErSzdyvAeJKhWx",
       "name": "Dexterity saving throw",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -948,10 +948,10 @@
       "flags": {}
     },
     {
-      "_id": "DLNBghOPebJmg8WB",
+      "_id": "onHT4dKWY7cXhTsy",
       "name": "Neural Burst (1/Day)",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "modules/cyberpunk-5e/assets/cyberware_icons/neural_burst.png",
       "system": {
         "description": {
           "value": "When the technophile takes damage, it can reduce the damage to zero in a burst of speed. The technophile instantly gains a turn, even in the middle of another creature's turn, during which its attacks have advantage, other creatures have disadvantage on saving throws caused by the technophile, and other creatures cannot use their reactions. 227",
@@ -1003,5 +1003,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!gPv7tEZhkfJRgNon"
+  "_key": "!actors!qja8FIDiFsdUjGrx"
 }

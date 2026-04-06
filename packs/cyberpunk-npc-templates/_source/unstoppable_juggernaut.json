@@ -1,5 +1,5 @@
 {
-  "_id": "7i3dzjDXp3ZNeZFc",
+  "_id": "LGQBpzN3jgVkUi7m",
   "name": "Unstoppable Juggernaut",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,10 +338,10 @@
   },
   "items": [
     {
-      "_id": "bfaz8wHJ9e7mIGuN",
+      "_id": "PYkGPzxaqJnlSmBQ",
       "name": "Dermal Barrier",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "modules/cyberpunk-5e/assets/cyberware_icons/dermal_barrier.png",
       "system": {
         "description": {
           "value": "The juggernaut can deploy its barrier as a bonus action, reducing its speed by 10 feet. At the end of each of its turns, the juggernaut decides which way a 150- foot cone faces and whether the cone is active. The juggernaut has three-quarters cover against attacks and effects from creatures and vehicles in the cone. Creatures of the juggneraut's choice within 5 feet of it also benefit from this cover. Overdrive Engine (Recharges on a Short or Long Rest.) The juggernaut can take 3d8 fire damage and take an additional action on its turn.",
@@ -390,10 +390,10 @@
       "flags": {}
     },
     {
-      "_id": "VuLhBSjj0AOp0X42",
+      "_id": "uE1kwzQ6yKLlKX0G",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The juggernaut makes three weapon attacks.",
@@ -442,7 +442,7 @@
       "flags": {}
     },
     {
-      "_id": "5H7B8wQmwAs9BUtF",
+      "_id": "ZpVTTnMA9HIXYbFS",
       "name": "Chainsaw",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -539,10 +539,10 @@
       "flags": {}
     },
     {
-      "_id": "cbfNyQHcgpocXVSy",
+      "_id": "IRlXqWRKsLePOlu9",
       "name": "Gatling Gun (Powered)",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/gatling_gun.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +11 to hit, range 100/400 ft., one target. Hit: 19 (2d12 + 6) piercing damage and 2 (1d4) fire damage. This weapon has the automatic property. Power Shot: The weapon adds the wielder's STR modifier to damage.",
@@ -640,10 +640,10 @@
       "flags": {}
     },
     {
-      "_id": "FqNL6mUtdoGuxrto",
+      "_id": "zr0dcvDZTioyQPpg",
       "name": "Sawed-Off Shotgun (Powered)",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/sawed_off_shotgun.png",
       "system": {
         "description": {
           "value": "Ranged Weapon Attack: +11 to hit, range 20/60 ft., one target. Hit: 13 (2d6 + 6) piercing damage and 2 (1d4) fire damage. This weapon has the scatter property. It is attached to the juggernaut's assault cannon. Power Shot: The weapon adds the wielder's STR modifier to damage.",
@@ -741,10 +741,10 @@
       "flags": {}
     },
     {
-      "_id": "0oUVMjyOa4s3otS1",
+      "_id": "tAC66yijVPEvZwyF",
       "name": "Fragmentation Grenade (1/Day)",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "modules/cyberpunk-5e/assets/grenade_icons/fragmentation-grenade.png",
       "system": {
         "description": {
           "value": "The juggernaut throws a grenade at a point within 60 feet of it. Each creature in a 10-foot-radius sphere centered on that point must make a DC 17 Dexterity saving throw. A creature takes 21 (6d6) piercing damage and 21 (6d6) thunder damage on a failed save, or half as much damage on a successful one. 186",
@@ -796,5 +796,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!7i3dzjDXp3ZNeZFc"
+  "_key": "!actors!LGQBpzN3jgVkUi7m"
 }

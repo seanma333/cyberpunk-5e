@@ -1,5 +1,5 @@
 {
-  "_id": "bMcO9eepM03EmfxT",
+  "_id": "hcGBVo9nA5NoQAN9",
   "name": "Phase Ice",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -357,7 +357,7 @@
   },
   "items": [
     {
-      "_id": "L1elUZkQ4S6ALQbD",
+      "_id": "XcDqm8OOU5gdujBt",
       "name": "Digital Ghost",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -409,7 +409,7 @@
       "flags": {}
     },
     {
-      "_id": "GojiUttf0zCzgd7I",
+      "_id": "Gc2GAuW0fx9DdNfd",
       "name": "Netborn",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -461,10 +461,10 @@
       "flags": {}
     },
     {
-      "_id": "UJIakt8pB1MNRbZc",
+      "_id": "DgZAaeSs9YROa21A",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The ICE makes two Static Discharge attacks.",
@@ -516,5 +516,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!bMcO9eepM03EmfxT"
+  "_key": "!actors!hcGBVo9nA5NoQAN9"
 }

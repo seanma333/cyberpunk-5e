@@ -1,5 +1,5 @@
 {
-  "_id": "HRzrBsp98tkCjmsi",
+  "_id": "of4RrZIv1nUXjVVY",
   "name": "Street Samurai",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -338,7 +338,7 @@
   },
   "items": [
     {
-      "_id": "0BzVRHBkIF4MNOBe",
+      "_id": "yztvo3vLXyPLtvsJ",
       "name": "Aggressive",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -390,7 +390,7 @@
       "flags": {}
     },
     {
-      "_id": "LnZj5giXurXt9nBO",
+      "_id": "P5UFn6W4rGVBTCPx",
       "name": "Unsheathe",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -442,10 +442,10 @@
       "flags": {}
     },
     {
-      "_id": "u2rVkFbHODUm3QFe",
+      "_id": "LIeI2RGeIPL8Wlti",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
         "description": {
           "value": "The samurai makes two melee attacks.",
@@ -494,10 +494,10 @@
       "flags": {}
     },
     {
-      "_id": "SVfbizWWUWPF76hO",
+      "_id": "kJpnlwz7ecMDuCS8",
       "name": "Katana",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/swords/sword-katana-purple.webp",
       "system": {
         "description": {
           "value": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands.",
@@ -591,7 +591,7 @@
       "flags": {}
     },
     {
-      "_id": "zevKeuL97gNplsWI",
+      "_id": "SNvXoXxsCr6lUd6E",
       "name": "Reflected Missile",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -688,7 +688,7 @@
       "flags": {}
     },
     {
-      "_id": "rhkFSJCf83RFQDm8",
+      "_id": "o6NmHlTpfAxJMqmC",
       "name": "Reflect Missile",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -743,5 +743,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!HRzrBsp98tkCjmsi"
+  "_key": "!actors!of4RrZIv1nUXjVVY"
 }

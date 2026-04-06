@@ -1,5 +1,5 @@
 {
-  "_id": "ULvpqnlAfBZ7bzli",
+  "_id": "o1yfFLVS0ZfBgEdR",
   "name": "Pyromaniac",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -340,7 +340,7 @@
   },
   "items": [
     {
-      "_id": "77HQxIy2auHKSG31",
+      "_id": "MIA8dGz2nycMNCO2",
       "name": "Gas Masked",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -392,7 +392,7 @@
       "flags": {}
     },
     {
-      "_id": "E0CoY4gNtJwvo2tV",
+      "_id": "q0CLhGIdVYVY66lK",
       "name": "Smokesight",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -444,7 +444,7 @@
       "flags": {}
     },
     {
-      "_id": "JluqbX4hsFN4IHhy",
+      "_id": "e5xpG4EMUBCxK7fS",
       "name": "It then makes two weapon attacks",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -545,7 +545,7 @@
       "flags": {}
     },
     {
-      "_id": "u9yjE0sdOvjpnOqj",
+      "_id": "Bw59EFFHMYBuxjVd",
       "name": "Flamethrower",
       "type": "weapon",
       "img": "icons/svg/sword.svg",
@@ -646,10 +646,10 @@
       "flags": {}
     },
     {
-      "_id": "7ug9HChx3bE106Qk",
+      "_id": "jx9W6U0egR7LEAIE",
       "name": "Napalm Grenade (2/Day)",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "modules/cyberpunk-5e/assets/grenade_icons/napalm.png",
       "system": {
         "description": {
           "value": "The pyromaniac throws a grenade at a point within 60 feet of it. Each target in a 10- foot-radius sphere centered on that point must make a DC 13",
@@ -698,7 +698,7 @@
       "flags": {}
     },
     {
-      "_id": "YK4Bn6Y8HDC5weDw",
+      "_id": "3OW3vMlxCBbxJcFc",
       "name": "Dexterity saving throw",
       "type": "feat",
       "img": "icons/svg/upgrade.svg",
@@ -753,5 +753,5 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "_key": "!actors!ULvpqnlAfBZ7bzli"
+  "_key": "!actors!o1yfFLVS0ZfBgEdR"
 }
