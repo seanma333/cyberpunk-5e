@@ -1,0 +1,145 @@
+{
+  "name": "Maul",
+  "type": "weapon",
+  "img": "icons/weapons/hammers/hammer-double-steel-embossed.webp",
+  "folder": "ty5aSfPipVgIxHvj",
+  "sort": 0,
+  "_id": "WKNsgbW4IKqvH3jM",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>This heavy two-handed mace crushes metal and bone with thunderous force.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 149",
+    "quantity": 1,
+    "weight": 10,
+    "price": {
+      "value": 1000,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d6 + @mod",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialM",
+    "baseItem": "maul",
+    "properties": {
+      "hvy": true,
+      "two": true,
+      "ada": false,
+      "amm": false,
+      "fin": false,
+      "fir": false,
+      "foc": false,
+      "lgt": false,
+      "lod": false,
+      "mgc": false,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "sil": false,
+      "spc": false,
+      "thr": false,
+      "ver": false,
+      "automatic": false,
+      "foregrip": false,
+      "mounted": false,
+      "scatter": false,
+      "strreq": false,
+      "sighted": false,
+      "actionreload": false
+    },
+    "proficient": false
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233528,
+    "modifiedTime": 1676095680661,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.DizirD7eqjh8n95A",
+    "duplicateSource": null
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.DizirD7eqjh8n95A"
+    },
+    "cyberpunk5e": {
+      "original_name": "Maul",
+      "nickname": "Maul",
+      "mods": []
+    }
+  },
+  "_key": "!items!WKNsgbW4IKqvH3jM"
+}

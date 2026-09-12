@@ -1,0 +1,47 @@
+{
+  "name": "Book",
+  "type": "loot",
+  "img": "icons/sundries/books/book-worn-brown.webp",
+  "folder": "uoEC7eg9JuPL3rzc",
+  "sort": 3600000,
+  "_id": "HWz2O8VeqRuGpZQb",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.RMi9efrW9ouHVLI2"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233655,
+    "modifiedTime": 1678265289127,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.RMi9efrW9ouHVLI2",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>A book might contain poetry, historical accounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SRD 5.1",
+    "quantity": 1,
+    "weight": 5,
+    "price": {
+      "value": 25,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!HWz2O8VeqRuGpZQb"
+}

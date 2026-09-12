@@ -1,0 +1,116 @@
+{
+  "name": "Armblade (Tier 1)",
+  "type": "equipment",
+  "img": "modules/cyberpunk-5e/assets/cyberware_icons/armblade.png",
+  "folder": "U8qX7xmDNSmDiplL",
+  "sort": 0,
+  "_id": "EplokcO88OEnFn4v",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>You replace your arm with a prosthetic one that allows you to graft a melee weapon to it, becoming inseparable from you as long as it is attached to your body. You may graft any one-handed melee weapon to the arm, but replacing it requires surgery. Higher tier versions are made of stronger material, and allow you to graft more powerful magic weapons.</p><p><strong>Tier 1. </strong>You may graft a non-magical one-handed melee weapon to your arm. As a bonus action, you can retract the weapon into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 25000,
+      "denomination": "cp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": null,
+      "type": "trinket",
+      "dex": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "stealth": false,
+    "proficient": true
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1665262564995,
+    "modifiedTime": 1676095671909,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.cyberpunk-5e.cyberpunk-cyberware.DdIsFFblgi2bugaW",
+    "duplicateSource": null
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.cyberpunk-5e.cyberpunk-cyberware.DdIsFFblgi2bugaW"
+    }
+  },
+  "_key": "!items!EplokcO88OEnFn4v"
+}

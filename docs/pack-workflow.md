@@ -1,0 +1,93 @@
+# Compendium pack workflow
+
+Foundry v12 stores compendium packs as LevelDB directories: binary, per-machine,
+and impossible to review in a diff. This module therefore keeps a readable JSON
+copy of every pack under `src/packs/` and treats the LevelDB as build output.
+
+```
+src/packs/<pack>/*.json        tracked source of truth
+        │   ▲
+  pack  │   │  unpack
+        ▼   │
+packs/<pack>/                  compiled LevelDB — gitignored
+        │
+        ▼
+module.json  →  Foundry loads the compendium
+```
+
+`packs/` is entirely untracked. A fresh clone has no compendium data until you
+build it.
+
+## Setup
+
+```bash
+npm install
+npm run pack     # build every pack from src/packs/
+```
+
+The repo is symlinked into Foundry's module directory, so a build is visible in
+Foundry after a reload.
+
+## The two directions
+
+**`npm run pack`** compiles `src/packs/<pack>/` into `packs/<pack>/`. Use it
+after editing JSON by hand, and after a fresh clone.
+
+Foundry holds the pack databases open while it runs, and writing to them
+underneath it corrupts the LevelDB — so `pack` refuses to run while Foundry is
+open. Quit Foundry first. (`FORCE_PACK=1` overrides this; only use it if you are
+certain the packs are not loaded.)
+
+**`npm run unpack`** extracts `packs/<pack>/` back into `src/packs/<pack>/`.
+This is the direction that matters most day to day: most packs in this module
+were authored by hand in Foundry, so Foundry is where edits happen and `unpack`
+is how they get captured into git.
+
+`unpack` reads the compendium but opens the database read-write, so LevelDB may
+compact it — the files change even though the documents do not. It works with
+Foundry open and has not caused problems, but reload the world afterwards, and
+quit Foundry first if you want the pack files left strictly alone.
+
+Either command takes optional pack names:
+
+```bash
+npm run pack   -- cyberpunk-armor cyberpunk-gear
+npm run unpack -- cyberpunk-monsters
+```
+
+## Typical loop
+
+1. Edit a compendium item in Foundry and test it in a world.
+2. `npm run unpack` — the change appears as a reviewable JSON diff.
+3. Commit.
+
+## Filenames and ids
+
+`unpack` names files `<Document_Name>_<id>.json` and the JSON carries `_id` and
+`_key` fields that tie a document to its pack entry. Preserve them: changing an
+`_id` makes Foundry treat the document as a new one, breaking any actor sheet,
+macro, or compendium link that referenced the old id.
+
+## Overwrite protection
+
+`unpack` replaces the contents of a pack's source directory. If the compiled
+pack holds fewer documents than `src/packs/` already has, the tool refuses
+rather than silently discarding the difference:
+
+```
+REFUSED cyberpunk-npc-templates: compiled pack has 64 documents but
+src/packs has 75. Unpacking would discard 11.
+```
+
+That means the two have diverged and you need to decide which side is correct.
+Naming the pack explicitly (`npm run unpack -- <pack>`) overrides the refusal
+and takes the compiled pack's version.
+
+## Empty packs
+
+`cyberpunk-backgrounds`, `cyberpunk-feats`, and `cyberpunk-npc-racial-features`
+are declared but contain no documents. Their source directories hold a
+`.gitkeep` so the directory survives in git; `pack` skips them.
+
+`cyberpunk-npc-racial-features` is not declared in `module.json`, so Foundry
+does not load it even once populated.

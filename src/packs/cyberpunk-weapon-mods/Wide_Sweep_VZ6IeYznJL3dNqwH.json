@@ -1,0 +1,119 @@
+{
+  "name": "Wide Sweep",
+  "type": "consumable",
+  "img": "modules/cyberpunk-5e/assets/weapon_icons/modification_icons/wide_sweep.png",
+  "folder": "Hd8p4esOW6GY2jbR",
+  "sort": 0,
+  "_id": "VZ6IeYznJL3dNqwH",
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1667803783835,
+    "modifiedTime": 1681883502591,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.cyberpunk-5e.cyberpunk-weapon-mods.g4f0pBboFdeJDinC",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Weapon Modification (requires firearm with Scatter property)</strong></p><p>When making an attack with this weapon against a creature within half the normal range of the weapon, you may also target a second creature within 5 feet of the original target with the same attack roll. If the attack hits the second target, they take damage equal to half the damage of the attack.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 0,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "autoDestroy": false
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "trinket"
+  },
+  "flags": {
+    "cyberpunk5e": {
+      "modification_props": {
+        "applied": false,
+        "reversible": false,
+        "requirements": {
+          "types": [
+            "martialR",
+            "simpleR"
+          ],
+          "properties": {
+            "fir": true,
+            "scatter": true
+          },
+          "dmg": []
+        },
+        "prop_name": "sweeper",
+        "price_mult": 1,
+        "effects": {}
+      }
+    },
+    "core": {
+      "sourceId": "Compendium.cyberpunk-5e.cyberpunk-weapon-mods.g4f0pBboFdeJDinC"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!VZ6IeYznJL3dNqwH"
+}

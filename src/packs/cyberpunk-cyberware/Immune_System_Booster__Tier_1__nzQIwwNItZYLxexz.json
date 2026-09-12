@@ -1,0 +1,177 @@
+{
+  "name": "Immune System Booster (Tier 1)",
+  "type": "equipment",
+  "img": "modules/cyberpunk-5e/assets/cyberware_icons/immune_system_booster.png",
+  "folder": "U8qX7xmDNSmDiplL",
+  "sort": 0,
+  "_id": "nzQIwwNItZYLxexz",
+  "effects": [
+    {
+      "origin": "Item.sQHSF1Y1qFWKmMiR",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "TL2V1G32FC4qWTGK",
+      "changes": [
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "poisoned",
+          "priority": 20
+        },
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "diseased",
+          "priority": 20
+        }
+      ],
+      "tint": "#ffffff",
+      "transfer": true,
+      "flags": {
+        "dae": {
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "stackable": "none",
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "statusId": ""
+        }
+      },
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "Immune System Booster",
+      "img": "modules/cyberpunk-5e/assets/cyberware_icons/immune_system_booster.png",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!items.effects!nzQIwwNItZYLxexz.TL2V1G32FC4qWTGK"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<p>Reinforces your immune system with nanomachines designed to hunt and remove harmful bacteria, viruses, and toxins. Your liver's filtering capabilities are also vastly improved. When your immune system responds to invading poison, it energizes your whole body.</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><strong>Tier 1. </strong>You’re immune to diseases and the poisoned condition, and drugs no longer have any effect on you.</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\">When you take poison damage, you can use your reaction to flush your system, negating the poison damage and gaining an equal amount of temporary hit points. You can’t use this ability again until you finish a short or long rest.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 30000,
+      "denomination": "cp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": null,
+      "type": "trinket",
+      "dex": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "stealth": false,
+    "proficient": true
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1665271032691,
+    "modifiedTime": 1676095671901,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.cyberpunk-5e.cyberpunk-cyberware.sQHSF1Y1qFWKmMiR",
+    "duplicateSource": null
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.cyberpunk-5e.cyberpunk-cyberware.sQHSF1Y1qFWKmMiR"
+    }
+  },
+  "_key": "!items!nzQIwwNItZYLxexz"
+}

@@ -1,0 +1,181 @@
+{
+  "name": "Combat Vest",
+  "type": "equipment",
+  "img": "modules/cyberpunk-5e/assets/armor_icons/combat_vest.png",
+  "folder": "DgXt8Hz3PyworqOi",
+  "sort": 0,
+  "_id": "igEwk0ntVlnBav7D",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p><span id=\"docs-internal-guid-ce89291d-7fff-0276-3f51-eaadc8a8d411\">Heavy ballistic fabric is meshed together into many layers that form a soft, but durable vest that protects the torso and precious organs.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 144",
+    "quantity": 1,
+    "weight": 8,
+    "price": {
+      "value": 5000,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 13,
+      "type": "medium",
+      "dex": 2
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": false
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1665262255715,
+    "modifiedTime": 1676095691290,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.p2zChy24ZJdVqMSH",
+    "duplicateSource": null
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.p2zChy24ZJdVqMSH"
+    },
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "quantity": false,
+          "use": false,
+          "resource": true
+        },
+        "altValue": {
+          "quantity": false,
+          "use": false,
+          "resource": true
+        }
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    }
+  },
+  "_key": "!items!igEwk0ntVlnBav7D"
+}

@@ -1,0 +1,104 @@
+{
+  "name": "Portable Ram",
+  "type": "consumable",
+  "img": "icons/commodities/wood/bamboo-brown.webp",
+  "folder": "uoEC7eg9JuPL3rzc",
+  "sort": 5700000,
+  "_id": "glW4oO5VOL3tKkmQ",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.srTRzwTfWKO5opOo"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233902,
+    "modifiedTime": 1678265313077,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.srTRzwTfWKO5opOo",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>You can use a portable ram to break down doors. When doing so, you gain a +4 bonus on the Strength check. One other character can help you use the ram, giving you advantage on this check.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SRD 5.1",
+    "quantity": 1,
+    "weight": 35,
+    "price": {
+      "value": 400,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "object"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "autoDestroy": false
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "str",
+    "actionType": "abil",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "d20 + @abilities.str.mod +4",
+          ""
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "trinket"
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!glW4oO5VOL3tKkmQ"
+}

@@ -1,0 +1,145 @@
+{
+  "name": "Halberd",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/halberd-crescent-glowing.webp",
+  "folder": "ty5aSfPipVgIxHvj",
+  "sort": 0,
+  "_id": "IvDWEe2AIJVKolOj",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>A spear-tipped metal shaft accompanied by a crescent blade, the halberd is a strong defensive weapon which allows a warrior to fend off foes using the reach of the shaft to attack from safe distance.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 149",
+    "quantity": 1,
+    "weight": 6,
+    "price": {
+      "value": 2000,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 10,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d10 + @mod",
+          "slashing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialM",
+    "baseItem": "halberd",
+    "properties": {
+      "hvy": true,
+      "two": true,
+      "rch": true,
+      "ada": false,
+      "amm": false,
+      "fin": false,
+      "fir": false,
+      "foc": false,
+      "lgt": false,
+      "lod": false,
+      "mgc": false,
+      "rel": false,
+      "ret": false,
+      "sil": false,
+      "spc": false,
+      "thr": false,
+      "ver": false,
+      "automatic": false,
+      "foregrip": false,
+      "mounted": false,
+      "scatter": false,
+      "strreq": false,
+      "sighted": false,
+      "actionreload": false
+    },
+    "proficient": false
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233522,
+    "modifiedTime": 1676095680674,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.DMejWAc8r8YvDPP1",
+    "duplicateSource": null
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.DMejWAc8r8YvDPP1"
+    },
+    "cyberpunk5e": {
+      "original_name": "Halberd",
+      "nickname": "Halberd",
+      "mods": []
+    }
+  },
+  "_key": "!items!IvDWEe2AIJVKolOj"
+}

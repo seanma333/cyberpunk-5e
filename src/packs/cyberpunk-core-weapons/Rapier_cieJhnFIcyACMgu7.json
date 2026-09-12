@@ -1,0 +1,145 @@
+{
+  "name": "Rapier",
+  "type": "weapon",
+  "img": "icons/weapons/swords/swords-sharp-worn.webp",
+  "folder": "ty5aSfPipVgIxHvj",
+  "sort": 0,
+  "_id": "cieJhnFIcyACMgu7",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>A thin tensile metal blade, light in weight but long in reach designed for quick darting attacks to target weak points in enemy defenses with lightning swiftness.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 149",
+    "quantity": 1,
+    "weight": 2,
+    "price": {
+      "value": 2500,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d8 + @mod",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialM",
+    "baseItem": "rapier",
+    "properties": {
+      "fin": true,
+      "ada": false,
+      "amm": false,
+      "fir": false,
+      "foc": false,
+      "hvy": false,
+      "lgt": false,
+      "lod": false,
+      "mgc": false,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "sil": false,
+      "spc": false,
+      "thr": false,
+      "two": false,
+      "ver": false,
+      "automatic": false,
+      "foregrip": false,
+      "mounted": false,
+      "scatter": false,
+      "strreq": false,
+      "sighted": false,
+      "actionreload": false
+    },
+    "proficient": false
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233673,
+    "modifiedTime": 1676095680657,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.Tobce1hexTnDk4sV",
+    "duplicateSource": null
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.Tobce1hexTnDk4sV"
+    },
+    "cyberpunk5e": {
+      "original_name": "Rapier",
+      "nickname": "Rapier",
+      "mods": []
+    }
+  },
+  "_key": "!items!cieJhnFIcyACMgu7"
+}

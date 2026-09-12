@@ -1,0 +1,59 @@
+{
+  "name": "Vial",
+  "type": "backpack",
+  "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+  "folder": "uoEC7eg9JuPL3rzc",
+  "sort": 4000000,
+  "_id": "ivcXRWKflXfl4suu",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.meJEfX3gZgtMX4x2"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233854,
+    "modifiedTime": 1678265292976,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.meJEfX3gZgtMX4x2",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>A vial can hold up to 4 ounces of liquid.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SRD 5.1",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 100,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "capacity": {
+      "type": "weight",
+      "value": 0.25,
+      "weightless": false
+    },
+    "currency": {
+      "cp": 0,
+      "sp": 0,
+      "ep": 0,
+      "gp": 0,
+      "pp": 0
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!ivcXRWKflXfl4suu"
+}

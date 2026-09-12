@@ -1,0 +1,53 @@
+{
+  "name": "Brewer's Supplies",
+  "type": "tool",
+  "img": "icons/consumables/plants/herb-marjoram-basil-oregano-leaf-bunch-green.webp",
+  "folder": "FlB0Mk1qxbCtvO3W",
+  "sort": 200000,
+  "_id": "NObgR4fk6dg7z5v5",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.Y9S75go1hLMXUD48"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233704,
+    "modifiedTime": 1678263913949,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.Y9S75go1hLMXUD48",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>These special tools include the items needed to pursue a craft or trade in brewing.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SRD 5.1",
+    "quantity": 1,
+    "weight": 9,
+    "price": {
+      "value": 2000,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "toolType": "art",
+    "baseItem": "brewer",
+    "ability": "wis",
+    "chatFlavor": "",
+    "proficient": 0,
+    "bonus": ""
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!NObgR4fk6dg7z5v5"
+}

@@ -1,0 +1,136 @@
+{
+  "name": "Scope",
+  "type": "equipment",
+  "img": "modules/cyberpunk-5e/assets/weapon_icons/modification_icons/scope.png",
+  "folder": "Hd8p4esOW6GY2jbR",
+  "sort": 0,
+  "_id": "Y13XeKchU9ZY5fEe",
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1667802257904,
+    "modifiedTime": 1681883502590,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.cyberpunk-5e.cyberpunk-weapon-mods.Tp4T4Jwnh7Oc0Lxq",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Weapon Modification (any firearm)</strong></p><p>You attach a scope to your firearm. As a bonus action, you can make your next attack with the firearm at long range without disadvantage.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 200,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": null,
+      "type": "trinket",
+      "dex": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "stealth": false,
+    "proficient": true
+  },
+  "flags": {
+    "cyberpunk5e": {
+      "modification_props": {
+        "applied": false,
+        "reversible": true,
+        "requirements": {
+          "types": [
+            "martialR",
+            "simpleR"
+          ],
+          "properties": {
+            "fir": true
+          },
+          "dmg": []
+        },
+        "prop_name": "scoped",
+        "price_mult": 0,
+        "effects": {},
+        "reverse": {}
+      }
+    },
+    "core": {
+      "sourceId": "Compendium.cyberpunk-5e.cyberpunk-weapon-mods.Tp4T4Jwnh7Oc0Lxq"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!Y13XeKchU9ZY5fEe"
+}

@@ -1,0 +1,189 @@
+{
+  "name": "Subdermal Plating (Tier 1)",
+  "type": "equipment",
+  "img": "modules/cyberpunk-5e/assets/cyberware_icons/subdermal_plating.png",
+  "folder": "U8qX7xmDNSmDiplL",
+  "sort": 0,
+  "_id": "f1CKEYlJ0JhOQtAW",
+  "effects": [
+    {
+      "origin": "Item.qIXiygar43lip1ai",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "EJt2FI7jQwVrkTbe",
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "+1",
+          "priority": 20
+        },
+        {
+          "key": "system.abilities.str.bonuses.save",
+          "mode": 2,
+          "value": "+1",
+          "priority": 20
+        },
+        {
+          "key": "system.abilities.dex.bonuses.save",
+          "mode": 2,
+          "value": "+1",
+          "priority": 20
+        },
+        {
+          "key": "system.abilities.con.bonuses.save",
+          "mode": 2,
+          "value": "+1",
+          "priority": 20
+        }
+      ],
+      "tint": "#ffffff",
+      "transfer": true,
+      "flags": {
+        "dae": {
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "stackable": "none",
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "statusId": ""
+        }
+      },
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "Subdermal Plating",
+      "img": "modules/cyberpunk-5e/assets/cyberware_icons/subdermal_plating.png",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!items.effects!f1CKEYlJ0JhOQtAW.EJt2FI7jQwVrkTbe"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<p>Armored plates sculpted to fit your body are fused with your skin. When these are installed, they can be customized for appearance and stylistic purposes, potentially making them difficult to detect or immediately obvious at a glance. At tier 2, the plating becomes reactive, and you can cause it to harden against certain attacks.</p><p><strong style=\"font-weight:normal\" id=\"docs-internal-guid-4404d26e-7fff-ef63-768a-3c3252f6c11b\"><br /></strong><strong>Tier 1. </strong>You gain a +1 bonus to AC. You also gain +1 to Strength, Dexterity, and Constitution saving throws.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 40000,
+      "denomination": "cp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": null,
+      "type": "trinket",
+      "dex": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "stealth": false,
+    "proficient": true
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1665272864570,
+    "modifiedTime": 1676095671904,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.cyberpunk-5e.cyberpunk-cyberware.qIXiygar43lip1ai",
+    "duplicateSource": null
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.cyberpunk-5e.cyberpunk-cyberware.qIXiygar43lip1ai"
+    }
+  },
+  "_key": "!items!f1CKEYlJ0JhOQtAW"
+}

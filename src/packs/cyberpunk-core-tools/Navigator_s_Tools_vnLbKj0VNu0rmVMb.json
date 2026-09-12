@@ -1,0 +1,53 @@
+{
+  "name": "Navigator's Tools",
+  "type": "tool",
+  "img": "icons/tools/navigation/sextant-brass-brown.webp",
+  "folder": "FlB0Mk1qxbCtvO3W",
+  "sort": 121875,
+  "_id": "vnLbKj0VNu0rmVMb",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.YHCmjsiXxZ9UdUhU"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233705,
+    "modifiedTime": 1678264293561,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.YHCmjsiXxZ9UdUhU",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>This set of instruments is used for navigation at sea. Proficiency with navigator's tools lets you chart a ship's course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability check you make to avoid getting lost at sea.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SRD 5.1",
+    "quantity": 1,
+    "weight": 2,
+    "price": {
+      "value": 2500,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "toolType": "",
+    "baseItem": "navg",
+    "ability": "int",
+    "chatFlavor": "",
+    "proficient": 0,
+    "bonus": ""
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!vnLbKj0VNu0rmVMb"
+}

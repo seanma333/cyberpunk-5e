@@ -1,0 +1,108 @@
+{
+  "name": "Napalm Grenade (Tier 3)",
+  "type": "consumable",
+  "img": "modules/cyberpunk-5e/assets/grenade_icons/icon_grenade_phosphorus-resources.assets-975.png",
+  "folder": "EgyxvxvNdLEkZM30",
+  "sort": 0,
+  "_id": "QTuJ6IaZRrEi88I9",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p dir=\"ltr\">This black canister has orange marks tracing fluid ducts that will eject a highly flammable, sticky solution before igniting itin a burst of flame.</p>\n<p dir=\"ltr\"> </p>\n<p dir=\"ltr\">As an action, you can throw the grenade to a point within 60 feet of you, where it explodes in a 10-foot-radius sphere.Each target in the area must make a Dexterity saving throw.The target takes fire damage on a failed save and begins burning (see the condition), taking fire damage at the start of each of its turns. On a successful save, the target takes half as much damage and is not burning.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 550000,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "Each target in the area must make a Dexterity saving throw. On a failed save, the target takes fire damage and begins burning, taking fire damage at the start of each of its turns. On a successful save, the target takes half damage and is not burning."
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": 10,
+      "width": null,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "9d6",
+          "fire"
+        ],
+        [
+          "3d6",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 13,
+      "scaling": "flat"
+    },
+    "consumableType": "ammo"
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1665350777476,
+    "modifiedTime": 1676095661510,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.cyberpunk-5e.cyberpunk-items-explosives.jJg5A2S56MrerBXa",
+    "duplicateSource": null
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.cyberpunk-5e.cyberpunk-items-explosives.jJg5A2S56MrerBXa"
+    }
+  },
+  "_key": "!items!QTuJ6IaZRrEi88I9"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Soap",
+  "type": "loot",
+  "img": "icons/sundries/survival/soap.webp",
+  "folder": "uoEC7eg9JuPL3rzc",
+  "sort": 4800000,
+  "_id": "6zjHgFeZa4t11f74",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.REBWkTKe6lJaIkpn"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233655,
+    "modifiedTime": 1678265302392,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.REBWkTKe6lJaIkpn",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>Used to clean and wash.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SRD 5.1",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 2,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!6zjHgFeZa4t11f74"
+}

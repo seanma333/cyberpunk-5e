@@ -1,0 +1,145 @@
+{
+  "name": "Lance",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/spear-barbed-silver.webp",
+  "folder": "ty5aSfPipVgIxHvj",
+  "sort": 0,
+  "_id": "Scw5jmuTfMKIkn0J",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>A shining steel tip to puncture the hardiest of foe's defences, driven in by the force of a galloping steed. Although best suited for mounted combat, the lance can be brought to lethal effect on foot in the right hands.</p>\n<p><strong>Special</strong>. You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 149",
+    "quantity": 1,
+    "weight": 6,
+    "price": {
+      "value": 1000,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 10,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d12 + @mod",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialM",
+    "baseItem": "lance",
+    "properties": {
+      "amm": false,
+      "hvy": false,
+      "fin": false,
+      "fir": false,
+      "foc": false,
+      "lgt": false,
+      "lod": false,
+      "rch": true,
+      "rel": false,
+      "ret": false,
+      "spc": true,
+      "thr": false,
+      "two": false,
+      "ver": false,
+      "ada": false,
+      "mgc": false,
+      "sil": false,
+      "automatic": false,
+      "foregrip": false,
+      "mounted": false,
+      "scatter": false,
+      "strreq": false,
+      "sighted": false,
+      "actionreload": false
+    },
+    "proficient": false
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233659,
+    "modifiedTime": 1676095680654,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.RnuxdHUAIgxccVwj",
+    "duplicateSource": null
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.RnuxdHUAIgxccVwj"
+    },
+    "cyberpunk5e": {
+      "original_name": "Lance",
+      "nickname": "Lance",
+      "mods": []
+    }
+  },
+  "_key": "!items!Scw5jmuTfMKIkn0J"
+}

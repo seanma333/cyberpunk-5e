@@ -1,0 +1,53 @@
+{
+  "name": "Viol",
+  "type": "tool",
+  "img": "icons/tools/instruments/lute-gold-brown.webp",
+  "folder": "FlB0Mk1qxbCtvO3W",
+  "sort": 400000,
+  "_id": "FcnSsdlbT5Ye2etk",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.baoe3U5BfMMMxhCU"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233731,
+    "modifiedTime": 1678264269260,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.baoe3U5BfMMMxhCU",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>A viol to evoke awe, wonder, or fear in your audience.</p>\n<p>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency. </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SRD 5.1",
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 3000,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "toolType": "music",
+    "baseItem": "viol",
+    "ability": "cha",
+    "chatFlavor": "",
+    "proficient": 0,
+    "bonus": ""
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!FcnSsdlbT5Ye2etk"
+}

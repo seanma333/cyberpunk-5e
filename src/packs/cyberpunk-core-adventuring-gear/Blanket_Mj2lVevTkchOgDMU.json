@@ -1,0 +1,47 @@
+{
+  "name": "Blanket",
+  "type": "loot",
+  "img": "icons/sundries/flags/banner-worn-green.webp",
+  "folder": "uoEC7eg9JuPL3rzc",
+  "sort": 2900000,
+  "_id": "Mj2lVevTkchOgDMU",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.419eNv7xp2p7Xlo5"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233461,
+    "modifiedTime": 1678265281644,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.419eNv7xp2p7Xlo5",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>A sheet of blanket to keep you warm at night.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SRD 5.1",
+    "quantity": 1,
+    "weight": 3,
+    "price": {
+      "value": 50,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!Mj2lVevTkchOgDMU"
+}

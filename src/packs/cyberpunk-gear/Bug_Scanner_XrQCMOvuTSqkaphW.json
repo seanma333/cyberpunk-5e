@@ -1,0 +1,116 @@
+{
+  "name": "Bug Scanner",
+  "type": "equipment",
+  "img": "modules/cyberpunk-5e/assets/gear_icons/bug_scanner.svg",
+  "folder": "2FGTulPLkCuamtWs",
+  "sort": 0,
+  "_id": "XrQCMOvuTSqkaphW",
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1676095646802,
+    "modifiedTime": 1681883070091,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.cyberpunk-5e.cyberpunk-gear.WMJEx9pMJnOdAbMM",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>This device scans for and locates Tiny machines emitting wireless signals or recording and relaying audio or video. You can use this device to gain advantage on Intelligence (Investigation) checks to find these machines.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "price": {
+      "value": 1500,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": null,
+      "type": "trinket",
+      "dex": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "stealth": false,
+    "proficient": true
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.cyberpunk-5e.cyberpunk-gear.WMJEx9pMJnOdAbMM"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!XrQCMOvuTSqkaphW"
+}

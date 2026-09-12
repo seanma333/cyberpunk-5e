@@ -1,0 +1,53 @@
+{
+  "name": "Mason's Tools",
+  "type": "tool",
+  "img": "icons/tools/hand/hammer-and-nail.webp",
+  "folder": "FlB0Mk1qxbCtvO3W",
+  "sort": 175000,
+  "_id": "fjWtXNQD4wPURxJN",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.skUih6tBvcBbORzA"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233900,
+    "modifiedTime": 1678263995664,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.skUih6tBvcBbORzA",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>These special tools include the items needed to pursue a craft or trade in masonry.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SRD 5.1",
+    "quantity": 1,
+    "weight": 8,
+    "price": {
+      "value": 1000,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "toolType": "art",
+    "baseItem": "mason",
+    "ability": "wis",
+    "chatFlavor": "",
+    "proficient": 0,
+    "bonus": ""
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!fjWtXNQD4wPURxJN"
+}

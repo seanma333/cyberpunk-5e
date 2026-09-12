@@ -28,7 +28,17 @@ Install via manifest URL:
 https://raw.githubusercontent.com/seanma333/cyberpunk-5e/main/module.json
 ```
 
-Or clone the repo directly into your Foundry `Data/modules/` directory.
+Or clone the repo directly into your Foundry `Data/modules/` directory. A clone
+does not include compendium data — the pack databases are build output and are
+not tracked in git. Build them once after cloning:
+
+```bash
+npm install
+npm run pack
+```
+
+See [docs/pack-workflow.md](docs/pack-workflow.md) for how compendium packs are
+authored and built.
 
 ## Notes
 

@@ -1,0 +1,228 @@
+{
+  "name": "Machine Pistol",
+  "type": "weapon",
+  "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/machine_pistol.png",
+  "folder": "JubeqrcMWxCcNIVg",
+  "sort": 0,
+  "_id": "Z5w4ZzifC73rRQ85",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>A small self-loading pistol capable of automatic fire.</p><p>Ammo Type: Bullets</p><p>Reload: 10 shots</p><p>Damage: 2d4 piercing</p><p>Range: 30/90 ft</p><p><strong>Light:</strong> A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.</p><p><strong>Reload:</strong> A reloadable weapon can be used to make a number of attacks before it must be reloaded. Reloading requires a free hand, and takes a bonus action or an action (character's choice).</p><p><strong>Automatic:</strong> When you make an attack with this weapon, you can choose to make two attacks instead with a -5 penalty to your attack rolls. You cannot move between these attacks.</p><p><strong>Foregrip:</strong> This weapon can be used with one or two hands. If used with two hands, its normal and long ranges double.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 5,
+    "price": {
+      "value": 1500,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 30,
+      "long": 90,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "ammo",
+      "target": "",
+      "amount": 1
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d4",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "simpleR",
+    "baseItem": "",
+    "properties": {
+      "amm": true,
+      "lgt": true,
+      "hvy": false,
+      "fin": false,
+      "fir": true,
+      "foc": false,
+      "rch": false,
+      "rel": true,
+      "ret": false,
+      "spc": false,
+      "thr": false,
+      "two": false,
+      "ver": false,
+      "lod": false,
+      "ada": false,
+      "mgc": false,
+      "sil": false,
+      "automatic": true,
+      "foregrip": true,
+      "mounted": false,
+      "strreq": false,
+      "scatter": false,
+      "sighted": false,
+      "actionreload": false
+    },
+    "proficient": false
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1665477247193,
+    "modifiedTime": 1676095653426,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.qaSro7kFhxD6INbZ",
+    "duplicateSource": null
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.qaSro7kFhxD6INbZ"
+    },
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": {
+          "0": true
+        },
+        "altValue": {
+          "0": true
+        },
+        "context": {
+          "0": ""
+        }
+      },
+      "quickVersatile": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "quantity": false,
+          "use": false,
+          "resource": true
+        },
+        "altValue": {
+          "quantity": false,
+          "use": true,
+          "resource": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "cyberpunk5e": {
+      "ammo_type": "bullets",
+      "reload": 10,
+      "original_name": "Machine Pistol",
+      "nickname": "Machine Pistol",
+      "mods": []
+    }
+  },
+  "_key": "!items!Z5w4ZzifC73rRQ85"
+}

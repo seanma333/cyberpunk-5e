@@ -1,0 +1,177 @@
+{
+  "name": "Sensory Enhancement (Tier 1)",
+  "type": "equipment",
+  "img": "modules/cyberpunk-5e/assets/cyberware_icons/sensory_enhancement.png",
+  "folder": "U8qX7xmDNSmDiplL",
+  "sort": 0,
+  "_id": "HETXVFQqO2c0b2Sd",
+  "effects": [
+    {
+      "origin": "Item.L0Fugmg1TIwirQ7G",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "PjvD7scT5OoczuFS",
+      "changes": [
+        {
+          "key": "system.attributes.senses.darkvision",
+          "mode": 2,
+          "value": "90",
+          "priority": 10
+        },
+        {
+          "key": "system.attributes.senses.darkvision",
+          "mode": 4,
+          "value": "120",
+          "priority": 20
+        }
+      ],
+      "tint": "#ffffff",
+      "transfer": true,
+      "flags": {
+        "dae": {
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "stackable": "none",
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "statusId": ""
+        }
+      },
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "Sensory Enhancement",
+      "img": "modules/cyberpunk-5e/assets/cyberware_icons/sensory_enhancement.png",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!items.effects!HETXVFQqO2c0b2Sd.PjvD7scT5OoczuFS"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<p><strong style=\"font-weight:normal\" id=\"docs-internal-guid-26e6f5fe-7fff-19cb-125e-cd8c1af256f8\">You install sensors in your eyes that allow you to see in the dark. If you are missing one or more eyes, this cyberware replaces them and allows you to see through them. At tier 2, you install sensors that can pick up subtle shifts and shimmers in the air. At tier 3, emitters in your ears send out continuous ultrasound pulses and a receiver picks up the echoes of these pulses to create a topographic map in your brain. At tier 4, your enhancements are enchanted with powerful divination magic, granting you state-of-the-art vision and hearing.</strong></p><p><strong style=\"font-weight:normal\" id=\"docs-internal-guid-26e6f5fe-7fff-19cb-125e-cd8c1af256f8\"><br /></strong><strong>Tier 1. </strong>You have darkvision out to a range of 120 feet. If you already have darkvision, the range increases by 90 feet.You have advantage on saving throws against effects which would blind you. You have advantage on Wisdom (Perception) checks that rely on sight.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 25000,
+      "denomination": "cp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": null,
+      "type": "trinket",
+      "dex": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "stealth": false,
+    "proficient": true
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1665272291393,
+    "modifiedTime": 1676095671908,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.cyberpunk-5e.cyberpunk-cyberware.L0Fugmg1TIwirQ7G",
+    "duplicateSource": null
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.cyberpunk-5e.cyberpunk-cyberware.L0Fugmg1TIwirQ7G"
+    }
+  },
+  "_key": "!items!HETXVFQqO2c0b2Sd"
+}

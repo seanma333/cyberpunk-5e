@@ -1,0 +1,53 @@
+{
+  "name": "Poisoner's Kit",
+  "type": "tool",
+  "img": "icons/containers/bags/pouch-gold-green.webp",
+  "folder": "uoEC7eg9JuPL3rzc",
+  "sort": 5500000,
+  "_id": "gqSGkQTJ83ZfQXGm",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.il2GNi8C0DvGLL9P"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233826,
+    "modifiedTime": 1678265310760,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.il2GNi8C0DvGLL9P",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SRD 5.1",
+    "quantity": 1,
+    "weight": 2,
+    "price": {
+      "value": 5000,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "toolType": "",
+    "baseItem": "pois",
+    "ability": "wis",
+    "chatFlavor": "",
+    "proficient": 0,
+    "bonus": ""
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!gqSGkQTJ83ZfQXGm"
+}

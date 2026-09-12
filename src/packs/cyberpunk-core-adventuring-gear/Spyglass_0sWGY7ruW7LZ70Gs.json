@@ -1,0 +1,47 @@
+{
+  "name": "Spyglass",
+  "type": "loot",
+  "img": "icons/tools/navigation/spyglass-telescope-brass.webp",
+  "folder": "uoEC7eg9JuPL3rzc",
+  "sort": 4700000,
+  "_id": "0sWGY7ruW7LZ70Gs",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.WCafDVKITxwnlf2x"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233688,
+    "modifiedTime": 1678265301393,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.WCafDVKITxwnlf2x",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>Objects viewed through a spyglass are magnified to twice their size.</p>\n<p> </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SRD 5.1",
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 1000,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!0sWGY7ruW7LZ70Gs"
+}

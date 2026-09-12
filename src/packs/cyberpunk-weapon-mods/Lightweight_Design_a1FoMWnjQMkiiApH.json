@@ -1,0 +1,128 @@
+{
+  "name": "Lightweight Design",
+  "type": "consumable",
+  "img": "modules/cyberpunk-5e/assets/weapon_icons/modification_icons/lightweight_design.png",
+  "folder": "Hd8p4esOW6GY2jbR",
+  "sort": 0,
+  "_id": "a1FoMWnjQMkiiApH",
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1667802033403,
+    "modifiedTime": 1681883502601,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.cyberpunk-5e.cyberpunk-weapon-mods.RXzAVxS21qA3RkFH",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Weapon Modification (any weapon)</strong></p><p>The weapon’s metal and wooden parts are replaced with plasteel, a tempered plastic. The weapon no longer sets off metal detectors and it is no longer affected by metal targeting effects. This weapon weighs half its normal weight, and the heavy property is removed if it is present.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 0,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "autoDestroy": false
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "trinket"
+  },
+  "flags": {
+    "cyberpunk5e": {
+      "modification_props": {
+        "applied": false,
+        "reversible": false,
+        "requirements": {
+          "types": [],
+          "properties": {},
+          "dmg": []
+        },
+        "prop_name": "lightweight",
+        "price_mult": 2,
+        "effects": {
+          "update": [
+            [
+              "system.properties",
+              {
+                "hvy": false
+              }
+            ]
+          ],
+          "scale": [
+            [
+              "system.weight",
+              0.5
+            ]
+          ]
+        }
+      }
+    },
+    "core": {
+      "sourceId": "Compendium.cyberpunk-5e.cyberpunk-weapon-mods.RXzAVxS21qA3RkFH"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!a1FoMWnjQMkiiApH"
+}

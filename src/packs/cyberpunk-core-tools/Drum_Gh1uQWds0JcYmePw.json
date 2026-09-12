@@ -1,0 +1,53 @@
+{
+  "name": "Drum",
+  "type": "tool",
+  "img": "icons/tools/instruments/drum-brown-red.webp",
+  "folder": "FlB0Mk1qxbCtvO3W",
+  "sort": 102735,
+  "_id": "Gh1uQWds0JcYmePw",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.69Dpr25pf4BjkHKb"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233476,
+    "modifiedTime": 1678264149875,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.69Dpr25pf4BjkHKb",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>A drum, of any variety, to evoke awe, wonder, or fear in your audience.</p>\n<p>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency. </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SRD 5.1",
+    "quantity": 1,
+    "weight": 3,
+    "price": {
+      "value": 600,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "toolType": "music",
+    "baseItem": "drum",
+    "ability": "cha",
+    "chatFlavor": "",
+    "proficient": 0,
+    "bonus": ""
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!Gh1uQWds0JcYmePw"
+}

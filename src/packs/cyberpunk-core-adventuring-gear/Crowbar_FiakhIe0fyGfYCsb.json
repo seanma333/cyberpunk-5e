@@ -1,0 +1,47 @@
+{
+  "name": "Crowbar",
+  "type": "loot",
+  "img": "icons/tools/hand/chisel-steel-brown.webp",
+  "folder": "uoEC7eg9JuPL3rzc",
+  "sort": 8800000,
+  "_id": "FiakhIe0fyGfYCsb",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.V5UAjT3ed6sDNtgm"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233682,
+    "modifiedTime": 1678265344442,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.V5UAjT3ed6sDNtgm",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>Using a crowbar grants advantage to Strength checks where the crowbar's leverage can be applied.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SRD 5.1",
+    "quantity": 1,
+    "weight": 5,
+    "price": {
+      "value": 200,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!FiakhIe0fyGfYCsb"
+}

@@ -1,0 +1,145 @@
+{
+  "name": "Blowgun",
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-simple-brown.webp",
+  "folder": "ty5aSfPipVgIxHvj",
+  "sort": 0,
+  "_id": "2HaNGV01CFHdYTBc",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>A primitive, but deadly, weapon favored by tribes and guerrila fighters. The darts fired from this gun can puncture and deliver lethal doses of venom.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 149",
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 1000,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 25,
+      "long": 100,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1 + @mod",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialR",
+    "baseItem": "blowgun",
+    "properties": {
+      "amm": true,
+      "hvy": false,
+      "fin": false,
+      "fir": false,
+      "foc": false,
+      "lgt": false,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "spc": false,
+      "thr": false,
+      "two": false,
+      "ver": false,
+      "lod": true,
+      "ada": false,
+      "mgc": false,
+      "sil": false,
+      "automatic": false,
+      "foregrip": false,
+      "mounted": false,
+      "scatter": false,
+      "strreq": false,
+      "sighted": false,
+      "actionreload": false
+    },
+    "proficient": false
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233958,
+    "modifiedTime": 1676095680663,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.wNWK6yJMHG9ANqQV",
+    "duplicateSource": null
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.wNWK6yJMHG9ANqQV"
+    },
+    "cyberpunk5e": {
+      "original_name": "Blowgun",
+      "nickname": "Blowgun",
+      "mods": []
+    }
+  },
+  "_key": "!items!2HaNGV01CFHdYTBc"
+}

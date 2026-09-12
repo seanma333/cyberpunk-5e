@@ -1,0 +1,116 @@
+{
+  "name": "Barbed Wire",
+  "type": "equipment",
+  "img": "modules/cyberpunk-5e/assets/gear_icons/barbed_wire.svg",
+  "folder": "2FGTulPLkCuamtWs",
+  "sort": 0,
+  "_id": "iNGUDrBFjfLwvulk",
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1676095646794,
+    "modifiedTime": 1681883070108,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.cyberpunk-5e.cyberpunk-gear.9dxKNpHikRM2ahdb",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>This motorized spool of razor-sharp barbed wire can be deployed to cover a small area in loops that will bring pain to whatever poor soul tries to rush through it. Over the course of a minute, you can spread a spool of barbed wire to cover a 10-foot-square area, which becomes difficult terrain. When a creature moves into or within the area, it takes 1d4 piercing damage for every 5 feet it travels. The barbed wire takes 10 minutes to wrap back into a spool.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 2,
+    "price": {
+      "value": 200,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": null,
+      "type": "trinket",
+      "dex": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "stealth": false,
+    "proficient": true
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.cyberpunk-5e.cyberpunk-gear.9dxKNpHikRM2ahdb"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!iNGUDrBFjfLwvulk"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Abacus",
+  "type": "loot",
+  "img": "icons/commodities/treasure/broach-jewel-gold-blue.webp",
+  "folder": "uoEC7eg9JuPL3rzc",
+  "sort": 100000,
+  "_id": "g9fX3HgAu9J82gKR",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.ea4xclqsksEQB1QF"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233787,
+    "modifiedTime": 1678264346994,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.ea4xclqsksEQB1QF",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>The abacus, also called a counting frame, is a calculating tool.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SRD 5.1",
+    "quantity": 1,
+    "weight": 2,
+    "price": {
+      "value": 200,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!g9fX3HgAu9J82gKR"
+}

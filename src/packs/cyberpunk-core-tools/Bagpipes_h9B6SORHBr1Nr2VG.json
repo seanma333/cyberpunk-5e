@@ -1,0 +1,53 @@
+{
+  "name": "Bagpipes",
+  "type": "tool",
+  "img": "icons/sundries/survival/waterskin-leather-brown.webp",
+  "folder": "FlB0Mk1qxbCtvO3W",
+  "sort": 143750,
+  "_id": "h9B6SORHBr1Nr2VG",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.yxHi57T5mmVt0oDr"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233973,
+    "modifiedTime": 1678264143761,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.yxHi57T5mmVt0oDr",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>A set of bagpipes to evoke awe, wonder, or fear in your audience.</p>\n<p>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency. </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SRD 5.1",
+    "quantity": 1,
+    "weight": 6,
+    "price": {
+      "value": 3000,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "toolType": "music",
+    "baseItem": "bagpipes",
+    "ability": "cha",
+    "chatFlavor": "",
+    "proficient": 0,
+    "bonus": ""
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!h9B6SORHBr1Nr2VG"
+}

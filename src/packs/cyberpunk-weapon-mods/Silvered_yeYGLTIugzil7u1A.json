@@ -1,0 +1,127 @@
+{
+  "name": "Silvered",
+  "type": "consumable",
+  "img": "modules/cyberpunk-5e/assets/weapon_icons/modification_icons/silvered.png",
+  "folder": "Hd8p4esOW6GY2jbR",
+  "sort": 0,
+  "_id": "yeYGLTIugzil7u1A",
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1667802902912,
+    "modifiedTime": 1681883502595,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.cyberpunk-5e.cyberpunk-weapon-mods.uGZUY0vfD6vZ4JHC",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Weapon Modification (requires melee weapon)</strong></p><p><strong>Ammunition Modification (40 pieces of ammo)</strong></p><p>Some monsters that have immunity or resistance to nonmagical weapons are susceptible to silver weapons.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Basic Rules p. 49",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 10000,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "autoDestroy": false
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "trinket"
+  },
+  "flags": {
+    "cyberpunk5e": {
+      "modification_props": {
+        "applied": false,
+        "reversible": false,
+        "requirements": {
+          "types": [
+            "martialM",
+            "simpleM"
+          ],
+          "properties": {
+            "sil": false
+          },
+          "dmg": []
+        },
+        "prop_name": "silvered",
+        "price_mult": 0,
+        "effects": {
+          "update": [
+            [
+              "system.properties",
+              {
+                "sil": true
+              }
+            ]
+          ]
+        }
+      }
+    },
+    "core": {
+      "sourceId": "Compendium.cyberpunk-5e.cyberpunk-weapon-mods.uGZUY0vfD6vZ4JHC"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!yeYGLTIugzil7u1A"
+}

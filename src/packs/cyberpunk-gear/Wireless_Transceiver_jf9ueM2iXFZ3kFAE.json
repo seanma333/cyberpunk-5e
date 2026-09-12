@@ -1,0 +1,116 @@
+{
+  "name": "Wireless Transceiver",
+  "type": "equipment",
+  "img": "modules/cyberpunk-5e/assets/gear_icons/wireless_transceiver.svg",
+  "folder": "2FGTulPLkCuamtWs",
+  "sort": 0,
+  "_id": "jf9ueM2iXFZ3kFAE",
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1676095646801,
+    "modifiedTime": 1681883070095,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.cyberpunk-5e.cyberpunk-gear.MpuoX11qVEVWZXdk",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>A combination of a transmitter and a receiver, this device allows for wireless communication between machines and networks. It has many potential uses.For example, you can attach it to plastic explosives and detonate them wirelessly. If a machine or network has no wireless capabilities, you can connect a wireless transceiver to a port and use that for wireless connections. The transceiver has a wireless range of up to 1,000 feet.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 0.2,
+    "price": {
+      "value": 60,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": null,
+      "type": "trinket",
+      "dex": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "stealth": false,
+    "proficient": true
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.cyberpunk-5e.cyberpunk-gear.MpuoX11qVEVWZXdk"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!jf9ueM2iXFZ3kFAE"
+}

@@ -1,0 +1,151 @@
+{
+  "name": "Silencer",
+  "type": "equipment",
+  "img": "modules/cyberpunk-5e/assets/weapon_icons/modification_icons/silencer.png",
+  "folder": "Hd8p4esOW6GY2jbR",
+  "sort": 0,
+  "_id": "oUNFt5B82y3ROZTu",
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1667802615265,
+    "modifiedTime": 1681883502593,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.cyberpunk-5e.cyberpunk-weapon-mods.8PRuzj1mzNTrS5aD",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Weapon Attachment (requires firearm without the Scatter or Mounted properties)</strong></p><p>As an action, you can attach or detach a silencer to a firearm that does not have the Scatter or Mounted properties. While the silencer is attached to a firearm, it significantly muffles the sound of the gunshot, but dampens the velocity of the projectile. Ranged weapon attacks with a firearm with a silencer attached can only be heard from 40 feet away, but the firearm's normal range is halved.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 2000,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": null,
+      "type": "trinket",
+      "dex": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "stealth": false,
+    "proficient": true
+  },
+  "flags": {
+    "cyberpunk5e": {
+      "modification_props": {
+        "applied": false,
+        "reversible": true,
+        "requirements": {
+          "types": [
+            "martialR",
+            "simpleR"
+          ],
+          "properties": {
+            "fir": true,
+            "scatter": false
+          },
+          "dmg": []
+        },
+        "prop_name": "suppressed",
+        "price_mult": 0,
+        "effects": {
+          "scale": [
+            [
+              "system.range.value",
+              0.5
+            ]
+          ]
+        },
+        "reverse": {
+          "scale": [
+            [
+              "system.range.value",
+              2
+            ]
+          ]
+        }
+      }
+    },
+    "core": {
+      "sourceId": "Compendium.cyberpunk-5e.cyberpunk-weapon-mods.8PRuzj1mzNTrS5aD"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!oUNFt5B82y3ROZTu"
+}

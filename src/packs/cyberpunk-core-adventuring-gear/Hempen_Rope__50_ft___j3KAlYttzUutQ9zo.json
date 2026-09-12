@@ -1,0 +1,99 @@
+{
+  "name": "Hempen Rope (50 ft.)",
+  "type": "consumable",
+  "img": "icons/sundries/survival/rope-wrapped-brown.webp",
+  "folder": "uoEC7eg9JuPL3rzc",
+  "sort": 4400000,
+  "_id": "j3KAlYttzUutQ9zo",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.QXmaarJ4X8P0C1HV"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233651,
+    "modifiedTime": 1678265298359,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.QXmaarJ4X8P0C1HV",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SRD 5.1",
+    "quantity": 1,
+    "weight": 10,
+    "price": {
+      "value": 100,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": false
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "abil",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "str",
+      "dc": 17,
+      "scaling": "flat"
+    },
+    "consumableType": "trinket"
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!j3KAlYttzUutQ9zo"
+}
