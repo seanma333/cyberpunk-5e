@@ -1,0 +1,85 @@
+name: Release
+
+# Releases are cut by pushing a version tag, e.g. `git tag v1.1.7 && git push origin v1.1.7`.
+# The tag is the single source of truth for the version: it is stamped into the
+# module.json that ships in the zip, so there is nothing to keep in sync by hand.
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Version tag to build, e.g. v1.1.7"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      # Compendium packs are build output: the repo tracks only the JSON under
+      # src/packs/, so the LevelDB directories Foundry loads are built here.
+      - name: Build compendium packs
+        run: npm run pack
+
+      # The bug this workflow exists to prevent is shipping a module whose
+      # compendiums are empty, so fail loudly rather than publish one.
+      - name: Verify packs contain data
+        run: |
+          set -euo pipefail
+          status=0
+          for src in src/packs/*/; do
+            name=$(basename "$src")
+            [ -n "$(find "$src" -name '*.json' -print -quit)" ] || continue
+            out="packs/$name"
+            if [ ! -f "$out/CURRENT" ] || [ -z "$(find "$out" -name '*.ldb' -print -quit)" ]; then
+              echo "::error::$name has JSON sources but produced no LevelDB data"
+              status=1
+            fi
+          done
+          exit $status
+
+      - name: Stamp version from tag
+        run: |
+          set -euo pipefail
+          TAG="${{ github.event.inputs.tag || github.ref_name }}"
+          python3 - "${TAG#v}" <<'PY'
+          import json, sys
+          with open("module.json") as f:
+              module = json.load(f)
+          module["version"] = sys.argv[1]
+          with open("module.json", "w") as f:
+              json.dump(module, f, indent=2)
+              f.write("\n")
+          print(f"module.json version set to {sys.argv[1]}")
+          PY
+
+      # LOCK and LOG are per-machine LevelDB process state. The numbered
+      # *.log files are the write-ahead log and MUST ship: they can hold
+      # documents not yet compacted into a .ldb file.
+      - name: Package
+        run: |
+          zip -r module.zip \
+            module.json packs scripts assets README.md \
+            -x '*.DS_Store' '*/LOCK' '*/LOG' '*/LOG.old'
+          unzip -l module.zip | tail -1
+
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          TAG="${{ github.event.inputs.tag || github.ref_name }}"
+          gh release create "$TAG" module.zip module.json \
+            --title "$TAG" --generate-notes

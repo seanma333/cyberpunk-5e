@@ -91,3 +91,33 @@ are declared but contain no documents. Their source directories hold a
 
 `cyberpunk-npc-racial-features` is not declared in `module.json`, so Foundry
 does not load it even once populated.
+
+## Releasing
+
+A clone of this repo contains no compendium data, so a release has to be
+*built* — it cannot be a zip of the git tree. `.github/workflows/release.yml`
+does that, triggered by a version tag:
+
+```bash
+git tag v1.1.7
+git push origin v1.1.7
+```
+
+The workflow installs dependencies, runs `npm run pack`, checks that every pack
+with JSON sources actually produced LevelDB data, stamps the version into
+`module.json`, zips the module with `packs/` included, and attaches `module.zip`
+and `module.json` to a GitHub release.
+
+The tag is the only source of truth for the version. It is stamped into the
+`module.json` that ships in the zip, so there is no version to keep in sync by
+hand and no automatic version bumping — a release happens when you tag one.
+
+`module.json` points both `manifest` and `download` at
+`releases/latest/download/`, so Foundry's update check reads the newest
+release's manifest rather than whatever happens to be on `main`.
+
+The verification step exists because of a real failure: before this workflow,
+`download` pointed at `archive/refs/heads/main.zip`, a zip of the git tree.
+Since `packs/` is gitignored, every install from that manifest URL produced a
+module with 17 empty compendiums. Shipping that again should fail the build, not
+reach users.

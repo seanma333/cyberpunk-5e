@@ -25,8 +25,11 @@ Inspired by games like Shadowrun and Cyberpunk 2020, but designed to feel like a
 
 Install via manifest URL:
 ```
-https://raw.githubusercontent.com/seanma333/cyberpunk-5e/main/module.json
+https://github.com/seanma333/cyberpunk-5e/releases/latest/download/module.json
 ```
+
+This always resolves to the most recent release, which ships the compendium
+packs prebuilt.
 
 Or clone the repo directly into your Foundry `Data/modules/` directory. A clone
 does not include compendium data — the pack databases are build output and are
