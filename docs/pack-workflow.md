@@ -83,14 +83,17 @@ That means the two have diverged and you need to decide which side is correct.
 Naming the pack explicitly (`npm run unpack -- <pack>`) overrides the refusal
 and takes the compiled pack's version.
 
-## Empty packs
+## Pack inventory notes
 
-`cyberpunk-backgrounds`, `cyberpunk-feats`, and `cyberpunk-npc-racial-features`
-are declared but contain no documents. Their source directories hold a
-`.gitkeep` so the directory survives in git; `pack` skips them.
+Every declared pack has content. `cyberpunk-backgrounds` (33) and
+`cyberpunk-feats` (7) were empty for a while — their documents were lost in the
+LevelDB migration and recovered from an old branch.
 
-`cyberpunk-npc-racial-features` is not declared in `module.json`, so Foundry
-does not load it even once populated.
+Racial features used to live here as `cyberpunk-npc-racial-features`. They were
+never cyberpunk-specific and were never declared in `module.json`, so they moved
+to the `seanma-custom-5e-foundry` module, which pairs them with the NPC builder
+that applies them. The NPC templates stayed here: they are cyberpunk monsters
+and stand on their own without a race applied.
 
 ## Releasing
 
