@@ -1,0 +1,165 @@
+{
+  "name": "Savage Attacks",
+  "ownership": {
+    "default": 0,
+    "fuLxZwZsNcCilPoh": 3
+  },
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>When the half-orc scores a critical hit with a melee weapon attack, it can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "SRD 5.1",
+      "page": "",
+      "license": "CC-BY-4.0"
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Half-Orc",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "properties": [],
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "enchantment": null,
+    "summons": null,
+    "prerequisites": {
+      "level": null
+    }
+  },
+  "flags": {},
+  "img": "icons/skills/melee/weapons-crossed-swords-purple.webp",
+  "effects": [
+    {
+      "name": "Savage Attacks",
+      "origin": "Compendium.cyberpunk-5e.cyberpunk-npc-racial-features.Item.y4OgzLnVtN1s4Rov",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "flags": {
+        "dnd5e": {},
+        "dae": {
+          "disableCondition": "",
+          "stackable": "multi",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "img": "icons/skills/melee/weapons-crossed-swords-purple.webp",
+      "_id": "LzckCbjMPSa333OY",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.dnd5e.meleeCriticalDamageDice",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": 1751872711653,
+        "modifiedTime": 1751872751737,
+        "lastModifiedBy": "fuLxZwZsNcCilPoh"
+      },
+      "_key": "!items.effects!y4OgzLnVtN1s4Rov.LzckCbjMPSa333OY"
+    }
+  ],
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1751872693547,
+    "modifiedTime": 1751929780996,
+    "lastModifiedBy": "fuLxZwZsNcCilPoh"
+  },
+  "_id": "y4OgzLnVtN1s4Rov",
+  "sort": 300000,
+  "_key": "!items!y4OgzLnVtN1s4Rov"
+}

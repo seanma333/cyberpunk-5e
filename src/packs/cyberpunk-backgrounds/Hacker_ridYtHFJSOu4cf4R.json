@@ -1,0 +1,107 @@
+{
+  "name": "Hacker",
+  "type": "background",
+  "_id": "ridYtHFJSOu4cf4R",
+  "img": "modules/cyberpunk-5e/assets/background_icons/hacker.png",
+  "system": {
+    "description": {
+      "value": "<p><strong style=\"font-weight:normal\" id=\"docs-internal-guid-bda83a31-7fff-b59e-d73a-4d5b280ef145\">You understand that information is the newest form of wealth in this world, and your skills make you the newest form of thief. You are a hacker: a master of technology and cybersecurity. Some \"white-hats\" use their skills to work with clients (including the megacorps), breaking systems so they can be fixed before they are broken into by \"black-hats\", who work to steal from said clients. Which hat do you wear? More importantly, why did you leave your hacking station to roam the streets?</strong></p><hr /><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><strong>Skill Proficiencies: </strong>Investigation, plus your choice of Deception or Stealth</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><strong>Tool Proficiencies: </strong>Hacker's Tools and one type of gaming set</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><strong>Languages: </strong>None</p><p><strong>Equipment: </strong>A set of common clothes, a smartphone, Hacker's Tools, a universal cable, a wireless transceiver, and a cryptostick with 500 cp.</p><p><strong>Feature: </strong>@UUID[Compendium.cyberpunk-5e.cyberpunk-backgrounds.Item.KDmRSIidRLa7c4op]{Hacker Central}</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": ""
+    },
+    "startingEquipment": [],
+    "identifier": "",
+    "advancement": [
+      {
+        "_id": "16JdE8k4dsZfWIE8",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [
+            "skills:inv"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:dec",
+                "skills:ste"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "GUcbGqR3dWjIiw1O",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [
+            "tool:hacker"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:game"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "OcPIX0pb4dsHedxS",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.cyberpunk-5e.cyberpunk-backgrounds.Item.KDmRSIidRLa7c4op"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Feature",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "fuLxZwZsNcCilPoh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1751164670703,
+    "modifiedTime": 1751313251378,
+    "lastModifiedBy": "fuLxZwZsNcCilPoh"
+  },
+  "_key": "!items!ridYtHFJSOu4cf4R"
+}

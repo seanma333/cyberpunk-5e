@@ -1,0 +1,222 @@
+{
+  "name": "Street Samurai",
+  "type": "feat",
+  "_id": "1f23zDRhI7SZW1V4",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>You have rigorously trained your body and mind in the ways of melee combat, allowing you to unsheathe your weapons at incredible speeds and deflect attacks. You gain the following benefits:</p><ul><li><p>Increase your Strength or Dexterity score by 1, to a maximum of 20.</p></li><li><p>The first time you draw a melee weapon in combat, you gain advantage on the first attack with that weapon, and if that attack hits, it deals extra damage equal to 1d8 + your proficiency bonus.</p></li><li><p>When you make a melee weapon attack as part of the Attack action on your turn, you gain a +2 bonus to your AC against ranged attacks until the start of your next turn, as long as you are holding a melee weapon and are not incapacitated. You do not gain this benefit if you are wielding a shield.</p></li><li><p>If a creature within 5 feet of you makes a ranged attack, you may use your reaction to make a melee weapon attack against that creature.</p></li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "other",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d8+@prof",
+          ""
+        ]
+      ],
+      "versatile": ""
+    },
+    "enchantment": null,
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "summons": null,
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [
+    {
+      "name": "Street Samurai (+1 STR)",
+      "origin": "Compendium.cyberpunk-5e.cyberpunk-feats.Item.1f23zDRhI7SZW1V4",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "flags": {
+        "dnd5e": {},
+        "dae": {
+          "disableCondition": "",
+          "stackable": "multi",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "_id": "TxlFYZiFQjP7zjqs",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.str.value",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": 1751520815298,
+        "modifiedTime": 1751520843700,
+        "lastModifiedBy": "fuLxZwZsNcCilPoh"
+      },
+      "_key": "!items.effects!1f23zDRhI7SZW1V4.TxlFYZiFQjP7zjqs"
+    },
+    {
+      "name": "Street Samurai (+1 DEX)",
+      "origin": "Compendium.cyberpunk-5e.cyberpunk-feats.Item.1f23zDRhI7SZW1V4",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "flags": {
+        "dnd5e": {},
+        "dae": {
+          "disableCondition": "",
+          "stackable": "multi",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "_id": "ASWxRjaWgmMSyATX",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.dex.value",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": 1751520815882,
+        "modifiedTime": 1751520858243,
+        "lastModifiedBy": "fuLxZwZsNcCilPoh"
+      },
+      "_key": "!items.effects!1f23zDRhI7SZW1V4.ASWxRjaWgmMSyATX"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "fuLxZwZsNcCilPoh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1751520761771,
+    "modifiedTime": 1751520884414,
+    "lastModifiedBy": "fuLxZwZsNcCilPoh"
+  },
+  "_key": "!items!1f23zDRhI7SZW1V4"
+}

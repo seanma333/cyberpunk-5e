@@ -1,0 +1,131 @@
+{
+  "name": "Enlarge (Duergar Magic)",
+  "type": "spell",
+  "system": {
+    "source": {
+      "custom": "",
+      "book": "PHB",
+      "page": "237",
+      "license": ""
+    },
+    "description": {
+      "value": "<div class=\"rd__b  rd__b--3\"><p>You cause a creature or an object you can see within range to grow larger or smaller for the duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect.</p><p>If the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.</p><div data-roll-name-ancestor=\"Enlarge\" class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>Enlarge.</strong></span></p><p>The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category—from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target's weapons also grow to match its new size. While these weapons are enlarged, the target's attacks with them deal [[/damage 1d4]] extra damage.</p></div></div>",
+      "chat": ""
+    },
+    "actionType": "save",
+    "level": 2,
+    "school": "trs",
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "value": "1",
+      "units": "",
+      "type": "self",
+      "prompt": true,
+      "width": null
+    },
+    "range": {
+      "value": 30,
+      "units": "self",
+      "long": null
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "ability": "",
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": "",
+      "prompt": true
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "formula": "",
+    "preparation": {
+      "mode": "innate",
+      "prepared": false
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "cover": null,
+    "crewed": false,
+    "enchantment": null,
+    "summons": null
+  },
+  "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "PHB",
+      "hash": "enlarge%2freduce_phb",
+      "propDroppable": "spell"
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "folder": "6ozp2aO8vM5Qq9Fe",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1751928094478,
+    "modifiedTime": 1751941030669,
+    "lastModifiedBy": "fuLxZwZsNcCilPoh"
+  },
+  "ownership": {
+    "default": 0,
+    "EnelIXPDocNOOhPe": 3,
+    "fuLxZwZsNcCilPoh": 3
+  },
+  "_id": "aHdxROvkx4jOg7dl",
+  "sort": 300000,
+  "_key": "!items!aHdxROvkx4jOg7dl"
+}

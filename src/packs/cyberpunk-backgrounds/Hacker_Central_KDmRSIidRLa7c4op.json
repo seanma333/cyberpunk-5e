@@ -1,0 +1,106 @@
+{
+  "folder": "IDsMSIlTi30OcUmh",
+  "name": "Hacker Central",
+  "type": "feat",
+  "_id": "KDmRSIidRLa7c4op",
+  "img": "icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>You know the hacker lingo and slang, and you fit right into hacker culture. You also have access to a secure digital underground network for hackers, which you can use to contact for help (though it might not be cheap). The network also serves as an online marketplace where you can buy and sell valuable and potentially illegal data.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "enchantment": null,
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "summons": null,
+    "type": {
+      "value": "background",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Hacker",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "fuLxZwZsNcCilPoh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1751164810736,
+    "modifiedTime": 1751165031763,
+    "lastModifiedBy": "fuLxZwZsNcCilPoh"
+  },
+  "_key": "!items!KDmRSIidRLa7c4op"
+}

@@ -1,0 +1,114 @@
+{
+  "name": "Martial Advantage",
+  "ownership": {
+    "default": 0,
+    "fuLxZwZsNcCilPoh": 3
+  },
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Once per turn, the [[lookup @name lowercase]] can deal an extra 7 (2d6) damage to a creature it hits with a weapon attack if that creature is within 5 ft. of an ally of the [[lookup @name lowercase]] that isn't incapacitated.</p><p></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "SRD 5.1",
+      "page": "",
+      "license": "CC-BY-4.0"
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "other",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d6",
+          ""
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "requirements": "Hobgoblin",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "crewed": false,
+    "enchantment": null,
+    "summons": null,
+    "prerequisites": {
+      "level": null
+    },
+    "properties": []
+  },
+  "flags": {},
+  "img": "icons/skills/melee/weapons-crossed-swords-yellow-teal.webp",
+  "effects": [],
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1751872047097,
+    "modifiedTime": 1751872868958,
+    "lastModifiedBy": "fuLxZwZsNcCilPoh"
+  },
+  "_id": "ZYUCF57F2TTND9Dw",
+  "sort": 1100000,
+  "_key": "!items!ZYUCF57F2TTND9Dw"
+}

@@ -1,0 +1,109 @@
+{
+  "name": "Shelter of the Faithful",
+  "type": "feat",
+  "img": "icons/environment/settlement/gazebo.webp",
+  "system": {
+    "description": {
+      "value": "<p>You command⁠ the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your companions can expect to receive free Healing and care at a Temple, shrine, or other established presence of your faith, though you must provide any material components needed for Spells. Those who share your religion will support you (but only you) with a modest lifestyle.</p><p>You might also have ties to a specific Temple dedicated to your chosen deity or pantheon, and you have a Residence there. This could be the Temple where you used to serve, if you remain on good terms with it, or a Temple where you have found a new home. While near your Temple, you can call upon the Priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your Temple.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "SRD 5.1",
+      "page": "61",
+      "license": "CC-BY-4.0"
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "background",
+      "subtype": ""
+    },
+    "requirements": "Acolyte",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "crewed": false,
+    "properties": [],
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "enchantment": null,
+    "summons": null,
+    "prerequisites": {
+      "level": null
+    }
+  },
+  "effects": [],
+  "folder": "IDsMSIlTi30OcUmh",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "fuLxZwZsNcCilPoh": 3
+  },
+  "flags": {},
+  "_id": "64N1NWh9kC1dI7zN",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1751143937629,
+    "modifiedTime": 1751161715019,
+    "lastModifiedBy": "fuLxZwZsNcCilPoh"
+  },
+  "_key": "!items!64N1NWh9kC1dI7zN"
+}

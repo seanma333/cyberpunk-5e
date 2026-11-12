@@ -1,0 +1,162 @@
+{
+  "name": "Getaway Driver",
+  "type": "feat",
+  "_id": "MXIlMk0chFrdkiXV",
+  "img": "icons/commodities/tech/transmission.webp",
+  "system": {
+    "description": {
+      "value": "<ul><li><p>Increase your Dexterity score by 1, to a maximum of 20.</p></li><li><p>You gain proficiency with all vehicles.</p></li><li><p>You can maintain control of a vehicle without having a free hand for the vehicle’s controls, though you must still be sitting in it.</p></li><li><p>When you are driving a vehicle and your vehicle or anyone inside the vehicle is hit with an attack, you can use your reaction to add your proficiency bonus to the AC of the target against that attack, potentially causing it to miss.</p></li><li><p>If a vehicle you are driving is subjected to an effect that allows it to make a Dexterity save to take only half damage, it takes no damage if it succeeds and only half damage if it fails.</p></li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "enchantment": null,
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "summons": null,
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [
+    {
+      "name": "Getaway Driver",
+      "origin": "Compendium.cyberpunk-5e.cyberpunk-feats.Item.MXIlMk0chFrdkiXV",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "flags": {
+        "dnd5e": {},
+        "dae": {
+          "disableCondition": "",
+          "stackable": "multi",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "img": "icons/commodities/tech/transmission.webp",
+      "_id": "DlG06JrEDtxO3NeK",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.dex.value",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": 1751520446114,
+        "modifiedTime": 1751520456108,
+        "lastModifiedBy": "fuLxZwZsNcCilPoh"
+      },
+      "_key": "!items.effects!MXIlMk0chFrdkiXV.DlG06JrEDtxO3NeK"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "fuLxZwZsNcCilPoh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1751520377356,
+    "modifiedTime": 1751520438164,
+    "lastModifiedBy": "fuLxZwZsNcCilPoh"
+  },
+  "_key": "!items!MXIlMk0chFrdkiXV"
+}

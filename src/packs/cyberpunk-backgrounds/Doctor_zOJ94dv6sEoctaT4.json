@@ -1,0 +1,108 @@
+{
+  "name": "Doctor",
+  "type": "background",
+  "_id": "zOJ94dv6sEoctaT4",
+  "img": "modules/cyberpunk-5e/assets/background_icons/doctor.png",
+  "system": {
+    "description": {
+      "value": "<p><strong style=\"font-weight:normal\" id=\"docs-internal-guid-429461c9-7fff-8de9-d6bb-543b846e0bce\">The world is dangerous, and that means ample opportunity for one who knows how to fix people up. You possess skills and tools that allow you to make the difference between life and death for your patients. Modern medicine has advanced to the point of completely restructuring a person’s face and body, replacing limbs and organs with vat grown tissue, or enhancing individuals past their natural limits with cybernetics, and more. Were you a member of a respected hospital, a small underfunded community clinic, or an illegal back-alley operation? How did someone with your skills wind up on the streets?</strong></p><hr /><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><strong>Skill Proficiencies: </strong>Medicine, plus one of Investigation or Nature</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><strong>Tool Proficiencies: </strong>Cybersurgery kit, and either herbalism kit or alchemist's supplies<br /><strong>Languages: </strong>None</p><p><strong>Equipment: </strong>A set of common clothes, a first-aid kit, a piece of medical equipment (latex gloves, medical mask, stethoscope), and a cryptostick with 1500 cp.</p><p><strong>Feature:</strong> @UUID[Compendium.cyberpunk-5e.cyberpunk-backgrounds.Item.T8lcq9c8fU8ZhkW2]{Primary Care}</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": ""
+    },
+    "startingEquipment": [],
+    "identifier": "",
+    "advancement": [
+      {
+        "_id": "KF7yWgntMifBxWMX",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [
+            "skills:med"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:inv",
+                "skills:nat"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "Yv4Th9TIJJqL9eRK",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "tool:cybersurgery"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:art:alchemist",
+                "tool:herb"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "HwzbXKAAy3sqgoFv",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.cyberpunk-5e.cyberpunk-backgrounds.Item.T8lcq9c8fU8ZhkW2",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Feature",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "fuLxZwZsNcCilPoh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1751161988119,
+    "modifiedTime": 1751265485909,
+    "lastModifiedBy": "fuLxZwZsNcCilPoh"
+  },
+  "_key": "!items!zOJ94dv6sEoctaT4"
+}

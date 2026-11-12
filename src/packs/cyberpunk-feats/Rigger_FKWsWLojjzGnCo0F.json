@@ -1,0 +1,106 @@
+{
+  "name": "Rigger",
+  "type": "feat",
+  "_id": "FKWsWLojjzGnCo0F",
+  "img": "icons/commodities/tech/levers-colored.webp",
+  "system": {
+    "description": {
+      "value": "<p>Prerequisite: Proficiency with Roboticist's Tools</p><p>Your skills with robotics are unparalleled, to the point where you are able to easily control multiple drones to aid your work. You gain the following benefits:</p><ul><li><p>You may control a number of drones up to your Intelligence modifier (minimum 1) using a single Remote Controller. You may only do this for one remote controller at a time.</p></li><li><p>You may use the Remote Controller to control drones as a bonus action, rather than an action. You may not use the controller as an action on the same turn you use it as a bonus action. If you have a class feature that commands a companion as a bonus action (such as a Beast Master Ranger or a Battle Smith Artificer), you may control drones as part of the same bonus action you use to command a companion.</p></li><li><p>At the end of a short or long rest, if you have Roboticist's Tools on your person, you may modify a number of drones that you are carrying up to your Intelligence modifier (minimum 1). You may choose one of the following benefits to grant a modified drone. The benefits do not need to be the same for each drone you modify.</p><ul><li><p>The modified drone gains temporary HP equal to twice your character level.</p></li><li><p>The modified drone gains a bonus to attack rolls equal to your proficiency bonus.</p></li><li><p>The modified drone gets a bonus to armor class equal to your proficiency bonus.</p></li><li><p>The modified drone gets a bonus to saving throws equal to your proficiency bonus.</p></li></ul></li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "enchantment": null,
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "summons": null,
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Roboticist's Tools",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "fuLxZwZsNcCilPoh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1751520592327,
+    "modifiedTime": 1751520726389,
+    "lastModifiedBy": "fuLxZwZsNcCilPoh"
+  },
+  "_key": "!items!FKWsWLojjzGnCo0F"
+}

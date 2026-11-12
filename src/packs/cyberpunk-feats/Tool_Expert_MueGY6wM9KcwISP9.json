@@ -1,0 +1,454 @@
+{
+  "name": "Tool Expert",
+  "type": "feat",
+  "system": {
+    "source": {
+      "custom": "",
+      "book": "TCE",
+      "page": "80",
+      "license": ""
+    },
+    "description": {
+      "value": "<div><div><div><p>You have honed your proficiency with particular tools, granting you the following benefits:</p><ul><li><p>Increase one ability score of your choice by 1, to a maximum of 20.</p></li><li><p>You gain proficiency with one tool of your choice.</p></li><li><p>Choose one tool with which you have proficiency. Your proficiency bonus is doubled for any ability check you make with it. The tool you choose must be one that isn’t already benefiting from a feature that doubles your proficiency bonus.</p></li></ul></div></div></div>",
+      "chat": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "requirements": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "target": {
+      "value": "",
+      "units": "",
+      "type": "",
+      "prompt": true,
+      "width": null
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "ability": "",
+    "actionType": "",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "formula": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "properties": [],
+    "cover": null,
+    "crewed": false,
+    "enchantment": null,
+    "summons": null,
+    "prerequisites": {
+      "level": null
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "EnelIXPDocNOOhPe": 3,
+    "fuLxZwZsNcCilPoh": 3
+  },
+  "img": "icons/skills/trades/smithing-tongs-metal-red.webp",
+  "flags": {
+    "plutonium": {
+      "page": "feats.html",
+      "source": "TCE",
+      "hash": "skill%20expert_tce",
+      "propDroppable": "feat"
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "+1 STR (Tool Expert)",
+      "origin": "Compendium.cyberpunk-5e.cyberpunk-feats.Item.MueGY6wM9KcwISP9",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "flags": {
+        "dnd5e": {},
+        "dae": {
+          "disableCondition": "",
+          "stackable": "none",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "img": "icons/skills/trades/smithing-tongs-metal-red.webp",
+      "_id": "61TF2R3YGN7p7sPi",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.str.value",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": 1751521073700,
+        "lastModifiedBy": "fuLxZwZsNcCilPoh"
+      },
+      "_key": "!items.effects!MueGY6wM9KcwISP9.61TF2R3YGN7p7sPi"
+    },
+    {
+      "name": "+1 DEX (Tool Expert)",
+      "origin": "Compendium.cyberpunk-5e.cyberpunk-feats.Item.MueGY6wM9KcwISP9",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "flags": {
+        "dnd5e": {},
+        "dae": {
+          "disableCondition": "",
+          "stackable": "none",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "img": "icons/skills/trades/smithing-tongs-metal-red.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.dex.value",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": 1751521082877,
+        "lastModifiedBy": "fuLxZwZsNcCilPoh"
+      },
+      "_id": "oKplQYUC3GHypGcw",
+      "_key": "!items.effects!MueGY6wM9KcwISP9.oKplQYUC3GHypGcw"
+    },
+    {
+      "name": "+1 CON (Tool Expert)",
+      "origin": "Compendium.cyberpunk-5e.cyberpunk-feats.Item.MueGY6wM9KcwISP9",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "flags": {
+        "dnd5e": {},
+        "dae": {
+          "disableCondition": "",
+          "stackable": "none",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "img": "icons/skills/trades/smithing-tongs-metal-red.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.con.value",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": 1751521093157,
+        "lastModifiedBy": "fuLxZwZsNcCilPoh"
+      },
+      "_id": "W7WFEuFsJGannAMF",
+      "_key": "!items.effects!MueGY6wM9KcwISP9.W7WFEuFsJGannAMF"
+    },
+    {
+      "name": "+1 INT (Tool Expert)",
+      "origin": "Compendium.cyberpunk-5e.cyberpunk-feats.Item.MueGY6wM9KcwISP9",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "flags": {
+        "dnd5e": {},
+        "dae": {
+          "disableCondition": "",
+          "stackable": "none",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "img": "icons/skills/trades/smithing-tongs-metal-red.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.int.value",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": 1751521103629,
+        "lastModifiedBy": "fuLxZwZsNcCilPoh"
+      },
+      "_id": "uyFYQn9SLasd33uO",
+      "_key": "!items.effects!MueGY6wM9KcwISP9.uyFYQn9SLasd33uO"
+    },
+    {
+      "name": "+1 WIS (Tool Expert)",
+      "origin": "Compendium.cyberpunk-5e.cyberpunk-feats.Item.MueGY6wM9KcwISP9",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "flags": {
+        "dnd5e": {},
+        "dae": {
+          "disableCondition": "",
+          "stackable": "none",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "img": "icons/skills/trades/smithing-tongs-metal-red.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.wis.value",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": 1751521114564,
+        "lastModifiedBy": "fuLxZwZsNcCilPoh"
+      },
+      "_id": "1Z7VSeyUaLDU8TTe",
+      "_key": "!items.effects!MueGY6wM9KcwISP9.1Z7VSeyUaLDU8TTe"
+    },
+    {
+      "name": "+1 CHA (Tool Expert)",
+      "origin": "Compendium.cyberpunk-5e.cyberpunk-feats.Item.MueGY6wM9KcwISP9",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "flags": {
+        "dnd5e": {},
+        "dae": {
+          "disableCondition": "",
+          "stackable": "none",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "img": "icons/skills/trades/smithing-tongs-metal-red.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.cha.value",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": 1751521126772,
+        "lastModifiedBy": "fuLxZwZsNcCilPoh"
+      },
+      "_id": "LVwCLagWqijUqdTi",
+      "_key": "!items.effects!MueGY6wM9KcwISP9.LVwCLagWqijUqdTi"
+    }
+  ],
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1751520946013,
+    "modifiedTime": 1751521046704,
+    "lastModifiedBy": "fuLxZwZsNcCilPoh"
+  },
+  "_id": "MueGY6wM9KcwISP9",
+  "sort": 0,
+  "_key": "!items!MueGY6wM9KcwISP9"
+}

@@ -1,0 +1,110 @@
+{
+  "name": "Psionic Fortitude",
+  "ownership": {
+    "default": 0,
+    "EnelIXPDocNOOhPe": 3,
+    "fuLxZwZsNcCilPoh": 3
+  },
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<div><div class=\"rd__b  rd__b--2\"><div data-roll-name-ancestor=\"Psionic Fortitude\" class=\"rd__b  rd__b--3\"><p>The duergar has advantage on saving throws you make to avoid or end the &amp;Reference[condition=charmed] or &amp;Reference[condition=stunned] condition on itself.</p></div></div></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "MPMM",
+      "page": "12",
+      "license": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Duergar",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "properties": [],
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "enchantment": null,
+    "summons": null,
+    "prerequisites": {
+      "level": null
+    }
+  },
+  "flags": {},
+  "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+  "effects": [],
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1751917134481,
+    "modifiedTime": 1751929348223,
+    "lastModifiedBy": "fuLxZwZsNcCilPoh"
+  },
+  "_id": "DONpTDodobcvfJIJ",
+  "sort": 0,
+  "_key": "!items!DONpTDodobcvfJIJ"
+}

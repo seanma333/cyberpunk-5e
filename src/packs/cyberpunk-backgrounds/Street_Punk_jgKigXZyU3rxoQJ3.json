@@ -1,0 +1,101 @@
+{
+  "name": "Street Punk",
+  "type": "background",
+  "_id": "jgKigXZyU3rxoQJ3",
+  "img": "modules/cyberpunk-5e/assets/background_icons/street-punk.png",
+  "system": {
+    "description": {
+      "value": "<p><strong style=\"font-weight:normal\" id=\"docs-internal-guid-657c1c1b-7fff-4e60-aed6-5dab5969aef9\">You grew up on the streets in poverty. You had no one to watch over you or to provide for you, so you learned to provide for yourself. Perhaps you were alone, fighting fiercely over food and kept a constant watch out for other desperate souls who might steal from you. Or perhaps you joined one of the myriad gangs that roam the streets as one of the few ways you could feel a sense of community. Regardless, you've survived despite all odds, and did so through cunning, strength, speed, or some combination of each. And now, destiny awaits you on the very streets you call home.</strong></p><hr /><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><strong>Skill Proficiencies: </strong>Sleight of Hand, your choice of Stealth or Survival</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><strong>Tool Proficiencies: </strong>Thieves' Tools, Vehicles (land)</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><strong>Languages: </strong>None</p><p><strong>Equipment: </strong>A set of common clothes, a token to remember your parents, thieves' tools, and a cryptostick containing 500 cp</p><p><strong>Feature: </strong>@UUID[Compendium.cyberpunk-5e.cyberpunk-backgrounds.Item.jH0iUbhFEPyF6BKy]{City Secrets}</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": ""
+    },
+    "startingEquipment": [],
+    "identifier": "",
+    "advancement": [
+      {
+        "_id": "RPwCMiJzEaRyYIfL",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [
+            "skills:slt"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:ste",
+                "skills:sur"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "Q0NpLQpqfIcalCn5",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [
+            "tool:thief",
+            "tool:vehicle:land"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "8HDiFeYTeTberZeh",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.cyberpunk-5e.cyberpunk-backgrounds.Item.jH0iUbhFEPyF6BKy",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Feature",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "fuLxZwZsNcCilPoh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1751299967617,
+    "modifiedTime": 1751300125771,
+    "lastModifiedBy": "fuLxZwZsNcCilPoh"
+  },
+  "_key": "!items!jgKigXZyU3rxoQJ3"
+}

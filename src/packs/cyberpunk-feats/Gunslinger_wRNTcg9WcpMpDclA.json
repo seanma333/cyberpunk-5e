@@ -1,0 +1,234 @@
+{
+  "name": "Gunslinger",
+  "type": "feat",
+  "system": {
+    "source": {
+      "custom": "",
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "description": {
+      "value": "<div><p>You have a quick hand and keen eye when employing firearms, granting you the following benefits:</p><div><div><ul><li><p>Increase your Strength or Dexterity score by 1, to a maximum of 20.</p></li><li><p>You gain proficiency with all firearms.</p></li><li><p>Being within 5 feet of a hostile creature doesn’t impose disadvantage on your ranged attack rolls.</p></li><li><p>You do not need a free hand to reload a firearm.</p></li></ul></div></div></div>",
+      "chat": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "requirements": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "target": {
+      "value": "",
+      "units": "",
+      "type": "",
+      "prompt": true,
+      "width": null
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "ability": "",
+    "actionType": "other",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "formula": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "properties": [],
+    "cover": null,
+    "crewed": false,
+    "enchantment": null,
+    "summons": null,
+    "prerequisites": {
+      "level": null
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "EnelIXPDocNOOhPe": 3,
+    "fuLxZwZsNcCilPoh": 3
+  },
+  "img": "icons/weapons/guns/gun-double-barrel.webp",
+  "flags": {
+    "plutonium": {
+      "page": "feats.html",
+      "source": "TCE",
+      "hash": "gunner_tce",
+      "propDroppable": "feat"
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "+1 DEX (Gunslinger)",
+      "origin": "Compendium.cyberpunk-5e.cyberpunk-feats.Item.wRNTcg9WcpMpDclA",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "flags": {
+        "dnd5e": {},
+        "dae": {
+          "disableCondition": "",
+          "stackable": "multi",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "img": "icons/weapons/guns/gun-double-barrel.webp",
+      "_id": "n4gTOFAK7ITK3W7T",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.dex.value",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": 1751520547953,
+        "lastModifiedBy": "fuLxZwZsNcCilPoh"
+      },
+      "_key": "!items.effects!wRNTcg9WcpMpDclA.n4gTOFAK7ITK3W7T"
+    },
+    {
+      "name": "+1 STR (Gunslinger)",
+      "origin": "Compendium.cyberpunk-5e.cyberpunk-feats.Item.wRNTcg9WcpMpDclA",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "flags": {
+        "dnd5e": {},
+        "dae": {
+          "disableCondition": "",
+          "stackable": "multi",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "img": "icons/weapons/guns/gun-double-barrel.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.str.value",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": 1751520552464,
+        "modifiedTime": 1751520565475,
+        "lastModifiedBy": "fuLxZwZsNcCilPoh"
+      },
+      "_id": "uiUYFOdmWPhb1Cpd",
+      "_key": "!items.effects!wRNTcg9WcpMpDclA.uiUYFOdmWPhb1Cpd"
+    }
+  ],
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1751520465443,
+    "modifiedTime": 1751520521522,
+    "lastModifiedBy": "fuLxZwZsNcCilPoh"
+  },
+  "_id": "wRNTcg9WcpMpDclA",
+  "sort": 0,
+  "_key": "!items!wRNTcg9WcpMpDclA"
+}

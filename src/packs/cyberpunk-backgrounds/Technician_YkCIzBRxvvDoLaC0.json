@@ -1,0 +1,108 @@
+{
+  "name": "Technician",
+  "type": "background",
+  "_id": "YkCIzBRxvvDoLaC0",
+  "img": "modules/cyberpunk-5e/assets/background_icons/technician.png",
+  "system": {
+    "description": {
+      "value": "<p><strong style=\"font-weight:normal\" id=\"docs-internal-guid-dd0b0f53-7fff-2af8-2e6c-b8de3de4679b\">The world is built and run by machines, and you know how machines run. You are the grease in the vast clockwork that keeps modern society functioning smoothly. Without you, society crumbles to dust. Or someone just hires a replacement. After all, you’re just as replaceable as any piece of equipment.</strong></p><hr /><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><strong>Skill Proficiencies: </strong>Perception, your choice of Sleight of Hand or Investigation</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><strong>Tool Proficiencies: </strong>Tinker's tools, and either one other artisan's tool or vehicles (land)</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><strong>Languages: </strong>None</p><p><strong>Equipment: </strong>A set of common clothes, a set of tinker's tools, and a cryptostick with 1000 cp</p><p><strong>Feature: </strong>@UUID[Compendium.cyberpunk-5e.cyberpunk-backgrounds.Item.bB6JgxLzKIqKOY8z]{Grease Monkey}</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": ""
+    },
+    "startingEquipment": [],
+    "identifier": "",
+    "advancement": [
+      {
+        "_id": "GKdBBkWVuFY4Xobz",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [
+            "skills:prc"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:inv",
+                "skills:slt"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "NDYFTPzqnlzi8WM6",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [
+            "tool:art:tinker"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:art:*",
+                "tool:vehicle:land"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "MQ4GnQmc5qCm1e9Q",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.cyberpunk-5e.cyberpunk-backgrounds.Item.bB6JgxLzKIqKOY8z",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Feature",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "fuLxZwZsNcCilPoh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1751300225681,
+    "modifiedTime": 1751311828891,
+    "lastModifiedBy": "fuLxZwZsNcCilPoh"
+  },
+  "_key": "!items!YkCIzBRxvvDoLaC0"
+}
