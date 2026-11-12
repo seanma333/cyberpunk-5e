@@ -60,15 +60,23 @@ if (!["pack", "unpack"].includes(action)) {
   process.exit(1);
 }
 
-if (action === "pack" && foundryIsRunning() && !process.env.FORCE_PACK) {
-  console.error(
-    "Foundry is running and holds the pack databases open. Quit Foundry first,\n" +
-      "or set FORCE_PACK=1 if you are certain the packs are not loaded.",
-  );
-  process.exit(1);
+const packs = requested.length ? requested : allPacks();
+
+// Only a pack that is already built can be open in Foundry. A fresh checkout
+// (or CI) has nothing under packs/ yet, so there is nothing to protect and the
+// build proceeds even with Foundry running.
+if (action === "pack" && !process.env.FORCE_PACK) {
+  const alreadyBuilt = packs.filter((name) => fs.existsSync(path.join(OUT, name)));
+  if (alreadyBuilt.length && foundryIsRunning()) {
+    console.error(
+      `Foundry is running and may hold these built packs open: ${alreadyBuilt.join(", ")}.\n` +
+        "Writing to a LevelDB that Foundry has open can corrupt it. Quit Foundry first,\n" +
+        "or set FORCE_PACK=1 if you are certain these packs are not loaded.",
+    );
+    process.exit(1);
+  }
 }
 
-const packs = requested.length ? requested : allPacks();
 let failed = 0;
 
 for (const name of packs) {
