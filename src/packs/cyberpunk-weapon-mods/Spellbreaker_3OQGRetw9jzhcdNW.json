@@ -1,0 +1,118 @@
+{
+  "name": "Spellbreaker",
+  "type": "consumable",
+  "img": "modules/cyberpunk-5e/assets/weapon_icons/modification_icons/spellbreaker.png",
+  "folder": "Hd8p4esOW6GY2jbR",
+  "sort": 0,
+  "_id": "3OQGRetw9jzhcdNW",
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1667803499856,
+    "modifiedTime": 1681883502598,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.cyberpunk-5e.cyberpunk-weapon-mods.5cfg2aCOJtKyFNkU",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Weapon Modification (any non-magical melee weapon)</strong></p><p><strong>Ammo Modification (40 pieces of non-magical ammunition)</strong></p><p>Spellbreaker technology refers to a special kind of non-magical tech that bypasses the defenses of magic users. If you make an attack with a weapon or ammunition with the spellbreaker property, it ignores AC bonuses, resistances, and immunities from spells (examples: Shield, Blade Ward, Mage Armor, and Stoneskin). Also, when a creature that is concentrating on a spell is damaged by a weapon attack using a spellbreaker weapon or ammunition, it has disadvantage on the saving throw that it makes to maintain its concentration.</p><p>Once a weapon is modified with spellbreaker tech, it cannot be enchanted or infused (such as through the Artificer's Item Infusions), or be used as a material component for a spell.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 100000,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "autoDestroy": false
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "trinket"
+  },
+  "flags": {
+    "cyberpunk5e": {
+      "modification_props": {
+        "applied": false,
+        "reversible": false,
+        "requirements": {
+          "types": [
+            "martialM",
+            "simpleM"
+          ],
+          "properties": {
+            "mgc": false
+          },
+          "dmg": []
+        },
+        "prop_name": "spellbreaker",
+        "price_mult": 0,
+        "effects": {}
+      }
+    },
+    "core": {
+      "sourceId": "Compendium.cyberpunk-5e.cyberpunk-weapon-mods.5cfg2aCOJtKyFNkU"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!3OQGRetw9jzhcdNW"
+}

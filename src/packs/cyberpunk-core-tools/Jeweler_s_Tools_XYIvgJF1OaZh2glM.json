@@ -1,0 +1,53 @@
+{
+  "name": "Jeweler's Tools",
+  "type": "tool",
+  "img": "icons/commodities/gems/gem-rough-rose-teal.webp",
+  "folder": "FlB0Mk1qxbCtvO3W",
+  "sort": 100782,
+  "_id": "XYIvgJF1OaZh2glM",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.YfBwELTgPFHmQdHh"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233708,
+    "modifiedTime": 1678263959395,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.YfBwELTgPFHmQdHh",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>These special tools include the items needed to pursue a craft or trade in jewelry.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SRD 5.1",
+    "quantity": 1,
+    "weight": 2,
+    "price": {
+      "value": 2500,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "toolType": "art",
+    "baseItem": "jeweler",
+    "ability": "int",
+    "chatFlavor": "",
+    "proficient": 0,
+    "bonus": ""
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!XYIvgJF1OaZh2glM"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Bell",
+  "type": "loot",
+  "img": "icons/tools/instruments/bell-brass-brown.webp",
+  "folder": "uoEC7eg9JuPL3rzc",
+  "sort": 500000,
+  "_id": "BWAgplDQVTOmidc7",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.F6GwSqjErX1u35Re"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233541,
+    "modifiedTime": 1678265254927,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.F6GwSqjErX1u35Re",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>A small bell for you to ring.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SRD 5.1",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 100,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!BWAgplDQVTOmidc7"
+}

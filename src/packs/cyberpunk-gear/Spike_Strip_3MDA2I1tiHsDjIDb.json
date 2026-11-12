@@ -1,0 +1,116 @@
+{
+  "name": "Spike Strip",
+  "type": "equipment",
+  "img": "modules/cyberpunk-5e/assets/gear_icons/spike_strip.svg",
+  "folder": "2FGTulPLkCuamtWs",
+  "sort": 0,
+  "_id": "3MDA2I1tiHsDjIDb",
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1676095646812,
+    "modifiedTime": 1681883070103,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.cyberpunk-5e.cyberpunk-gear.tMDMWJlqQaVZx0vR",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>As an action, these camouflaged unfolding spike rails can be deployed in a line 10 feet long and 1 foot wide. If a vehicle with tires enters this line, the vehicle takes 2d4 piercing damage and its speed is halved until its tires are repaired.</p> <p>Any creature that can’t see the area at the time the spikestrip is deployed must make a DC 15 Wisdom (Perception) check to see the spikes. As an action, the spikes can be recovered.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 6,
+    "price": {
+      "value": 400,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": null,
+      "type": "trinket",
+      "dex": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "stealth": false,
+    "proficient": true
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.cyberpunk-5e.cyberpunk-gear.tMDMWJlqQaVZx0vR"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!3MDA2I1tiHsDjIDb"
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Socialite",
+  "type": "background",
+  "_id": "IvYLAi52MatJgyK8",
+  "img": "modules/cyberpunk-5e/assets/background_icons/socialite.png",
+  "system": {
+    "description": {
+      "value": "<p><strong style=\"font-weight:normal\" id=\"docs-internal-guid-372ff951-7fff-c608-fd06-cd0b222cf64a\">While most toil in the dirty streets, you knew a life above all that. Your life was one of luxury: you attended many high end social events, and you spent a good part of your life learning to navigate the treacherous waters of upper class etiquette. Perhaps you were born into wealth, or perhaps you or your family found a way to gain it. Regardless, you have always known that in the world of the rich, it only takes a few mistakes before you are thrown out of the ivory tower and onto the streets below. So, what were your mistakes?</strong></p><hr /><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><strong>Skill Proficiencies: </strong>Persuasion, plus your choice of Deception or Insight</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><strong>Tool Proficiencies: </strong>None</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><strong>Languages: </strong>Two of your choice</p><p><strong>Equipment: </strong>A set of fine clothes, a signet ring with a symbol of your family, a smartphone, a cryptostick containing 2500 cp</p><p><strong>Feature: </strong>@UUID[Compendium.cyberpunk-5e.cyberpunk-backgrounds.Item.sqWUAlvGzfeBBRKg]{Social Standing}</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": ""
+    },
+    "startingEquipment": [],
+    "identifier": "",
+    "advancement": [
+      {
+        "_id": "LRx1zLvK2OTRQOOp",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [
+            "skills:per"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:dec",
+                "skills:ins"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "plB8kpKcX4NiSnFR",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "ARXvvzSF0rhq9KIU",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.cyberpunk-5e.cyberpunk-backgrounds.Item.sqWUAlvGzfeBBRKg",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Feature",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "fuLxZwZsNcCilPoh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1751299750948,
+    "modifiedTime": 1751299952704,
+    "lastModifiedBy": "fuLxZwZsNcCilPoh"
+  },
+  "_key": "!items!IvYLAi52MatJgyK8"
+}

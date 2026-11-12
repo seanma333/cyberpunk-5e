@@ -1,0 +1,47 @@
+{
+  "name": "Magnifying Glass",
+  "type": "loot",
+  "img": "icons/tools/scribal/magnifying-glass.webp",
+  "folder": "uoEC7eg9JuPL3rzc",
+  "sort": 7200000,
+  "_id": "gZjjX7dXj3o14j2x",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.PV0sn2Nlr8CNn4W9"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233646,
+    "modifiedTime": 1678265328625,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.PV0sn2Nlr8CNn4W9",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>This lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite. A magnifying glass grants advantage on any ability check made to appraise or inspect an item that is small or highly detailed.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SRD 5.1",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 10000,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!gZjjX7dXj3o14j2x"
+}

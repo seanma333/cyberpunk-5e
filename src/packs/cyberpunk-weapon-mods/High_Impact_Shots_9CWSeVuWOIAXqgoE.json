@@ -1,0 +1,128 @@
+{
+  "name": "High-Impact Shots",
+  "type": "consumable",
+  "img": "modules/cyberpunk-5e/assets/weapon_icons/modification_icons/high-impact_shots.png",
+  "folder": "Hd8p4esOW6GY2jbR",
+  "sort": 0,
+  "_id": "9CWSeVuWOIAXqgoE",
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1667801817697,
+    "modifiedTime": 1681883502592,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.cyberpunk-5e.cyberpunk-weapon-mods.tgbDWqJeklvkd8Dg",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Weapon Modification (requires firearm with strength requirement)</strong></p><p>The weapon's firing power has been increased, allowing its targets to be blown backward by the velocity of the projectile. When you make a ranged weapon attack with this weapon against a creature that is within 30 feet of you, it deals an extra 1d6 damage, and you may up to 5 feet away from you if it is Large or smaller.</p><p>This extra power increases the recoil of the weapon and makes it more difficult to handle. The Strength requirement of the weapon is increased by 2.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 0,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": "",
+      "autoDestroy": false
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "trinket"
+  },
+  "flags": {
+    "cyberpunk5e": {
+      "modification_props": {
+        "applied": false,
+        "reversible": false,
+        "requirements": {
+          "types": [
+            "martialR",
+            "simpleR"
+          ],
+          "properties": {
+            "fir": true,
+            "strreq": true
+          },
+          "dmg": []
+        },
+        "prop_name": "high-impact",
+        "price_mult": 2,
+        "effects": {
+          "update": [
+            [
+              "system",
+              {
+                "formula": "1d6"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    "core": {
+      "sourceId": "Compendium.cyberpunk-5e.cyberpunk-weapon-mods.tgbDWqJeklvkd8Dg"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!9CWSeVuWOIAXqgoE"
+}

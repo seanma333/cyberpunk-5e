@@ -1,0 +1,116 @@
+{
+  "name": "Quick-Deploy Parachute",
+  "type": "equipment",
+  "img": "modules/cyberpunk-5e/assets/gear_icons/quick-deploy_parachute.svg",
+  "folder": "2FGTulPLkCuamtWs",
+  "sort": 0,
+  "_id": "ycSRChjA9y7seBgW",
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1676095646792,
+    "modifiedTime": 1681883070090,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.cyberpunk-5e.cyberpunk-gear.35YIXg7dUzkElyAU",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>After falling at least 200 feet, you can use your reaction to deploy this parachute. Your rate of descent slows to 60 feet per round until you land. While the parachute is deployed, your movement speed is halved asit drags behind you. The parachute requires 10 minutes to fold back into its pouch, or you can unhitch it from yourself as an action or a bonus action.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 12,
+    "price": {
+      "value": 1500,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": null,
+      "type": "trinket",
+      "dex": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "stealth": false,
+    "proficient": true
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.cyberpunk-5e.cyberpunk-gear.35YIXg7dUzkElyAU"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!ycSRChjA9y7seBgW"
+}

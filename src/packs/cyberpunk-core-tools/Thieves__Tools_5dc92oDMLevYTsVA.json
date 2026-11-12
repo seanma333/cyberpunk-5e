@@ -1,0 +1,53 @@
+{
+  "name": "Thieves' Tools",
+  "type": "tool",
+  "img": "icons/tools/hand/lockpicks-steel-grey.webp",
+  "folder": "FlB0Mk1qxbCtvO3W",
+  "sort": 120313,
+  "_id": "5dc92oDMLevYTsVA",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.woWZ1sO5IUVGzo58"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233959,
+    "modifiedTime": 1678264299475,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.woWZ1sO5IUVGzo58",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SRD 5.1",
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 2500,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "toolType": "",
+    "baseItem": "thief",
+    "ability": "dex",
+    "chatFlavor": "",
+    "proficient": 0,
+    "bonus": ""
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!5dc92oDMLevYTsVA"
+}

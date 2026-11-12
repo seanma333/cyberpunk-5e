@@ -1,0 +1,99 @@
+{
+  "name": "Flashbang (Tier 1)",
+  "type": "consumable",
+  "img": "modules/cyberpunk-5e/assets/grenade_icons/icon_item_modded_flashbang-resources.assets-1788.png",
+  "folder": "EgyxvxvNdLEkZM30",
+  "sort": 0,
+  "_id": "WfKZysUaBnWNDFiP",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p dir=\"ltr\">This black canister has yellow marks tracing holes that will light up with a blinding flash and a deafening boom.</p>\n<p><span id=\"docs-internal-guid-77963c87-7fff-7bd9-a255-5e443f0378a8\"><br />As an action, you can throw the flashbang to a point within 60 feet of you, where it explodes in a 10-foot-radius sphere. Each creature in the area must succeed on a DC 13 Constitution saving throw or be blinded and deafened until the end of your next turn. If the creature is concentrating on a spell, they must also make a DC 10 Constitution saving throw to maintain concentration.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 4500,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "Each creature in the area must make a Constitution Saving throw or be blinded and deafened until the end of your next turn. If the creature is concentrating on a spell, they must also make a DC 10 Constitution Saving Throw to maintain concentration."
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": 10,
+      "width": null,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": 13,
+      "scaling": "flat"
+    },
+    "consumableType": "ammo"
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1665350777494,
+    "modifiedTime": 1676095661509,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.cyberpunk-5e.cyberpunk-items-explosives.gRqofAUeKEnVTMc7",
+    "duplicateSource": null
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.cyberpunk-5e.cyberpunk-items-explosives.gRqofAUeKEnVTMc7"
+    }
+  },
+  "_key": "!items!WfKZysUaBnWNDFiP"
+}

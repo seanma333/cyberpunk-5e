@@ -1,0 +1,47 @@
+{
+  "name": "Sledgehammer",
+  "type": "loot",
+  "img": "icons/tools/smithing/hammer-sledge-steel-grey.webp",
+  "folder": "uoEC7eg9JuPL3rzc",
+  "sort": 2800000,
+  "_id": "EWgw8P8ZDZx60cJp",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.9G9QGSPgpZDSsm37"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233496,
+    "modifiedTime": 1678265280593,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.9G9QGSPgpZDSsm37",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>A tool with a large, flat, often metal head, attached to a long handle. </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SRD 5.1",
+    "quantity": 1,
+    "weight": 10,
+    "price": {
+      "value": 200,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!EWgw8P8ZDZx60cJp"
+}

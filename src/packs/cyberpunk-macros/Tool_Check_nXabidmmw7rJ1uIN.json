@@ -1,0 +1,31 @@
+{
+  "name": "Tool Check",
+  "type": "script",
+  "author": "35XmDJHnBMPCEkei",
+  "img": "modules/cyberpunk-5e/assets/macro_icons/gear-hammer.svg",
+  "scope": "global",
+  "command": "const wait = (delay) => new Promise((resolve) => setTimeout(resolve, delay));\n\n\nasync function rollToolButton(html, adv, token) {\n  let selectedAbility = html.find(\"[id=ability]\")[0].value;\n  let expertise = html.find(\"[name=expertise]\")[0].checked;\n  let tool = html.find(\"[id=tools]\")[0].value;\n  switch(adv) {\n    case 'adv':\n      diceRoll = \"2d20kh1\";\n      break;\n    case 'disadv':\n      diceRoll = \"2d20kl1\";\n      break;\n    default:\n      diceRoll = \"1d20\";\n      break;\n  }\n  if (tool) {\n    rollToolCheck(token.actor, tool.replaceAll('-',' '), diceRoll, selectedAbility, expertise)\n  }\n}\n\nasync function rollToolCheck(actor, tool, diceRoll, ability, expertise) {\n  let actorData = actor.system\n  let mod = actorData.abilities[ability].mod;\n  \n  let abilityNames = {\n    'str': 'Strength',\n    'dex': 'Dexterity',\n    'con': 'Constitution',\n    'int': 'Intelligence',\n    'wis': 'Wisdom',\n    'cha': 'Charisma'\n  }\n\n  let proficiency = expertise ? actorData.attributes.prof * 2 : actorData.attributes.prof;\n\n  let roll = await new Roll(`${diceRoll}+${mod}+${proficiency}`).roll({async: true});\n\n  ChatMessage.create({\n    type: CONST.CHAT_MESSAGE_TYPES.ROLL,\n    rolls: [roll],\n    rollMode: game.settings.get(\"core\", \"rollMode\"),\n    user: game.user._id,\n    speaker: ChatMessage.getSpeaker({token: actor}),\n    flavor: `${tool} - Tool Check (${abilityNames[ability]})`\n  })\n}\n\nlet selectedToolProfs = token.actor.system.traits.toolProf.selected;\nlet tools = Object.values(selectedToolProfs)\n\nlet abilityScoreSelector = `\n<div>\n  <label>Select ability score:</label>\n  <select id=\"ability\" name=\"ability\">\n    <option value=\"str\">Strength</option>\n    <option value=\"dex\">Dexterity</option>\n    <option value=\"con\">Constitution</option>\n    <option value=\"int\" selected>Intelligence</option>\n    <option value=\"wis\">Wisdom</option>\n    <option value=\"cha\">Charisma</option>\n  </select>\n</div>\n`\n\nlet toolOptions = tools.map(tool => \n  `<option value=${tool.replaceAll(' ','-')}>${tool}</option>`\n).reduce((r,opt) => r.concat(opt), '<option disabled value selected />')\n\nlet toolSelector = `\n<div>\n<label>Select tool:</label>\n<select id=\"tools\" name=\"tools\">${toolOptions}</select>\n</div>`\n\nlet expertiseSelector = `\n<div><label>Expertise?</label><input name=\"expertise\" type=\"checkbox\"/></div>\n`\n\nlet dialogHtml = '<div>' + abilityScoreSelector.concat(toolSelector) + '</div>'.concat(expertiseSelector);\n\n\nlet d = new Dialog({\n  title: \"Tool Check\",\n  content: dialogHtml,\n  buttons: {\n    advantage: {\n      label: \"Advantage\",\n      callback: (html) => rollToolButton(html, \"adv\", token)\n    },\n    normal: {\n      label: \"Normal\",\n      callback: (html) => rollToolButton(html, \"norm\", token)\n    },\n    disadvantage: {\n      label: \"Disadvantage\",\n      callback: (html) => rollToolButton(html, \"disadv\", token)\n    },\n  }\n})\nd.render(true)",
+  "folder": "Ncj7v0U8uC2MIjhE",
+  "sort": 0,
+  "_id": "nXabidmmw7rJ1uIN",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1665462898401,
+    "modifiedTime": 1676249840095,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.cyberpunk-5e.cyberpunk-macros-custom.ziJD47iwx3Yo7BKn",
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 2,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.cyberpunk-5e.cyberpunk-macros-custom.ziJD47iwx3Yo7BKn"
+    }
+  },
+  "_key": "!macros!nXabidmmw7rJ1uIN"
+}

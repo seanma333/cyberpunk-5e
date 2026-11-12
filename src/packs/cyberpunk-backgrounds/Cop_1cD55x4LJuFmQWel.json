@@ -1,0 +1,129 @@
+{
+  "name": "Cop",
+  "type": "background",
+  "img": "modules/cyberpunk-5e/assets/background_icons/cop.png",
+  "system": {
+    "description": {
+      "value": "<p><strong style=\"font-weight:normal\" id=\"docs-internal-guid-11125867-7fff-28ca-a5e9-79fe82deb5de\">Some say that the city is lawless, that the streets are run by the gangs, the cyberpunks, the corporations, and maybe that’s the truth, but when you look beneath the grime you see that the law is buried under all that corruption and red tape. But how did it all go wrong for you? Was it your actions, or someone else's that made you leave the law enforcement world and become one of the renegades you used to police?</strong></p><hr /><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><strong>Skill Proficiencies: </strong>Insight, plus your choice of Intimidation or Perception</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><strong>Tool Proficiencies: </strong>One of either vehicles (land) or vehicles (water)</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><strong>Languages: </strong>One of your choice</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><strong>Equipment: </strong>A set of common clothes, a set of handcuffs, an old uniform, and a cryptostick with 500 cp</p><p><strong>Feature: </strong>@UUID[Compendium.cyberpunk-5e.cyberpunk-backgrounds.Item.AUQII2JNdAetH9t9]{Lawman}<br class=\"Apple-interchange-newline\" /></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": ""
+    },
+    "startingEquipment": [],
+    "identifier": "",
+    "advancement": [
+      {
+        "_id": "L0FDGZA0SUxRVhQ1",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [
+            "skills:ins"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:itm",
+                "skills:prc"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "xL6m6nehYSOPdIog",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:vehicle:land",
+                "tool:vehicle:water"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "vtAtggpeQZ7Pyba6",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "languages:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "1G49FguxxF2UfEzy",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.cyberpunk-5e.cyberpunk-backgrounds.Item.AUQII2JNdAetH9t9",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Feature",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "fuLxZwZsNcCilPoh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1751143941446,
+    "modifiedTime": 1751161620039,
+    "lastModifiedBy": "fuLxZwZsNcCilPoh"
+  },
+  "_id": "1cD55x4LJuFmQWel",
+  "sort": 400000,
+  "_key": "!items!1cD55x4LJuFmQWel"
+}

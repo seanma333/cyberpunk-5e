@@ -1,0 +1,226 @@
+{
+  "name": "Gatling Gun",
+  "type": "weapon",
+  "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/gatling_gun.png",
+  "folder": "JubeqrcMWxCcNIVg",
+  "sort": 0,
+  "_id": "DXZM7NBVsdsvcgCn",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>A giant, rapid-firing, multiple-barrel firearm. Usually meant to be mounted, but can also be carried.</p><p>Ammo Type: Bullets</p><p>Reload: 40 shots (1 action)</p><p>Damage: 2d10 piercing</p><p>Range: 100/400 ft</p><p><strong>Heavy:</strong> A heavy weapon's size make it too large for a small creature to use effectively. Small creatures have disadvantage on attack rolls with heavy weapons.</p><p><strong>Automatic:</strong> When you make an attack with this weapon, you can choose to make two attacks instead with a -5 penalty to your attack rolls. You cannot move between these attacks.</p><p><strong>Mounted:</strong> This weapon is normally used while attached to a tripod, vehicle, or other bracing mount. While it is mounted, you can ignore the weapon's Strength requirement if it has one, and it can't be moved from its mount without unmounting it. You can mount or unmount this weapon as an action. It can only be used to make an attack while unmounted if held by a Medium or larger creature with a Strength score of at least 15.</p><p><strong>Strength 15:</strong> Any creature using this weapon has disadvantage on attack rolls with it if its Strength score is less than the value of the strength requirement. Furthermore, when making a ranged attack with this weapon, you may use your Strength modifier instead of your Dexterity modifier for attack rolls.</p><p><strong>Reload (Action):</strong> A reloadable weapon can be used to make a number of attacks before it must be reloaded. Reloading this weapon requires a free hand, and takes an action.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 85,
+    "price": {
+      "value": 30000,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 100,
+      "long": 400,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "ammo",
+      "target": "",
+      "amount": 1
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d10",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialR",
+    "baseItem": "",
+    "properties": {
+      "amm": true,
+      "lgt": false,
+      "hvy": true,
+      "fin": false,
+      "fir": true,
+      "foc": true,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "spc": false,
+      "thr": false,
+      "two": true,
+      "ver": false,
+      "lod": false,
+      "ada": false,
+      "mgc": false,
+      "sil": false,
+      "automatic": true,
+      "foregrip": false,
+      "mounted": true,
+      "strreq": true,
+      "scatter": false,
+      "sighted": false,
+      "actionreload": true
+    },
+    "proficient": false
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1665477247189,
+    "modifiedTime": 1676095653415,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.qaSro7kFhxD6INbZ",
+    "duplicateSource": null
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.qaSro7kFhxD6INbZ"
+    },
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": ""
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [
+          true
+        ],
+        "altValue": [
+          true
+        ],
+        "context": []
+      },
+      "quickVersatile": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "quantity": false,
+          "use": false,
+          "resource": true
+        },
+        "altValue": {
+          "quantity": false,
+          "use": true,
+          "resource": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "cyberpunk5e": {
+      "ammo_type": "bullets",
+      "reload": 40,
+      "original_name": "Gatling Gun",
+      "nickname": "Gatling Gun",
+      "mods": []
+    }
+  },
+  "_key": "!items!DXZM7NBVsdsvcgCn"
+}

@@ -1,0 +1,104 @@
+{
+  "name": "Mystic",
+  "type": "background",
+  "_id": "hMexuUEFHvOgJAwM",
+  "img": "modules/cyberpunk-5e/assets/background_icons/mystic.png",
+  "system": {
+    "description": {
+      "value": "<p><strong style=\"font-weight:normal\" id=\"docs-internal-guid-449f252f-7fff-a365-8fe4-5c6a91b0b2bf\">The world has changed so much, but this has not stopped the flow of magic. For you, technology is a crutch that holds up those who cannot fathom the depth of the mystical arts, and you know that there is a reason the knowledge and wisdom of the old world has lasted for so long. Some mystics prefer solitude, some join with each other to study or practice the old ways, and some form secret societies that aim to topple the new technocracy that has emerged in the world. What path do you follow?</strong></p><hr /><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><strong>Skill Proficiencies: </strong>Two of<strong> </strong>Arcana, Nature, or Religion</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><strong>Tool Proficiencies: </strong>None</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><strong>Languages: </strong>Two of your choice</p><p><strong>Equipment: </strong>A set of common clothes, a mystical item (an arcane focus, a druidic focus, or a holy symbol), a set of ink pens, a notebook, and a cryptostick with 1000 cp.</p><p><strong>Feature: </strong></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": ""
+    },
+    "startingEquipment": [],
+    "identifier": "",
+    "advancement": [
+      {
+        "_id": "wumVLJRAoqsHi06U",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "skills:arc",
+                "skills:nat",
+                "skills:rel"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "AjVBMLIkU4EHRB2G",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "dIP2uQuasErAr7Yh",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.cyberpunk-5e.cyberpunk-backgrounds.Item.wnMcwzDFWPNommxV"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Feature",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "fuLxZwZsNcCilPoh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1751265803816,
+    "modifiedTime": 1751265960687,
+    "lastModifiedBy": "fuLxZwZsNcCilPoh"
+  },
+  "_key": "!items!hMexuUEFHvOgJAwM"
+}

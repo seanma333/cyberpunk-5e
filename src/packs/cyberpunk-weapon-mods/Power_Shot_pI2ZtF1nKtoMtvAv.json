@@ -1,0 +1,163 @@
+{
+  "folder": "Hd8p4esOW6GY2jbR",
+  "name": "Power Shot",
+  "type": "equipment",
+  "img": "modules/cyberpunk-5e/assets/weapon_icons/modification_icons/power_shot.png",
+  "sort": 0,
+  "_id": "pI2ZtF1nKtoMtvAv",
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1681918118198,
+    "modifiedTime": 1681918216348,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Weapon Modification (any ranged weapon)</strong></p><p>This weapon has been modified to fire a devastating shot that is difficult to aim. When you make an attack with this weapon, you may choose to take a -5 penalty to the attack roll. If that attack hits, you may add +10 to the attack's damage.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 15000,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": null,
+      "type": "trinket",
+      "dex": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": true
+  },
+  "flags": {
+    "cyberpunk5e": {
+      "modification_props": {
+        "applied": false,
+        "reversible": false,
+        "keep": true,
+        "requirements": {
+          "types": [
+            "martialR",
+            "simpleR"
+          ],
+          "properties": {},
+          "dmg": []
+        },
+        "prop_name": "power-shot",
+        "price_mult": 0,
+        "effects": {
+          "change_mod": [
+            {
+              "copy": "system.actionType"
+            },
+            {
+              "copy": "system.range"
+            },
+            {
+              "copy": "system.consume"
+            },
+            {
+              "copy": "system.ability"
+            },
+            {
+              "copy": "system.attackBonus"
+            },
+            {
+              "copy": "system.damage"
+            },
+            {
+              "copy": "system.weaponType"
+            },
+            {
+              "concat": {
+                "attackBonus": "-5"
+              }
+            },
+            {
+              "updateDamage": "+10"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!pI2ZtF1nKtoMtvAv"
+}

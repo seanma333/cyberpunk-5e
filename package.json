@@ -1,0 +1,14 @@
+{
+  "name": "cyberpunk-5e",
+  "version": "1.1.6",
+  "description": "Foundry VTT module for a cyberpunk-fantasy D&D 5e campaign",
+  "scripts": {
+    "pack": "node tools/packs.mjs pack",
+    "unpack": "node tools/packs.mjs unpack",
+    "pack:all": "npm run pack",
+    "unpack:all": "npm run unpack"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.3"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "name": "Hazmat Suit",
+  "type": "equipment",
+  "img": "modules/cyberpunk-5e/assets/gear_icons/hazmat_suit.svg",
+  "folder": "2FGTulPLkCuamtWs",
+  "sort": 0,
+  "_id": "vlzhlSq4oAgB7KTm",
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1676095646804,
+    "modifiedTime": 1681883070113,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.cyberpunk-5e.cyberpunk-gear.XHh0D6i65m0xndij",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>This suit makes you immune to airborne and waterborne toxins, poisons, diseases, and radiation. It has its own internal air purifier, allowing the user to breathe in hazardous environments indefinitely. This suit also counts as wearing a thin sheet of lead. A small swarm of internal nanobots can quickly seal small punctures or cuts.</p> <p>You have advantage on saving throws caused by attacks which would make you irradiated while wearing the suit. You cannot wear anything heavier than light armor under this suit, and it is difficult to speak to others while wearing this suit. You have disadvantage on Wisdom(Perception) and Dexterity checks while wearing the suit.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 20,
+    "price": {
+      "value": 2500,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": null,
+      "type": "trinket",
+      "dex": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "stealth": false,
+    "proficient": true
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.cyberpunk-5e.cyberpunk-gear.XHh0D6i65m0xndij"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!vlzhlSq4oAgB7KTm"
+}

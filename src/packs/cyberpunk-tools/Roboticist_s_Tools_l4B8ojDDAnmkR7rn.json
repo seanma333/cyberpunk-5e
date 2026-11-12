@@ -1,0 +1,53 @@
+{
+  "name": "Roboticist's Tools",
+  "type": "tool",
+  "img": "modules/cyberpunk-5e/assets/tools_icons/roboticists_tools.svg",
+  "folder": "YyTQ1bPGmO9S2fPI",
+  "sort": 0,
+  "_id": "l4B8ojDDAnmkR7rn",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>This set of tools includes a precision screwdriver set, pliers, calipers, a multimeter, a servo programmer, and a data cable. Proficency with these tools lets you add your proficiency bonus to any ability checks you make that involves robots or drones.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 8,
+    "price": {
+      "value": 5000,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "toolType": "art",
+    "baseItem": "",
+    "ability": "int",
+    "chatFlavor": "",
+    "proficient": 0,
+    "bonus": ""
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1676095635195,
+    "modifiedTime": 1676095635195,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.cyberpunk-5e.cyberpunk-tools.ghnbSO14Ih04eG7M",
+    "duplicateSource": null
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.cyberpunk-5e.cyberpunk-tools.ghnbSO14Ih04eG7M"
+    }
+  },
+  "_key": "!items!l4B8ojDDAnmkR7rn"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Tinderbox",
+  "type": "loot",
+  "img": "icons/sundries/lights/torch-black.webp",
+  "folder": "uoEC7eg9JuPL3rzc",
+  "sort": 3800000,
+  "_id": "oADj1cOLM2LKnQoU",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.DNOSEAvF4Oh1DlWy"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233523,
+    "modifiedTime": 1678265291042,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.DNOSEAvF4Oh1DlWy",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch - or anything else with abundant, exposed fuel - takes an action. Lighting any other fire takes 1 minute.</p>\n<p> </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SRD 5.1",
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 50,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!oADj1cOLM2LKnQoU"
+}

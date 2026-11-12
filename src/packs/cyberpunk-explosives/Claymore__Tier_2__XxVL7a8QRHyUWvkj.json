@@ -1,0 +1,108 @@
+{
+  "name": "Claymore (Tier 2)",
+  "type": "consumable",
+  "img": "modules/cyberpunk-5e/assets/grenade_icons/icon_smart_proximity_mine-resources.assets-2508.png",
+  "folder": "EgyxvxvNdLEkZM30",
+  "sort": 0,
+  "_id": "XxVL7a8QRHyUWvkj",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p dir=\"ltr\">A camouflaged curved metal box that, when triggered,explodes in a direction, firing metal balls in a deadly spray.Over the course of 3 rounds, you can arm this mine on a flat surface to be triggered by movement, choosing which direction the claymore is facing. At least one action must be used each round to arm the claymore.</p>\n<p dir=\"ltr\"> </p>\n<p dir=\"ltr\">The claymore is triggered when a creature or vehicle it can see moves within a 30-foot cone in front of the claymore. The claymore has 30 feet of darkvision. If the claymore is moved, it disarms itself. Alternatively, a wireless transceiver can be attached to the claymore and linked to the trigger, which can be activated with a bonus action.</p>\n<p><br />When the trigger is activated, each target in a 60-foot cone in front of the claymore must make a <strong>Dexterity saving throw</strong>, taking damage on a failed save, or half as much on a successful one</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 3,
+    "price": {
+      "value": 80000,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 3,
+      "condition": "Creature or Vehicle moves within 30 ft cone in front of claymore."
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": 30,
+      "width": null,
+      "units": "ft",
+      "type": "cone"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": "",
+      "recovery": "",
+      "autoDestroy": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "5d6",
+          "piercing"
+        ],
+        [
+          "5d6",
+          "thunder"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 16,
+      "scaling": "flat"
+    },
+    "consumableType": "ammo"
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1665350777483,
+    "modifiedTime": 1676095661495,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.cyberpunk-5e.cyberpunk-items-explosives.Sf95ooZ1IMqfB4F2",
+    "duplicateSource": null
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.cyberpunk-5e.cyberpunk-items-explosives.Sf95ooZ1IMqfB4F2"
+    }
+  },
+  "_key": "!items!XxVL7a8QRHyUWvkj"
+}

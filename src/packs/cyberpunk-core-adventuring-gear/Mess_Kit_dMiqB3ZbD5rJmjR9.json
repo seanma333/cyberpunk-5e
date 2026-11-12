@@ -1,0 +1,47 @@
+{
+  "name": "Mess Kit",
+  "type": "loot",
+  "img": "icons/tools/cooking/fork-steel-tan.webp",
+  "folder": "uoEC7eg9JuPL3rzc",
+  "sort": 8000000,
+  "_id": "dMiqB3ZbD5rJmjR9",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.V13fjV5oSmvbRdgP"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233682,
+    "modifiedTime": 1678265335993,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.V13fjV5oSmvbRdgP",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SRD 5.1",
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 20,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!dMiqB3ZbD5rJmjR9"
+}

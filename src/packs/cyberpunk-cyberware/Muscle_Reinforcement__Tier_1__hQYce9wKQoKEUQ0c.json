@@ -1,0 +1,188 @@
+{
+  "name": "Muscle Reinforcement (Tier 1)",
+  "type": "equipment",
+  "img": "modules/cyberpunk-5e/assets/cyberware_icons/muscle_reinforcement.png",
+  "folder": "U8qX7xmDNSmDiplL",
+  "sort": 0,
+  "_id": "hQYce9wKQoKEUQ0c",
+  "effects": [
+    {
+      "origin": "Item.wE7js4a4BuNbnQBs",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "SgKeKUOK5Tayayrl",
+      "changes": [
+        {
+          "key": "system.abilities.str.bonuses.check",
+          "mode": 2,
+          "value": "+2",
+          "priority": 20
+        },
+        {
+          "key": "system.abilities.str.bonuses.save",
+          "mode": 2,
+          "value": "+2",
+          "priority": 20
+        },
+        {
+          "key": "system.attributes.encumbrance.max",
+          "mode": 1,
+          "value": "2",
+          "priority": 20
+        }
+      ],
+      "tint": "#ffffff",
+      "transfer": true,
+      "flags": {
+        "dae": {
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "stackable": "none",
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "statusId": ""
+        }
+      },
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "Muscle Reinforcement",
+      "img": "modules/cyberpunk-5e/assets/cyberware_icons/muscle_reinforcement.png",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!items.effects!hQYce9wKQoKEUQ0c.SgKeKUOK5Tayayrl"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<p>Through the implantation of synthetic muscles and ligaments, your muscular system is enhanced beyond its biological limitations. At tier 3, your muscles are replaced with carbon fibers that, when activated by your nervous system, let you perform impossible feats of might.</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><strong>Tier 1. </strong>You gain a +2 bonus to Strength ability checks and Strength saving throws. You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. You can grapple creatures up to two sizes larger than you.<strong style=\"font-weight:normal\" id=\"docs-internal-guid-629576bc-7fff-ebdc-3ec0-6c0b02d0049d\"><br /></strong></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\">When you hit a creature with a melee attack, you can shove it. If you win the contest, the creature takes an additional 2d6 bludgeoning damage, you push it up to 10 feet away, and knock it prone. You can’t use this ability again until you finish a short or long rest.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 35000,
+      "denomination": "cp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "str",
+    "actionType": "abil",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d6",
+          ""
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": null,
+      "type": "trinket",
+      "dex": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "stealth": false,
+    "proficient": true
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1665271900230,
+    "modifiedTime": 1676095671912,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.cyberpunk-5e.cyberpunk-cyberware.wE7js4a4BuNbnQBs",
+    "duplicateSource": null
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.cyberpunk-5e.cyberpunk-cyberware.wE7js4a4BuNbnQBs"
+    }
+  },
+  "_key": "!items!hQYce9wKQoKEUQ0c"
+}

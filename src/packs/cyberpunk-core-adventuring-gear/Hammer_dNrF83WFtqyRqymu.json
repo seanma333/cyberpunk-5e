@@ -1,0 +1,47 @@
+{
+  "name": "Hammer",
+  "type": "loot",
+  "img": "icons/tools/hand/hammer-cobbler-steel.webp",
+  "folder": "uoEC7eg9JuPL3rzc",
+  "sort": 2500000,
+  "_id": "dNrF83WFtqyRqymu",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.14pNRT4sZy9rgvhb"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233437,
+    "modifiedTime": 1678265277260,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.14pNRT4sZy9rgvhb",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>A tool with a heavy metal head mounted at the end of its handle, used for jobs such as breaking things and driving in nails. </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SRD 5.1",
+    "quantity": 1,
+    "weight": 3,
+    "price": {
+      "value": 100,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!dNrF83WFtqyRqymu"
+}

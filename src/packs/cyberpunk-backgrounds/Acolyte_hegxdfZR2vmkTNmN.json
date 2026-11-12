@@ -1,0 +1,99 @@
+{
+  "name": "Acolyte",
+  "type": "background",
+  "img": "modules/cyberpunk-5e/assets/background_icons/acolyte.png",
+  "system": {
+    "description": {
+      "value": "<p>Even in the darkest sections of the urban sprawl, it is still easy to find believers in the old faiths. Some temples of major gods remain untouched by urbanization, still cared for by the clergy to this day. Other temples were razed over time, and those that remain faithful to those gods continue to worship them on their own or in small communities. As an acolyte, you have devoted your life to the service of your god. How will you serve them during these dark times?</p><hr /><p><strong>Skill Proficiencies:</strong> Insight, Religion</p><p><strong>Languages:</strong> Two of your choice</p><p><strong>Equipment: </strong>A holy symbol, a prayer book or prayer wheel, 5 sticks of incense,, a set of @UUID[Compendium.dnd5e.items.Item.8RXjiddJ6VGyE7vB]{common clothes}, and a cripstick containing 1500 cp.</p><p><strong>Feature:</strong> @UUID[Compendium.cyberpunk-5e.cyberpunk-backgrounds.Item.64N1NWh9kC1dI7zN]{Shelter of the Faithful}</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "SRD 5.1",
+      "page": "60",
+      "license": "CC-BY-4.0"
+    },
+    "advancement": [
+      {
+        "_id": "wIwtQfLdf9tJdZNi",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [
+            "skills:ins",
+            "skills:rel"
+          ],
+          "choices": []
+        },
+        "level": 0,
+        "title": "",
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "9YuEhI3iqUxEfIOk",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:*"
+              ]
+            }
+          ]
+        },
+        "level": 0,
+        "title": "",
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "KS0l9euGb95pA1zq",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.cyberpunk-5e.cyberpunk-backgrounds.Item.64N1NWh9kC1dI7zN",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Feature",
+        "hint": ""
+      }
+    ],
+    "startingEquipment": [],
+    "identifier": ""
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "fuLxZwZsNcCilPoh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1751143939338,
+    "modifiedTime": 1751310975275,
+    "lastModifiedBy": "fuLxZwZsNcCilPoh"
+  },
+  "_id": "hegxdfZR2vmkTNmN",
+  "sort": 100000,
+  "_key": "!items!hegxdfZR2vmkTNmN"
+}

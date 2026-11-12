@@ -1,0 +1,116 @@
+{
+  "name": "Smartgun Augment (Tier 1)",
+  "type": "equipment",
+  "img": "modules/cyberpunk-5e/assets/cyberware_icons/smartgun_augment.png",
+  "folder": "U8qX7xmDNSmDiplL",
+  "sort": 0,
+  "_id": "I89RVqMwf2pkcSTq",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><strong style=\"font-weight:normal\" id=\"docs-internal-guid-7f2e155e-7fff-ea90-f5ff-859eae1654f9\">Designed for those without the physical knack for aiming but who still want to rain lead. Sensors in your eyes and electrodes in your brain are linked to a gun with a Smartgun System to assist with aiming, allowing you to instead focus on muscular compensation for recoil, muzzle rise, and target movement. Advanced versions of the interface allow you to spot weaknesses in your target's defenses (including magical defenses) and bypass them.</strong></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><strong style=\"font-weight:normal\" id=\"docs-internal-guid-7f2e155e-7fff-ea90-f5ff-859eae1654f9\"><br /></strong><strong>Tier 1. </strong>At the end of a long rest, you may link the augment to one firearm with a Smartgun System installed. When you attack with the linked weapon, you may use your Intelligence, Wisdom, or Charisma modifier, instead of Dexterity, for ranged attack rolls.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 25000,
+      "denomination": "cp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": null,
+      "type": "trinket",
+      "dex": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "stealth": false,
+    "proficient": true
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1665272291393,
+    "modifiedTime": 1676095671913,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.cyberpunk-5e.cyberpunk-cyberware.L0Fugmg1TIwirQ7G",
+    "duplicateSource": null
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.cyberpunk-5e.cyberpunk-cyberware.L0Fugmg1TIwirQ7G"
+    }
+  },
+  "_key": "!items!I89RVqMwf2pkcSTq"
+}

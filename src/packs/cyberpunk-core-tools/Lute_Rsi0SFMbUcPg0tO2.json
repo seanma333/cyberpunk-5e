@@ -1,0 +1,53 @@
+{
+  "name": "Lute",
+  "type": "tool",
+  "img": "icons/tools/instruments/lute-gold-brown.webp",
+  "folder": "FlB0Mk1qxbCtvO3W",
+  "sort": 102149,
+  "_id": "Rsi0SFMbUcPg0tO2",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.qBydtUUIkv520DT7"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.4",
+    "coreVersion": "12.343",
+    "createdTime": 1661787233878,
+    "modifiedTime": 1678264169076,
+    "lastModifiedBy": "35XmDJHnBMPCEkei",
+    "compendiumSource": "Compendium.dnd5e.items.qBydtUUIkv520DT7",
+    "duplicateSource": null
+  },
+  "system": {
+    "description": {
+      "value": "<p>A lute to evoke awe, wonder, or fear in your audience.</p>\n<p>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency. </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SRD 5.1",
+    "quantity": 1,
+    "weight": 2,
+    "price": {
+      "value": 3500,
+      "denomination": "cp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "toolType": "music",
+    "baseItem": "lute",
+    "ability": "cha",
+    "chatFlavor": "",
+    "proficient": 0,
+    "bonus": ""
+  },
+  "ownership": {
+    "default": 0,
+    "35XmDJHnBMPCEkei": 3
+  },
+  "_key": "!items!Rsi0SFMbUcPg0tO2"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Features",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "IDsMSIlTi30OcUmh",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1751143937605,
+    "modifiedTime": 1751143937605,
+    "lastModifiedBy": "fuLxZwZsNcCilPoh"
+  },
+  "description": "",
+  "_key": "!folders!IDsMSIlTi30OcUmh"
+}
