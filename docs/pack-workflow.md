@@ -98,29 +98,60 @@ and stand on their own without a race applied.
 ## Releasing
 
 A clone of this repo contains no compendium data, so a release has to be
-*built* — it cannot be a zip of the git tree. `.github/workflows/release.yml`
-does that, triggered by a version tag:
+*built* — it cannot be a zip of the git tree.
+`.github/workflows/release.yml` builds the packs, checks that every pack with
+JSON sources actually produced LevelDB data, stamps the version into
+`module.json`, zips the module with `packs/` included, and attaches
+`module.zip` and `module.json` to a GitHub release.
+
+### The version is not stored in the repo
+
+`module.json` carries a `version` of `0.0.0`. That is a deliberate placeholder:
+Foundry requires the field, but the real version is resolved at build time and
+written into the `module.json` that ships. **The release history is the source
+of truth** — use `gh release list`.
+
+The placeholder is `0.0.0` rather than a stale real number so that nothing
+invites you to trust it.
+
+| How you release | Version used |
+|---|---|
+| push to `main` | patch bump from the latest release (`1.1.7` → `1.1.8`) |
+| push a `v*` tag | that exact version — for minor and major bumps |
+| run the workflow manually | the version you type, or a patch bump if blank |
+
+So patch releases are automatic and deliberate bumps are explicit:
 
 ```bash
-git tag v1.1.7
-git push origin v1.1.7
+git tag v2.0.0 origin/main && git push origin v2.0.0
 ```
 
-The workflow installs dependencies, runs `npm run pack`, checks that every pack
-with JSON sources actually produced LevelDB data, stamps the version into
-`module.json`, zips the module with `packs/` included, and attaches `module.zip`
-and `module.json` to a GitHub release.
+Auto-patching then continues from there: `2.0.1`, `2.0.2`.
 
-The tag is the only source of truth for the version. It is stamped into the
-`module.json` that ships in the zip, so there is no version to keep in sync by
-hand and no automatic version bumping — a release happens when you tag one.
+Put `[skip ci]` in a commit message to push to `main` without cutting a release.
+
+On the automatic path the tag does not exist yet, so the release creates it at
+that commit. Tags created with `GITHUB_TOKEN` do not trigger workflows, which is
+what stops a release from triggering another release. A tag you push yourself
+uses your own credentials and does fire normally — which is exactly why the
+explicit path works.
+
+Until the first release exists there is nothing to bump from, so the workflow
+falls back to the `INITIAL_VERSION` it declares.
+
+### Install URLs
 
 `module.json` points both `manifest` and `download` at
 `releases/latest/download/`, so Foundry's update check reads the newest
 release's manifest rather than whatever happens to be on `main`.
 
-The verification step exists because of a real failure: before this workflow,
-`download` pointed at `archive/refs/heads/main.zip`, a zip of the git tree.
-Since `packs/` is gitignored, every install from that manifest URL produced a
-module with 17 empty compendiums. Shipping that again should fail the build, not
-reach users.
+### Why the verification step exists
+
+Before this workflow, `download` pointed at `archive/refs/heads/main.zip`, a zip
+of the git tree. Since `packs/` is gitignored, every install from that manifest
+URL produced a module with 17 empty compendiums. Shipping that again should fail
+the build, not reach users.
+
+The zip excludes `LOCK` and `LOG` by exact name, never `*.log` — the numbered
+`*.log` files are LevelDB's write-ahead log and can hold documents not yet
+compacted into a `.ldb`.
