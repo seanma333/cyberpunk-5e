@@ -1,16 +1,23 @@
 name: Release
 
-# Releases are cut by pushing a version tag, e.g. `git tag v1.1.7 && git push origin v1.1.7`.
-# The tag is the single source of truth for the version: it is stamped into the
-# module.json that ships in the zip, so there is nothing to keep in sync by hand.
+# The version lives in the release history, not in the repo: module.json's
+# version field is a 0.0.0 placeholder that this workflow overwrites at build
+# time. `gh release list` is the source of truth.
+#
+#   push to main   -> patch bump from the latest release (1.1.7 -> 1.1.8)
+#   push a v* tag  -> that exact version, for minor and major bumps
+#   manual run     -> an explicit version, without tagging locally
+#
+# Put [skip ci] in a commit message to push to main without cutting a release.
 on:
   push:
+    branches: [main]
     tags: ["v*"]
   workflow_dispatch:
     inputs:
-      tag:
-        description: "Version tag to build, e.g. v1.1.7"
-        required: true
+      version:
+        description: "Explicit version, e.g. 2.0.0 (blank = patch bump)"
+        required: false
 
 permissions:
   contents: write
@@ -28,6 +35,46 @@ jobs:
 
       - run: npm ci
 
+      # Inputs arrive as env vars rather than inline ${{ }} so that a crafted
+      # tag or dispatch value cannot be interpolated into the shell.
+      - name: Resolve version
+        id: resolve
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REF_TYPE: ${{ github.ref_type }}
+          REF_NAME: ${{ github.ref_name }}
+          INPUT_VERSION: ${{ github.event.inputs.version }}
+          # Used only until the first release exists; derivation takes over after.
+          INITIAL_VERSION: "1.1.7"
+        run: |
+          set -euo pipefail
+          if [ "$REF_TYPE" = "tag" ]; then
+              version="${REF_NAME#v}"
+              source="explicit tag $REF_NAME"
+          elif [ -n "${INPUT_VERSION:-}" ]; then
+              version="${INPUT_VERSION#v}"
+              source="manual input"
+          else
+              latest=$(gh api "repos/$GITHUB_REPOSITORY/releases/latest" --jq .tag_name 2>/dev/null || true)
+              if [ -z "$latest" ]; then
+                  version="$INITIAL_VERSION"
+                  source="initial release"
+              else
+                  base="${latest#v}"
+                  IFS=. read -r major minor patch <<EOF
+          $base
+          EOF
+                  version="$major.$minor.$((patch + 1))"
+                  source="patch bump from $latest"
+              fi
+          fi
+          if ! printf '%s' "$version" | grep -Eq '^[0-9]+\.[0-9]+\.[0-9]+$'; then
+              echo "::error::resolved version '$version' is not semver (from $source)"
+              exit 1
+          fi
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "Releasing $version ($source)"
+
       # Compendium packs are build output: the repo tracks only the JSON under
       # src/packs/, so the LevelDB directories Foundry loads are built here.
       - name: Build compendium packs
@@ -40,21 +87,22 @@ jobs:
           set -euo pipefail
           status=0
           for src in src/packs/*/; do
-            name=$(basename "$src")
-            [ -n "$(find "$src" -name '*.json' -print -quit)" ] || continue
-            out="packs/$name"
-            if [ ! -f "$out/CURRENT" ] || [ -z "$(find "$out" -name '*.ldb' -print -quit)" ]; then
-              echo "::error::$name has JSON sources but produced no LevelDB data"
-              status=1
-            fi
+              name=$(basename "$src")
+              [ -n "$(find "$src" -name '*.json' -print -quit)" ] || continue
+              out="packs/$name"
+              if [ ! -f "$out/CURRENT" ] || [ -z "$(find "$out" -name '*.ldb' -print -quit)" ]; then
+                  echo "::error::$name has JSON sources but produced no LevelDB data"
+                  status=1
+              fi
           done
           exit $status
 
-      - name: Stamp version from tag
+      - name: Stamp version into module.json
+        env:
+          VERSION: ${{ steps.resolve.outputs.version }}
         run: |
           set -euo pipefail
-          TAG="${{ github.event.inputs.tag || github.ref_name }}"
-          python3 - "${TAG#v}" <<'PY'
+          python3 - "$VERSION" <<'PY'
           import json, sys
           with open("module.json") as f:
               module = json.load(f)
@@ -75,11 +123,20 @@ jobs:
             -x '*.DS_Store' '*/LOCK' '*/LOG' '*/LOG.old'
           unzip -l module.zip | tail -1
 
+      # On the auto path the tag does not exist yet, so the release creates it
+      # at this commit. Tags created with GITHUB_TOKEN do not trigger workflows,
+      # so this cannot loop back into another release.
       - name: Publish release
         env:
           GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.resolve.outputs.version }}
+          REF_TYPE: ${{ github.ref_type }}
         run: |
           set -euo pipefail
-          TAG="${{ github.event.inputs.tag || github.ref_name }}"
-          gh release create "$TAG" module.zip module.json \
-            --title "$TAG" --generate-notes
+          if [ "$REF_TYPE" = "tag" ]; then
+              gh release create "v$VERSION" module.zip module.json \
+                --title "v$VERSION" --generate-notes
+          else
+              gh release create "v$VERSION" module.zip module.json \
+                --title "v$VERSION" --generate-notes --target "$GITHUB_SHA"
+          fi

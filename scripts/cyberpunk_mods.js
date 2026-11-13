@@ -141,7 +141,7 @@ async function applyModToWeapon(actor, mod, weapon) {
     if (weaponUpdates['flags.cyberpunk5e.mods'].length > 0) {
         const modList = weaponUpdates['flags.cyberpunk5e.mods']
             .sort((a, b) => a.localeCompare(b))
-            .map(m => CyberpunkCommon.capitalize(m));
+            .map(m => CyberpunkCommon.titleCase(m));
         weaponUpdates['name'] = `${weaponName} [${modList.join(', ')}]`;
     } else {
         weaponUpdates['name'] = weaponName;

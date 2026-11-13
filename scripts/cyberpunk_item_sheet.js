@@ -17,7 +17,7 @@ function buildFirearmTab(flags) {
     const modList = installedMods.length > 0
         ? installedMods.map(m => `
             <li class="flexrow">
-                <span>${CyberpunkCommon.capitalize(m)}</span>
+                <span>${CyberpunkCommon.titleCase(m)}</span>
                 <a class="cp-remove-mod" data-mod="${m}" title="Remove mod"><i class="fas fa-times"></i></a>
             </li>`).join("")
         : `<li class="hint">No mods installed.</li>`;
@@ -52,7 +52,7 @@ function buildWeaponTab(flags) {
     const modList = installedMods.length > 0
         ? installedMods.map(m => `
             <li class="flexrow">
-                <span>${CyberpunkCommon.capitalize(m)}</span>
+                <span>${CyberpunkCommon.titleCase(m)}</span>
                 <a class="cp-remove-mod" data-mod="${m}" title="Remove mod"><i class="fas fa-times"></i></a>
             </li>`).join("")
         : `<li class="hint">No mods installed.</li>`;
