@@ -48,6 +48,22 @@ const CyberpunkCommon = {
     },
 
     /**
+     * Formats an internal key for display: splits on hyphens, underscores and
+     * whitespace, then capitalizes each word. Used for mod prop_name values,
+     * which are lowercase keys ("high-impact") but are shown to the user both
+     * in the mods list and in the weapon's name suffix.
+     * @param {string} str - The key to format
+     * @returns {string} The key as title-cased words ("High Impact")
+     */
+    titleCase(str) {
+        return String(str ?? "")
+            .split(/[-_\s]+/)
+            .filter(Boolean)
+            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(" ");
+    },
+
+    /**
      * Calculates total value in copper pieces (CP) from currency object
      * @param {Object} currency - Currency object with pp, gp, ep, sp, cp properties
      * @returns {number} Total value in copper pieces
