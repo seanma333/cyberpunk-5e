@@ -1,14 +1,14 @@
 {
   "name": "Napalm Grenade (Tier 1)",
   "type": "consumable",
-  "img": "modules/cyberpunk-5e/assets/grenade_icons/icon_grenade_phosphorus-resources.assets-975.png",
+  "img": "modules/cyberpunk-5e/assets/grenade_icons/napalm.png",
   "folder": "EgyxvxvNdLEkZM30",
   "sort": 0,
   "_id": "qobQvNUxEOp3hoTj",
   "effects": [],
   "system": {
     "description": {
-      "value": "<p dir=\"ltr\">This black canister has orange marks tracing fluid ducts that will eject a highly flammable, sticky solution before igniting itin a burst of flame.</p>\n<p dir=\"ltr\"> </p>\n<p dir=\"ltr\">As an action, you can throw the grenade to a point within 60 feet of you, where it explodes in a 10-foot-radius sphere.Each target in the area must make a Dexterity saving throw.The target takes fire damage on a failed save and begins burning (see the condition), taking fire damage at the start of each of its turns. On a successful save, the target takes half as much damage and is not burning.</p>",
+      "value": "<p dir=\"ltr\">This black canister has orange marks tracing fluid ducts that will eject a highly flammable, sticky solution before igniting itin a burst of flame.</p>\n<p dir=\"ltr\">\u00a0</p>\n<p dir=\"ltr\">As an action, you can throw the grenade to a point within 60 feet of you, where it explodes in a 10-foot-radius sphere.Each target in the area must make a Dexterity saving throw.The target takes fire damage on a failed save and begins burning (see the condition), taking fire damage at the start of each of its turns. On a successful save, the target takes half as much damage and is not burning.</p>",
       "chat": "",
       "unidentified": ""
     },
