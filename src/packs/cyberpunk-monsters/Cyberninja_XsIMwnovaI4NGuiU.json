@@ -1,0 +1,794 @@
+{
+  "_id": "XsIMwnovaI4NGuiU",
+  "_key": "!actors!XsIMwnovaI4NGuiU",
+  "name": "Cyberninja",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 13,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 19,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 14,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 14,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 17,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 16,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 104,
+        "max": 104,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "16d8 + 32"
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 30,
+        "fly": 0,
+        "swim": 0,
+        "walk": 40,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 60,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p><strong>Armor:</strong> combat suit</p><p>XP: 5000</p>",
+        "public": ""
+      },
+      "alignment": "any alignment",
+      "race": null,
+      "type": {
+        "value": "humanoid",
+        "subtype": "any race",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 9,
+      "spellLevel": 0,
+      "source": {
+        "book": "Technomancer's Textbook",
+        "page": "179"
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "any three languages"
+      }
+    },
+    "skills": {
+      "acr": {
+        "value": 1,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 1,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 2,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "bonuses": {},
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": null
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Cyberninja",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "items": [
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "jGAMmfBJcuN4Alou",
+      "name": "Evasion",
+      "type": "feat",
+      "img": "icons/magic/water/pseudopod-teal.webp",
+      "system": {
+        "description": {
+          "value": "<p>If the cyberninja is subjected to an effect that allows it to make a Dexterity saving throw to take only half the damage, the cyberninja instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "179"
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 100000,
+      "_key": "!actors.items!XsIMwnovaI4NGuiU.jGAMmfBJcuN4Alou"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "JzXbsDIq9uDVXXcc",
+      "name": "Slippery Foe",
+      "type": "feat",
+      "img": "icons/magic/control/hypnosis-mesmerism-watch.webp",
+      "system": {
+        "description": {
+          "value": "<p>The cyberninja can take the Dash, Disengage, or Hide action as a bonus action.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "179"
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 200000,
+      "_key": "!actors.items!XsIMwnovaI4NGuiU.JzXbsDIq9uDVXXcc"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "hyM3DXy6RNtExdWY",
+      "name": "Sneak Attack (1/Turn)",
+      "type": "feat",
+      "img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>The cyberninja deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an ally of the cyberninja that isn't incapacitated and the cyberninja doesn't have disadvantage on the Attack roll.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "179"
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 300000,
+      "_key": "!actors.items!XsIMwnovaI4NGuiU.hyM3DXy6RNtExdWY"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "3iCLX0nu7fvRYhlN",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
+      "system": {
+        "description": {
+          "value": "<p>The cyberninja makes two weapon attacks.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "179"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 400000,
+      "_key": "!actors.items!XsIMwnovaI4NGuiU.3iCLX0nu7fvRYhlN"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "NGvBmILwlZjlLzzJ",
+      "name": "Poisoned Blade",
+      "type": "weapon",
+      "img": "icons/skills/melee/blade-tip-acid-poison-green.webp",
+      "system": {
+        "description": {
+          "value": "<p>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage and 14 (4d6) poison damage, and the target must succeed on a DC 15 Constitution saving throw or be poisoned for 1 minute.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "179"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "save": {
+          "ability": "con",
+          "dc": 15,
+          "scaling": "flat"
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": 1,
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "properties": [],
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attack": {
+          "bonus": "8",
+          "flat": true
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d6 + 4",
+              "slashing"
+            ],
+            [
+              "4d6",
+              "poison"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "chatFlavor": ""
+      },
+      "sort": 500000,
+      "_key": "!actors.items!XsIMwnovaI4NGuiU.NGvBmILwlZjlLzzJ"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "UWeMu1XapkRsRNBa",
+      "name": "Explosive Kunai",
+      "type": "weapon",
+      "img": "icons/weapons/thrown/daggers-kunai-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p>Ranged Weapon Attack: +8 to hit, range 30/90 ft., one target. Hit: 6 (1d4 + 4) piercing damage. If a target is hit by this attack, at the end of the cyberninja's next turn, the shuriken embedded in the target will explode. Targets within 10 feet of the original target must make a DC 15 Dexterity saving throw. A target takes 14 (4d6) piercing and 14 (4d6) thunder damage on a failed saving throw, or half as much damage on a successful one. A creature can take an action to disarm a kunai embedded in a creature.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "179"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "save": {
+          "ability": "dex",
+          "dc": 15,
+          "scaling": "flat"
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": 1,
+        "type": {
+          "value": "martialR",
+          "baseItem": ""
+        },
+        "properties": [],
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 30,
+          "long": 90,
+          "units": "ft"
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attack": {
+          "bonus": "8",
+          "flat": true
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d4 + 4",
+              "piercing"
+            ],
+            [
+              "4d6",
+              "thunder"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "4d6[piercing] + 4d6[thunder]",
+        "chatFlavor": "Other: piercing and thunder, on a failed save"
+      },
+      "sort": 600000,
+      "_key": "!actors.items!XsIMwnovaI4NGuiU.UWeMu1XapkRsRNBa"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "0S09ZOGYaNi0ZQNd",
+      "name": "Flashbang",
+      "type": "feat",
+      "img": "modules/cyberpunk-5e/assets/grenade_icons/flashbang.png",
+      "system": {
+        "description": {
+          "value": "<p>The cyberninja throws a flashbang at a point within 60 feet of it, where it explodes in a 10-foot-radius sphere. Each creature in the area must succeed on a DC 15 Constitution saving throw or be blinded and deafened until the end of the cyberninja's next turn. If the creature is concentrating on a spell, they must also make a DC 15 Constitution saving throw to maintain concentration.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "179"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "uses": {
+          "value": 3,
+          "max": "3",
+          "per": "day",
+          "recovery": ""
+        },
+        "save": {
+          "ability": "con",
+          "dc": 15,
+          "scaling": "flat"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "actionType": "save",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "target": {
+          "value": 10,
+          "width": null,
+          "units": "ft",
+          "type": "sphere"
+        },
+        "range": {
+          "value": 60,
+          "long": null,
+          "units": "ft"
+        }
+      },
+      "sort": 700000,
+      "_key": "!actors.items!XsIMwnovaI4NGuiU.0S09ZOGYaNi0ZQNd"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "KA23YcxMfxNUF7jY",
+      "name": "Shadow Dodge",
+      "type": "feat",
+      "img": "icons/magic/control/debuff-energy-snare-purple-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>If the cyberninja is hit by an attack, it can cause the attack to miss and teleport 15 feet to an unoccupied space it can see.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "179"
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 800000,
+      "_key": "!actors.items!XsIMwnovaI4NGuiU.KA23YcxMfxNUF7jY"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  }
+}

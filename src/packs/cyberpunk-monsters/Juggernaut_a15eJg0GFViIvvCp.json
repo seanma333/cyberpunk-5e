@@ -1,0 +1,712 @@
+{
+  "_id": "a15eJg0GFViIvvCp",
+  "_key": "!actors!a15eJg0GFViIvvCp",
+  "name": "Juggernaut",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 20,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 11,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 17,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 7,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 11,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 13,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 17,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 195,
+        "max": 195,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "26d8 + 78"
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p><strong>Armor:</strong> heavy tactical suit</p><p>XP: 3900</p>",
+        "public": ""
+      },
+      "alignment": "any alignment",
+      "race": null,
+      "type": {
+        "value": "humanoid",
+        "subtype": "any race",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 8,
+      "spellLevel": 0,
+      "source": {
+        "book": "Technomancer's Textbook",
+        "page": "186"
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "any one language (usually Common)"
+      }
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "value": 1,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 1,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "bonuses": {},
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": null
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Juggernaut",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "items": [
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "O9QfWOm5ahHLcRUh",
+      "name": "Brute",
+      "type": "feat",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "system": {
+        "description": {
+          "value": "<p>A melee weapon deals one extra die of its damage when the juggernaut hits with it (included in the attack).</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "186"
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 100000,
+      "_key": "!actors.items!a15eJg0GFViIvvCp.O9QfWOm5ahHLcRUh"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "ZoSIngvjxhaoGTpc",
+      "name": "Dermal Barrier",
+      "type": "feat",
+      "img": "modules/cyberpunk-5e/assets/cyberware_icons/dermal_barrier.png",
+      "system": {
+        "description": {
+          "value": "<p>The juggernaut can deploy its barrier as a bonus action, reducing its speed by 10 feet. At the end of each of its turns, the juggernaut decides which way a 150-foot cone faces and whether the cone is active. The juggernaut has three-quarters cover against attacks and effects from creatures and vehicles in the cone. Creatures of the juggernaut's choice within 5 feet of it also benefit from this cover.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "186"
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 200000,
+      "_key": "!actors.items!a15eJg0GFViIvvCp.ZoSIngvjxhaoGTpc"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "IoU6uSIA2FyQyZQv",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
+      "system": {
+        "description": {
+          "value": "<p>The juggernaut makes three weapon attacks.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "186"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 300000,
+      "_key": "!actors.items!a15eJg0GFViIvvCp.IoU6uSIA2FyQyZQv"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "CghcMcPW9sH9QLl8",
+      "name": "Greatsword",
+      "type": "weapon",
+      "img": "icons/weapons/swords/greatsword-guard-gem-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15 (3d6 + 5) slashing damage. This weapon has the heavy, two-handed properties.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "186"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": 1,
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "properties": [
+          "hvy",
+          "two"
+        ],
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attack": {
+          "bonus": "8",
+          "flat": true
+        },
+        "damage": {
+          "parts": [
+            [
+              "3d6 + 5",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "chatFlavor": ""
+      },
+      "sort": 400000,
+      "_key": "!actors.items!a15eJg0GFViIvvCp.CghcMcPW9sH9QLl8"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "1rsgW8ldL6gPfmj0",
+      "name": "Gatling Gun (Powered)",
+      "type": "weapon",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/gatling_gun.png",
+      "system": {
+        "description": {
+          "value": "<p>Ranged Weapon Attack: +8 to hit, range 100/400 ft., one target. Hit: 16 (2d12 + 3) piercing damage. This weapon has the automatic property.</p><p><strong>Power Shot.</strong> The weapon adds half the wielder's STR modifier (rounded up) to damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "186"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": 1,
+        "type": {
+          "value": "martialR",
+          "baseItem": ""
+        },
+        "properties": [
+          "automatic"
+        ],
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 100,
+          "long": 400,
+          "units": "ft"
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attack": {
+          "bonus": "8",
+          "flat": true
+        },
+        "damage": {
+          "parts": [
+            [
+              "2d12 + 3",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "chatFlavor": ""
+      },
+      "sort": 500000,
+      "_key": "!actors.items!a15eJg0GFViIvvCp.1rsgW8ldL6gPfmj0"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "tTsKRZVC0oSjvLZK",
+      "name": "Fragmentation Grenade",
+      "type": "feat",
+      "img": "modules/cyberpunk-5e/assets/grenade_icons/fragmentation-grenade.png",
+      "system": {
+        "description": {
+          "value": "<p>The juggernaut throws a grenade at a point within 60 feet of it. Each creature in a 10-foot-radius sphere centered on that point must make a DC 15 Dexterity saving throw. A creature takes 14 (4d6) piercing damage and 14 (4d6) thunder damage on a failed save, or half as much damage on a successful one.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "186"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "per": "day",
+          "recovery": ""
+        },
+        "save": {
+          "ability": "dex",
+          "dc": 15,
+          "scaling": "flat"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "actionType": "save",
+        "damage": {
+          "parts": [
+            [
+              "4d6",
+              "piercing"
+            ],
+            [
+              "4d6",
+              "thunder"
+            ]
+          ],
+          "versatile": ""
+        },
+        "target": {
+          "value": 10,
+          "width": null,
+          "units": "ft",
+          "type": "sphere"
+        },
+        "range": {
+          "value": 60,
+          "long": null,
+          "units": "ft"
+        }
+      },
+      "sort": 600000,
+      "_key": "!actors.items!a15eJg0GFViIvvCp.tTsKRZVC0oSjvLZK"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  }
+}

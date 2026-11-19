@@ -1,0 +1,632 @@
+{
+  "_id": "1HdwFRbcoJzxCLOb",
+  "_key": "!actors!1HdwFRbcoJzxCLOb",
+  "name": "Razorgirl",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 13,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 18,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 14,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 13,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 14,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 16,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 91,
+        "max": 91,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "14d8 + 28"
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 20,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p><strong>Armor:</strong> combat suit</p><p>XP: 700</p>",
+        "public": ""
+      },
+      "alignment": "any alignment",
+      "race": null,
+      "type": {
+        "value": "humanoid",
+        "subtype": "any race",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 3,
+      "spellLevel": 0,
+      "source": {
+        "book": "Technomancer's Textbook",
+        "page": "208"
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "any two languages"
+      }
+    },
+    "skills": {
+      "acr": {
+        "value": 1,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 1,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "bonuses": {},
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": null
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Razorgirl",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "items": [
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "aoL2V89d8Ten35ll",
+      "name": "Evasion",
+      "type": "feat",
+      "img": "icons/magic/water/pseudopod-teal.webp",
+      "system": {
+        "description": {
+          "value": "<p>If the razorgirl is subjected to an effect that allows her to make a Dexterity saving throw to take only half the damage, the razorgirl instead takes no damage if she succeeds on the saving throw, and only half damage if she fails.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "208"
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 100000,
+      "_key": "!actors.items!1HdwFRbcoJzxCLOb.aoL2V89d8Ten35ll"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "Tw5wYFc7uXfCKhPs",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
+      "system": {
+        "description": {
+          "value": "<p>The razorgirl makes three melee attacks or two ranged attacks.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "208"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 200000,
+      "_key": "!actors.items!1HdwFRbcoJzxCLOb.Tw5wYFc7uXfCKhPs"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "gypBuWZAfBurIba8",
+      "name": "Cyberclaws",
+      "type": "weapon",
+      "img": "modules/cyberpunk-5e/assets/cyberware_icons/cyberclaws.png",
+      "system": {
+        "description": {
+          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage. If the razorgirl rolls a 20 on a melee attack with the claws, she can make one additional melee weapon attack against the target.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "208"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": 1,
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "properties": [],
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attack": {
+          "bonus": "6",
+          "flat": true
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d8 + 4",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "chatFlavor": ""
+      },
+      "sort": 300000,
+      "_key": "!actors.items!1HdwFRbcoJzxCLOb.gypBuWZAfBurIba8"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "DCazzns11jCq4TqO",
+      "name": "Magnum",
+      "type": "weapon",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/magnum.png",
+      "system": {
+        "description": {
+          "value": "<p>Ranged Weapon Attack: +6 to hit, range 60/240 ft., one target. Hit: 9 (2d8) piercing damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "208"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": 1,
+        "type": {
+          "value": "martialR",
+          "baseItem": ""
+        },
+        "properties": [],
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 60,
+          "long": 240,
+          "units": "ft"
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attack": {
+          "bonus": "6",
+          "flat": true
+        },
+        "damage": {
+          "parts": [
+            [
+              "2d8",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "chatFlavor": ""
+      },
+      "sort": 400000,
+      "_key": "!actors.items!1HdwFRbcoJzxCLOb.DCazzns11jCq4TqO"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "50Q76CJ73Q8pYrwT",
+      "name": "Uncanny Dodge",
+      "type": "feat",
+      "img": "icons/magic/air/air-wave-gust-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>The razorgirl halves the damage that she takes from an attack that hits her. The razorgirl must be able to see the attacker.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "208"
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 500000,
+      "_key": "!actors.items!1HdwFRbcoJzxCLOb.50Q76CJ73Q8pYrwT"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  }
+}

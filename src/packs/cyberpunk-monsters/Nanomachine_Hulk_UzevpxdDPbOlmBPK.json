@@ -1,0 +1,941 @@
+{
+  "_id": "UzevpxdDPbOlmBPK",
+  "_key": "!actors!UzevpxdDPbOlmBPK",
+  "name": "Nanomachine Hulk",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 25,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 15,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 23,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 13,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 16,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 17,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 18,
+        "calc": "natural",
+        "formula": ""
+      },
+      "hp": {
+        "value": 288,
+        "max": 288,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "25d10 + 150"
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 50,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 60,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p><strong>Armor:</strong> natural armor</p><p>XP: 41000</p>",
+        "public": ""
+      },
+      "alignment": "any alignment",
+      "race": null,
+      "type": {
+        "value": "aberration",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 22,
+      "spellLevel": 0,
+      "source": {
+        "book": "Technomancer's Textbook",
+        "page": "192"
+      }
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "poison",
+          "bludgeoning",
+          "piercing",
+          "slashing"
+        ],
+        "bypasses": [
+          "mgc"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "any three languages"
+      }
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "value": 1,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "bonuses": {},
+    "resources": {
+      "legact": {
+        "value": 3,
+        "max": 3
+      },
+      "legres": {
+        "value": 3,
+        "max": 3
+      },
+      "lair": {
+        "value": false,
+        "initiative": null
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Nanomachine Hulk",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "items": [
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "bgcGhc0FmbI9tIJY",
+      "name": "Charge (1/Turn)",
+      "type": "feat",
+      "img": "icons/creatures/mammals/ox-bull-horned-glowing-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p>If the hulk moves at least 20 ft. straight toward a target and then hits it with a Smash attack on the same turn, the target takes an extra 21 (6d6) bludgeoning damage. The target must succeed on a DC 22 Strength saving throw or be knocked prone.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "192"
+        },
+        "activation": {
+          "type": "special",
+          "cost": null,
+          "condition": ""
+        },
+        "save": {
+          "ability": "str",
+          "dc": 22,
+          "scaling": "flat"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "actionType": "save",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        }
+      },
+      "sort": 100000,
+      "_key": "!actors.items!UzevpxdDPbOlmBPK.bgcGhc0FmbI9tIJY"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "v2Yy9JGd6KpQY0xG",
+      "name": "Deceptively Strong",
+      "type": "feat",
+      "img": "icons/creatures/magical/construct-iron-stomping-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p>The hulk can use its bonus action to reduce its size from Large to Medium, disguising its extreme cybernetics and appearing as a mostly normal humanoid, or return to its true form. While in its Medium size form, the hulk deals half damage with attacks using Strength.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "192"
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 200000,
+      "_key": "!actors.items!UzevpxdDPbOlmBPK.v2Yy9JGd6KpQY0xG"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "cnY40d6DQVGGpPJ8",
+      "name": "Legendary Resistance",
+      "type": "feat",
+      "img": "icons/equipment/shield/kite-wooden-oak-glow.webp",
+      "system": {
+        "description": {
+          "value": "<p>If the hulk fails a saving throw, it can choose to succeed instead.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "192"
+        },
+        "activation": {
+          "type": "special",
+          "cost": 1,
+          "condition": ""
+        },
+        "consume": {
+          "type": "attribute",
+          "target": "resources.legres.value",
+          "amount": 1,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 300000,
+      "_key": "!actors.items!UzevpxdDPbOlmBPK.cnY40d6DQVGGpPJ8"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "DEY8Bj4akOblVtjL",
+      "name": "Regeneration",
+      "type": "feat",
+      "img": "icons/skills/wounds/anatomy-organ-heart-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>The hulk regains 10 hit points at the start of its turn.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "192"
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 400000,
+      "_key": "!actors.items!UzevpxdDPbOlmBPK.DEY8Bj4akOblVtjL"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "v20tSeUKQYq2gfZ9",
+      "name": "Rising Fury",
+      "type": "feat",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p>While the hulk is below half its maximum hit points, it adds 1d6 to attack rolls and saving throws.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "192"
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 500000,
+      "_key": "!actors.items!UzevpxdDPbOlmBPK.v20tSeUKQYq2gfZ9"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "fEHeRhyF57VEPn7k",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
+      "system": {
+        "description": {
+          "value": "<p>The hulk makes three weapon attacks.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "192"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 600000,
+      "_key": "!actors.items!UzevpxdDPbOlmBPK.fEHeRhyF57VEPn7k"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "7NoeuP2f4hBvtihQ",
+      "name": "Smash",
+      "type": "weapon",
+      "img": "icons/skills/melee/strike-hammer-destructive-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p>Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) bludgeoning damage. On a critical hit against a creature, this attack breaks a creature's arm or leg (hulk's choice) if it has any. If the creature's arm is broken, it has disadvantage on weapon attack rolls and ability checks using that arm, and the creature does not benefit from holding shields in the broken arm. If the creature's leg is broken, its speed is halved. A creature's broken limb can be restored with the lesser restoration spell or similar magic, or over the course of 30 days of rest.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "192"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": 1,
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "properties": [],
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 10,
+          "long": null,
+          "units": "ft"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attack": {
+          "bonus": "14",
+          "flat": true
+        },
+        "damage": {
+          "parts": [
+            [
+              "2d10 + 7",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "chatFlavor": ""
+      },
+      "sort": 700000,
+      "_key": "!actors.items!UzevpxdDPbOlmBPK.7NoeuP2f4hBvtihQ"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "6i6y8XcUBsRpLVIk",
+      "name": "Throw Object",
+      "type": "weapon",
+      "img": "icons/skills/ranged/projectile-strike-egg-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>Ranged Weapon Attack: +14 to hit, range 200/800 ft., one target. Hit: 16 (2d8 + 7) bludgeoning. This attack uses a nearby object, such as a chunk of concrete or rubble torn from a building as part of this attack.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "192"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": 1,
+        "type": {
+          "value": "martialR",
+          "baseItem": ""
+        },
+        "properties": [],
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 200,
+          "long": 800,
+          "units": "ft"
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attack": {
+          "bonus": "14",
+          "flat": true
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "chatFlavor": ""
+      },
+      "sort": 800000,
+      "_key": "!actors.items!UzevpxdDPbOlmBPK.6i6y8XcUBsRpLVIk"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "uDy8D5tJhl6mAMJK",
+      "name": "Nano-Hardening",
+      "type": "feat",
+      "img": "icons/magic/defensive/armor-stone-skin.webp",
+      "system": {
+        "description": {
+          "value": "<p>The hulk's skin hardens in response to physical trauma. When the hulk takes bludgeoning, piercing, or slashing damage, it can halve the damage and gain resistance to those damage types until the end of its next turn. Alternatively, when the hulk takes acid, cold, fire, lightning, or thunder damage, it can halve the damage and gain resistance to those damage types until the end of its next turn.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "192"
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 900000,
+      "_key": "!actors.items!UzevpxdDPbOlmBPK.uDy8D5tJhl6mAMJK"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "ChfKiUyqxf3PfL3M",
+      "name": "Crush",
+      "type": "feat",
+      "img": "icons/magic/life/heart-shadow-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>The hulk makes a Smash attack.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "192"
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "consume": {
+          "type": "attribute",
+          "target": "resources.legact.value",
+          "amount": 1,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 1000000,
+      "_key": "!actors.items!UzevpxdDPbOlmBPK.ChfKiUyqxf3PfL3M"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "ZlZA11Q5IVsGy2Tk",
+      "name": "Throw",
+      "type": "feat",
+      "img": "icons/weapons/thrown/ball-spiked.webp",
+      "system": {
+        "description": {
+          "value": "<p>The hulk makes a Throw Object attack.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "192"
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "consume": {
+          "type": "attribute",
+          "target": "resources.legact.value",
+          "amount": 1,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 1100000,
+      "_key": "!actors.items!UzevpxdDPbOlmBPK.ZlZA11Q5IVsGy2Tk"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "z08cJrC7ugGwyatO",
+      "name": "Leap",
+      "type": "feat",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p>The hulk jumps up to 50 feet.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "192"
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "consume": {
+          "type": "attribute",
+          "target": "resources.legact.value",
+          "amount": 1,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 1200000,
+      "_key": "!actors.items!UzevpxdDPbOlmBPK.z08cJrC7ugGwyatO"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  }
+}

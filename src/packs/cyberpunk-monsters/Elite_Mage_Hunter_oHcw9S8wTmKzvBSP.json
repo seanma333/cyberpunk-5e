@@ -1,0 +1,839 @@
+{
+  "_id": "oHcw9S8wTmKzvBSP",
+  "_key": "!actors!oHcw9S8wTmKzvBSP",
+  "name": "Elite Mage Hunter",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 18,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": "+1"
+        }
+      },
+      "dex": {
+        "value": 18,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": "+1"
+        }
+      },
+      "con": {
+        "value": 16,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": "+1"
+        }
+      },
+      "int": {
+        "value": 12,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 18,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 14,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 18,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 180,
+        "max": 180,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "24d8 + 72"
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p><strong>Armor:</strong> armored trench coat, subdermal plating</p><p>XP: 5900. Custom tier designed for the campaign; not in the Technomancer's Textbook.</p>",
+        "public": ""
+      },
+      "alignment": "any alignment",
+      "race": null,
+      "type": {
+        "value": "humanoid",
+        "subtype": "any race",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 10,
+      "spellLevel": 0,
+      "source": {
+        "custom": "Custom (campaign)"
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "any two languages"
+      }
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 1,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "value": 1,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "bonuses": {},
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": null
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Elite Mage Hunter",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "items": [
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "Y1xxX6aWPQmepcwk",
+      "name": "Magic Resistance",
+      "type": "feat",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>The hunter has advantage on saving throws against spells and other magical effects.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Custom (campaign)"
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 100000,
+      "_key": "!actors.items!oHcw9S8wTmKzvBSP.Y1xxX6aWPQmepcwk"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "SWgiKPARboqDvTw5",
+      "name": "Spellproof",
+      "type": "feat",
+      "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p>If the hunter is subjected to a spell or magical effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Custom (campaign)"
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 200000,
+      "_key": "!actors.items!oHcw9S8wTmKzvBSP.SWgiKPARboqDvTw5"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "XJDjRK23AyvbdX5x",
+      "name": "Mana Burn",
+      "type": "feat",
+      "img": "icons/magic/unholy/hand-claw-fire-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>The hunter's weapon attacks deal an extra 9 (2d8) force damage to a creature that is concentrating on a spell or that has cast a spell since the end of the hunter's last turn. The magic still coursing through the target backlashes against it.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Custom (campaign)"
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 300000,
+      "_key": "!actors.items!oHcw9S8wTmKzvBSP.XJDjRK23AyvbdX5x"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "FcdRPPzc8yPeV6qv",
+      "name": "Witchsight",
+      "type": "feat",
+      "img": "icons/magic/perception/eye-ringed-glow-angry-teal.webp",
+      "system": {
+        "description": {
+          "value": "<p>The hunter knows the location of any creature within 60 feet of it that is concentrating on a spell or that has cast a spell since the end of the hunter's last turn, even if the creature is invisible or hidden.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Custom (campaign)"
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 400000,
+      "_key": "!actors.items!oHcw9S8wTmKzvBSP.FcdRPPzc8yPeV6qv"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "OfnZ2dGlelECwjps",
+      "name": "Subdermal Plating",
+      "type": "feat",
+      "img": "modules/cyberpunk-5e/assets/cyberware_icons/subdermal_plating.png",
+      "system": {
+        "description": {
+          "value": "<p>Armored plates fused beneath the hunter's skin grant it a +1 bonus to AC (included above) and a +1 bonus to Strength, Dexterity, and Constitution saving throws.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Custom (campaign)"
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 500000,
+      "_key": "!actors.items!oHcw9S8wTmKzvBSP.OfnZ2dGlelECwjps"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "pIBiy9fHpJkE0iMr",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
+      "system": {
+        "description": {
+          "value": "<p>The hunter makes three melee weapon attacks or two ranged weapon attacks.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Custom (campaign)"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 600000,
+      "_key": "!actors.items!oHcw9S8wTmKzvBSP.pIBiy9fHpJkE0iMr"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "CM8arsh4JJQWVHtw",
+      "name": "Longsword (Silvered, Spellbreaker)",
+      "type": "weapon",
+      "img": "icons/weapons/swords/greatsword-crossguard-steel.webp",
+      "system": {
+        "description": {
+          "value": "<p>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands.</p><p><strong>Spellbreaker.</strong> This attack ignores AC bonuses, resistances, and immunities granted by spells, and counts as magical. A creature concentrating on a spell that takes damage from it has disadvantage on the saving throw to maintain concentration.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Custom (campaign)"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": 1,
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "properties": [
+          "ver"
+        ],
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attack": {
+          "bonus": "8",
+          "flat": true
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d8 + 4",
+              "slashing"
+            ]
+          ],
+          "versatile": "1d10 + 4"
+        },
+        "formula": "2d8[force]",
+        "chatFlavor": "Other: force, target is concentrating on a spell or cast a spell since the hunter's last turn"
+      },
+      "sort": 700000,
+      "_key": "!actors.items!oHcw9S8wTmKzvBSP.CM8arsh4JJQWVHtw"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "8QjhHn679ssa6rXa",
+      "name": "Sniper Rifle (Powered, Spellbreaker)",
+      "type": "weapon",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/sniper_rifle.png",
+      "system": {
+        "description": {
+          "value": "<p>Ranged Weapon Attack: +8 to hit, range 200/800 ft., one target. Hit: 11 (2d8 + 2) piercing damage. This weapon has the heavy, reload (6), sighted, two-handed properties.</p><p><strong>Power Shot.</strong> The weapon adds half the wielder's DEX modifier (rounded up) to damage.</p><p><strong>Spellbreaker.</strong> This attack ignores AC bonuses, resistances, and immunities granted by spells, and counts as magical. A creature concentrating on a spell that takes damage from it has disadvantage on the saving throw to maintain concentration.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Custom (campaign)"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": 1,
+        "type": {
+          "value": "martialR",
+          "baseItem": ""
+        },
+        "properties": [
+          "hvy",
+          "rel",
+          "sighted",
+          "two"
+        ],
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 200,
+          "long": 800,
+          "units": "ft"
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attack": {
+          "bonus": "8",
+          "flat": true
+        },
+        "damage": {
+          "parts": [
+            [
+              "2d8 + 2",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "2d8[force]",
+        "chatFlavor": "Other: force, target is concentrating on a spell or cast a spell since the hunter's last turn"
+      },
+      "sort": 800000,
+      "_key": "!actors.items!oHcw9S8wTmKzvBSP.8QjhHn679ssa6rXa"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "r0Uw9iiv3RFhoUDo",
+      "name": "Spellbreaker Grenade",
+      "type": "feat",
+      "img": "modules/cyberpunk-5e/assets/grenade_icons/spellbreaker-grenade.png",
+      "system": {
+        "description": {
+          "value": "<p>The hunter throws a tier 3 spellbreaker grenade at a point within 60 feet of it. Creatures, objects, or magical effects within 10 feet of that point are subjected to a wave of anti-magic. Any spell of 6th level or lower on the target ends. For each spell of higher level on the target, roll a d20 and add +5. If the result is equal to or greater than 10 + the spell's level, the spell ends.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Custom (campaign)"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "uses": {
+          "value": 2,
+          "max": "2",
+          "per": "day",
+          "recovery": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 900000,
+      "_key": "!actors.items!oHcw9S8wTmKzvBSP.r0Uw9iiv3RFhoUDo"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "BWBJkiqlhjSAVQph",
+      "name": "Spell Counterstrike",
+      "type": "feat",
+      "img": "icons/skills/melee/strike-blade-hooked-white-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>When a creature the hunter can see within 30 feet of it casts a spell, the hunter can move up to half its speed toward that creature without provoking opportunity attacks. If the creature is then within its reach, the hunter makes a melee weapon attack against it with advantage. If the attack hits, the creature must succeed on a DC 16 Constitution saving throw or the spell is lost without effect.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Custom (campaign)"
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "save": {
+          "ability": "con",
+          "dc": 16,
+          "scaling": "flat"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "actionType": "save",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        }
+      },
+      "sort": 1000000,
+      "_key": "!actors.items!oHcw9S8wTmKzvBSP.BWBJkiqlhjSAVQph"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  }
+}

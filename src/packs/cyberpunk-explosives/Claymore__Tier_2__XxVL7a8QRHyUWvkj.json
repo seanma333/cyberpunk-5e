@@ -1,14 +1,14 @@
 {
   "name": "Claymore (Tier 2)",
   "type": "consumable",
-  "img": "modules/cyberpunk-5e/assets/grenade_icons/icon_smart_proximity_mine-resources.assets-2508.png",
+  "img": "modules/cyberpunk-5e/assets/grenade_icons/claymore.png",
   "folder": "EgyxvxvNdLEkZM30",
   "sort": 0,
   "_id": "XxVL7a8QRHyUWvkj",
   "effects": [],
   "system": {
     "description": {
-      "value": "<p dir=\"ltr\">A camouflaged curved metal box that, when triggered,explodes in a direction, firing metal balls in a deadly spray.Over the course of 3 rounds, you can arm this mine on a flat surface to be triggered by movement, choosing which direction the claymore is facing. At least one action must be used each round to arm the claymore.</p>\n<p dir=\"ltr\"> </p>\n<p dir=\"ltr\">The claymore is triggered when a creature or vehicle it can see moves within a 30-foot cone in front of the claymore. The claymore has 30 feet of darkvision. If the claymore is moved, it disarms itself. Alternatively, a wireless transceiver can be attached to the claymore and linked to the trigger, which can be activated with a bonus action.</p>\n<p><br />When the trigger is activated, each target in a 60-foot cone in front of the claymore must make a <strong>Dexterity saving throw</strong>, taking damage on a failed save, or half as much on a successful one</p>",
+      "value": "<p dir=\"ltr\">A camouflaged curved metal box that, when triggered,explodes in a direction, firing metal balls in a deadly spray.Over the course of 3 rounds, you can arm this mine on a flat surface to be triggered by movement, choosing which direction the claymore is facing. At least one action must be used each round to arm the claymore.</p>\n<p dir=\"ltr\">\u00a0</p>\n<p dir=\"ltr\">The claymore is triggered when a creature or vehicle it can see moves within a 30-foot cone in front of the claymore. The claymore has 30 feet of darkvision. If the claymore is moved, it disarms itself. Alternatively, a wireless transceiver can be attached to the claymore and linked to the trigger, which can be activated with a bonus action.</p>\n<p><br />When the trigger is activated, each target in a 60-foot cone in front of the claymore must make a\u00a0<strong>Dexterity saving throw</strong>, taking damage on a failed save, or half as much on a successful one</p>",
       "chat": "",
       "unidentified": ""
     },

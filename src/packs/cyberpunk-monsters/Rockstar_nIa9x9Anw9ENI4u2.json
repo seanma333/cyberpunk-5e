@@ -1,0 +1,2347 @@
+{
+  "_id": "nIa9x9Anw9ENI4u2",
+  "_key": "!actors!nIa9x9Anw9ENI4u2",
+  "name": "Rockstar",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 13,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 17,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 15,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 11,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 13,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 19,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 15,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 91,
+        "max": 91,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "14d8 + 28"
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "cha"
+    },
+    "details": {
+      "biography": {
+        "value": "<p><strong>Armor:</strong> combat suit</p><p>XP: 1800</p>",
+        "public": ""
+      },
+      "alignment": "any alignment",
+      "race": null,
+      "type": {
+        "value": "humanoid",
+        "subtype": "any race",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 5,
+      "spellLevel": 8,
+      "source": {
+        "book": "Technomancer's Textbook",
+        "page": "212"
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "any two languages"
+      }
+    },
+    "skills": {
+      "acr": {
+        "value": 1,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 1,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 2,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 4,
+        "override": 4
+      },
+      "spell2": {
+        "value": 3,
+        "override": 3
+      },
+      "spell3": {
+        "value": 3,
+        "override": 3
+      },
+      "spell4": {
+        "value": 2,
+        "override": 2
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "bonuses": {
+      "spell": {
+        "dc": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": null
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Rockstar",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "items": [
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "gzMcTTUgng1jSEtU",
+      "name": "Rebellious Aura",
+      "type": "feat",
+      "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>Creatures of the rocker's choice within 30 feet of it have advantage on saving throws against being charmed or frightened.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "212"
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 100000,
+      "_key": "!actors.items!nIa9x9Anw9ENI4u2.gzMcTTUgng1jSEtU"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "llTuelPPCetl3fzU",
+      "name": "Spellcasting",
+      "type": "feat",
+      "img": "icons/magic/light/projectiles-star-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p>The rockstar is an 8th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It has the following bard spells prepared:</p><p>Cantrips (at will): friends, prestidigitation, vicious mockery</p><p>1st level (4 slots): charm person, heroism, thunderwave</p><p>2nd level (3 slots): enhance ability, shatter, suggestion</p><p>3rd level (3 slots): dispel magic, fear, major image</p><p>4th level (2 slot): confusion, freedom of movement</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "212"
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 200000,
+      "_key": "!actors.items!nIa9x9Anw9ENI4u2.llTuelPPCetl3fzU"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "RnxMXO17ngGr3E8C",
+      "name": "Multiattack",
+      "type": "weapon",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
+      "system": {
+        "description": {
+          "value": "<p>The rockstar makes two weapon attacks. Axe Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "212"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": 1,
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "properties": [],
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attack": {
+          "bonus": "6",
+          "flat": true
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d8 + 3",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "chatFlavor": ""
+      },
+      "sort": 300000,
+      "_key": "!actors.items!nIa9x9Anw9ENI4u2.RnxMXO17ngGr3E8C"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "pkUNMRLXJ0HFcWsP",
+      "name": "Assault Rifle",
+      "type": "weapon",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/assault_rifle.png",
+      "system": {
+        "description": {
+          "value": "<p>Ranged Weapon Attack: +6 to hit, range 100/400 ft., one target. Hit: 7 (2d6) piercing damage. This weapon has the automatic property.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "212"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": 1,
+        "type": {
+          "value": "martialR",
+          "baseItem": ""
+        },
+        "properties": [
+          "automatic"
+        ],
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 100,
+          "long": 400,
+          "units": "ft"
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attack": {
+          "bonus": "6",
+          "flat": true
+        },
+        "damage": {
+          "parts": [
+            [
+              "2d6",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "chatFlavor": ""
+      },
+      "sort": 400000,
+      "_key": "!actors.items!nIa9x9Anw9ENI4u2.pkUNMRLXJ0HFcWsP"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "UtjAMwUULMtbURGO",
+      "name": "Riot",
+      "type": "feat",
+      "img": "icons/skills/wounds/injury-face-impact-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p>The rockstar chooses up to three creatures that it can see within 90 feet of it. Each creature must use its reaction to make one weapon attack against a target of the rockstar's choice. If the creature is unwilling, it must make a DC 13 Wisdom saving throw. On a successful save, the creature is unaffected.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "212"
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "save": {
+          "ability": "wis",
+          "dc": 13,
+          "scaling": "flat"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "actionType": "save",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        }
+      },
+      "sort": 500000,
+      "_key": "!actors.items!nIa9x9Anw9ENI4u2.UtjAMwUULMtbURGO"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.dnd5e-full-character-options.spells.Item.ZTJA0swxJowGSns1",
+        "duplicateSource": null
+      },
+      "_id": "jzzdpAEmHZACXyVe",
+      "name": "Friends",
+      "type": "spell",
+      "system": {
+        "source": {
+          "book": "PHB",
+          "page": "244",
+          "custom": "",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>For the duration, you have advantage on all Charisma checks directed at one creature of your choice that isn't hostile toward you. When the spell ends, the creature realizes that you used magic to influence its mood and becomes hostile toward you. A creature prone to violence might attack you. Another creature might seek retribution in other ways (at the DM's discretion), depending on the nature of your interaction with it.</p></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 0,
+        "school": "enc",
+        "properties": [
+          "somatic",
+          "material",
+          "concentration"
+        ],
+        "materials": {
+          "value": "a small amount of makeup applied to the face as this spell is cast",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 0,
+          "width": null,
+          "units": "self",
+          "type": "self",
+          "prompt": true
+        },
+        "range": {
+          "value": 0,
+          "long": null,
+          "units": "self"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": null,
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false
+      },
+      "img": "icons/consumables/drinks/alcohol-beer-mug-yellow.webp",
+      "sort": 600000,
+      "_key": "!actors.items!nIa9x9Anw9ENI4u2.jzzdpAEmHZACXyVe"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.dnd5e-full-character-options.spells.Item.YIIScTreZbmGX71P",
+        "duplicateSource": null
+      },
+      "_id": "EwvFdSpFYu1jWnfC",
+      "name": "Prestidigitation",
+      "type": "spell",
+      "system": {
+        "source": {
+          "book": "PHB",
+          "page": "267",
+          "custom": "",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range:</p><ul class=\"rd__list\"><li class=\"rd__li \">You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.</li><li class=\"rd__li \">You instantaneously light or snuff out a candle, a torch, or a small campfire.</li><li class=\"rd__li \">You instantaneously clean or soil an object no larger than 1 cubic foot.</li><li class=\"rd__li \">You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.</li><li class=\"rd__li \">You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.</li><li class=\"rd__li \">You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn.</li></ul><p>If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.</p></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 0,
+        "school": "trs",
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 0,
+          "width": null,
+          "units": "",
+          "type": "",
+          "prompt": true
+        },
+        "range": {
+          "value": 10,
+          "long": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": null,
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false
+      },
+      "img": "icons/magic/light/hand-sparks-smoke-green.webp",
+      "sort": 700000,
+      "_key": "!actors.items!nIa9x9Anw9ENI4u2.EwvFdSpFYu1jWnfC"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.dnd5e-full-character-options.spells.Item.lRExn8QVCoElyrYT",
+        "duplicateSource": null
+      },
+      "_id": "iCVkoCYEbkWIcL5U",
+      "name": "Vicious Mockery",
+      "type": "spell",
+      "system": {
+        "source": {
+          "book": "PHB",
+          "page": "285",
+          "custom": "",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You unleash a string of insults laced with subtle enchantments at a creature you can see within range. If the target can hear you (though it need not understand you), it must succeed on a Wisdom saving throw or take [[/damage 1d4 type=psychic]] damage and have disadvantage on the next attack roll it makes before the end of its next turn.</p><p>This spell's damage increases by [[/r 1d4]] when you reach 5th level ([[/damage 2d4]]), 11th level ([[/damage 3d4]]), and 17th level ([[/damage 4d4]]).</p></div>",
+          "chat": ""
+        },
+        "actionType": "save",
+        "level": 0,
+        "school": "enc",
+        "properties": [
+          "vocal"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature",
+          "prompt": true
+        },
+        "range": {
+          "value": 60,
+          "long": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d4",
+              "psychic"
+            ]
+          ],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "cantrip",
+          "formula": "1d4"
+        },
+        "save": {
+          "ability": "wis",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": null,
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false
+      },
+      "img": "icons/creatures/magical/spirit-poison-smoke-green.webp",
+      "sort": 800000,
+      "_key": "!actors.items!nIa9x9Anw9ENI4u2.iCVkoCYEbkWIcL5U"
+    },
+    {
+      "effects": [
+        {
+          "name": "Charm Person",
+          "origin": "Compendium.dnd5e.spells.Item.eS7XnnApoxRxYXPs",
+          "duration": {
+            "startTime": null,
+            "seconds": 3600,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "_id": "1QhUB3231btaCO0b",
+          "changes": [],
+          "description": "<p>The target is Charmed by the caster until the spell ends. The charmed creature regards the caster as a friendly acquaintance. When the spell ends, the creature knows it was charmed.</p>",
+          "transfer": false,
+          "statuses": [
+            "charmed"
+          ],
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "dnd5e",
+            "systemVersion": "3.3.1",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/magic/life/heart-shadow-red.webp",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "flags": {},
+          "_key": "!actors.items.effects!nIa9x9Anw9ENI4u2.7iT7rRcDMqTZ6iGn.1QhUB3231btaCO0b"
+        }
+      ],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.dnd5e-full-character-options.spells.Item.gxtwIgqXNZOPathK",
+        "duplicateSource": null
+      },
+      "_id": "7iT7rRcDMqTZ6iGn",
+      "name": "Charm Person",
+      "type": "spell",
+      "system": {
+        "source": {
+          "book": "PHB",
+          "page": "221",
+          "custom": "",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You attempt to charm a humanoid you can see within range. It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is &amp;Reference[condition=charmed] by you until the spell ends or until you or your companions do anything harmful to it. The &amp;Reference[condition=charmed] creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was &amp;Reference[condition=charmed] by you.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</p></div></div>",
+          "chat": ""
+        },
+        "actionType": "save",
+        "level": 1,
+        "school": "enc",
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature",
+          "prompt": true
+        },
+        "range": {
+          "value": 30,
+          "long": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "ability": "wis",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": null,
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false
+      },
+      "img": "icons/magic/life/heart-shadow-red.webp",
+      "sort": 900000,
+      "_key": "!actors.items!nIa9x9Anw9ENI4u2.7iT7rRcDMqTZ6iGn"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.dnd5e-full-character-options.spells.Item.zNtFZT00NmQwClue",
+        "duplicateSource": null
+      },
+      "_id": "bqOIz9KYQveTF2xn",
+      "name": "Heroism",
+      "type": "spell",
+      "system": {
+        "source": {
+          "book": "PHB",
+          "page": "250",
+          "custom": "",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to being &amp;Reference[condition=frightened] and gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</p></div></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 1,
+        "school": "enc",
+        "properties": [
+          "vocal",
+          "somatic",
+          "concentration"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "touch",
+          "type": "creature",
+          "prompt": true
+        },
+        "range": {
+          "value": 0,
+          "long": null,
+          "units": "touch"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "damage": {
+          "parts": [
+            [
+              "@mod",
+              "temphp"
+            ]
+          ],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": null,
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false
+      },
+      "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+      "sort": 1000000,
+      "_key": "!actors.items!nIa9x9Anw9ENI4u2.bqOIz9KYQveTF2xn"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.dnd5e-full-character-options.spells.Item.TInaUfR7U5g1JWxa",
+        "duplicateSource": null
+      },
+      "_id": "2nh8TTwcOtcvuDix",
+      "name": "Thunderwave",
+      "type": "spell",
+      "system": {
+        "source": {
+          "book": "PHB",
+          "page": "282",
+          "custom": "",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>A wave of thunderous force sweeps out from you. Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes [[/damage 2d8 type=thunder]] damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed.</p><p>In addition, unsecured objects that are completely within the area of effect are automatically pushed 10 feet away from you by the spell's effect, and the spell emits a thunderous boom audible out to 300 feet.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by [[/damage 1d8]] for each slot level above 1st.</p></div></div>",
+          "chat": ""
+        },
+        "actionType": "save",
+        "level": 1,
+        "school": "evo",
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 15,
+          "width": null,
+          "units": "ft",
+          "type": "cube",
+          "prompt": true
+        },
+        "range": {
+          "value": 0,
+          "long": null,
+          "units": "self"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            [
+              "2d8",
+              "thunder"
+            ]
+          ],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d8"
+        },
+        "save": {
+          "ability": "con",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": "",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false
+      },
+      "img": "icons/magic/lightning/barrier-wall-shield-gray.webp",
+      "sort": 1100000,
+      "_key": "!actors.items!nIa9x9Anw9ENI4u2.2nh8TTwcOtcvuDix"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.dnd5e-full-character-options.spells.Item.Q75nZDpAZPYzYICi",
+        "duplicateSource": null
+      },
+      "_id": "0iVt6DkluFsK4ivj",
+      "name": "Enhance Ability",
+      "type": "spell",
+      "system": {
+        "source": {
+          "book": "PHB",
+          "page": "237",
+          "custom": "",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You touch a creature and bestow upon it a magical enhancement. Choose one of the following effects; the target gains that effect until the spell ends.</p><div data-roll-name-ancestor=\"Bear's Endurance\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">Bear's Endurance.</span></span> <p>The target has advantage on Constitution checks. It also gains [[/r 2d6]] temporary hit points, which are lost when the spell ends.</p></div><div data-roll-name-ancestor=\"Bull's Strength\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"2\"> <span class=\"entry-title-inner\">Bull's Strength.</span></span> <p>The target has advantage on Strength checks, and his or her carrying capacity doubles.</p></div><div data-roll-name-ancestor=\"Cat's Grace\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"3\"> <span class=\"entry-title-inner\">Cat's Grace.</span></span> <p>The target has advantage on Dexterity checks. It also doesn't take damage from falling 20 feet or less if it isn't &amp;Reference[condition=incapacitated].</p></div><div data-roll-name-ancestor=\"Eagle's Splendor\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"4\"> <span class=\"entry-title-inner\">Eagle's Splendor.</span></span> <p>The target has advantage on Charisma checks.</p></div><div data-roll-name-ancestor=\"Fox's Cunning\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"5\"> <span class=\"entry-title-inner\">Fox's Cunning.</span></span> <p>The target has advantage on Intelligence checks.</p></div><div data-roll-name-ancestor=\"Owl's Wisdom\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"6\"> <span class=\"entry-title-inner\">Owl's Wisdom.</span></span> <p>The target has advantage on Wisdom checks.</p></div></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</p></div></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 2,
+        "school": "trs",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "concentration"
+        ],
+        "materials": {
+          "value": "fur or a feather from a beast",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "touch",
+          "type": "creature",
+          "prompt": true
+        },
+        "range": {
+          "value": 0,
+          "long": null,
+          "units": "touch"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        },
+        "damage": {
+          "parts": [
+            [
+              "2d6",
+              "temphp"
+            ]
+          ],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": "",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false
+      },
+      "img": "icons/magic/control/buff-strength-muscle-damage-red.webp",
+      "sort": 1200000,
+      "_key": "!actors.items!nIa9x9Anw9ENI4u2.0iVt6DkluFsK4ivj"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.dnd5e-full-character-options.spells.Item.NcCTSR659GgxdOck",
+        "duplicateSource": null
+      },
+      "_id": "3L2iGfFy119SB6U0",
+      "name": "Shatter",
+      "type": "spell",
+      "system": {
+        "source": {
+          "book": "PHB",
+          "page": "275",
+          "custom": "",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>A sudden loud ringing noise, painfully intense, erupts from a point of your choice within range. Each creature in a 10-foot-radius sphere centered on that point must make a Constitution saving throw. A creature takes [[/damage 3d8 type=thunder]] damage on a failed save, or half as much damage on a successful one. A creature made of inorganic material such as stone, crystal, or metal has disadvantage on this saving throw.</p><p>A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by [[/damage 1d8]] for each slot level above 2nd.</p></div></div>",
+          "chat": ""
+        },
+        "actionType": "save",
+        "level": 2,
+        "school": "evo",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material"
+        ],
+        "materials": {
+          "value": "a chip of mica",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 10,
+          "width": null,
+          "units": "ft",
+          "type": "sphere",
+          "prompt": true
+        },
+        "range": {
+          "value": 60,
+          "long": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            [
+              "3d8",
+              "thunder"
+            ]
+          ],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d8"
+        },
+        "save": {
+          "ability": "con",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": "",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false
+      },
+      "img": "icons/magic/earth/explosion-lava-stone-yellow.webp",
+      "sort": 1300000,
+      "_key": "!actors.items!nIa9x9Anw9ENI4u2.3L2iGfFy119SB6U0"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.dnd5e-full-character-options.spells.Item.fVwFDI94XvR3W6AD",
+        "duplicateSource": null
+      },
+      "_id": "smd3rVo89d0asaze",
+      "name": "Suggestion",
+      "type": "spell",
+      "system": {
+        "source": {
+          "book": "PHB",
+          "page": "279",
+          "custom": "",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You suggest a course of activity (limited to a sentence or two) and magically influence a creature you can see within range that can hear and understand you. Creatures that can't be &amp;Reference[condition=charmed] are immune to this effect. The suggestion must be worded in such a manner as to make the course of action sound reasonable. Asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act ends the spell.</p><p>The target must make a Wisdom saving throw. On a failed save, it pursues the course of action you described to the best of its ability. The suggested course of action can continue for the entire duration. If the suggested activity can be completed in a shorter time, the spell ends when the subject finishes what it was asked to do.</p><p>You can also specify conditions that will trigger a special activity during the duration. For example, you might suggest that a knight give her warhorse to the first beggar she meets. If the condition isn't met before the spell expires, the activity isn't performed.</p><p>If you or any of your companions damage the target, the spell ends.</p></div>",
+          "chat": ""
+        },
+        "actionType": "save",
+        "level": 2,
+        "school": "enc",
+        "properties": [
+          "vocal",
+          "material",
+          "concentration"
+        ],
+        "materials": {
+          "value": "a snake's tongue and either a bit of honeycomb or a drop of sweet oil",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature",
+          "prompt": true
+        },
+        "range": {
+          "value": 30,
+          "long": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "8",
+          "units": "hour"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "ability": "wis",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": null,
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false
+      },
+      "img": "icons/magic/nature/elemental-plant-humanoid.webp",
+      "sort": 1400000,
+      "_key": "!actors.items!nIa9x9Anw9ENI4u2.smd3rVo89d0asaze"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.dnd5e-full-character-options.spells.Item.JkdhFMD3ZiPsom4v",
+        "duplicateSource": null
+      },
+      "_id": "sQatmuZoTKMMZMsc",
+      "name": "Dispel Magic",
+      "type": "spell",
+      "system": {
+        "source": {
+          "book": "PHB",
+          "page": "234",
+          "custom": "",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Choose one creature, object, or magical effect within range. Any spell of 3rd level or lower on the target ends. For each spell of 4th level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a successful check, the spell ends.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, you automatically end the effects of a spell on the target if the spell's level is equal to or less than the level of the spell slot you used.</p></div></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 3,
+        "school": "abj",
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature",
+          "prompt": true
+        },
+        "range": {
+          "value": 120,
+          "long": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": "",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false
+      },
+      "img": "icons/magic/nature/plant-sprout-hand-blue.webp",
+      "sort": 1500000,
+      "_key": "!actors.items!nIa9x9Anw9ENI4u2.sQatmuZoTKMMZMsc"
+    },
+    {
+      "effects": [
+        {
+          "name": "Fear",
+          "origin": "Compendium.dnd5e.spells.Item.XXUDGFELgoskdOD0",
+          "duration": {
+            "startTime": null,
+            "seconds": 60,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "_id": "4QpReACTSQTg2KTw",
+          "changes": [],
+          "description": "<p>The target drops whatever it is holding and become Frightened for the duration. While Frightened by this spell, a creature must take the Dash action and move away from the caster by the safest available route on each of its turns, unless there is nowhere to move.</p>",
+          "transfer": false,
+          "statuses": [
+            "frightened"
+          ],
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "dnd5e",
+            "systemVersion": "3.3.1",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/creatures/slimes/slime-face-hollow-green.webp",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "flags": {},
+          "_key": "!actors.items.effects!nIa9x9Anw9ENI4u2.KPst2MchSDlwtzmc.4QpReACTSQTg2KTw"
+        }
+      ],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.dnd5e-full-character-options.spells.Item.I08tvFptaTAg9OOy",
+        "duplicateSource": null
+      },
+      "_id": "KPst2MchSDlwtzmc",
+      "name": "Fear",
+      "type": "spell",
+      "system": {
+        "source": {
+          "book": "PHB",
+          "page": "239",
+          "custom": "",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You project a phantasmal image of a creature's worst fears. Each creature in a 30-foot cone must succeed on a Wisdom saving throw or drop whatever it is holding and become &amp;Reference[condition=frightened] for the duration.</p><p>While &amp;Reference[condition=frightened] by this spell, a creature must take the @action[Dash] action and move away from you by the safest available route on each of its turns, unless there is nowhere to move. If the creature ends its turn in a location where it doesn't have line of sight to you, the creature can make a Wisdom saving throw. On a successful save, the spell ends for that creature.</p></div>",
+          "chat": ""
+        },
+        "actionType": "save",
+        "level": 3,
+        "school": "ill",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "concentration"
+        ],
+        "materials": {
+          "value": "a white feather or the heart of a hen",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 30,
+          "width": null,
+          "units": "ft",
+          "type": "cone",
+          "prompt": true
+        },
+        "range": {
+          "value": 0,
+          "long": null,
+          "units": "self"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "ability": "wis",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": null,
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false
+      },
+      "img": "icons/creatures/slimes/slime-face-hollow-green.webp",
+      "sort": 1600000,
+      "_key": "!actors.items!nIa9x9Anw9ENI4u2.KPst2MchSDlwtzmc"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.dnd5e-full-character-options.spells.Item.glxGOyZO2091gTtU",
+        "duplicateSource": null
+      },
+      "_id": "pyQ2c7dfi58LW7Kx",
+      "name": "Major Image",
+      "type": "spell",
+      "system": {
+        "source": {
+          "book": "PHB",
+          "page": "258",
+          "custom": "",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 20-foot cube. The image appears at a spot that you can see within range and lasts for the duration. It seems completely real, including sounds, smells, and temperature appropriate to the thing depicted. You can't create sufficient heat or cold to cause damage, a sound loud enough to deal thunder damage or deafen a creature, or a smell that might sicken a creature (like a @creature[troglodyte||troglodyte's] stench).</p><p>As long as you are within range of the illusion, you can use your action to cause the image to move to any other spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking. Similarly, you can cause the illusion to make different sounds at different times, even making it carry on a conversation, for example.</p><p>Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (&amp;Reference[skill=Investigation]) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 6th level or higher, the spell lasts until dispelled, without requiring your @status[concentration].</p></div></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 3,
+        "school": "ill",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "concentration"
+        ],
+        "materials": {
+          "value": "a bit of fleece",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 20,
+          "width": null,
+          "units": "ft",
+          "type": "cube",
+          "prompt": true
+        },
+        "range": {
+          "value": 120,
+          "long": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": null,
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false
+      },
+      "img": "icons/magic/nature/mushrooms-fire-glow-blue.webp",
+      "sort": 1700000,
+      "_key": "!actors.items!nIa9x9Anw9ENI4u2.pyQ2c7dfi58LW7Kx"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.dnd5e-full-character-options.spells.Item.WsKG711noGrUeFHc",
+        "duplicateSource": null
+      },
+      "_id": "bi2TMKQlkXc27xic",
+      "name": "Confusion",
+      "type": "spell",
+      "system": {
+        "source": {
+          "book": "PHB",
+          "page": "224",
+          "custom": "",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>This spell assaults and twists creatures' minds, spawning delusions and provoking uncontrolled action. Each creature in a 10-foot-radius sphere centered on a point you choose within range must succeed on a Wisdom saving throw when you cast this spell or be affected by it.</p><p>An affected target can't take reactions and must roll a [[/r d10]] at the start of each of its turns to determine its behavior for that turn.</p><table class=\"w-100 rd__table  stripe-odd-table\" data-roll-name-ancestor=\"Confusion Behavior\"><caption>Confusion Behavior</caption><thead><tr><th class=\"ve-col-1 ve-text-center\" data-rd-isroller=\"true\">[[/r d10]]</th><th class=\"ve-col-11\" data-rd-isroller=\"false\">Behavior</th></tr></thead><tbody><tr><td class=\"ve-col-1 ve-text-center\" data-roll-min=\"1\" data-roll-max=\"1\">1</td><td class=\"ve-col-11\">The creature uses all its movement to move in a random direction. To determine the direction, roll a [[/r d8]] and assign a direction to each die face. The creature doesn't take an action this turn.</td></tr><tr><td class=\"ve-col-1 ve-text-center\" data-roll-min=\"2\" data-roll-max=\"6\">2-6</td><td class=\"ve-col-11\">The creature doesn't move or take actions this turn.</td></tr><tr><td class=\"ve-col-1 ve-text-center\" data-roll-min=\"7\" data-roll-max=\"8\">7-8</td><td class=\"ve-col-11\">The creature uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature does nothing this turn.</td></tr><tr><td class=\"ve-col-1 ve-text-center\" data-roll-min=\"9\" data-roll-max=\"10\">9-10</td><td class=\"ve-col-11\">The creature can act and move normally.</td></tr></tbody></table><p>At the end of each of its turns, an affected target can make a Wisdom saving throw. If it succeeds, this effect ends for that target.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 5th level or higher, the radius of the sphere increases by 5 feet for each slot level above 4th.</p></div></div>",
+          "chat": ""
+        },
+        "actionType": "save",
+        "level": 4,
+        "school": "enc",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "concentration"
+        ],
+        "materials": {
+          "value": "three nut shells",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 10,
+          "width": null,
+          "units": "ft",
+          "type": "sphere",
+          "prompt": true
+        },
+        "range": {
+          "value": 90,
+          "long": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "ability": "wis",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": null,
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false
+      },
+      "img": "icons/creatures/amphibians/frog-confused-green-blue.webp",
+      "sort": 1800000,
+      "_key": "!actors.items!nIa9x9Anw9ENI4u2.bi2TMKQlkXc27xic"
+    },
+    {
+      "effects": [
+        {
+          "name": "Freedom of Movement",
+          "origin": "Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT",
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "_id": "OnWa3f4IQ3pneB5T",
+          "changes": [
+            {
+              "key": "system.traits.di.value",
+              "mode": 2,
+              "value": "paralyzed",
+              "priority": null
+            },
+            {
+              "key": "system.traits.di.value",
+              "mode": 2,
+              "value": "restrained",
+              "priority": null
+            }
+          ],
+          "description": "<p>The target's Movement is unaffected by difficult terrain, and Spells and other magical Effects can neither reduce the target's speed nor cause the target to be Paralyzed or Restrained.</p>",
+          "transfer": false,
+          "statuses": [],
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "dnd5e",
+            "systemVersion": "3.3.1",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/magic/control/debuff-chains-shackles-movement-purple.webp",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "flags": {},
+          "_key": "!actors.items.effects!nIa9x9Anw9ENI4u2.eKnU3OisN4Xf00QN.OnWa3f4IQ3pneB5T"
+        }
+      ],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.dnd5e-full-character-options.spells.Item.OFdc37tZrRxcyTOJ",
+        "duplicateSource": null
+      },
+      "_id": "eKnU3OisN4Xf00QN",
+      "name": "Freedom of Movement",
+      "type": "spell",
+      "system": {
+        "source": {
+          "book": "PHB",
+          "page": "244",
+          "custom": "",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You touch a willing creature. For the duration, the target's movement is unaffected by &amp;Reference[rule=difficultterrain]{difficult terrain}, and spells and other magical effects can neither reduce the target's speed nor cause the target to be &amp;Reference[condition=paralyzed] or &amp;Reference[condition=restrained].</p><p>The target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it &amp;Reference[condition=grappled]. Finally, being underwater imposes no penalties on the target's movement or attacks.</p></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 4,
+        "school": "abj",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material"
+        ],
+        "materials": {
+          "value": "a leather strap, bound around the arm or a similar appendage",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "touch",
+          "type": "creature",
+          "prompt": true
+        },
+        "range": {
+          "value": 0,
+          "long": null,
+          "units": "touch"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": null,
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false
+      },
+      "img": "icons/magic/control/debuff-chains-shackles-movement-purple.webp",
+      "sort": 1900000,
+      "_key": "!actors.items!nIa9x9Anw9ENI4u2.eKnU3OisN4Xf00QN"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  }
+}

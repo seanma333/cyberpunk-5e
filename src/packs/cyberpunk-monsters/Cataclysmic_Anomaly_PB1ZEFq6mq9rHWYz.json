@@ -1,0 +1,2086 @@
+{
+  "_id": "PB1ZEFq6mq9rHWYz",
+  "_key": "!actors!PB1ZEFq6mq9rHWYz",
+  "name": "Cataclysmic Anomaly",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 25,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 15,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 23,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 8,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 19,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 23,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 17,
+        "calc": "natural",
+        "formula": ""
+      },
+      "hp": {
+        "value": 314,
+        "max": 314,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "19d20 + 114"
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 80,
+        "swim": 0,
+        "walk": 0,
+        "units": "ft",
+        "hover": true
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 120,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "cha"
+    },
+    "details": {
+      "biography": {
+        "value": "<p><strong>Armor:</strong> natural armor</p><p>The cataclysmic anomaly can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The cataclysmic anomaly regains spent legendary actions at the start of its turn.</p><p>XP: 62000</p>",
+        "public": ""
+      },
+      "alignment": "neutral",
+      "race": null,
+      "type": {
+        "value": "elemental",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 24,
+      "spellLevel": 0,
+      "source": {
+        "book": "Technomancer's Textbook",
+        "page": "176"
+      }
+    },
+    "traits": {
+      "size": "huge",
+      "di": {
+        "value": [
+          "poison",
+          "radiant"
+        ],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "fire",
+          "thunder",
+          "bludgeoning",
+          "piercing",
+          "slashing"
+        ],
+        "bypasses": [
+          "mgc"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "exhaustion",
+          "grappled",
+          "paralyzed",
+          "petrified",
+          "poisoned",
+          "prone",
+          "restrained",
+          "unconscious"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "bonuses": {
+      "spell": {
+        "dc": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 3,
+        "max": 3
+      },
+      "legres": {
+        "value": 3,
+        "max": 3
+      },
+      "lair": {
+        "value": false,
+        "initiative": null
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Cataclysmic Anomaly",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "items": [
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "t3hhfpf31dRnqtQx",
+      "name": "Innate Spellcasting",
+      "type": "feat",
+      "img": "icons/magic/light/projectiles-star-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p>The anomaly's spellcasting ability is Charisma (spell save DC 21, +13 to hit with spell attacks). The anomaly can innately cast the following spells, requiring no material components:</p><p>At will: fireball, detect magic</p><p>3/day each: blight, destructive wave, gaseous form, sickening radiance</p><p>1/day each: disintegrate, horrid wilting</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "176"
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 100000,
+      "_key": "!actors.items!PB1ZEFq6mq9rHWYz.t3hhfpf31dRnqtQx"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "bKHcm9GW5yvTCiz8",
+      "name": "Legendary Resistance",
+      "type": "feat",
+      "img": "icons/equipment/shield/kite-wooden-oak-glow.webp",
+      "system": {
+        "description": {
+          "value": "<p>If the anomaly fails a saving throw, it can choose to succeed instead.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "176"
+        },
+        "activation": {
+          "type": "special",
+          "cost": 1,
+          "condition": ""
+        },
+        "consume": {
+          "type": "attribute",
+          "target": "resources.legres.value",
+          "amount": 1,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 200000,
+      "_key": "!actors.items!PB1ZEFq6mq9rHWYz.bKHcm9GW5yvTCiz8"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "aFNiZ326XBid7pTN",
+      "name": "Meltdown",
+      "type": "feat",
+      "img": "icons/magic/light/explosion-star-large-teal.webp",
+      "system": {
+        "description": {
+          "value": "<p>When the anomaly is reduced to 0 hit points, it explodes, and each target within 90 feet of it must succeed on a DC 21 Constitution saving throw. On a failed save, the target takes 35 (10d6) radiant and 35 (10d6) thunder damage and gains one level of irradiated. On a successful save, the target takes half as much damage and isn't irradiated.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "176"
+        },
+        "activation": {
+          "type": "special",
+          "cost": null,
+          "condition": ""
+        },
+        "save": {
+          "ability": "con",
+          "dc": 21,
+          "scaling": "flat"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "actionType": "save",
+        "damage": {
+          "parts": [
+            [
+              "10d6",
+              "radiant"
+            ],
+            [
+              "10d6",
+              "thunder"
+            ]
+          ],
+          "versatile": ""
+        },
+        "target": {
+          "value": 90,
+          "width": null,
+          "units": "ft",
+          "type": "radius"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        }
+      },
+      "sort": 300000,
+      "_key": "!actors.items!PB1ZEFq6mq9rHWYz.aFNiZ326XBid7pTN"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "OadZayNayF3GSXNL",
+      "name": "Wandering Wasteland",
+      "type": "feat",
+      "img": "icons/environment/wilderness/terrain-rocky-ground.webp",
+      "system": {
+        "description": {
+          "value": "<p>Creatures that spend a total of 1 hour within 1 mile of the anomaly must succeed on a DC 15 Constitution saving throw or gain 1 level of irradiated.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "176"
+        },
+        "activation": {
+          "type": "special",
+          "cost": null,
+          "condition": ""
+        },
+        "save": {
+          "ability": "con",
+          "dc": 15,
+          "scaling": "flat"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "actionType": "save",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        }
+      },
+      "sort": 400000,
+      "_key": "!actors.items!PB1ZEFq6mq9rHWYz.OadZayNayF3GSXNL"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "IMEr8gORW3BaHrIz",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
+      "system": {
+        "description": {
+          "value": "<p>The anomaly makes three weapon attacks.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "176"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 500000,
+      "_key": "!actors.items!PB1ZEFq6mq9rHWYz.IMEr8gORW3BaHrIz"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "fFj6tqe9drWR7qyv",
+      "name": "Ionize",
+      "type": "weapon",
+      "img": "icons/magic/light/projectiles-star-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p>Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 16 (3d10) radiant damage and 16 (3d10) force damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "176"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": 1,
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "properties": [],
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 10,
+          "long": null,
+          "units": "ft"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attack": {
+          "bonus": "14",
+          "flat": true
+        },
+        "damage": {
+          "parts": [
+            [
+              "3d10",
+              "radiant"
+            ],
+            [
+              "3d10",
+              "force"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "chatFlavor": ""
+      },
+      "sort": 600000,
+      "_key": "!actors.items!PB1ZEFq6mq9rHWYz.fFj6tqe9drWR7qyv"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "BfySc74nhHYHydol",
+      "name": "Gamma Ray",
+      "type": "weapon",
+      "img": "icons/magic/light/beam-rays-teal-large.webp",
+      "system": {
+        "description": {
+          "value": "<p>Ranged Weapon Attack: +13 to hit, range 300/1200 ft., one target. Hit: 27 (6d8) radiant damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "176"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": 1,
+        "type": {
+          "value": "martialR",
+          "baseItem": ""
+        },
+        "properties": [],
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 300,
+          "long": 1200,
+          "units": "ft"
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attack": {
+          "bonus": "13",
+          "flat": true
+        },
+        "damage": {
+          "parts": [
+            [
+              "6d8",
+              "radiant"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "chatFlavor": ""
+      },
+      "sort": 700000,
+      "_key": "!actors.items!PB1ZEFq6mq9rHWYz.BfySc74nhHYHydol"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "hr3DGnArD0VlCjt5",
+      "name": "Critical Mass",
+      "type": "feat",
+      "img": "icons/magic/light/explosion-star-large-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>The anomaly hurls a ball of unstable energy at a point it can see within 200 feet of it. Each target in a 30-foot-radius sphere centered on that point must make a DC 21 Constitution saving throw. On a failed save, a target takes 70 (20d6) radiant damage and gains one level of irradiated. On a successful save, the target takes half as much damage and isn't irradiated.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "176"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "recharge": {
+          "value": 5,
+          "charged": true
+        },
+        "save": {
+          "ability": "con",
+          "dc": 21,
+          "scaling": "flat"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "actionType": "save",
+        "damage": {
+          "parts": [
+            [
+              "20d6",
+              "radiant"
+            ]
+          ],
+          "versatile": ""
+        },
+        "target": {
+          "value": 30,
+          "width": null,
+          "units": "ft",
+          "type": "sphere"
+        },
+        "range": {
+          "value": 200,
+          "long": null,
+          "units": "ft"
+        }
+      },
+      "sort": 800000,
+      "_key": "!actors.items!PB1ZEFq6mq9rHWYz.hr3DGnArD0VlCjt5"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "92Ti9TDc3U01UKQ0",
+      "name": "Nuke",
+      "type": "feat",
+      "img": "icons/magic/fire/explosion-mushroom-nuke-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p>The anomaly chooses a point it can see and begins building to a nuclear detonation. Sirens blare within a 1-mile radius of the point. The anomaly must maintain concentration for 30 seconds (5 rounds), as if concentrating on a spell; if its concentration is broken, the detonation fails and this action is expended. At the end of the 30 seconds, there is a flash of light, a deafening boom, and a mushroom cloud rises 1,000 feet high if space allows. Each creature in a 360-foot-radius sphere centered on the point must make a DC 21 Constitution saving throw. The blast spreads around corners. On a failed save, a creature takes 78 (12d12) radiant damage and 78 (12d12) thunder damage and gains 2 levels of irradiated. On a successful save, it takes half as much damage and gains no levels of irradiated.</p><p>Additionally, the area within 1 mile of the point is irradiated for 1 week. A creature that spends a total of 1 hour within the area must succeed on a DC 15 Constitution saving throw or gain 1 level of irradiated.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "176"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "per": "day",
+          "recovery": ""
+        },
+        "save": {
+          "ability": "con",
+          "dc": 21,
+          "scaling": "flat"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "actionType": "save",
+        "damage": {
+          "parts": [
+            [
+              "12d12",
+              "radiant"
+            ],
+            [
+              "12d12",
+              "thunder"
+            ]
+          ],
+          "versatile": ""
+        },
+        "target": {
+          "value": 360,
+          "width": null,
+          "units": "ft",
+          "type": "sphere"
+        },
+        "range": {}
+      },
+      "sort": 900000,
+      "_key": "!actors.items!PB1ZEFq6mq9rHWYz.92Ti9TDc3U01UKQ0"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "ZJizDtSwu8DJNkxF",
+      "name": "Quantum Jump",
+      "type": "feat",
+      "img": "icons/magic/control/energy-stream-link-spiral-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>When the anomaly takes damage, it can teleport up to 60 feet to an unoccupied space it can see. When it teleports, a wave of radiation spreads within a 20-foot-radius sphere centered on the space it left for 1 minute. When a creature moves into the sphere for the first time on a turn or starts its turn there, that creature must make a DC 21 Constitution saving throw, taking 22 (4d10) radiant damage on a failed save, or half as much damage on a successful one.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "176"
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "uses": {
+          "value": 3,
+          "max": "3",
+          "per": "day",
+          "recovery": ""
+        },
+        "save": {
+          "ability": "con",
+          "dc": 21,
+          "scaling": "flat"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "actionType": "save",
+        "damage": {
+          "parts": [
+            [
+              "4d10",
+              "radiant"
+            ]
+          ],
+          "versatile": ""
+        },
+        "target": {
+          "value": 20,
+          "width": null,
+          "units": "ft",
+          "type": "sphere"
+        },
+        "range": {}
+      },
+      "sort": 1000000,
+      "_key": "!actors.items!PB1ZEFq6mq9rHWYz.ZJizDtSwu8DJNkxF"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "RlwWbKhrOYwbX5NF",
+      "name": "Ray",
+      "type": "feat",
+      "img": "icons/magic/light/beam-rays-teal-large.webp",
+      "system": {
+        "description": {
+          "value": "<p>The anomaly makes a gamma ray attack.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "176"
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "consume": {
+          "type": "attribute",
+          "target": "resources.legact.value",
+          "amount": 1,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 1100000,
+      "_key": "!actors.items!PB1ZEFq6mq9rHWYz.RlwWbKhrOYwbX5NF"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "ht6WO6Os4TQB0WWh",
+      "name": "Ionize Attack",
+      "type": "feat",
+      "img": "icons/magic/light/orbs-hand-gray.webp",
+      "system": {
+        "description": {
+          "value": "<p>The anomaly makes an ionize attack.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "176"
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "consume": {
+          "type": "attribute",
+          "target": "resources.legact.value",
+          "amount": 1,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 1200000,
+      "_key": "!actors.items!PB1ZEFq6mq9rHWYz.ht6WO6Os4TQB0WWh"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "PzdkLBcoY4EcRLHa",
+      "name": "Warp",
+      "type": "feat",
+      "img": "icons/magic/control/sihouette-hold-beam-green.webp",
+      "system": {
+        "description": {
+          "value": "<p>The anomaly teleports to an unoccupied space it can see within 60 feet of it.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "176"
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "consume": {
+          "type": "attribute",
+          "target": "resources.legact.value",
+          "amount": 1,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 1300000,
+      "_key": "!actors.items!PB1ZEFq6mq9rHWYz.PzdkLBcoY4EcRLHa"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "rvNXWmyENTlGzhjn",
+      "name": "Cast a Spell",
+      "type": "feat",
+      "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p>The anomaly casts a spell with a casting time of 1 action.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Technomancer's Textbook",
+          "page": "176"
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 2,
+          "condition": ""
+        },
+        "consume": {
+          "type": "attribute",
+          "target": "resources.legact.value",
+          "amount": 2,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 1400000,
+      "_key": "!actors.items!PB1ZEFq6mq9rHWYz.rvNXWmyENTlGzhjn"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.dnd5e-full-character-options.spells.Item.SjwpruUuqcJSDtcq",
+        "duplicateSource": null
+      },
+      "_id": "ydygUfzEQ0wm4tgU",
+      "name": "Fireball",
+      "type": "spell",
+      "system": {
+        "source": {
+          "book": "PHB",
+          "page": "241",
+          "custom": "",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of flame. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. A target takes [[/damage 8d6 type=fire]] damage on a failed save, or half as much damage on a successful one.</p><p>The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, the damage increases by [[/damage 1d6]] for each slot level above 3rd.</p></div></div>",
+          "chat": ""
+        },
+        "actionType": "save",
+        "level": 3,
+        "school": "evo",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material"
+        ],
+        "materials": {
+          "value": "a tiny ball of bat guano and sulfur",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 20,
+          "width": null,
+          "units": "ft",
+          "type": "sphere",
+          "prompt": true
+        },
+        "range": {
+          "value": 150,
+          "long": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            [
+              "8d6",
+              "fire"
+            ]
+          ],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d6"
+        },
+        "save": {
+          "ability": "dex",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": null,
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "atwill",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false
+      },
+      "img": "icons/magic/fire/projectile-fireball-smoke-strong-orange.webp",
+      "sort": 1500000,
+      "_key": "!actors.items!PB1ZEFq6mq9rHWYz.ydygUfzEQ0wm4tgU"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.dnd5e-full-character-options.spells.Item.ZutF7ncdpnbExoDT",
+        "duplicateSource": null
+      },
+      "_id": "bLCdxZxakcyJFG57",
+      "name": "Detect Magic",
+      "type": "spell",
+      "system": {
+        "source": {
+          "book": "PHB",
+          "page": "231",
+          "custom": "",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its <a href=\"https://5e.tools/book.html#PHB,10,the%20schools%20of%20magic,0\">school of magic</a>, if any.</p><p>The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</p></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 1,
+        "school": "div",
+        "properties": [
+          "vocal",
+          "somatic",
+          "ritual",
+          "concentration"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 30,
+          "width": null,
+          "units": "ft",
+          "type": "radius",
+          "prompt": true
+        },
+        "range": {
+          "value": 0,
+          "long": null,
+          "units": "self"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": null,
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "atwill",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false
+      },
+      "img": "icons/magic/unholy/hands-cloud-light-pink.webp",
+      "sort": 1600000,
+      "_key": "!actors.items!PB1ZEFq6mq9rHWYz.bLCdxZxakcyJFG57"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.dnd5e-full-character-options.spells.Item.N2GXWLR15N2gS7kB",
+        "duplicateSource": null
+      },
+      "_id": "kGVtHqecru3Cd3SI",
+      "name": "Blight",
+      "type": "spell",
+      "system": {
+        "source": {
+          "book": "PHB",
+          "page": "219",
+          "custom": "",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Necromantic energy washes over a creature of your choice that you can see within range, draining moisture and vitality from it. The target must make a Constitution saving throw. The target takes [[/damage 8d8 type=necrotic]] damage on a failed save, or half as much damage on a successful one. This spell has no effect on undead or constructs.</p><p>If you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it.</p><p>If you target a nonmagical plant that isn't a creature, such as a tree or shrub, it doesn't make a saving throw, it simply withers and dies.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 5th level or higher, the damage increases by [[/damage 1d8]] for each slot level above 4th.</p></div></div>",
+          "chat": ""
+        },
+        "actionType": "save",
+        "level": 4,
+        "school": "nec",
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature",
+          "prompt": true
+        },
+        "range": {
+          "value": 30,
+          "long": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            [
+              "8d8",
+              "necrotic"
+            ]
+          ],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d8"
+        },
+        "save": {
+          "ability": "con",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": null,
+        "uses": {
+          "value": 3,
+          "max": "3",
+          "per": "day",
+          "recovery": ""
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false
+      },
+      "img": "icons/commodities/treasure/mask-bone-white.webp",
+      "sort": 1700000,
+      "_key": "!actors.items!PB1ZEFq6mq9rHWYz.kGVtHqecru3Cd3SI"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.dnd5e-full-character-options.spells.Item.QYnoSadSV4RA5NwR",
+        "duplicateSource": null
+      },
+      "_id": "GdIkr8c6reqsEkJi",
+      "name": "Destructive Wave",
+      "type": "spell",
+      "system": {
+        "source": {
+          "book": "PHB",
+          "page": "231",
+          "custom": "",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You strike the ground, creating a burst of divine energy that ripples outward from you. Each creature you choose within 30 feet of you must succeed on a Constitution saving throw or take [[/damage 5d6 type=thunder]] damage, as well as [[/damage 5d6]] radiant or necrotic damage (your choice), and be knocked &amp;Reference[condition=prone]. A creature that succeeds on its saving throw takes half as much damage and isn't knocked &amp;Reference[condition=prone].</p></div>",
+          "chat": ""
+        },
+        "actionType": "save",
+        "level": 5,
+        "school": "evo",
+        "properties": [
+          "vocal"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 30,
+          "width": null,
+          "units": "ft",
+          "type": "radius",
+          "prompt": true
+        },
+        "range": {
+          "value": 0,
+          "long": null,
+          "units": "self"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            [
+              "5d6",
+              "thunder"
+            ],
+            [
+              "5d6",
+              "radiant"
+            ]
+          ],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "ability": "con",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": null,
+        "uses": {
+          "value": 3,
+          "max": "3",
+          "per": "day",
+          "recovery": ""
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false
+      },
+      "img": "icons/skills/ranged/projectile-strike-egg-blue.webp",
+      "sort": 1800000,
+      "_key": "!actors.items!PB1ZEFq6mq9rHWYz.GdIkr8c6reqsEkJi"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.dnd5e-full-character-options.spells.Item.Zyu48mGHLIsAS8m1",
+        "duplicateSource": null
+      },
+      "_id": "2o6CRXMoNHYfTVwF",
+      "name": "Gaseous Form",
+      "type": "spell",
+      "system": {
+        "source": {
+          "book": "PHB",
+          "page": "244",
+          "custom": "",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You transform a willing creature you touch, along with everything it's wearing and carrying, into a misty cloud for the duration. The spell ends if the creature drops to 0 hit points. An incorporeal creature isn't affected.</p><p>While in this form, the target's only method of movement is a flying speed of 10 feet. The target can enter and occupy the space of another creature. The target has resistance to nonmagical damage, and it has advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through small holes, narrow openings, and even mere cracks, though it treats liquids as though they were solid surfaces. The target can't fall and remains hovering in the air even when &amp;Reference[condition=stunned] or otherwise &amp;Reference[condition=incapacitated].</p><p>While in the form of a misty cloud, the target can't talk or manipulate objects, and any objects it was carrying or holding can't be dropped, used, or otherwise interacted with. The target can't attack or cast spells.</p></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 3,
+        "school": "trs",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "concentration"
+        ],
+        "materials": {
+          "value": "a bit of gauze and a wisp of smoke",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "touch",
+          "type": "creature",
+          "prompt": true
+        },
+        "range": {
+          "value": 0,
+          "long": null,
+          "units": "touch"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": "",
+        "uses": {
+          "value": 3,
+          "max": "3",
+          "per": "day",
+          "recovery": ""
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false
+      },
+      "img": "icons/magic/lightning/projectile-orb-blue.webp",
+      "sort": 1900000,
+      "_key": "!actors.items!PB1ZEFq6mq9rHWYz.2o6CRXMoNHYfTVwF"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.dnd5e-full-character-options.spells.Item.NVzQG31DNTC0vIeE",
+        "duplicateSource": null
+      },
+      "_id": "tABUgXGyasQPmBn0",
+      "name": "Sickening Radiance",
+      "type": "spell",
+      "system": {
+        "source": {
+          "book": "XGE",
+          "page": "164",
+          "custom": "",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Dim, greenish light spreads within a 30-foot-radius sphere centered on a point you choose within range. The light spreads around corners, and it lasts until the spell ends.</p><p>When a creature moves into the spell's area for the first time on a turn or starts its turn there, that creature must succeed on a Constitution saving throw or take [[/damage 4d10 type=radiant]] damage, and it suffers one level of &amp;Reference[condition=exhaustion] and emits a dim, greenish light in a 5-foot radius. This light makes it impossible for the creature to benefit from being &amp;Reference[condition=invisible]. The light and any levels of &amp;Reference[condition=exhaustion] caused by this spell go away when the spell ends.</p></div>",
+          "chat": ""
+        },
+        "actionType": "save",
+        "level": 4,
+        "school": "evo",
+        "properties": [
+          "vocal",
+          "somatic",
+          "concentration"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 30,
+          "width": null,
+          "units": "ft",
+          "type": "sphere",
+          "prompt": true
+        },
+        "range": {
+          "value": 120,
+          "long": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute"
+        },
+        "damage": {
+          "parts": [
+            [
+              "4d10",
+              "radiant"
+            ]
+          ],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "ability": "con",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": null,
+        "uses": {
+          "value": 3,
+          "max": "3",
+          "per": "day",
+          "recovery": ""
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false
+      },
+      "img": "icons/magic/air/air-burst-spiral-large-teal-green.webp",
+      "sort": 2000000,
+      "_key": "!actors.items!PB1ZEFq6mq9rHWYz.tABUgXGyasQPmBn0"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.dnd5e-full-character-options.spells.Item.4aBm8u6g6OayefZ3",
+        "duplicateSource": null
+      },
+      "_id": "nmmtT6HLCLGgtNnW",
+      "name": "Disintegrate",
+      "type": "spell",
+      "system": {
+        "source": {
+          "book": "PHB",
+          "page": "233",
+          "custom": "",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>A thin green ray springs from your pointing finger to a target that you can see within range. The target can be a creature, an object, or a creation of magical force, such as the wall created by @spell[wall of force].</p><p>A creature targeted by this spell must make a Dexterity saving throw. On a failed save, the target takes [[/damage 10d6 + 40 type=force]] damage. The target is disintegrated if this damage leaves it with 0 hit points.</p><p>A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust. The creature can be restored to life only by means of a @spell[true resurrection] or a @spell[wish] spell.</p><p>This spell automatically disintegrates a Large or smaller nonmagical object or a creation of magical force. If the target is a Huge or larger object or creation of force, this spell disintegrates a 10-foot-cube portion of it. A magic item is unaffected by this spell.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 7th level or higher, the damage increases by [[/damage 3d6]] for each slot level above 6th.</p></div></div>",
+          "chat": ""
+        },
+        "actionType": "save",
+        "level": 6,
+        "school": "trs",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material"
+        ],
+        "materials": {
+          "value": "a lodestone and a pinch of dust",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature",
+          "prompt": true
+        },
+        "range": {
+          "value": 60,
+          "long": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            [
+              "10d6 + 40",
+              "force"
+            ]
+          ],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "3d6"
+        },
+        "save": {
+          "ability": "dex",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": null,
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "per": "day",
+          "recovery": ""
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false
+      },
+      "img": "icons/magic/earth/strike-body-stone-crumble.webp",
+      "sort": 2100000,
+      "_key": "!actors.items!PB1ZEFq6mq9rHWYz.nmmtT6HLCLGgtNnW"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.dnd5e-full-character-options.spells.Item.cqLUYBOq56JqPWyA",
+        "duplicateSource": null
+      },
+      "_id": "CYicYq8nDtpYd2PE",
+      "name": "Abi-Dalzim's Horrid Wilting",
+      "type": "spell",
+      "system": {
+        "source": {
+          "book": "XGE",
+          "page": "150",
+          "custom": "",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You draw the moisture from every creature in a 30-foot cube centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. Constructs and undead aren't affected, and plants and water elementals make this saving throw with disadvantage. A creature takes [[/damage 12d8 type=necrotic]] damage on a failed save, or half as much damage on a successful one.</p><p>Nonmagical plants in the area that aren't creatures, such as trees and shrubs, wither and die instantly.</p></div>",
+          "chat": ""
+        },
+        "actionType": "save",
+        "level": 8,
+        "school": "nec",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material"
+        ],
+        "materials": {
+          "value": "a bit of sponge",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 30,
+          "width": null,
+          "units": "ft",
+          "type": "cube",
+          "prompt": true
+        },
+        "range": {
+          "value": 150,
+          "long": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            [
+              "12d8",
+              "necrotic"
+            ]
+          ],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "ability": "con",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": "",
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "per": "day",
+          "recovery": ""
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false
+      },
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+      "sort": 2200000,
+      "_key": "!actors.items!PB1ZEFq6mq9rHWYz.CYicYq8nDtpYd2PE"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  }
+}

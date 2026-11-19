@@ -1,14 +1,14 @@
 {
   "name": "Smoke Bomb",
   "type": "consumable",
-  "img": "modules/cyberpunk-5e/assets/grenade_icons/icon_grenade_smoke-resources.assets-2082.png",
+  "img": "modules/cyberpunk-5e/assets/grenade_icons/smoke-bomb.png",
   "folder": "EgyxvxvNdLEkZM30",
   "sort": 0,
   "_id": "gtjybUv3g3gdSSeI",
   "effects": [],
   "system": {
     "description": {
-      "value": "<p dir=\"ltr\">This black canister has gray marks tracing holes that will produce large quantities of smoke in a short period of time.</p>\n<p dir=\"ltr\"> </p>\n<p dir=\"ltr\">As an action, you can throw the grenade to a point on the ground you can see within 60 feet of you. Where the grenade lands, a 20-foot-radius sphere of smoke will appear. The smoke spreads around corners, and its area is heavily obscured. It lasts for one minute, or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.</p>",
+      "value": "<p dir=\"ltr\">This black canister has gray marks tracing holes that will produce large quantities of smoke in a short period of time.</p>\n<p dir=\"ltr\">\u00a0</p>\n<p dir=\"ltr\">As an action, you can throw the grenade to a point on the ground you can see within 60 feet of you. Where the grenade lands, a 20-foot-radius sphere of smoke will appear. The smoke spreads around corners, and its area is heavily obscured. It lasts for one minute, or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.</p>",
       "chat": "",
       "unidentified": ""
     },

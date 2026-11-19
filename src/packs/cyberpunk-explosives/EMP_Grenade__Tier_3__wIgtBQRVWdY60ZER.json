@@ -1,14 +1,14 @@
 {
   "name": "EMP Grenade (Tier 3)",
   "type": "consumable",
-  "img": "modules/cyberpunk-5e/assets/grenade_icons/icon_grenade_Shock2-resources.assets-2060.png",
+  "img": "modules/cyberpunk-5e/assets/grenade_icons/emp-grenade.png",
   "folder": "EgyxvxvNdLEkZM30",
   "sort": 0,
   "_id": "wIgtBQRVWdY60ZER",
   "effects": [],
   "system": {
     "description": {
-      "value": "<p dir=\"ltr\">This EMP grenade is a black metal globe crisscrossed by gently glowing blue lines.</p>\n<p dir=\"ltr\">As an action, you can throw the grenade to a point within 60 feet of you, where it emits an EMP in a 30-foot-radius sphere. Machines in the area cease to function for 1 minute. Constructs in the area with the Electronics feature must succeed on a DC 18 Constitution saving throw or they are stunned until the end of their next turn. Vehicles in the area must succeed on a DC 18 Constitution saving throw or their movement speed is reduced to 0 and they can’t take actions or reactions until the end of your next turn.</p>\n<p dir=\"ltr\">Additionally, wireless and radio connections in a 300-foot-radius centered on the point are suppressed for 1 minute.</p>",
+      "value": "<p dir=\"ltr\">This EMP grenade is a black metal globe crisscrossed by gently glowing blue lines.</p>\n<p dir=\"ltr\">As an action, you can throw the grenade to a point within 60 feet of you, where it emits an EMP in a 30-foot-radius sphere. Machines in the area cease to function for 1 minute. Constructs in the area with the Electronics feature must succeed on a DC 18 Constitution saving throw or they are stunned until the end of their next turn. Vehicles in the area must succeed on a DC 18 Constitution saving throw or their movement speed is reduced to 0 and they can\u2019t take actions or reactions until the end of your next turn.</p>\n<p dir=\"ltr\">Additionally, wireless and radio connections in a 300-foot-radius centered on the point are suppressed for 1 minute.</p>",
       "chat": "",
       "unidentified": ""
     },
