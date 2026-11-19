@@ -1,0 +1,966 @@
+{
+  "_id": "dOSaBv4hZFSvGgVi",
+  "_key": "!actors!dOSaBv4hZFSvGgVi",
+  "name": "Prime Drone Taskmaster",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 15,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": "+1"
+        }
+      },
+      "dex": {
+        "value": 20,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 18,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 20,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 13,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 17,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 221,
+        "max": 221,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "26d8 + 104"
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p><strong>Armor:</strong> plated vest, subdermal plating</p><p>XP: 8400. Custom tier designed for the campaign; not in the Technomancer's Textbook. Fields three linked drones from the wiki Drones page (Tank, Flying, Spider); apply Rigged Network and Custom Payloads bonuses to them at the table.</p>",
+        "public": ""
+      },
+      "alignment": "any alignment",
+      "race": null,
+      "type": {
+        "value": "humanoid",
+        "subtype": "any race",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 12,
+      "spellLevel": 0,
+      "source": {
+        "custom": "Custom (campaign)"
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "any three languages"
+      }
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 1,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "bonuses": {},
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": null
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Prime Drone Taskmaster",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "items": [
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "cldBpjVzEewK4fH3",
+      "name": "Rigged Network",
+      "type": "feat",
+      "img": "icons/commodities/tech/sensor-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p>The taskmaster can link up to three drones to its controller. Linked drones within 90 feet of the taskmaster add +4 to their AC and attack rolls, and their hit point maximum increases by 24.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Custom (campaign)"
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 100000,
+      "_key": "!actors.items!dOSaBv4hZFSvGgVi.cldBpjVzEewK4fH3"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "of9P6tTNZtbJjUC1",
+      "name": "Custom Payloads",
+      "type": "feat",
+      "img": "icons/magic/lightning/bolt-forked-teal.webp",
+      "system": {
+        "description": {
+          "value": "<p>The weapon attacks of the taskmaster's linked drones deal an extra 7 (2d6) lightning damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Custom (campaign)"
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 200000,
+      "_key": "!actors.items!dOSaBv4hZFSvGgVi.of9P6tTNZtbJjUC1"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "fgD6lqjIByW8aQau",
+      "name": "Orchestration",
+      "type": "feat",
+      "img": "icons/commodities/tech/antenna-powered-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p>Linked drones of the taskmaster's choice within 90 feet of it can roll a 1d8 and add the number rolled to any attack roll or saving throw.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Custom (campaign)"
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 300000,
+      "_key": "!actors.items!dOSaBv4hZFSvGgVi.fgD6lqjIByW8aQau"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "YGf3eeAxi9a3pzZR",
+      "name": "Hub",
+      "type": "feat",
+      "img": "icons/commodities/tech/bulb-vacuum.webp",
+      "system": {
+        "description": {
+          "value": "<p>While the taskmaster is in an area where wireless and radio connections have been suppressed by EMP or a similar effect, its Orchestration trait, Direct Drones action, and Short Circuit reaction only affect linked drones within 30 feet of it, through hardwired backup links.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Custom (campaign)"
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 400000,
+      "_key": "!actors.items!dOSaBv4hZFSvGgVi.YGf3eeAxi9a3pzZR"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "FdYiXI6SQSOm2dMs",
+      "name": "Subdermal Plating",
+      "type": "feat",
+      "img": "modules/cyberpunk-5e/assets/cyberware_icons/subdermal_plating.png",
+      "system": {
+        "description": {
+          "value": "<p>Armored plates fused beneath the taskmaster's skin grant it a +1 bonus to AC (included above) and a +1 bonus to Strength, Dexterity, and Constitution saving throws.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Custom (campaign)"
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 500000,
+      "_key": "!actors.items!dOSaBv4hZFSvGgVi.FdYiXI6SQSOm2dMs"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "ZxictJ6lp2pOF90W",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
+      "system": {
+        "description": {
+          "value": "<p>The taskmaster can use its Direct Drones. It then makes three weapon attacks.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Custom (campaign)"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 600000,
+      "_key": "!actors.items!dOSaBv4hZFSvGgVi.ZxictJ6lp2pOF90W"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "Gp2FaouvxamN4OTJ",
+      "name": "Shock Baton",
+      "type": "weapon",
+      "img": "icons/commodities/tech/tube-chamber-lightning.webp",
+      "system": {
+        "description": {
+          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (3d8) lightning damage. A creature reduced to 0 hit points by this weapon falls unconscious and is stable.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Custom (campaign)"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": 1,
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "properties": [],
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attack": {
+          "bonus": "6",
+          "flat": true
+        },
+        "damage": {
+          "parts": [
+            [
+              "3d8",
+              "lightning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "chatFlavor": ""
+      },
+      "sort": 700000,
+      "_key": "!actors.items!dOSaBv4hZFSvGgVi.Gp2FaouvxamN4OTJ"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "ZXQEWsL2VktP2tMf",
+      "name": "Light Machine Gun (Powered)",
+      "type": "weapon",
+      "img": "modules/cyberpunk-5e/assets/weapon_icons/firearm_icons/light_machine_gun.png",
+      "system": {
+        "description": {
+          "value": "<p>Ranged Weapon Attack: +9 to hit, range 100/400 ft., one target. Hit: 14 (2d10 + 3) piercing damage. This weapon has the automatic, heavy, reload (40, action), two-handed, strength 13 properties.</p><p><strong>Power Shot.</strong> The weapon adds half the wielder's DEX modifier (rounded up) to damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Custom (campaign)"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": 1,
+        "type": {
+          "value": "martialR",
+          "baseItem": ""
+        },
+        "properties": [
+          "automatic",
+          "hvy",
+          "actionreload",
+          "two",
+          "strreq"
+        ],
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 100,
+          "long": 400,
+          "units": "ft"
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attack": {
+          "bonus": "9",
+          "flat": true
+        },
+        "damage": {
+          "parts": [
+            [
+              "2d10 + 3",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "chatFlavor": ""
+      },
+      "sort": 800000,
+      "_key": "!actors.items!dOSaBv4hZFSvGgVi.ZXQEWsL2VktP2tMf"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "6EKS5ljF4eXj75sg",
+      "name": "Direct Drones",
+      "type": "feat",
+      "img": "icons/commodities/tech/levers-colored.webp",
+      "system": {
+        "description": {
+          "value": "<p>Each linked drone within 90 feet of the taskmaster can move up to its speed, then use its reaction to make one weapon attack.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Custom (campaign)"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 900000,
+      "_key": "!actors.items!dOSaBv4hZFSvGgVi.6EKS5ljF4eXj75sg"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "zwM3YbakHpoION2P",
+      "name": "Laser Designator",
+      "type": "feat",
+      "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p>The taskmaster paints a creature it can see within 120 feet of it with its targeting laser. Until the start of the taskmaster's next turn, attack rolls against the painted creature have a +2 bonus, and ranged attacks against it ignore half cover. Once the taskmaster uses this ability, it can't use it again until the end of its next turn.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Custom (campaign)"
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 1000000,
+      "_key": "!actors.items!dOSaBv4hZFSvGgVi.zwM3YbakHpoION2P"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "FTNHLdTu2f3w05p8",
+      "name": "Overclock",
+      "type": "feat",
+      "img": "icons/commodities/tech/dial-meter-gauge-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>The taskmaster overloads its network. Each linked drone within 90 feet of it can immediately take one action.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Custom (campaign)"
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "recharge": {
+          "value": 5,
+          "charged": true
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 1100000,
+      "_key": "!actors.items!dOSaBv4hZFSvGgVi.FTNHLdTu2f3w05p8"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "KimOyo3C9Uc2kDPL",
+      "name": "Short Circuit",
+      "type": "feat",
+      "img": "icons/commodities/tech/wire-spliced.webp",
+      "system": {
+        "description": {
+          "value": "<p>When a linked drone within 90 feet of the taskmaster makes an attack roll, a saving throw, or an ability check, the taskmaster can give the drone advantage on the roll.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Custom (campaign)"
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "sort": 1200000,
+      "_key": "!actors.items!dOSaBv4hZFSvGgVi.KimOyo3C9Uc2kDPL"
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "coreVersion": "12.343",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_id": "ApWWxD3HEXySnE6J",
+      "name": "Failsafe",
+      "type": "feat",
+      "img": "icons/magic/fire/explosion-fireball-small-purple-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p>When a linked drone within 90 feet of the taskmaster drops to 0 hit points, the taskmaster can detonate it. Each creature within 10 feet of the drone must make a DC 17 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half as much damage on a successful one.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Custom (campaign)"
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "save": {
+          "ability": "dex",
+          "dc": 17,
+          "scaling": "flat"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "actionType": "save",
+        "damage": {
+          "parts": [
+            [
+              "3d6",
+              "fire"
+            ]
+          ],
+          "versatile": ""
+        },
+        "target": {
+          "value": 10,
+          "width": null,
+          "units": "ft",
+          "type": "radius"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        }
+      },
+      "sort": 1300000,
+      "_key": "!actors.items!dOSaBv4hZFSvGgVi.ApWWxD3HEXySnE6J"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  }
+}

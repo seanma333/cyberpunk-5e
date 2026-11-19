@@ -178,17 +178,6 @@
       }
     },
     {
-      "name": "cyberpunk-npc-templates",
-      "label": "Cyberpunk NPC Templates",
-      "path": "packs/cyberpunk-npc-templates",
-      "type": "Actor",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
       "name": "cyberpunk-feats",
       "label": "Cyberpunk Feats",
       "path": "packs/cyberpunk-feats",

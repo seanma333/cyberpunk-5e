@@ -92,8 +92,18 @@ LevelDB migration and recovered from an old branch.
 Racial features used to live here as `cyberpunk-npc-racial-features`. They were
 never cyberpunk-specific and were never declared in `module.json`, so they moved
 to the `seanma-custom-5e-foundry` module, which pairs them with the NPC builder
-that applies them. The NPC templates stayed here: they are cyberpunk monsters
-and stand on their own without a race applied.
+that applies them.
+
+`cyberpunk-npc-templates` is also gone. It duplicated `cyberpunk-monsters` — the
+11 documents in the monsters pack were a by-name subset of the 75 templates — and
+both have been replaced by a single `cyberpunk-monsters` pack holding the 78
+converted statblocks. Those come from a converter maintained outside this repo;
+their finished JSON is dropped into `src/packs/cyberpunk-monsters/` and built
+from there.
+
+Note that `pack` replaces a compendium rather than merging into it, so a partial
+drop silently removes anything missing from the source directory. To add rather
+than replace, `unpack` first so you are working from the full set.
 
 ## Releasing
 
